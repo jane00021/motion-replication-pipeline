@@ -1,0 +1,27 @@
+{
+  "case": "wechat-approved-visual-reconstruction",
+  "approval": "approved-v1/approval.json",
+  "snapshotRoot": "approved-v1/snapshot",
+  "completeOccurrences": 17,
+  "legacyMembers": 19,
+  "rawDemo": "../migration-demo/talking-head-raw.mp4",
+  "genericMethods": [
+    "complete-group review",
+    "family reuse via component references",
+    "font/ink/shadow calibration",
+    "shared clock and explicit occlusion",
+    "multiformat asset slots",
+    "encoded stage comparisons",
+    "two-player review"
+  ],
+  "caseSpecific": [
+    "all coordinates and 286x508 working geometry",
+    "Chinese phrases and semantic mappings",
+    "font candidates and local font paths",
+    "model/segmentation input range",
+    "reference and new-footage event frames",
+    "all material choices"
+  ],
+  "runtimeStatus": "Executable historical source snapshot, not a newly released generic library; some old source bindings are explicitly stale. Read approval bindingIssues before reusing.",
+  "externalDependencies": "approval.json externalDependencies includes fonts and source videos that are referenced, not bundled as a portability claim."
+}

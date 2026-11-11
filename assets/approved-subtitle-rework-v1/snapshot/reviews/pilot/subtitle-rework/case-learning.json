@@ -1,0 +1,35 @@
+{
+  "thread": {
+    "id": "01a1aa36-59ee-7492-94c5-d88ce5c0c972",
+    "title": "接手郑涵文口播拆解任务",
+    "read": true
+  },
+  "case": "AH-S07",
+  "scope": "用户认可当时两条具体媒体效果；灰色背字明确使用近似字体；不是原字体确认或所有后续组认可",
+  "bindings": {
+    "D:\\SKILL\\字幕动效_可编辑库_20261105\\AH-S07\\HANDOFF.md": "fa9be94532cc3e7ee390509d7c20dae809c3dffc26bc4230f80245f0cb42ad18",
+    "D:\\SKILL\\字幕动效_可编辑库_20261105\\AH-S07\\render.py": "0d3c691c53e7ef1080e706beae30d44dd585c21f014bb7f2c3f3c49e962b9941",
+    "D:\\SKILL\\字幕动效_可编辑库_20261105\\AH-S07\\input-A.json": "4333cd5e55d897dd160ab65a1d7e688b6685d036a01ff7ceef25c19b738ccd87",
+    "D:\\SKILL\\字幕动效_可编辑库_20261105\\AH-S07\\input-B.json": "a850877a0bd0192c1e0fcf35002b9d667f8cecb7a023fafdee44f765d57403aa",
+    "D:\\SKILL\\字幕动效_可编辑库_20261105\\AH-S07\\verification-final.json": "7821ad065bc9fba09224f13327de3f0ba941af8eb42e5726360b5403a94eb3d3",
+    "D:\\SKILL\\字幕动效_可编辑库_20261105\\AH-S07\\proofs\\same-word-calibration.jpg": "7ac2f36bc2e71696ddf58026171a4c078020274988cee8d4c5125820125a809e",
+    "D:\\SKILL\\字幕动效_可编辑库_20261105\\AH-S07\\review\\process-1.jpg": "ccd2663e47b507e2402a3995af3dc01022d71285cc67f418d6929519725baa85",
+    "D:\\SKILL\\字幕动效_可编辑库_20261105\\AH-S07\\review\\process-2.jpg": "c5fd94874ff938b858790385d27ac51f080ba3034a7ac8e6a50c82e41511e14d",
+    "D:\\SKILL\\字幕动效_可编辑库_20261105\\approval-AH-S07.json": "222af8dab201bf01aa9c15486897220505bcd5799f6f468583fe9e778b5febc7"
+  },
+  "appliedMethod": [
+    "原文同字字体/自然字形/排版和阴影对照",
+    "根据源片过程发现真实角色和遮罩结构，不能套认可案例动作",
+    "真实编码后逐阶段、同局部时点对照",
+    "迁移内容重新标注语义角色，透明层独立输出"
+  ],
+  "diagnoses": {
+    "N07": "同一白标题上下切半，让位中间金句；旧两完整句平铺错误",
+    "N13": "金字由小变大＋红色独立英文层；旧版方向相反且误认红影",
+    "N17": "全金字幕逐字起伏/倾斜；旧版全白小字无动作",
+    "N21": "白句上下分裂，金句中间揭晓",
+    "N22": "白句两部分斜向错位，金句接管中心",
+    "N24": "首句逐字金色揭晓，后句白金语义分层接力"
+  },
+  "status": "reworking-not-user-approved"
+}

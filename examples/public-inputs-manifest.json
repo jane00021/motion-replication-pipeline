@@ -1,0 +1,18 @@
+{
+  "files": {
+    "scripts/subtitle_engine/closing.py": "b7be53309f378a68e028a0c62377677d1fdb6d6a72876c605b3ebae6335b4776",
+    "scripts/subtitle_engine/core.py": "2a032c21501dfb3e2e7e8f70d8ebcc9c325bf402f4997fdacd3fade70eb04a6f",
+    "scripts/subtitle_engine/emphasis.py": "989937a900d05be6bb368c81ffb8b3f8aeaa01035604841f2c348ca829d922e4",
+    "scripts/subtitle_engine/split_title.py": "43e0989a8ba2ab3730d8fd681d42cfe49d9b5faff718f852b95dde0c7c996237",
+    "scripts/subtitle_engine/__init__.py": "b8d711ec58aba64ce3f9ffa0cae55ae44193775883547ff862a0e3583d38fac9",
+    "examples/inputs/N07.json": "f0392fb7b00af961afebe925fa6912a24ec84aeb0b34d31b7c9980304305a05c",
+    "examples/inputs/N13.json": "d4fff8d7d579a8bfe93b3959ab290a7d9e1f2b25e681eb8711c4d4eb7b01d35f",
+    "examples/inputs/N17.json": "cecd30f7fdc62ffa2f3f7acc4d27ab26f3b79f3a6982099f43850fdf27029f12",
+    "examples/inputs/N21.json": "b7807c3fe3a96ca61946c78b96581e9bdf470d234e340780cec6ad108edfa39f",
+    "examples/inputs/N22.json": "4c76eaf6e7ddc9b6da4294bcdf6c649ea6bc634cc6b3e0d3e9ca1a9026c3cab8",
+    "examples/inputs/N24.json": "cabdd1a573d1750db1951575240bf90f012b2a8763ba907f5d13450d63645311",
+    "assets/approved-subtitle-rework-v1/fonts/152bc1c4535b.ttf": "152bc1c4535b8bcb6ec52e0aa4563bced6f43206c59ba32fbfa34a6a192a8304",
+    "assets/approved-subtitle-rework-v1/fonts/706b8c0de2de.otf": "706b8c0de2deff6cbc0c87e2cdedfd33a78b7ffd76cebb4549012f197ba611fe"
+  },
+  "scope": "public-mock-inputs-and-subtitle-engine"
+}

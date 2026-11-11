@@ -1,0 +1,23 @@
+{
+  "occurrence": "cg06",
+  "name": "解释句让位与金色重点词揭晓",
+  "sourceRange": [
+    10.0,
+    12.2
+  ],
+  "sourceFrames": [
+    300,
+    366
+  ],
+  "rawRange": [
+    19.4,
+    22.6
+  ],
+  "frameCount": 96,
+  "visualFamily": null,
+  "subtitleFamily": "t04",
+  "subtitle": {
+    "parameterPath": "source/pilot/t04/input-A.json"
+  },
+  "approvedFile": "render/pilot/t04/applied-A.mp4"
+}

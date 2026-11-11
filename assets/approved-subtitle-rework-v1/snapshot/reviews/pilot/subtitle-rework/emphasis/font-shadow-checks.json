@@ -1,0 +1,29 @@
+[
+  {
+    "id": "N13",
+    "role": "headline",
+    "font": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+    "sha256": "706b8c0de2deff6cbc0c87e2cdedfd33a78b7ffd76cebb4549012f197ba611fe",
+    "inkWidth": 235.0,
+    "inkHeight": 53.0,
+    "missing": []
+  },
+  {
+    "id": "N13",
+    "role": "english",
+    "font": "C:/Windows/Fonts/georgiab.ttf",
+    "sha256": "72a6cd94fab6c179392075d3fb361e269cdddfad41bb7ab385fa22a37e49a900",
+    "inkWidth": 159.75,
+    "inkHeight": 14.5,
+    "missing": []
+  },
+  {
+    "id": "N17",
+    "role": "sentence",
+    "font": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+    "sha256": "706b8c0de2deff6cbc0c87e2cdedfd33a78b7ffd76cebb4549012f197ba611fe",
+    "inkWidth": 184.25,
+    "inkHeight": 18.0,
+    "missing": []
+  }
+]

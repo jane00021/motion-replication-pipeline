@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "id": "complete-cg09",
+  "status": "pilot-source-draft",
+  "occurrence": "cg09",
+  "input": "source/pilot/last-four/scene/cg09-input.json",
+  "components": {
+    "visual": {
+      "id": "v07",
+      "entrypoint": "components.scene_batch:render",
+      "source": "source/pilot/components/scene_batch.py",
+      "sha256": "b8e3f1f59644e80a809986bb038454ce6aa98bad5b91eedb76f036b075896561"
+    }
+  },
+  "layerOrder": [
+    "visual.background",
+    "visual.example",
+    "visual.presenter",
+    "visual.ordinaryCaption"
+  ],
+  "commonSha256": "d3b54498c970352c417cb0938bc54a1425a15bc933171a9ea1fafff8ab8d93f2",
+  "sharedStyle": "source/pilot/complete01-02/shared-text-style.json",
+  "sharedStyleSha256": "13a054ea8bf54d4640828518e895c5e1a8f56dc8cdc518da5f1cbc97d4bc0eed",
+  "clock": {
+    "fps": 30,
+    "frameOrigin": 0
+  },
+  "verificationState": "trial",
+  "completeGroupValidated": false,
+  "supportBindings": {
+    "source/pilot/components/common.py": "d3b54498c970352c417cb0938bc54a1425a15bc933171a9ea1fafff8ab8d93f2",
+    "source/pilot/components/media_source.py": "0342cfcfc3e7117ce51e199d1aeabb759c3e56ca76f2014229a95fd99bf984dc",
+    "source/pilot/components/detail_tools.py": "3b1f04d33430062ce3063b01d16e2b80580b3b7790be6d2f53ad6e62c5d56ff5",
+    "source/pilot/components/runtime.py": "b543e9a16b8d09f702c87f591270d1d26552e8dd4f31ef594c1d69467f819bd7",
+    "source/pilot/components/pairing.py": "c6a391e5fa9f3d885e8e719729ca03d20bf21171d7922eb3b78eeb7d8eeee649",
+    "source/pilot/t04_render.py": "6365e423b9f1a806db32a3f6126a234ab62f12312c2341004933e4b98752bfe6",
+    "source/pilot/last-four/scene/cg09-input.json": "38cbc256abfe8a0bdb252e53e945cfdb7d4a0aaa836d7fa4a211c6fc12461f52",
+    "source/pilot/last-four/scene/assets/provenance.json": "499a09e420b93ef69a8340b7eeddfe0d308b53cf0f03ff5ec3d722c77838192f",
+    "source/pilot/last-four/scene/assets/experience-review.mp4": "1cbd78b0fcdc8108cd835f7d0e4d9f6c6fe8f2ff2e610f54b0af915d6629f480"
+  },
+  "integrationBinding": "Current dependency snapshot; technical review below does not certify visual matching."
+}

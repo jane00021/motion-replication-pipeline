@@ -1,0 +1,19 @@
+{
+  "path": "C:/Windows/Fonts/Source Han Serif SC Heavy (TrueType).ttf",
+  "face": 0,
+  "size": 20,
+  "weightPx": 0,
+  "scaleX": 1.0,
+  "scaleY": 1.0,
+  "fill": "#efefec",
+  "outlinePx": 0,
+  "outline": "#26241c",
+  "shadow": {
+    "dx": 1.05,
+    "dy": 1.6,
+    "blur": 0.7,
+    "color": "#08090d",
+    "opacity": 0.88
+  },
+  "glow": 1.0
+}

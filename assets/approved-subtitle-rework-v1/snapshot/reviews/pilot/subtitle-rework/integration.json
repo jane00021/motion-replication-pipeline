@@ -1,0 +1,134 @@
+{
+  "checks": [
+    {
+      "occurrence": "N01",
+      "sha256": "817e9a37d0da431a5938c4f6324d684637dec98b36f0b78664c674476e0941bf",
+      "untouched": true
+    },
+    {
+      "occurrence": "N02",
+      "sha256": "8141a681931a14f63b3c47be23b1c00d155b4ab0f5b655120fd8c86556a8d003",
+      "untouched": true
+    },
+    {
+      "occurrence": "N03",
+      "sha256": "01040f3d45a133b6cd41d679c4bd6cf2f92d6a59ef9caa2eead1ffc4bbb82cca",
+      "untouched": true
+    },
+    {
+      "occurrence": "N04",
+      "sha256": "655baeabbb1a1280023f7463a11c26cfa397ccdcb98f11e91eb764ced6792c25",
+      "untouched": true
+    },
+    {
+      "occurrence": "N05",
+      "sha256": "a47cb62f80abf17e13b3049f248428ef223179e0b7a57cbf1f0e749e874658d9",
+      "untouched": true
+    },
+    {
+      "occurrence": "N06",
+      "sha256": "3c06c7547565841663256407e81ad1ac84b0bab2aa8f7793ea2d196fb54a0205",
+      "untouched": true
+    },
+    {
+      "occurrence": "N07",
+      "sha256": "187fd8b5d78b5cc3377202633ca3377bec8a94d5bc953d1dd624081f17ddf099",
+      "untouched": false
+    },
+    {
+      "occurrence": "N08",
+      "sha256": "fe36085638b2a04e34841d83173818f2de885bcd0122f11bf1b0cff174511d18",
+      "untouched": true
+    },
+    {
+      "occurrence": "N09",
+      "sha256": "6d4c39b3d0e5b62de6642222cd6962c107b875b55be2eaeaf283ed8749b113a8",
+      "untouched": true
+    },
+    {
+      "occurrence": "N10",
+      "sha256": "179b9fe5187ebddd03c75c77153241b1b599312a6af6b876f9a55acac4108842",
+      "untouched": true
+    },
+    {
+      "occurrence": "N11",
+      "sha256": "a4cf14e1253e23b3e9b0b1cd2deff16e2f9eda88f94d31f6f6b6b5bce8e12146",
+      "untouched": true
+    },
+    {
+      "occurrence": "N12",
+      "sha256": "ededb329b251b48f8dd83d60d5669fa1ec33f9e8e2ea435f7fac2249a6c62f6e",
+      "untouched": true
+    },
+    {
+      "occurrence": "N13",
+      "sha256": "d9af8231bbb2ecd4ba4515890107c89025897897753f51de78f0fe54a1883f8b",
+      "untouched": false
+    },
+    {
+      "occurrence": "N14",
+      "sha256": "935e4d5cec8273dfefa87d9dab30c1091e9926280e2458f2c48bbad0fa7d7add",
+      "untouched": true
+    },
+    {
+      "occurrence": "N15",
+      "sha256": "cb4435be7bfcd0fed6faa04678435329a9c33cdd6d2590568655e969ef5a0648",
+      "untouched": true
+    },
+    {
+      "occurrence": "N16",
+      "sha256": "dd9eb444d19344afd1798d5490bd95b445918abc446c59b0e0bdb59f481cc26d",
+      "untouched": true
+    },
+    {
+      "occurrence": "N17",
+      "sha256": "33dd153e65652abee35d46bf9e83d0ddb9ac369d49b942fc3b6f53f0f8478517",
+      "untouched": false
+    },
+    {
+      "occurrence": "N18",
+      "sha256": "0e13ca1501e3d1619f41fdc909000ba4d6836fc653c8f70db5515cfb62709977",
+      "untouched": true
+    },
+    {
+      "occurrence": "N19",
+      "sha256": "4ba5ab0851872a67cb2b5f28319c5ae15d197361a0512f87ec527848f1b925ff",
+      "untouched": true
+    },
+    {
+      "occurrence": "N20",
+      "sha256": "6bdaa594933cc9dc90e52de24b835dd334a7bf9bd0c9988a157ee2dc4d3a8bb2",
+      "untouched": true
+    },
+    {
+      "occurrence": "N21",
+      "sha256": "b3877e3809f6c34e02e54e4a307ba67aa0bed01840d949bffb27dcfa39bb1fd5",
+      "untouched": false
+    },
+    {
+      "occurrence": "N22",
+      "sha256": "b9982dd61841668d2b0cde8550c5608bed9110973c83895eca5ba3ca70bdc7af",
+      "untouched": false
+    },
+    {
+      "occurrence": "N23",
+      "sha256": "da7a0546725ea3fe4f008ba005390058391b2369602bc3dc05dcb7db0a820644",
+      "untouched": true
+    },
+    {
+      "occurrence": "N24",
+      "sha256": "6008adda78c1f4de2ab42cd35791b36204f8478c1ee68a4712a764775dbd4a73",
+      "untouched": false
+    }
+  ],
+  "reworked": [
+    "N07",
+    "N13",
+    "N17",
+    "N21",
+    "N22",
+    "N24"
+  ],
+  "othersPreserved": true,
+  "stageAccepted": false
+}

@@ -1,0 +1,113 @@
+{
+  "occurrence": "cg08",
+  "name": "数字雨与叠层案例面板",
+  "sourceRange": [
+    462,
+    531
+  ],
+  "rawRange": [
+    24.466667,
+    29.333333
+  ],
+  "visualFamily": "v06",
+  "subtitleFamily": "t06",
+  "assets": {
+    "top": "source/pilot/detail-rest/scene/assets/anxiety.png",
+    "second": "source/pilot/detail-rest/scene/assets/skill.png"
+  },
+  "text": {
+    "first": "别陷在焦虑里",
+    "second": "学个落地本事"
+  },
+  "clock": {
+    "firstText": 0,
+    "secondPanel": [
+      71,
+      93
+    ],
+    "secondText": 76
+  },
+  "purpose": "焦虑与空想先作为上层问题，学习具体技能的行动作为第二面板推进；下方真人维持口播。",
+  "frameCount": 146,
+  "fontRoles": {
+    "body": {
+      "path": "C:/Windows/Fonts/Noto Sans SC Bold (TrueType).otf",
+      "identity": "candidate only; source font not established",
+      "shadow": "shared-text-style.json"
+    },
+    "statement": {
+      "path": "C:/Windows/Fonts/Noto Sans SC Bold (TrueType).otf",
+      "identity": "candidate condensed source-like sans"
+    },
+    "labels": {
+      "path": "C:/Windows/Fonts/Source Han Serif SC Heavy (TrueType).ttf",
+      "identity": "candidate only"
+    }
+  },
+  "inputSHA": "1fdeab255303ee95ae50d27ee1a35462ce3bbf2f8dfec07f3a96b7cf7ed26c33",
+  "detailProfile": "measured-ink-svg-refinement-v1",
+  "presenterCrop": [
+    31,
+    76,
+    255,
+    300
+  ],
+  "topPanelBox": [
+    17,
+    40,
+    252,
+    136
+  ],
+  "secondPanelBox": [
+    0,
+    156,
+    286,
+    164
+  ],
+  "presenterBox": [
+    -3,
+    271,
+    139,
+    247
+  ],
+  "typeRoles": {
+    "first": {
+      "path": "C:/Windows/Fonts/Noto Sans SC Bold (TrueType).otf",
+      "size": 44,
+      "inkWidth": 201,
+      "inkHeight": 31,
+      "anchorX": 143,
+      "inkY": 88,
+      "align": "center",
+      "fill": "#fffef7",
+      "outlinePx": 1.2,
+      "outline": "#111319",
+      "shadow": {
+        "dx": 0.85,
+        "dy": 1.3,
+        "blur": 0.4,
+        "opacity": 0.85
+      }
+    },
+    "second": {
+      "path": "C:/Windows/Fonts/Noto Sans SC Bold (TrueType).otf",
+      "size": 44,
+      "inkWidth": 201,
+      "inkHeight": 31,
+      "anchorX": 143,
+      "inkY": 211,
+      "align": "center",
+      "fill": "#fffef7",
+      "outlinePx": 1.2,
+      "outline": "#111319",
+      "shadow": {
+        "dx": 0.85,
+        "dy": 1.3,
+        "blur": 0.4,
+        "opacity": 0.85
+      }
+    }
+  },
+  "matteFrames": "source/pilot/detail-rest/scene/matte",
+  "frames": 146
+}

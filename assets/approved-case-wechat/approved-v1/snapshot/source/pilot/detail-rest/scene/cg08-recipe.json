@@ -1,0 +1,59 @@
+{
+  "schema": 1,
+  "id": "complete-cg08",
+  "status": "pilot-source-draft",
+  "occurrence": "cg08",
+  "input": "source/pilot/detail-rest/scene/cg08-input.json",
+  "components": {
+    "visual": {
+      "id": "v06",
+      "entrypoint": "components.scene_batch:render",
+      "source": "source/pilot/components/scene_batch.py",
+      "sha256": "a87350f5bcea354f5e8e3b15ce5561527724a2047592f567568830154b022168"
+    },
+    "subtitle": {
+      "id": "t06",
+      "entrypoint": "components.scene_batch:render_subtitle",
+      "source": "source/pilot/components/scene_batch.py",
+      "sha256": "a87350f5bcea354f5e8e3b15ce5561527724a2047592f567568830154b022168"
+    }
+  },
+  "layerOrder": [
+    "visual.background",
+    "visual.topPanel",
+    "visual.secondPanel",
+    "visual.presenter",
+    "subtitle.text"
+  ],
+  "commonSha256": "d3b54498c970352c417cb0938bc54a1425a15bc933171a9ea1fafff8ab8d93f2",
+  "sharedStyle": "source/pilot/complete01-02/shared-text-style.json",
+  "sharedStyleSha256": "13a054ea8bf54d4640828518e895c5e1a8f56dc8cdc518da5f1cbc97d4bc0eed",
+  "clock": {
+    "fps": 30,
+    "frameOrigin": 0
+  },
+  "verificationState": "trial",
+  "completeGroupValidated": false,
+  "supportBindings": {
+    "source/pilot/components/detail_tools.py": "3b1f04d33430062ce3063b01d16e2b80580b3b7790be6d2f53ad6e62c5d56ff5",
+    "source/pilot/t04_render.py": "6365e423b9f1a806db32a3f6126a234ab62f12312c2341004933e4b98752bfe6",
+    "source/pilot/components/runtime.py": "b543e9a16b8d09f702c87f591270d1d26552e8dd4f31ef594c1d69467f819bd7",
+    "source/pilot/components/pairing.py": "c6a391e5fa9f3d885e8e719729ca03d20bf21171d7922eb3b78eeb7d8eeee649",
+    "source/pilot/detail-rest/scene/assets/anxiety.png": "320c8e9f5744225d1472c0d28b2f4c995fcc9702e1200eb2ec6584bc8470cc67",
+    "source/pilot/detail-rest/scene/assets/anxiety.svg": "e3f9c93b58889d3654b996f9a9f35bd58a17544af441f30db8baa37f5247f1b8",
+    "source/pilot/detail-rest/scene/assets/cost.png": "b83be62c36bb84b7e22b97eadcee6363931d4744f7f428db7eaa855d0221dbd1",
+    "source/pilot/detail-rest/scene/assets/cost.svg": "86da76d910598d2e86ddeb303f70e374782a82867be607c9d9ddd91c7d4a868f",
+    "source/pilot/detail-rest/scene/assets/experience.png": "116b5eb4162b44b72e6edad9f9425e937289938bc92965f395ff1568965dc0e7",
+    "source/pilot/detail-rest/scene/assets/experience.svg": "c7558299fbb1b78b3a86eb22c42db38299f6b63f903ffbec0e32f756fec8392c",
+    "source/pilot/detail-rest/scene/assets/opinions.png": "51f626781c8642137546a55ae0378e4266e461c46d51c8619802b5eef96d9a89",
+    "source/pilot/detail-rest/scene/assets/opinions.svg": "0b9b325ab29f12e8f9a4258fb862715cb017d281269506425855ad59de7bdfde",
+    "source/pilot/detail-rest/scene/assets/skill.png": "fc803bc4cd569889e2694602e676e5354b7d4d9d32ffa1f11de0a19fea76650c",
+    "source/pilot/detail-rest/scene/assets/skill.svg": "75b300b772e4b535c190fa98aff49a335deb853528c9b1e08185f4637e9a2c77",
+    "source/pilot/detail-rest/scene/models/rvm.onnx": "88d4531297118f595bf2fd60f6f566aec2e559393802d1f436c380f0cbbd2828",
+    "source/pilot/detail-rest/scene/models/provenance.json": "5ca014f7f07e3ef7c922cface0b1c47f6296a7acdab6f45759d04a0c24f733f2",
+    "source/pilot/detail-rest/scene/matte/manifest.json": "875dd84e0312cb54ea111db743494462a6e8bc66b2b2fcc538c39d94f04a0a06",
+    "source/pilot/detail-rest/scene/matte_build.py": "f0e6aa4c42ae394a394445f4dc0d2a2af307088d85460f3db54eb243ff58926f",
+    "source/pilot/detail-rest/scene/cg08-input.json": "0015e1e5285ed6a4d9b7089923463096fe03fdb335869c4129db7b79e4976b9c"
+  },
+  "integrationBinding": "Current dependency snapshot; technical review below does not certify visual matching."
+}

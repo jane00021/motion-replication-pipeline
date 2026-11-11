@@ -1,0 +1,7 @@
+interface:
+  display_name: "Motion Replication Pipeline"
+  short_description: "从参考视频拆解并复刻可编辑画面与字幕动效"
+  default_prompt: "使用 $motion-replication-pipeline，按用户要求的阶段处理参考视频；仅拆解时生成中文可校正观察 HTML，停在用户反馈环节，不进入复刻。"
+
+policy:
+  allow_implicit_invocation: true

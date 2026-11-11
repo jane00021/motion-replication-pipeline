@@ -1,0 +1,125 @@
+{
+  "id": "cg12-unedited-migration",
+  "occurrence": "cg12",
+  "frames": 58,
+  "fps": 30,
+  "subtitleFamily": "t10",
+  "referenceFrames": [
+    755,
+    803
+  ],
+  "visual": {
+    "window": [
+      66,
+      87,
+      154,
+      154
+    ],
+    "presenterCrop": [
+      31,
+      76,
+      255,
+      300
+    ]
+  },
+  "subtitle": {
+    "text": {
+      "title": "分清楚",
+      "question": "?",
+      "left": "体力",
+      "right": "思路"
+    },
+    "events": {
+      "title": 1,
+      "question": 4,
+      "left": 7,
+      "right": 32
+    }
+  },
+  "rawRange": [
+    22.54,
+    24.48
+  ],
+  "semanticBindings": {
+    "purpose": "标题先声明区分任务，中心问号形成比较，两端概念错时出现；新口播区分体力与思路，不把重点固定在源字。",
+    "textSource": "人工选取本地ASR候选，未独立听审；同义概括已在purpose说明",
+    "unchangedMechanism": "t10",
+    "reviewStatus": "trial"
+  },
+  "detailRest": true,
+  "detailProfile": "measured-ink-roles-svg-v1",
+  "typeRoles": {
+    "title": {
+      "path": "C:/Windows/Fonts/Source Han Serif SC Heavy (TrueType).ttf",
+      "size": 48,
+      "inkWidth": 191,
+      "inkHeight": 67,
+      "anchorX": 139,
+      "inkY": 38,
+      "fill": "#fffef7",
+      "align": "center",
+      "outlinePx": 0,
+      "shadow": {
+        "dx": 0.85,
+        "dy": 1.3,
+        "blur": 0.4,
+        "opacity": 0.85
+      },
+      "entryDx": 0
+    },
+    "question": {
+      "path": "C:/Windows/Fonts/timesbd.ttf",
+      "size": 48,
+      "inkWidth": 42,
+      "inkHeight": 73,
+      "anchorX": 143,
+      "inkY": 285,
+      "fill": "#b60025",
+      "align": "center",
+      "outlinePx": 0,
+      "shadow": {
+        "dx": 0.85,
+        "dy": 1.3,
+        "blur": 0.4,
+        "opacity": 0.85
+      }
+    },
+    "left": {
+      "path": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 48,
+      "inkWidth": 62,
+      "inkHeight": 29,
+      "anchorX": 72,
+      "inkY": 277,
+      "fill": "#fffef7",
+      "align": "center",
+      "outlinePx": 0,
+      "shadow": {
+        "dx": 0.85,
+        "dy": 1.3,
+        "blur": 0.4,
+        "opacity": 0.85
+      },
+      "entryDx": -24
+    },
+    "right": {
+      "path": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 48,
+      "inkWidth": 66,
+      "inkHeight": 29,
+      "anchorX": 225,
+      "inkY": 334,
+      "fill": "#fffef7",
+      "align": "center",
+      "outlinePx": 0,
+      "shadow": {
+        "dx": 0.85,
+        "dy": 1.3,
+        "blur": 0.4,
+        "opacity": 0.85
+      },
+      "entryDx": 24
+    }
+  },
+  "frameCount": 58
+}

@@ -1,0 +1,95 @@
+{
+  "N21": {
+    "styles": {
+      "white": {
+        "font": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+        "size": 18,
+        "fill": "#fffdf0",
+        "shadow": {
+          "x": 0.7,
+          "y": 1.0,
+          "blur": 0.4,
+          "color": "#211e17",
+          "opacity": 0.85
+        }
+      },
+      "gold": {
+        "font": "C:/Windows/Fonts/Source Han Serif SC Heavy (TrueType).ttf",
+        "size": 25,
+        "fill": "#dcc34b",
+        "shadow": {
+          "x": 0.7,
+          "y": 1.0,
+          "blur": 0.4,
+          "color": "#211e17",
+          "opacity": 0.85
+        },
+        "outline": 0.18,
+        "outlineColor": "#4b3d14"
+      }
+    },
+    "originalFontConfirmed": false
+  },
+  "N22": {
+    "styles": {
+      "white": {
+        "font": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+        "size": 18,
+        "fill": "#fffdf0",
+        "shadow": {
+          "x": 0.7,
+          "y": 1.0,
+          "blur": 0.4,
+          "color": "#211e17",
+          "opacity": 0.85
+        }
+      },
+      "gold": {
+        "font": "C:/Windows/Fonts/Source Han Serif SC Heavy (TrueType).ttf",
+        "size": 22,
+        "fill": "#dcc34b",
+        "shadow": {
+          "x": 0.7,
+          "y": 1.0,
+          "blur": 0.4,
+          "color": "#211e17",
+          "opacity": 0.85
+        },
+        "outline": 0.18,
+        "outlineColor": "#4b3d14"
+      }
+    },
+    "originalFontConfirmed": false
+  },
+  "N24": {
+    "styles": {
+      "white": {
+        "font": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+        "size": 18,
+        "fill": "#fffdf0",
+        "shadow": {
+          "x": 0.7,
+          "y": 1.0,
+          "blur": 0.4,
+          "color": "#211e17",
+          "opacity": 0.85
+        }
+      },
+      "gold": {
+        "font": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+        "size": 22,
+        "fill": "#dcc34b",
+        "shadow": {
+          "x": 0.7,
+          "y": 1.0,
+          "blur": 0.4,
+          "color": "#211e17",
+          "opacity": 0.85
+        },
+        "outline": 0.18,
+        "outlineColor": "#4b3d14"
+      }
+    },
+    "originalFontConfirmed": false
+  }
+}

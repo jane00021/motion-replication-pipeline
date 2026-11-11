@@ -1,0 +1,134 @@
+{
+  "occurrence": "cg17",
+  "name": "整体缩入与人物背后巨字接管",
+  "sourceRange": [
+    1103,
+    1136
+  ],
+  "sourceFrames": [
+    1103,
+    1136
+  ],
+  "rawRange": [
+    26.82,
+    29.32
+  ],
+  "frameCount": 75,
+  "visualFamily": "v08",
+  "subtitleFamily": "t13",
+  "visual": {
+    "keyframes": [
+      {
+        "frame": 0,
+        "rect": [
+          0,
+          0,
+          286,
+          508
+        ]
+      },
+      {
+        "frame": 12,
+        "rect": [
+          9,
+          20,
+          270,
+          486
+        ]
+      },
+      {
+        "frame": 74,
+        "rect": [
+          9,
+          20,
+          270,
+          486
+        ]
+      }
+    ]
+  },
+  "subtitle": {
+    "rows": [
+      {
+        "text": "本事",
+        "glyphX": [
+          1,
+          190
+        ],
+        "y": -1,
+        "style": {
+          "path": "D:\\SKILL\\小Lin说_语义选组优化_20261103\\冷解包 含空格\\reference\\emphasis-v12\\opening\\fonts\\YouSheBiaoTiHei.ttf",
+          "size": 64,
+          "inkWidth": 83,
+          "inkHeight": 76,
+          "weightPx": 0.3,
+          "fill": "#fffef8",
+          "shadow": {
+            "dx": 1.5,
+            "dy": 2,
+            "blur": 0.25,
+            "opacity": 0.9
+          },
+          "outlinePx": 0
+        },
+        "entry": 3,
+        "settle": 12,
+        "drift": -40,
+        "skew": 0.06
+      },
+      {
+        "text": "落地",
+        "glyphX": [
+          -2,
+          192
+        ],
+        "y": 149,
+        "style": {
+          "path": "D:\\SKILL\\小Lin说_语义选组优化_20261103\\冷解包 含空格\\reference\\emphasis-v12\\opening\\fonts\\YouSheBiaoTiHei.ttf",
+          "size": 64,
+          "inkWidth": 86,
+          "inkHeight": 72,
+          "weightPx": 0.3,
+          "fill": "#fffef8",
+          "shadow": {
+            "dx": 1.5,
+            "dy": 2,
+            "blur": 0.25,
+            "opacity": 0.9
+          },
+          "outlinePx": 0
+        },
+        "entry": 5,
+        "settle": 14,
+        "drift": 32,
+        "skew": 0.06
+      }
+    ],
+    "caption": "学个能落地的本事",
+    "exit": [
+      65,
+      74
+    ],
+    "captionStyle": {
+      "path": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 64,
+      "inkWidth": 132,
+      "inkHeight": 12,
+      "weightPx": 0.3,
+      "fill": "#fffef8",
+      "shadow": {
+        "dx": 1.5,
+        "dy": 2,
+        "blur": 0.25,
+        "opacity": 0.9
+      },
+      "outlinePx": 0,
+      "inkY": 431
+    }
+  },
+  "calibratedRoles": true,
+  "matteFrames": "source/pilot/final-two/matte17",
+  "purpose": "与其空想，不如学个能落地的本事；整体缩入黑色舞台，巨字本事/落地分列人物两侧并在人与手后方，口播承担解释。",
+  "fps": 30,
+  "frames": 75
+}

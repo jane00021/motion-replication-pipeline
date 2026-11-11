@@ -1,0 +1,36 @@
+{
+  "native284x504LayerParity": [
+    {
+      "occurrence": "N07",
+      "frames": 146,
+      "allRolePixelsEqual": true
+    },
+    {
+      "occurrence": "N13",
+      "frames": 58,
+      "allRolePixelsEqual": true
+    },
+    {
+      "occurrence": "N17",
+      "frames": 70,
+      "allRolePixelsEqual": true
+    },
+    {
+      "occurrence": "N21",
+      "frames": 71,
+      "allRolePixelsEqual": true
+    },
+    {
+      "occurrence": "N22",
+      "frames": 94,
+      "allRolePixelsEqual": true
+    },
+    {
+      "occurrence": "N24",
+      "frames": 98,
+      "allRolePixelsEqual": true
+    }
+  ],
+  "fullComparison": true,
+  "stageAccepted": false
+}

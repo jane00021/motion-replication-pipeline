@@ -1,0 +1,38 @@
+{
+  "occurrence": "cg18",
+  "completeGroupValidated": false,
+  "verificationState": "trial",
+  "id": "cg18",
+  "status": "03-trial",
+  "components": {
+    "visual": {
+      "id": "v09",
+      "entrypoint": "components.closing_batch:render",
+      "source": "source/pilot/components/closing_batch.py",
+      "sha256": "56067a89c1d43e7fa1ae1bce5519da89144796a7852cde95e57f229f4c839d2d"
+    },
+    "subtitle": {
+      "id": "t14",
+      "entrypoint": "components.closing_batch:render_subtitle",
+      "source": "source/pilot/components/closing_batch.py",
+      "sha256": "56067a89c1d43e7fa1ae1bce5519da89144796a7852cde95e57f229f4c839d2d"
+    }
+  },
+  "layerOrder": [
+    "visual.presenter",
+    "subtitle.phrasePlates"
+  ],
+  "input": "source/pilot/final-two/cg18-input.json",
+  "sharedStyle": "source/pilot/complete01-02/shared-text-style.json",
+  "commonSha256": "d3b54498c970352c417cb0938bc54a1425a15bc933171a9ea1fafff8ab8d93f2",
+  "sharedStyleSha256": "13a054ea8bf54d4640828518e895c5e1a8f56dc8cdc518da5f1cbc97d4bc0eed",
+  "supportBindings": {
+    "source/pilot/components/common.py": "d3b54498c970352c417cb0938bc54a1425a15bc933171a9ea1fafff8ab8d93f2",
+    "source/pilot/components/detail_tools.py": "3b1f04d33430062ce3063b01d16e2b80580b3b7790be6d2f53ad6e62c5d56ff5",
+    "source/pilot/components/runtime.py": "b543e9a16b8d09f702c87f591270d1d26552e8dd4f31ef594c1d69467f819bd7",
+    "source/pilot/components/pairing.py": "c6a391e5fa9f3d885e8e719729ca03d20bf21171d7922eb3b78eeb7d8eeee649",
+    "source/pilot/t04_render.py": "6365e423b9f1a806db32a3f6126a234ab62f12312c2341004933e4b98752bfe6",
+    "source/pilot/final-two/cg18-input.json": "1177e4d3c98a9831eb7ce9dc4e10406b2af28fda2e842035b7435ff2de7572fb"
+  },
+  "runtimeSha256": "b543e9a16b8d09f702c87f591270d1d26552e8dd4f31ef594c1d69467f819bd7"
+}

@@ -1,0 +1,25 @@
+{
+  "checks": [
+    {
+      "label": "same-word",
+      "frames": 164,
+      "fullRGBASaved": true,
+      "settledGoldWidth": 156,
+      "sequentialRevealCacheSafe": true
+    },
+    {
+      "label": "new-content",
+      "frames": 146,
+      "fullRGBASaved": true,
+      "settledGoldWidth": 104,
+      "sequentialRevealCacheSafe": true
+    }
+  ],
+  "splitMaskConservesOneText": true,
+  "editGoldChangesPixels": true,
+  "recipeValid": true,
+  "fullResultSha256": "187fd8b5d78b5cc3377202633ca3377bec8a94d5bc953d1dd624081f17ddf099",
+  "continuousVisualPlayback": false,
+  "audioListening": false,
+  "userApproved": false
+}

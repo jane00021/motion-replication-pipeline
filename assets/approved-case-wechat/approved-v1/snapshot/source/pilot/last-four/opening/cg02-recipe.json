@@ -1,0 +1,65 @@
+{
+  "schema": 1,
+  "id": "complete-cg02-opening-refinement",
+  "status": "pilot-source-draft",
+  "occurrence": "cg02",
+  "input": "source/pilot/last-four/opening/cg02-input.json",
+  "components": {
+    "visual": {
+      "id": "v02",
+      "entrypoint": "components.visual:render",
+      "sha256": "88db2994474246464846cdbedba12d1df8bb7f29c9fb23a098ae2f7afe882a76",
+      "source": "source/pilot/components/visual.py"
+    },
+    "subtitle": {
+      "id": "t02",
+      "entrypoint": "components.subtitle:render",
+      "sha256": "efd008696ea2b1de1f4d430e18719584350436b1ac1003102e598252146f614a",
+      "source": "source/pilot/components/subtitle.py"
+    }
+  },
+  "commonSha256": "d3b54498c970352c417cb0938bc54a1425a15bc933171a9ea1fafff8ab8d93f2",
+  "sharedStyle": "source/pilot/complete01-02/shared-text-style.json",
+  "sharedStyleSha256": "13a054ea8bf54d4640828518e895c5e1a8f56dc8cdc518da5f1cbc97d4bc0eed",
+  "clock": {
+    "fps": 30,
+    "frameOrigin": 0,
+    "eventsFromInput": {
+      "symbol": "symbolFirst",
+      "advance": "captionChange",
+      "takeover": "titleStart",
+      "settle": "titleSettle",
+      "symbolExit": "symbolExitEnd",
+      "readEnd": "titleHoldEnd"
+    }
+  },
+  "layerOrder": [
+    "visual.presenter",
+    "subtitle.behindTitle",
+    "visual.presenterForeground",
+    "visual.symbols",
+    "subtitle.speechCaption"
+  ],
+  "missingLayers": "inactive optional slots only; actual component errors raise",
+  "requires": [
+    "semantic-role-check",
+    "font-coverage",
+    "full-combination-review"
+  ],
+  "completeGroupValidated": false,
+  "purposeDocument": "source/pilot/complete01-02/PURPOSE.md",
+  "verificationState": "trial",
+  "supportBindings": {
+    "source/pilot/components/detail_tools.py": "3b1f04d33430062ce3063b01d16e2b80580b3b7790be6d2f53ad6e62c5d56ff5",
+    "source/pilot/t04_render.py": "6365e423b9f1a806db32a3f6126a234ab62f12312c2341004933e4b98752bfe6",
+    "source/pilot/components/runtime.py": "b543e9a16b8d09f702c87f591270d1d26552e8dd4f31ef594c1d69467f819bd7",
+    "source/pilot/components/pairing.py": "c6a391e5fa9f3d885e8e719729ca03d20bf21171d7922eb3b78eeb7d8eeee649",
+    "source/pilot/last-four/opening/cg02-input.json": "00af0a1107b22141608c5fd3d9051617d3b287ab0b0235796d721d3a1123b376",
+    "source/pilot/detail-rest/circle/assets/warning-red.png": "ba9594aa8c058a828fce6fe798cf4234eaf18a998edd05e93680faba62afe6f4",
+    "source/pilot/detail-rest/circle/assets/warning-red.svg": "b5afa37f79213304368ec4350160115c6df23cabf2b09e209b8f7f65da7de1c6",
+    "source/pilot/last-four/opening/matte02/manifest.json": "f533fc85fc711771382630edcea938e67641dd98995cd07df227ce7e17aecba0",
+    "source/pilot/last-four/opening/matte.py": "84aedec3979c504db4ace68f15170e73069f9acfd559f71004fb1a22b426ea60",
+    "source/pilot/detail-rest/scene/models/rvm.onnx": "88d4531297118f595bf2fd60f6f566aec2e559393802d1f436c380f0cbbd2828"
+  },
+  "integrationBinding": "Current dependency snapshot; technical review below does not certify visual matching."
+}

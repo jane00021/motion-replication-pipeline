@@ -1,0 +1,146 @@
+{
+  "id": "N24",
+  "frames": 98,
+  "rawStart": 40.533333,
+  "purpose": "语义重点绑定结论，保留参考让位/接管，不再套T01放大",
+  "visual": {
+    "center": [
+      142,
+      195
+    ],
+    "radii": [
+      143,
+      230
+    ],
+    "opacity": 0.82,
+    "exit": [
+      100,
+      111
+    ]
+  },
+  "subtitle": {
+    "mode": "typed-relay",
+    "first": "白天不犯困",
+    "second": [
+      {
+        "text": "那就是",
+        "role": "white"
+      },
+      {
+        "text": "适合你的睡眠",
+        "role": "gold"
+      }
+    ],
+    "clock": {
+      "first": [
+        0,
+        2,
+        4,
+        7,
+        9
+      ],
+      "firstClear": 30,
+      "secondStart": 31,
+      "secondSettle": 40,
+      "exit": [
+        82,
+        89
+      ]
+    },
+    "styles": {
+      "white": {
+        "font": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+        "size": 18,
+        "fill": "#fffdf0",
+        "shadow": {
+          "x": 0.7,
+          "y": 1.0,
+          "blur": 0.4,
+          "color": "#211e17",
+          "opacity": 0.85
+        }
+      },
+      "gold": {
+        "font": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+        "size": 22,
+        "fill": "#dcc34b",
+        "shadow": {
+          "x": 0.7,
+          "y": 1.0,
+          "blur": 0.4,
+          "color": "#211e17",
+          "opacity": 0.85
+        },
+        "outline": 0.18,
+        "outlineColor": "#4b3d14"
+      }
+    },
+    "y": 332,
+    "firstStyle": {
+      "font": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 18,
+      "fill": "#dcc34b",
+      "shadow": {
+        "x": 0.7,
+        "y": 1.0,
+        "blur": 0.4,
+        "color": "#211e17",
+        "opacity": 0.85
+      },
+      "outline": 0.18,
+      "outlineColor": "#4b3d14"
+    }
+  },
+  "rawSource": "C:\\Users\\Administrator\\.codex\\skills\\motion-replication-pipeline\\assets\\migration-demo\\talking-head-raw.mp4",
+  "fps": 30,
+  "canvas": [
+    284,
+    504
+  ],
+  "rawRange": [
+    40.533333,
+    43.8
+  ],
+  "frameCount": 95,
+  "captionStyle": {
+    "font": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+    "size": 12,
+    "fill": "#fffef4",
+    "shadowX": 0.6,
+    "shadowY": 0.85,
+    "shadowBlur": 0.35
+  },
+  "t01Cues": [
+    {
+      "in": 0,
+      "out": 43,
+      "subtitle": {
+        "prefix": "选对方式",
+        "emphasis": "一步一步来",
+        "bodyIn": 0,
+        "emphasisIn": [
+          12,
+          19
+        ]
+      }
+    },
+    {
+      "in": 43,
+      "out": 98,
+      "subtitle": {
+        "prefix": "生活才能",
+        "emphasis": "慢慢变好",
+        "bodyIn": 0,
+        "emphasisIn": [
+          12,
+          19
+        ]
+      }
+    }
+  ],
+  "limitations": [
+    "原字体身份与精确材质仍未确认，采用同字校准候选",
+    "动作依据源过程观察重建，精确曲线仍近似",
+    "新台词时点需人工听审；未获得本轮用户认可"
+  ]
+}

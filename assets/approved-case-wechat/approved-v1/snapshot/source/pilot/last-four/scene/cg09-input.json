@@ -1,0 +1,102 @@
+{
+  "occurrence": "cg09",
+  "name": "横线案例窗与人物圆窗",
+  "sourceRange": [
+    531,
+    598
+  ],
+  "rawRange": [
+    34.433333,
+    37.566667
+  ],
+  "visualFamily": "v07",
+  "subtitleFamily": null,
+  "assets": {
+    "example": {
+      "type": "video",
+      "path": "source/pilot/last-four/scene/assets/experience-review.mp4",
+      "sourceIn": 4,
+      "sourceOut": 7.133333333333333,
+      "timelineStartFrame": 0,
+      "speed": 1,
+      "endBehavior": "hold",
+      "fit": "cover",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "audio": "mute"
+    }
+  },
+  "text": {},
+  "clock": {},
+  "captions": [
+    {
+      "in": 0,
+      "out": 52,
+      "text": "别人踩过的坑提前了解"
+    },
+    {
+      "in": 52,
+      "out": 94,
+      "text": "少走很多弯路"
+    }
+  ],
+  "purpose": "别人踩过的坑提前了解，少走很多弯路。案例窗以真实办公复盘视频承接经验学习，人物圆窗解释，框景和主字幕保持原机制；内部素材运动由视频时钟真实读取。",
+  "frameCount": 94,
+  "fontRoles": {
+    "body": {
+      "path": "C:/Windows/Fonts/Source Han Serif SC Heavy (TrueType).ttf",
+      "identity": "candidate only; source font not established",
+      "shadow": "shared-text-style.json"
+    },
+    "statement": {
+      "path": "C:/Windows/Fonts/Noto Sans SC Bold (TrueType).otf",
+      "identity": "candidate condensed source-like sans"
+    },
+    "labels": {
+      "path": "C:/Windows/Fonts/Source Han Serif SC Heavy (TrueType).ttf",
+      "identity": "candidate only"
+    }
+  },
+  "inputSHA": "1fdeab255303ee95ae50d27ee1a35462ce3bbf2f8dfec07f3a96b7cf7ed26c33",
+  "detailProfile": "measured-ink-svg-refinement-v1",
+  "presenterCrop": [
+    31,
+    76,
+    255,
+    300
+  ],
+  "exampleBox": [
+    0,
+    156,
+    286,
+    184
+  ],
+  "presenterWindow": [
+    174,
+    98,
+    97
+  ],
+  "typeRoles": {
+    "caption": {
+      "path": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 14,
+      "anchorX": 143,
+      "inkY": 370,
+      "align": "center",
+      "fill": "#fffef7",
+      "outlinePx": 0,
+      "outline": "#111319",
+      "shadow": {
+        "dx": 0.85,
+        "dy": 1.3,
+        "blur": 0.4,
+        "opacity": 0.85
+      },
+      "layoutPolicy": "natural-font-metrics"
+    }
+  },
+  "frames": 94,
+  "assetMeaning": "真实办公实拍示意，不称画中人物为讲述者或真实案例证据"
+}

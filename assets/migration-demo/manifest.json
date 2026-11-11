@@ -1,0 +1,14 @@
+{
+  "file": "talking-head-raw.mp4",
+  "sha256": "f6f93adf73a0d860572f165847fffe81ebbbf0c22009479acb51e07654e655f5",
+  "role": "procedural-mock-migration-input",
+  "durationSeconds": 12,
+  "canvas": [
+    284,
+    504
+  ],
+  "fps": 30,
+  "audio": false,
+  "usePolicy": "Synthetic cartoon for rendering smoke tests. Supply authorized talking-head footage for real speech migration.",
+  "generator": "examples/build_mock_examples.py"
+}

@@ -1,0 +1,137 @@
+{
+  "id": "N07",
+  "rawSource": "C:/Users/Administrator/.codex/skills/motion-replication-pipeline/assets/migration-demo/talking-head-raw.mp4",
+  "rawRange": [
+    24.48,
+    29.946666666666665
+  ],
+  "frameCount": 164,
+  "frames": 164,
+  "fps": 30,
+  "canvas": [
+    284,
+    504
+  ],
+  "visual": {
+    "history": "source/pilot/batches/evidence/assets/note-0.png",
+    "documents": [
+      "source/pilot/batches/evidence/assets/note-0.png",
+      "source/pilot/batches/evidence/assets/note-1.png",
+      "source/pilot/batches/evidence/assets/note-2.png",
+      "source/pilot/batches/evidence/assets/note-3.png"
+    ]
+  },
+  "events": {
+    "history": [
+      0,
+      12
+    ],
+    "historyOut": [
+      28,
+      40
+    ],
+    "stairs": [
+      8,
+      40
+    ],
+    "stagger": 6,
+    "focus": [
+      42,
+      59
+    ],
+    "marker": [
+      63,
+      76
+    ],
+    "zoom": [
+      77,
+      88
+    ]
+  },
+  "limitations": [
+    "原字体身份未确认，原声效未独立重建；新词点尚未人工听审",
+    "图形/文档为原创示意，不能冒称论文证据",
+    "人物matte只验证当前口播，头发/手指边缘仍待视觉复审"
+  ],
+  "purpose": "从焦虑转到行动：学习笔记铺垫、多页阶段递进、重点笔记接管，标记“落地的本事”；不捏造历史/科研证据。",
+  "visualComponents": [
+    "V05"
+  ],
+  "splitSubtitle": {
+    "white": "古人的睡觉",
+    "gold": "根本不是一觉到天亮",
+    "cx": 142,
+    "whiteY": 120,
+    "tracking": 1.8,
+    "goldTracking": 0.2,
+    "splitRatio": 0.49,
+    "splitDistance": 15,
+    "goldY": 128,
+    "whiteStyle": {
+      "font": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 26,
+      "fill": "#fffef8",
+      "shadowX": 0.6,
+      "shadowY": 0.85,
+      "shadowBlur": 0.35
+    },
+    "goldStyle": {
+      "font": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 17,
+      "fill": "#dec55a",
+      "shadowX": 0.6,
+      "shadowY": 0.85,
+      "shadowBlur": 0.35
+    },
+    "setupStyle": {
+      "font": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 16,
+      "fill": "#fffef8",
+      "shadowX": 0.6,
+      "shadowY": 0.85,
+      "shadowBlur": 0.35
+    },
+    "setupY": 332,
+    "entryOrder": [
+      0,
+      2,
+      4,
+      1,
+      3
+    ],
+    "glyphStagger": 2,
+    "events": {
+      "entryStart": 86,
+      "entrySettle": 101,
+      "splitStart": 107,
+      "splitSettle": 112,
+      "goldStart": 113,
+      "goldSettle": 121
+    },
+    "marker": {
+      "rect": [
+        42,
+        245,
+        185,
+        17
+      ],
+      "clock": [
+        86,
+        101
+      ]
+    },
+    "setupCues": [
+      {
+        "text": "有位历史学家翻阅",
+        "in": 7,
+        "out": 42
+      },
+      {
+        "text": "几百份文件发现",
+        "in": 42,
+        "out": 86
+      }
+    ]
+  },
+  "subtitleReworkPurpose": "白色同一句先完整揭晓，再沿字面水平切为上下两半分别让位，夹缝金句补充结论；不重复两条完整白句。"
+}

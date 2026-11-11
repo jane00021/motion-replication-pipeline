@@ -1,0 +1,116 @@
+{
+  "id": "02",
+  "occurrence": "cg02",
+  "components": {
+    "visual": "v02",
+    "subtitle": "t02"
+  },
+  "complete": true,
+  "rawStart": 29.3,
+  "frames": 84,
+  "sourceRange": [
+    108,
+    174
+  ],
+  "purpose": "警示符号前景铺垫风险，普通台词字幕推进，警惕快钱大标题接管；与原金币到财富标题共用运动结构。",
+  "clock": {
+    "symbolFirst": 1,
+    "symbolSpawnEnd": 42,
+    "symbolExitEnd": 74,
+    "captionChange": 44,
+    "titleStart": 52,
+    "titleOvershoot": 58,
+    "titleSettle": 65,
+    "titleHoldEnd": 84
+  },
+  "text": {
+    "first": "别去相信那些短期内",
+    "second": "就能快速赚钱的东西",
+    "title": "警惕快钱"
+  },
+  "symbol": {
+    "kind": "warning-triangle",
+    "fill": "#ffe81d",
+    "accent": "#b97602",
+    "meaning": "收益诱惑中的风险提醒",
+    "seed": 41,
+    "count": 14,
+    "rotation": "spin+horizontal-perspective-flip",
+    "depth": "larger nearer symbols blurred; smaller farther sharper",
+    "assetPath": "source/pilot/detail-rest/circle/assets/warning-red.png",
+    "sizeRange": [
+      26,
+      59
+    ],
+    "speedRange": [
+      11,
+      18
+    ],
+    "spinRange": [
+      7,
+      14
+    ],
+    "nearBlur": 1.2,
+    "farBlur": 0.2,
+    "svgSource": "source/pilot/detail-rest/circle/assets/warning-red.svg"
+  },
+  "title": {
+    "font": "C:/Windows/Fonts/Noto Sans SC Bold (TrueType).otf",
+    "size": 57,
+    "fill": "gold-gradient",
+    "shadow": "extruded dark offset + highlight rim",
+    "inkWidth": 278,
+    "inkHeight": 76,
+    "inkX": 4,
+    "inkY": 7,
+    "layer": "behind-presenter-head",
+    "fontStatus": "NotoSansSC Bold condensed/stretched to measured ink bounds; original identity unconfirmed"
+  },
+  "limits": [
+    "警示符号为语义替换，不假称与原金币材质一致",
+    "新片时长2.8s，时钟按新语句伸长，参考2.2s；不同局部时间不是同钟"
+  ],
+  "presenterReframe": {
+    "scale": 1.15,
+    "cropXY": [
+      21,
+      55
+    ],
+    "purpose": "match reference head/title overlap at upper frame; independent video transform"
+  },
+  "semanticRoles": {
+    "motif": "风险诱惑",
+    "support": [
+      "别去相信那些短期内",
+      "就能快速赚钱的东西"
+    ],
+    "conclusion": "警惕快钱"
+  },
+  "frameCount": 84,
+  "rawRange": [
+    29.3,
+    32.1
+  ],
+  "detailProfile": "ink-roles-rvm-original-image-v1",
+  "typeRoles": {
+    "caption": {
+      "path": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 44,
+      "inkWidth": 176,
+      "inkHeight": 12,
+      "anchorX": 143,
+      "inkY": 374,
+      "align": "center",
+      "fill": "#fffef7",
+      "outlinePx": 0,
+      "outline": "#101116",
+      "shadow": {
+        "dx": 0.85,
+        "dy": 1.3,
+        "blur": 0.4,
+        "opacity": 0.85
+      }
+    }
+  },
+  "matteFrames": "source/pilot/last-four/opening/matte02"
+}

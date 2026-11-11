@@ -1,0 +1,44 @@
+{
+  "frames": 71,
+  "fullDecode": true,
+  "sameClockEncodedReferenceWords": true,
+  "transparentSequence": true,
+  "editableTextIntervention": true,
+  "shadowPixelDifference": 4398,
+  "newInputSha256": "262037276739032cd15693b976bf4f1a5dbf4b42a0ef6a9d6f850ee2d64714e9",
+  "mediaSha256": "b3877e3809f6c34e02e54e4a307ba67aa0bed01840d949bffb27dcfa39bb1fd5",
+  "sameWordSha256": "6439fedbc1647ab31291030aea45a94e44b254951c0231b5b2208e3f8fd720a5",
+  "fonts": [
+    {
+      "font": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 18,
+      "fill": "#fffdf0",
+      "shadow": {
+        "x": 0.7,
+        "y": 1.0,
+        "blur": 0.4,
+        "color": "#211e17",
+        "opacity": 0.85
+      },
+      "sha256": "706b8c0de2deff6cbc0c87e2cdedfd33a78b7ffd76cebb4549012f197ba611fe"
+    },
+    {
+      "font": "C:/Windows/Fonts/Source Han Serif SC Heavy (TrueType).ttf",
+      "size": 25,
+      "fill": "#dcc34b",
+      "shadow": {
+        "x": 0.7,
+        "y": 1.0,
+        "blur": 0.4,
+        "color": "#211e17",
+        "opacity": 0.85
+      },
+      "outline": 0.18,
+      "outlineColor": "#4b3d14",
+      "sha256": "152bc1c4535b8bcb6ec52e0aa4563bced6f43206c59ba32fbfa34a6a192a8304"
+    }
+  ],
+  "continuousVisualWatch": false,
+  "audioListening": false,
+  "userApproved": false
+}

@@ -1,0 +1,34 @@
+{
+  "occurrence": "N22",
+  "components": [
+    {
+      "kind": "visual",
+      "id": "raw",
+      "entrypoint": "batches.prompts.providers:visual",
+      "source": "source/pilot/batches/prompts/providers.py",
+      "prefix": "base",
+      "sha256": "8a786dc137ee04c8daaf27d7f2a473bc725a5729881a96fa65d2fc0a3c6adf06"
+    },
+    {
+      "kind": "subtitle",
+      "id": "closing-measured",
+      "entrypoint": "subtitle-rework.closing.provider:subtitle",
+      "source": "source/pilot/subtitle-rework/closing/provider.py",
+      "sha256": "d51505c597f394e35b49b563c0332825ea85171654a49f4096284060217a1c1c"
+    }
+  ],
+  "layerOrder": [
+    "base.presenter",
+    "subtitle.closingText"
+  ],
+  "verificationState": "trial",
+  "supportBindings": {
+    "source/pilot/components.py": "0ed9f9d2a63061be8bb59f164fb8ca7d4be77c5c0865ccf1efe9c37e2d056b58",
+    "source/pilot/subtitle-rework/N07/providers.py": "9b83d9ee726c0a089c92e7c2ea245a333db0bcbd58cc63b269df2adfa6523dd4",
+    "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf": "706b8c0de2deff6cbc0c87e2cdedfd33a78b7ffd76cebb4549012f197ba611fe",
+    "C:/Windows/Fonts/Source Han Serif SC Heavy (TrueType).ttf": "152bc1c4535b8bcb6ec52e0aa4563bced6f43206c59ba32fbfa34a6a192a8304",
+    "source/pilot/batch_runtime.py": "af57255dd3dd0d7c723002c84a46d234a96420f93470378b80ed14f78554e66b"
+  },
+  "input": "source/pilot/subtitle-rework/closing/N22-input.json",
+  "inputSha256": "374287c8cd535d9a47b62029967ef19d5f96e89f31f4173ba569575dbca9f24b"
+}

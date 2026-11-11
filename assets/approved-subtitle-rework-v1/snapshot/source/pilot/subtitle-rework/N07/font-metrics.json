@@ -1,0 +1,78 @@
+[
+  {
+    "label": "same-word",
+    "role": "white",
+    "text": "古人的睡觉",
+    "font": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+    "fontSha256": "706b8c0de2deff6cbc0c87e2cdedfd33a78b7ffd76cebb4549012f197ba611fe",
+    "inkSize": [
+      136,
+      25
+    ],
+    "style": {
+      "font": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 26,
+      "fill": "#fffef8",
+      "shadowX": 0.6,
+      "shadowY": 0.85,
+      "shadowBlur": 0.35
+    }
+  },
+  {
+    "label": "same-word",
+    "role": "gold",
+    "text": "根本不是一觉到天亮",
+    "font": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+    "fontSha256": "706b8c0de2deff6cbc0c87e2cdedfd33a78b7ffd76cebb4549012f197ba611fe",
+    "inkSize": [
+      154,
+      16
+    ],
+    "style": {
+      "font": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 17,
+      "fill": "#dec55a",
+      "shadowX": 0.6,
+      "shadowY": 0.85,
+      "shadowBlur": 0.35
+    }
+  },
+  {
+    "label": "new-content",
+    "role": "white",
+    "text": "学个落地本事",
+    "font": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+    "fontSha256": "706b8c0de2deff6cbc0c87e2cdedfd33a78b7ffd76cebb4549012f197ba611fe",
+    "inkSize": [
+      156,
+      25
+    ],
+    "style": {
+      "font": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 26,
+      "fill": "#fffef8",
+      "shadowX": 0.6,
+      "shadowY": 0.85,
+      "shadowBlur": 0.35
+    }
+  },
+  {
+    "label": "new-content",
+    "role": "gold",
+    "text": "不如行动起来",
+    "font": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+    "fontSha256": "706b8c0de2deff6cbc0c87e2cdedfd33a78b7ffd76cebb4549012f197ba611fe",
+    "inkSize": [
+      102,
+      16
+    ],
+    "style": {
+      "font": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 17,
+      "fill": "#dec55a",
+      "shadowX": 0.6,
+      "shadowY": 0.85,
+      "shadowBlur": 0.35
+    }
+  }
+]

@@ -1,0 +1,102 @@
+{
+  "text": {
+    "headline": "思路更重要",
+    "english": "Mindset matters"
+  },
+  "roles": {
+    "headline": {
+      "font": "asset:fonts/706b8c0de2de.otf",
+      "size": 52,
+      "inkWidth": 235,
+      "inkHeight": 53,
+      "outline": 0.5,
+      "top": [
+        255,
+        237,
+        116
+      ],
+      "bottom": [
+        192,
+        155,
+        45
+      ],
+      "shadow": {
+        "dx": 1,
+        "dy": 2,
+        "blur": 0.6,
+        "opacity": 0.95
+      }
+    },
+    "english": {
+      "font": "asset:fonts/706b8c0de2de.otf",
+      "size": 19,
+      "top": [
+        167,
+        12,
+        19
+      ],
+      "bottom": [
+        110,
+        5,
+        10
+      ],
+      "shadow": {
+        "dx": 1,
+        "dy": 1,
+        "blur": 0.3,
+        "opacity": 0.85
+      }
+    }
+  },
+  "motion": {
+    "keys": [
+      {
+        "frame": 0,
+        "scale": 0.75,
+        "opacity": 0.12,
+        "blur": 2.5,
+        "y": 265
+      },
+      {
+        "frame": 2,
+        "scale": 0.84,
+        "opacity": 0.62,
+        "blur": 1.15,
+        "y": 264
+      },
+      {
+        "frame": 4,
+        "scale": 0.94,
+        "opacity": 0.94,
+        "blur": 0.45,
+        "y": 261
+      },
+      {
+        "frame": 7,
+        "scale": 1,
+        "opacity": 1,
+        "blur": 0,
+        "y": 258
+      },
+      {
+        "frame": 57,
+        "scale": 1,
+        "opacity": 1,
+        "blur": 0,
+        "y": 258
+      }
+    ],
+    "englishY": 304
+  },
+  "mechanism": "bilingual-title",
+  "canvas": [
+    284,
+    504
+  ],
+  "fps": 30,
+  "frameCount": 58,
+  "caseOnly": true,
+  "originOccurrence": "N13",
+  "measuredGlyphTransformEvidence": "snapshot/reviews/pilot/subtitle-rework/emphasis/N13-same-word-encoded-process.jpg; measured foreground title only, not normal speech",
+  "publicExampleFontNote": "英文角色改用随包思源字体。历史认可样例采用用户本机Georgia Bold，需自行取得授权。"
+}

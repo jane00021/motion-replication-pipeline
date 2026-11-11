@@ -1,0 +1,173 @@
+{
+  "id": "01",
+  "occurrence": "cg01",
+  "components": {
+    "visual": "v01",
+    "subtitle": "t01"
+  },
+  "complete": true,
+  "rawStart": 0.0,
+  "frames": 174,
+  "sourceRange": [
+    0,
+    66
+  ],
+  "purpose": "加班熬夜与收入留不住形成疑问，以暗角聚焦、工作图片铺垫、重点问句接管。",
+  "clock": {
+    "vignetteIn": [
+      3,
+      15
+    ],
+    "photoIn": [
+      6,
+      24
+    ],
+    "firstText": [
+      12,
+      23
+    ],
+    "secondText": [
+      31,
+      42
+    ],
+    "questionAndResult": [
+      120,
+      132
+    ],
+    "allExit": [
+      158,
+      174
+    ]
+  },
+  "text": {
+    "first": "为什么",
+    "second": "加班到半夜",
+    "result": "存不下钱",
+    "question": "？"
+  },
+  "asset": "source/pilot/complete01-02/assets/work-keyboard.jpg",
+  "limits": [
+    "原图是本地可见区域裁取，与参考工作照片不同",
+    "问句是对0至5.8秒口播的概括，机器转录需最终听审"
+  ],
+  "textLayout": {
+    "first": {
+      "size": 26,
+      "xy": [
+        34,
+        321
+      ]
+    },
+    "second": {
+      "size": 24,
+      "xy": [
+        34,
+        355
+      ]
+    },
+    "question": {
+      "size": 43,
+      "xy": [
+        83,
+        305
+      ],
+      "fill": "#b70923"
+    },
+    "result": {
+      "size": 28,
+      "xy": [
+        122,
+        326
+      ],
+      "fill": "#fffff5"
+    }
+  },
+  "semanticRoles": {
+    "setup": [
+      "加班",
+      "熬到半夜"
+    ],
+    "question": "？",
+    "result": "存不下钱"
+  },
+  "frameCount": 174,
+  "rawRange": [
+    0.0,
+    5.8
+  ],
+  "detailProfile": "ink-roles-rvm-original-image-v1",
+  "typeRoles": {
+    "first": {
+      "path": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 44,
+      "inkWidth": 66,
+      "inkHeight": 23,
+      "anchorX": 63,
+      "inkY": 323,
+      "align": "center",
+      "fill": "#fffef7",
+      "outlinePx": 0,
+      "outline": "#101116",
+      "shadow": {
+        "dx": 0.85,
+        "dy": 1.3,
+        "blur": 0.4,
+        "opacity": 0.85
+      }
+    },
+    "second": {
+      "path": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 44,
+      "inkWidth": 116,
+      "inkHeight": 22,
+      "anchorX": 88,
+      "inkY": 355,
+      "align": "center",
+      "fill": "#fffef7",
+      "outlinePx": 0,
+      "outline": "#101116",
+      "shadow": {
+        "dx": 0.85,
+        "dy": 1.3,
+        "blur": 0.4,
+        "opacity": 0.85
+      }
+    },
+    "question": {
+      "path": "C:/Windows/Fonts/simsun.ttc",
+      "size": 44,
+      "inkWidth": 32,
+      "inkHeight": 47,
+      "anchorX": 83,
+      "inkY": 315,
+      "align": "center",
+      "fill": "#ab0d30",
+      "outlinePx": 0,
+      "outline": "#101116",
+      "shadow": {
+        "dx": 0.85,
+        "dy": 1.3,
+        "blur": 0.4,
+        "opacity": 0.85
+      }
+    },
+    "result": {
+      "path": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 44,
+      "inkWidth": 125,
+      "inkHeight": 29,
+      "anchorX": 191,
+      "inkY": 332,
+      "align": "center",
+      "fill": "#fffef7",
+      "outlinePx": 0,
+      "outline": "#101116",
+      "shadow": {
+        "dx": 0.85,
+        "dy": 1.3,
+        "blur": 0.4,
+        "opacity": 0.85
+      }
+    }
+  }
+}

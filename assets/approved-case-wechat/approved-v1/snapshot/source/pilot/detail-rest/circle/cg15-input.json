@@ -1,0 +1,105 @@
+{
+  "id": "cg15-unedited-migration",
+  "occurrence": "cg15",
+  "frames": 51,
+  "fps": 30,
+  "subtitleFamily": "t12",
+  "referenceFrames": [
+    960,
+    1005
+  ],
+  "visual": {
+    "window": [
+      66,
+      87,
+      154,
+      154
+    ],
+    "presenterCrop": [
+      31,
+      76,
+      255,
+      300
+    ]
+  },
+  "subtitle": {
+    "text": {
+      "lead": "踏实比求快更重要",
+      "left": "踏实",
+      "right": "求快"
+    },
+    "events": {
+      "lead": -6,
+      "leftArrow": 15,
+      "left": 20,
+      "rightArrow": 26,
+      "right": 33
+    }
+  },
+  "rawRange": [
+    38.82,
+    40.52
+  ],
+  "semanticBindings": {
+    "purpose": "中心句先提出判断，两条箭头先后展开对照对象。迁移强调踏实与求快，不声称二者都是应远离的对象。",
+    "textSource": "人工选取本地ASR候选，未独立听审；同义概括已在purpose说明",
+    "unchangedMechanism": "t12",
+    "reviewStatus": "trial"
+  },
+  "detailRest": true,
+  "detailProfile": "measured-ink-roles-svg-v1",
+  "typeRoles": {
+    "lead": {
+      "path": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 48,
+      "inkWidth": 209,
+      "inkHeight": 25,
+      "anchorX": 143,
+      "inkY": 269,
+      "fill": "#fffef7",
+      "align": "center",
+      "outlinePx": 0,
+      "shadow": {
+        "dx": 0.85,
+        "dy": 1.3,
+        "blur": 0.4,
+        "opacity": 0.85
+      }
+    },
+    "left": {
+      "path": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 48,
+      "inkWidth": 47,
+      "inkHeight": 27,
+      "anchorX": 62,
+      "inkY": 365,
+      "fill": "#fffef7",
+      "align": "center",
+      "outlinePx": 0,
+      "shadow": {
+        "dx": 0.85,
+        "dy": 1.3,
+        "blur": 0.4,
+        "opacity": 0.85
+      }
+    },
+    "right": {
+      "path": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 48,
+      "inkWidth": 47,
+      "inkHeight": 27,
+      "anchorX": 217,
+      "inkY": 365,
+      "fill": "#fffef7",
+      "align": "center",
+      "outlinePx": 0,
+      "shadow": {
+        "dx": 0.85,
+        "dy": 1.3,
+        "blur": 0.4,
+        "opacity": 0.85
+      }
+    }
+  },
+  "frameCount": 51
+}

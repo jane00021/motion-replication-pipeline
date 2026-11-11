@@ -1,0 +1,54 @@
+{
+  "groups": [
+    {
+      "occurrence": "N07",
+      "twoPlayers": true,
+      "fromStart": true,
+      "seekAndEnd": true,
+      "continuousPerceptualReview": false,
+      "listening": false
+    },
+    {
+      "occurrence": "N13",
+      "twoPlayers": true,
+      "fromStart": true,
+      "seekAndEnd": true,
+      "continuousPerceptualReview": false,
+      "listening": false
+    },
+    {
+      "occurrence": "N17",
+      "twoPlayers": true,
+      "fromStart": true,
+      "seekAndEnd": true,
+      "continuousPerceptualReview": false,
+      "listening": false
+    },
+    {
+      "occurrence": "N21",
+      "twoPlayers": true,
+      "fromStart": true,
+      "seekAndEnd": true,
+      "continuousPerceptualReview": false,
+      "listening": false
+    },
+    {
+      "occurrence": "N22",
+      "twoPlayers": true,
+      "fromStart": true,
+      "seekAndEnd": true,
+      "continuousPerceptualReview": false,
+      "listening": false
+    },
+    {
+      "occurrence": "N24",
+      "twoPlayers": true,
+      "fromStart": true,
+      "seekAndEnd": true,
+      "continuousPerceptualReview": false,
+      "listening": false
+    }
+  ],
+  "jsErrors": [],
+  "filters": true
+}

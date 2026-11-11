@@ -1,0 +1,44 @@
+{
+  "frames": 98,
+  "fullDecode": true,
+  "sameClockEncodedReferenceWords": true,
+  "transparentSequence": true,
+  "editableTextIntervention": true,
+  "shadowPixelDifference": 2682,
+  "newInputSha256": "13d0dd260f5b9be48cb7271862fb5c718a1fb464c8c8a4b167669855edc33228",
+  "mediaSha256": "6008adda78c1f4de2ab42cd35791b36204f8478c1ee68a4712a764775dbd4a73",
+  "sameWordSha256": "0f311cdd714fe0be58bfa432cbafbdedd3c777c729fe328a51fe4371ac5e8a4a",
+  "fonts": [
+    {
+      "font": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 18,
+      "fill": "#fffdf0",
+      "shadow": {
+        "x": 0.7,
+        "y": 1.0,
+        "blur": 0.4,
+        "color": "#211e17",
+        "opacity": 0.85
+      },
+      "sha256": "706b8c0de2deff6cbc0c87e2cdedfd33a78b7ffd76cebb4549012f197ba611fe"
+    },
+    {
+      "font": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 22,
+      "fill": "#dcc34b",
+      "shadow": {
+        "x": 0.7,
+        "y": 1.0,
+        "blur": 0.4,
+        "color": "#211e17",
+        "opacity": 0.85
+      },
+      "outline": 0.18,
+      "outlineColor": "#4b3d14",
+      "sha256": "706b8c0de2deff6cbc0c87e2cdedfd33a78b7ffd76cebb4549012f197ba611fe"
+    }
+  ],
+  "continuousVisualWatch": false,
+  "audioListening": false,
+  "userApproved": false
+}

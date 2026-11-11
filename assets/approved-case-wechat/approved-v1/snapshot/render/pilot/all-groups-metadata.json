@@ -1,0 +1,745 @@
+{
+  "schema": 1,
+  "stage": "03-pilot",
+  "groups": [
+    {
+      "occurrence": "cg01",
+      "name": "暗角、底部图片与开场文字揭晓",
+      "file": "render/pilot/last-four/opening/cg01.mp4",
+      "referenceFile": "observations/accepted-review/cg01/reference-clip.mp4",
+      "recipe": "source/pilot/last-four/opening/cg01-recipe.json",
+      "input": "source/pilot/last-four/opening/cg01-input.json",
+      "frameCount": 174,
+      "rawRange": [
+        0.0,
+        5.8
+      ],
+      "sourceRange": [
+        0,
+        66
+      ],
+      "visualFamily": "v01",
+      "subtitleFamily": "t01",
+      "sha256": "bcb7473ca503f5f4467ca8165de1ea9d659399075e61f4a2e2e75ab8e8991cad",
+      "verificationState": "awaiting-current-version-review",
+      "limitations": [
+        "原字体身份未确认，候选字形/材质仍需用户复审",
+        "新口播原声保留，原片音效尚未重建，词时钟未经听审",
+        "新片时长延长，仅可阶段对齐，不冒充原时钟同帧比较",
+        "真实工作照片与原工作图片不同"
+      ],
+      "batch": "review",
+      "sourceTimecode": "00:00.000-00:02.200",
+      "compositionMode": "combined",
+      "variantMembers": [
+        "cg01"
+      ]
+    },
+    {
+      "occurrence": "cg02",
+      "name": "撒金币与财富标题的连续组合",
+      "file": "render/pilot/last-four/opening/cg02.mp4",
+      "referenceFile": "observations/accepted-review/cg02/reference-clip.mp4",
+      "recipe": "source/pilot/last-four/opening/cg02-recipe.json",
+      "input": "source/pilot/last-four/opening/cg02-input.json",
+      "frameCount": 84,
+      "rawRange": [
+        29.3,
+        32.1
+      ],
+      "sourceRange": [
+        108,
+        174
+      ],
+      "visualFamily": "v02",
+      "subtitleFamily": "t02",
+      "sha256": "cb7eaf3b2cdcb9b41b19e96f1f04e549e49184acfbba6a2f28f59a99cfaebbc5",
+      "verificationState": "awaiting-current-version-review",
+      "limitations": [
+        "原字体身份未确认，候选字形/材质仍需用户复审",
+        "新口播原声保留，原片音效尚未重建，词时钟未经听审",
+        "新片时长延长，仅可阶段对齐，不冒充原时钟同帧比较",
+        "红色警示SVG为风险语义替换，材质与原金币不同",
+        "RVM柔边改善人手/头发遮挡，局部发丝仍可有柔边误差"
+      ],
+      "batch": "review",
+      "sourceTimecode": "00:03.600-00:05.800",
+      "compositionMode": "combined",
+      "variantMembers": [
+        "cg02",
+        "cg03"
+      ]
+    },
+    {
+      "occurrence": "cg04",
+      "name": "城市语境、人物窗与工资案例斜切推进",
+      "file": "render/pilot/detail-two/cg04.mp4",
+      "referenceFile": "observations/accepted-review/cg04/reference-clip.mp4",
+      "rawRange": [
+        14.466667,
+        19.5
+      ],
+      "sourceRange": [
+        174,
+        300
+      ],
+      "recipe": "source/pilot/detail-two/cg04-recipe.json",
+      "input": "source/pilot/detail-two/cg04-input.json",
+      "sha256": "4361550c64928a1b7b88b0f090468e705cbe6935a0ae9ffcf0685a6ef772b918",
+      "status": "user-approved-specific-media",
+      "differences": [
+        "原片城市与真人工作素材改为新内容SVG示意，视觉材质不同；不是原作者SVG源码",
+        "粗黑标题字形仍为Noto候选人工加重，笔画端点与原片窄黑体有差异",
+        "动作与新口播时长按阶段调整；新音轨保留，原音效未独立重建且未听审"
+      ],
+      "approvalRecord": "reviews/detail-two/user-approval.json",
+      "visualFamily": "v03",
+      "subtitleFamily": "t03",
+      "sourceTimecode": "00:05.800-00:10.000",
+      "variantMembers": [
+        "cg04",
+        "cg05"
+      ],
+      "compositionMode": "combined",
+      "limitations": [
+        "原片城市与真人工作素材改为新内容SVG示意，视觉材质不同；不是原作者SVG源码",
+        "粗黑标题字形仍为Noto候选人工加重，笔画端点与原片窄黑体有差异",
+        "动作与新口播时长按阶段调整；新音轨保留，原音效未独立重建且未听审"
+      ],
+      "batch": "approved",
+      "verificationState": "user-approved-specific-media"
+    },
+    {
+      "occurrence": "cg06",
+      "name": "解释口播与重点词字幕",
+      "file": "render/pilot/t04/applied-A.mp4",
+      "referenceFile": "observations/accepted-review/cg06/reference-clip.mp4",
+      "recipe": "source/pilot/batches/closing/cg06-recipe.json",
+      "input": "source/pilot/batches/closing/cg06-input.json",
+      "frameCount": 96,
+      "rawRange": [
+        19.4,
+        22.6
+      ],
+      "sourceRange": [
+        300,
+        366
+      ],
+      "visualFamily": null,
+      "subtitleFamily": "t04",
+      "verificationState": "user-approved-specific-media",
+      "limitations": [
+        "原字体身份仍未确认；字体为候选近似",
+        "新口播字词时间尚未人工听审，语义时点为机器识别候选"
+      ],
+      "verification": {
+        "existingApprovedMediaPreserved": true,
+        "sha256": "d0a41a1a09fa969301d53ea8a6c38f508d589db6e65a4d0b24e63b50094ee72c"
+      },
+      "mediaSha256": "d0a41a1a09fa969301d53ea8a6c38f508d589db6e65a4d0b24e63b50094ee72c",
+      "sourceTimecode": "00:10.000-00:12.200",
+      "variantMembers": [
+        "cg06"
+      ],
+      "compositionMode": "subtitle-only",
+      "sha256": "d0a41a1a09fa969301d53ea8a6c38f508d589db6e65a4d0b24e63b50094ee72c",
+      "batch": "approved"
+    },
+    {
+      "occurrence": "cg07",
+      "name": "双卡片对比与递进标签",
+      "file": "render/pilot/detail-rest/scene/cg07.mp4",
+      "referenceFile": "observations/accepted-review/cg07/reference-clip.mp4",
+      "recipe": "source/pilot/detail-rest/scene/cg07-recipe.json",
+      "input": "source/pilot/detail-rest/scene/cg07-input.json",
+      "frameCount": 112,
+      "rawRange": [
+        5.833333,
+        9.566667
+      ],
+      "sourceRange": [
+        367,
+        450
+      ],
+      "visualFamily": "v05",
+      "subtitleFamily": "t05",
+      "verificationState": "awaiting-current-version-review",
+      "sha256": "b811188b976eb761146b05344c7b63a31435d8a2544c327f036efb25456e1067",
+      "limitations": [
+        "原字体未确认；候选按角色墨迹盒校准仍有字形差异",
+        "SVG为新口播语义示意素材，不代表原片真实案例视频",
+        "新口播原声保留；原片音效未重建，词级时间未听审"
+      ],
+      "batch": "review",
+      "sourceTimecode": "00:12.233-00:15.000",
+      "compositionMode": "combined",
+      "variantMembers": [
+        "cg07"
+      ]
+    },
+    {
+      "occurrence": "cg08",
+      "name": "叠放示例面板与面板字幕",
+      "file": "render/pilot/detail-rest/scene/cg08.mp4",
+      "referenceFile": "observations/accepted-review/cg08/reference-clip.mp4",
+      "recipe": "source/pilot/detail-rest/scene/cg08-recipe.json",
+      "input": "source/pilot/detail-rest/scene/cg08-input.json",
+      "frameCount": 146,
+      "rawRange": [
+        24.466667,
+        29.333333
+      ],
+      "sourceRange": [
+        462,
+        531
+      ],
+      "visualFamily": "v06",
+      "subtitleFamily": "t06",
+      "verificationState": "awaiting-current-version-review",
+      "sha256": "4d4ae5a22df3916a815c5bf6dad255bd88ce02333d33b75a85b3b126487f5374",
+      "limitations": [
+        "原字体未确认；候选按角色墨迹盒校准仍有字形差异",
+        "SVG为新口播语义示意素材，不代表原片真实案例视频",
+        "新口播原声保留；原片音效未重建，词级时间未听审",
+        "模型抠像边缘仍需用户复审，不能称任意人物适用"
+      ],
+      "batch": "review",
+      "sourceTimecode": "00:15.400-00:17.700",
+      "compositionMode": "combined",
+      "variantMembers": [
+        "cg08"
+      ]
+    },
+    {
+      "occurrence": "cg09",
+      "name": "横线框景与人物窗（仅画面动效）",
+      "file": "render/pilot/last-four/scene/cg09.mp4",
+      "referenceFile": "observations/accepted-review/cg09/reference-clip.mp4",
+      "recipe": "source/pilot/last-four/scene/cg09-recipe.json",
+      "input": "source/pilot/last-four/scene/cg09-input.json",
+      "frameCount": 94,
+      "rawRange": [
+        34.433333,
+        37.566667
+      ],
+      "sourceRange": [
+        531,
+        598
+      ],
+      "visualFamily": "v07",
+      "subtitleFamily": null,
+      "sha256": "55674829e930663c2043427e3f1a80f552b2ce66fcd801f72fe4a87aaa3cb028",
+      "limitations": [
+        "案例窗已换真实动态办公视频，动作内容与原片捂脸/闹钟案例不同；属于新口播语义替换，不称同一素材",
+        "原字体身份未确认，圆窗与框景几何保持当前校准范围",
+        "素材原音轨静音，仅保留新口播；词点与独立音效未听审"
+      ],
+      "verificationState": "awaiting-current-version-review",
+      "batch": "review",
+      "sourceTimecode": "00:17.700-00:19.933",
+      "compositionMode": "visual-only",
+      "variantMembers": [
+        "cg09"
+      ]
+    },
+    {
+      "occurrence": "cg10",
+      "name": "共用圆形人物画面＋三个财经底线揭晓",
+      "file": "render/pilot/detail-rest/circle/cg10-input.mp4",
+      "referenceFile": "observations/accepted-review/cg10/reference-clip.mp4",
+      "recipe": "source/pilot/detail-rest/circle/cg10-input-recipe.json",
+      "input": "source/pilot/detail-rest/circle/cg10-input.json",
+      "frameCount": 88,
+      "rawRange": [
+        11.52,
+        14.46
+      ],
+      "sourceRange": [
+        617,
+        670
+      ],
+      "visualFamily": "v04",
+      "subtitleFamily": "t08",
+      "verificationState": "awaiting-current-version-review",
+      "sha256": "5dcd31fdde5a84a0585a63aa60a96e1ad73a03a25c439cb82c80f3a261aa4afb",
+      "comparisonEvidence": "reviews/detail-rest/circle/cg10-process.jpg",
+      "limitations": [
+        "字体为逐角色候选，原字体身份未确认",
+        "同字候选仅用成片人物圆窗测试，非拿到原源码/素材",
+        "原声效未独立重建，新口播词点未听审",
+        "尚待用户完整视觉检验"
+      ],
+      "batch": "review",
+      "sourceTimecode": "00:20.567-00:22.333",
+      "compositionMode": "combined",
+      "variantMembers": [
+        "cg10"
+      ]
+    },
+    {
+      "occurrence": "cg11",
+      "name": "共用圆形人物画面＋序号1和消费建议",
+      "file": "render/pilot/detail-rest/circle/cg11-input.mp4",
+      "referenceFile": "observations/accepted-review/cg11/reference-clip.mp4",
+      "recipe": "source/pilot/detail-rest/circle/cg11-input-recipe.json",
+      "input": "source/pilot/detail-rest/circle/cg11-input.json",
+      "frameCount": 58,
+      "rawRange": [
+        12.52,
+        14.46
+      ],
+      "sourceRange": [
+        669,
+        744
+      ],
+      "visualFamily": "v04",
+      "subtitleFamily": "t09",
+      "verificationState": "awaiting-current-version-review",
+      "sha256": "00ba0cc272baccf6330789be2cb3ebb7da466aab211755f90ccc1e2a6b10a6ef",
+      "comparisonEvidence": "reviews/detail-rest/circle/cg11-process.jpg",
+      "limitations": [
+        "字体为逐角色候选，原字体身份未确认",
+        "同字候选仅用成片人物圆窗测试，非拿到原源码/素材",
+        "原声效未独立重建，新口播词点未听审",
+        "尚待用户完整视觉检验"
+      ],
+      "batch": "review",
+      "sourceTimecode": "00:22.300-00:24.800",
+      "compositionMode": "combined",
+      "variantMembers": [
+        "cg11"
+      ]
+    },
+    {
+      "occurrence": "cg12",
+      "name": "共用圆形人物画面＋想要与需要问号对照",
+      "file": "render/pilot/detail-rest/circle/cg12-input.mp4",
+      "referenceFile": "observations/accepted-review/cg12/reference-clip.mp4",
+      "recipe": "source/pilot/detail-rest/circle/cg12-input-recipe.json",
+      "input": "source/pilot/detail-rest/circle/cg12-input.json",
+      "frameCount": 58,
+      "rawRange": [
+        22.54,
+        24.48
+      ],
+      "sourceRange": [
+        755,
+        803
+      ],
+      "visualFamily": "v04",
+      "subtitleFamily": "t10",
+      "verificationState": "awaiting-current-version-review",
+      "sha256": "f5e2fa2861c6222883ed1bc1f5c5f19b9866685c6d47428c438ccebf0d6824f6",
+      "comparisonEvidence": "reviews/detail-rest/circle/cg12-process.jpg",
+      "limitations": [
+        "字体为逐角色候选，原字体身份未确认",
+        "同字候选仅用成片人物圆窗测试，非拿到原源码/素材",
+        "原声效未独立重建，新口播词点未听审",
+        "尚待用户完整视觉检验"
+      ],
+      "batch": "review",
+      "sourceTimecode": "00:25.167-00:26.767",
+      "compositionMode": "combined",
+      "variantMembers": [
+        "cg12"
+      ]
+    },
+    {
+      "occurrence": "cg13",
+      "name": "共用圆形人物画面＋序号2与本金强调",
+      "file": "render/pilot/detail-two/cg13.mp4",
+      "referenceFile": "observations/accepted-review/cg13/reference-clip.mp4",
+      "rawRange": [
+        26.82,
+        29.34
+      ],
+      "sourceRange": [
+        804,
+        868
+      ],
+      "recipe": "source/pilot/detail-two/cg13-recipe.json",
+      "input": "source/pilot/detail-two/cg13-input.json",
+      "sha256": "bb5e81f68a399489de3a06c7087d95853caabd5c30c0bc82dbff959121ef884c",
+      "status": "user-approved-specific-media",
+      "differences": [
+        "原片钞票改为技能主题SVG，透明叠放关系保留，素材质感仍不同",
+        "宋体角色采用候选字体，原字体身份未确认；数字2的斜切轮廓仍为近似",
+        "字词时间及声音未人工听审；圆窗是几何裁切，未验证通用人物抠像"
+      ],
+      "approvalRecord": "reviews/detail-two/user-approval.json",
+      "visualFamily": "v04",
+      "subtitleFamily": "t09",
+      "sourceTimecode": "00:26.800-00:28.933",
+      "variantMembers": [
+        "cg13"
+      ],
+      "compositionMode": "combined",
+      "limitations": [
+        "原片钞票改为技能主题SVG，透明叠放关系保留，素材质感仍不同",
+        "宋体角色采用候选字体，原字体身份未确认；数字2的斜切轮廓仍为近似",
+        "字词时间及声音未人工听审；圆窗是几何裁切，未验证通用人物抠像"
+      ],
+      "batch": "approved",
+      "verificationState": "user-approved-specific-media"
+    },
+    {
+      "occurrence": "cg14",
+      "name": "共用圆形人物画面＋感叹号风险警示",
+      "file": "render/pilot/detail-rest/circle/cg14-input.mp4",
+      "referenceFile": "observations/accepted-review/cg14/reference-clip.mp4",
+      "recipe": "source/pilot/detail-rest/circle/cg14-input-recipe.json",
+      "input": "source/pilot/detail-rest/circle/cg14-input.json",
+      "frameCount": 82,
+      "rawRange": [
+        29.34,
+        32.06
+      ],
+      "sourceRange": [
+        917,
+        952
+      ],
+      "visualFamily": "v04",
+      "subtitleFamily": "t11",
+      "verificationState": "awaiting-current-version-review",
+      "sha256": "0f2c8fef15afcfd363a63a649f60f1dbf5a6ab431b6db7760cbe2f7e16e5bdbb",
+      "comparisonEvidence": "reviews/detail-rest/circle/cg14-process.jpg",
+      "limitations": [
+        "字体为逐角色候选，原字体身份未确认",
+        "同字候选仅用成片人物圆窗测试，非拿到原源码/素材",
+        "原声效未独立重建，新口播词点未听审",
+        "尚待用户完整视觉检验"
+      ],
+      "batch": "review",
+      "sourceTimecode": "00:30.567-00:31.733",
+      "compositionMode": "combined",
+      "variantMembers": [
+        "cg14"
+      ]
+    },
+    {
+      "occurrence": "cg15",
+      "name": "共用圆形人物画面＋投机炒作分支",
+      "file": "render/pilot/detail-rest/circle/cg15-input.mp4",
+      "referenceFile": "observations/accepted-review/cg15/reference-clip.mp4",
+      "recipe": "source/pilot/detail-rest/circle/cg15-input-recipe.json",
+      "input": "source/pilot/detail-rest/circle/cg15-input.json",
+      "frameCount": 51,
+      "rawRange": [
+        38.82,
+        40.52
+      ],
+      "sourceRange": [
+        960,
+        1005
+      ],
+      "visualFamily": "v04",
+      "subtitleFamily": "t12",
+      "verificationState": "awaiting-current-version-review",
+      "sha256": "82076aea141402d5ddd1aa9a4cb66e56704cb7daa13d2f2c69da26d557c5b32d",
+      "comparisonEvidence": "reviews/detail-rest/circle/cg15-process.jpg",
+      "limitations": [
+        "字体为逐角色候选，原字体身份未确认",
+        "同字候选仅用成片人物圆窗测试，非拿到原源码/素材",
+        "原声效未独立重建，新口播词点未听审",
+        "尚待用户完整视觉检验"
+      ],
+      "batch": "review",
+      "sourceTimecode": "00:32.000-00:33.500",
+      "compositionMode": "combined",
+      "variantMembers": [
+        "cg15"
+      ]
+    },
+    {
+      "occurrence": "cg16",
+      "name": "共用圆形人物画面＋序号3和减少负债",
+      "file": "render/pilot/detail-rest/circle/cg16-input.mp4",
+      "referenceFile": "observations/accepted-review/cg16/reference-clip.mp4",
+      "recipe": "source/pilot/detail-rest/circle/cg16-input-recipe.json",
+      "input": "source/pilot/detail-rest/circle/cg16-input.json",
+      "frameCount": 98,
+      "rawRange": [
+        40.52,
+        43.8
+      ],
+      "sourceRange": [
+        1008,
+        1047
+      ],
+      "visualFamily": "v04",
+      "subtitleFamily": "t09",
+      "verificationState": "awaiting-current-version-review",
+      "sha256": "7c8bc07ac70a3f80e7bdef5f90ecc93b39ffed8668d9ac60be2ddeb9cb522560",
+      "comparisonEvidence": "reviews/detail-rest/circle/cg16-process.jpg",
+      "limitations": [
+        "字体为逐角色候选，原字体身份未确认",
+        "同字候选仅用成片人物圆窗测试，非拿到原源码/素材",
+        "原声效未独立重建，新口播词点未听审",
+        "尚待用户完整视觉检验"
+      ],
+      "batch": "review",
+      "sourceTimecode": "00:33.600-00:34.900",
+      "compositionMode": "combined",
+      "variantMembers": [
+        "cg16"
+      ]
+    },
+    {
+      "occurrence": "cg17",
+      "file": "render/pilot/final-two/cg17.mp4",
+      "referenceFile": "observations/accepted-review/cg17/reference-clip.mp4",
+      "recipe": "source/pilot/final-two/cg17-recipe.json",
+      "input": "source/pilot/final-two/cg17-input.json",
+      "sourceRange": [
+        1103,
+        1136
+      ],
+      "rawRange": [
+        26.82,
+        29.32
+      ],
+      "frameCount": 75,
+      "sha256": "8bad27700a08f04979d833cf854d35dc6d3b5bbc5bfd005543ee13bb4bb7b2ef",
+      "purpose": "与其空想，不如学个能落地的本事；整体缩入黑色舞台，巨字本事/落地分列人物两侧并在人与手后方，口播承担解释。",
+      "limitations": [
+        "原字体身份未确认：采用优设标题黑候选，部分字形、斜度与笔画端点仍有差异",
+        "RVM透明前景保留人物/手势，细发和运动柔边仍可能有局部误差",
+        "原参考1.1秒，新口播2.5秒按语义延长；原独立声效与精确词点尚未听审"
+      ],
+      "status": "trial-awaiting-user-review",
+      "name": "整体缩小强调＋认知筛选巨字",
+      "visualFamily": "v08",
+      "subtitleFamily": "t13",
+      "sourceTimecode": "00:36.767-00:37.867",
+      "variantMembers": [
+        "cg17"
+      ],
+      "compositionMode": "combined",
+      "batch": "approved",
+      "verificationState": "user-approved-specific-media"
+    },
+    {
+      "occurrence": "cg18",
+      "file": "render/pilot/final-two/cg18.mp4",
+      "referenceFile": "observations/accepted-review/cg18/reference-clip.mp4",
+      "recipe": "source/pilot/final-two/cg18-recipe.json",
+      "input": "source/pilot/final-two/cg18-input.json",
+      "sourceRange": [
+        1135,
+        1169
+      ],
+      "rawRange": [
+        38.82,
+        40.52
+      ],
+      "frameCount": 51,
+      "sha256": "24d1561469418adf190ca6029b4d961fdd75feef188cefe71ad3d09cbce9e4f3",
+      "purpose": "踏实比求快更重要；画面恢复满屏后，左侧要踏实先落位，右侧别求快随后对照，逐字显形后留阅读时间。",
+      "limitations": [
+        "原字体身份未确认；宋体候选及半透明板材质仍有差异",
+        "画面恢复满屏按参考关键帧重建，字级时钟按新内容重定时",
+        "新口播1.7秒，原参考约1.13秒；音效与逐词听审未通过"
+      ],
+      "status": "trial-awaiting-user-review",
+      "name": "整体放大强调＋短语分次落位",
+      "visualFamily": "v09",
+      "subtitleFamily": "t14",
+      "sourceTimecode": "00:37.833-00:38.967",
+      "variantMembers": [
+        "cg18"
+      ],
+      "compositionMode": "combined",
+      "batch": "approved",
+      "verificationState": "user-approved-specific-media"
+    },
+    {
+      "occurrence": "cg19",
+      "name": "收尾口播与结句字幕",
+      "file": "render/pilot/last-four/closing/complete-applied.mp4",
+      "referenceFile": "observations/accepted-review/cg19/reference-clip.mp4",
+      "input": "source/pilot/last-four/closing/input.json",
+      "recipe": "source/pilot/last-four/closing/recipe.json",
+      "frameCount": 78,
+      "rawRange": [
+        41.2,
+        43.8
+      ],
+      "sourceRange": [
+        1172,
+        1218
+      ],
+      "sourceRangeUnit": "zero-based frames, end exclusive",
+      "visualFamily": null,
+      "subtitleFamily": "t15",
+      "sha256": "f451a07c2cf6b18c1df01a29df0d578b40b61613004029721733e104dc72c327",
+      "mediaSha256": "f451a07c2cf6b18c1df01a29df0d578b40b61613004029721733e104dc72c327",
+      "verificationState": "awaiting-current-version-review",
+      "limitations": [
+        "原字体为思源宋体Heavy候选，未确认原字体身份",
+        "新口播37帧接力来自机器语音候选，尚未人工听审",
+        "原片第二句动态模糊与压缩具体曲线仍近似",
+        "本轮仅cg19，不改变其他已认可媒体"
+      ],
+      "batch": "review",
+      "sourceTimecode": "00:39.067-00:40.600",
+      "compositionMode": "subtitle-only",
+      "variantMembers": [
+        "cg19"
+      ]
+    }
+  ],
+  "families": {
+    "visual": {
+      "v01": {
+        "name": "人物暗角与底部图片叠加",
+        "occurrences": [
+          "cg01"
+        ]
+      },
+      "v02": {
+        "name": "撒金币前景叠加",
+        "occurrences": [
+          "cg02"
+        ]
+      },
+      "v03": {
+        "name": "城市背景、圆形人物窗与斜切拼接",
+        "occurrences": [
+          "cg04"
+        ]
+      },
+      "v04": {
+        "name": "暗纹背景与圆形人物窗共用画面",
+        "occurrences": [
+          "cg10",
+          "cg11",
+          "cg12",
+          "cg13",
+          "cg14",
+          "cg15",
+          "cg16"
+        ]
+      },
+      "v05": {
+        "name": "人物缩入双卡片对比画面",
+        "occurrences": [
+          "cg07"
+        ]
+      },
+      "v06": {
+        "name": "人物让位与叠放素材面板",
+        "occurrences": [
+          "cg08"
+        ]
+      },
+      "v07": {
+        "name": "横线框景与圆形人物窗",
+        "occurrences": [
+          "cg09"
+        ]
+      },
+      "v08": {
+        "name": "整体画面缩小强调",
+        "occurrences": [
+          "cg17"
+        ]
+      },
+      "v09": {
+        "name": "整体画面放大强调",
+        "occurrences": [
+          "cg18"
+        ]
+      }
+    },
+    "subtitle": {
+      "t01": {
+        "name": "开场多层文字逐步揭晓",
+        "occurrences": [
+          "cg01"
+        ]
+      },
+      "t02": {
+        "name": "口播字幕与标题连续接力",
+        "occurrences": [
+          "cg02"
+        ]
+      },
+      "t03": {
+        "name": "场景标题与工资案例字幕",
+        "occurrences": [
+          "cg04"
+        ]
+      },
+      "t04": {
+        "name": "口播重点词字幕",
+        "occurrences": [
+          "cg06"
+        ]
+      },
+      "t05": {
+        "name": "双卡片标题与标签",
+        "occurrences": [
+          "cg07"
+        ]
+      },
+      "t06": {
+        "name": "示例面板内字幕",
+        "occurrences": [
+          "cg08"
+        ]
+      },
+      "t08": {
+        "name": "数量标题分层揭晓",
+        "occurrences": [
+          "cg10"
+        ]
+      },
+      "t09": {
+        "name": "序号与条目标签",
+        "occurrences": [
+          "cg11",
+          "cg13",
+          "cg16"
+        ]
+      },
+      "t10": {
+        "name": "概念与问号对照",
+        "occurrences": [
+          "cg12"
+        ]
+      },
+      "t11": {
+        "name": "风险警示字幕与感叹号",
+        "occurrences": [
+          "cg14"
+        ]
+      },
+      "t12": {
+        "name": "分支箭头与端点字幕",
+        "occurrences": [
+          "cg15"
+        ]
+      },
+      "t13": {
+        "name": "缩小画面配巨字强调",
+        "occurrences": [
+          "cg17"
+        ]
+      },
+      "t14": {
+        "name": "浮动短语分次强调",
+        "occurrences": [
+          "cg18"
+        ]
+      },
+      "t15": {
+        "name": "收尾文字顺次落位",
+        "occurrences": [
+          "cg19"
+        ]
+      }
+    }
+  },
+  "formalStageAccepted": false,
+  "selection": "latest occurrence-specific media;09 natural-font correction; approved versions SHA-checked"
+}

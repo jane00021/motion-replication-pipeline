@@ -1,0 +1,113 @@
+{
+  "id": "t04-A-content",
+  "frames": 96,
+  "fps": 30,
+  "previewBackground": "#263036",
+  "text": {
+    "body": "打工就是拿时间去换工资",
+    "second": [
+      {
+        "text": "天花板",
+        "role": "emphasis"
+      },
+      {
+        "text": "就在这",
+        "role": "support"
+      }
+    ]
+  },
+  "roles": {
+    "body": {
+      "path": "C:/Windows/Fonts/Source Han Serif SC Heavy (TrueType).ttf",
+      "face": 0,
+      "size": 20,
+      "weightPx": 0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "fill": "#efefec",
+      "outlinePx": 0,
+      "outline": "#26241c",
+      "shadow": {
+        "dx": 1.05,
+        "dy": 1.6,
+        "blur": 0.7,
+        "color": "#08090d",
+        "opacity": 0.88
+      },
+      "glow": 1.0
+    },
+    "support": {
+      "path": "C:/Windows/Fonts/Source Han Serif SC Heavy (TrueType).ttf",
+      "face": 0,
+      "size": 29.5,
+      "weightPx": 0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "fill": "#fffef3",
+      "outlinePx": 0,
+      "outline": "#26241c",
+      "shadow": {
+        "dx": 1.05,
+        "dy": 1.6,
+        "blur": 0.7,
+        "color": "#08090d",
+        "opacity": 0.88
+      },
+      "glow": 1.5
+    },
+    "emphasis": {
+      "path": "C:/Windows/Fonts/Source Han Serif SC Heavy (TrueType).ttf",
+      "face": 0,
+      "size": 29.5,
+      "weightPx": 0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "fill": "#e9cc67",
+      "outlinePx": 0,
+      "outline": "#26241c",
+      "shadow": {
+        "dx": 1.05,
+        "dy": 1.6,
+        "blur": 0.7,
+        "color": "#08090d",
+        "opacity": 0.88
+      },
+      "glow": 1.9
+    }
+  },
+  "layout": {
+    "bodyInitialX": 33,
+    "bodyFinalX": 24,
+    "bodyY": 348,
+    "secondRight": 262,
+    "secondY": 373,
+    "letterSpacing": 0
+  },
+  "events": {
+    "bodyStart": 0,
+    "bodySettle": 12,
+    "bodyMoveStart": 57,
+    "bodyMoveEnd": 63,
+    "secondStart": 63,
+    "glyphStagger": 0.01,
+    "fadeStart": 90,
+    "clear": 95
+  },
+  "reference": {
+    "sourceFrames": [
+      300,
+      366
+    ],
+    "timeConvention": "local zero-based, end-exclusive",
+    "nativeCanvas": [
+      286,
+      508
+    ]
+  },
+  "fontOriginalIdentityConfirmed": false,
+  "roleMeaning": {
+    "emphasis": "天花板：核心限制结论",
+    "support": "就在这：指代补足",
+    "body": "前句语义铺垫"
+  }
+}

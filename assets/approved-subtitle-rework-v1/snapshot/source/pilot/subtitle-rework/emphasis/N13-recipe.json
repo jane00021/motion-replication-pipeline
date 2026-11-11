@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "occurrence": "N13",
+  "components": [
+    {
+      "kind": "visual",
+      "id": "V01",
+      "entrypoint": "components:visual",
+      "source": "source/pilot/components.py",
+      "sha256": "0ed9f9d2a63061be8bb59f164fb8ca7d4be77c5c0865ccf1efe9c37e2d056b58"
+    },
+    {
+      "kind": "subtitle",
+      "id": "T08",
+      "entrypoint": "subtitle-rework.emphasis.providers:subtitle",
+      "source": "source/pilot/subtitle-rework/emphasis/providers.py",
+      "sha256": "064f1d6d85c4ba6a4a9c2093913ddb778d9614cdc4b2f34e57301a9fda5378d9"
+    }
+  ],
+  "layerOrder": [
+    "visual.presenter",
+    "visual.focus",
+    "subtitle.english",
+    "subtitle.headline"
+  ],
+  "canvas": [
+    284,
+    504
+  ],
+  "fps": 30,
+  "status": "03-trial",
+  "sourceRange": [
+    1421,
+    1443
+  ],
+  "supportBindings": {
+    "source/pilot/components.py": "0ed9f9d2a63061be8bb59f164fb8ca7d4be77c5c0865ccf1efe9c37e2d056b58",
+    "source/pilot/batches/prompts/providers.py": "8a786dc137ee04c8daaf27d7f2a473bc725a5729881a96fa65d2fc0a3c6adf06",
+    "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf": "706b8c0de2deff6cbc0c87e2cdedfd33a78b7ffd76cebb4549012f197ba611fe",
+    "C:/Windows/Fonts/georgiab.ttf": "72a6cd94fab6c179392075d3fb361e269cdddfad41bb7ab385fa22a37e49a900",
+    "source/pilot/batch_runtime.py": "af57255dd3dd0d7c723002c84a46d234a96420f93470378b80ed14f78554e66b"
+  },
+  "input": "source/pilot/subtitle-rework/emphasis/N13-input.json",
+  "inputSha256": "96146de808264d52993ff4f5c59e2a4a98f6f44a14189ffdaa5e782b90429968"
+}

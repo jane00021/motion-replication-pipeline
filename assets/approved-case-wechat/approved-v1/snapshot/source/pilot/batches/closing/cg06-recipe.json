@@ -1,0 +1,39 @@
+{
+  "occurrence": "cg06",
+  "completeGroupValidated": false,
+  "verificationState": "trial",
+  "id": "cg06",
+  "status": "03-trial",
+  "components": {
+    "visual": {
+      "id": null,
+      "entrypoint": "components.runtime:passthrough",
+      "source": "source/pilot/components/runtime.py",
+      "sha256": "b543e9a16b8d09f702c87f591270d1d26552e8dd4f31ef594c1d69467f819bd7"
+    },
+    "subtitle": {
+      "id": "t04",
+      "entrypoint": "components.closing_batch:render_subtitle",
+      "source": "source/pilot/components/closing_batch.py",
+      "sha256": "4ff5893c22ee1dd032a7492294cbaf378e9f15336683587de3c7db9239215bb0"
+    }
+  },
+  "layerOrder": [
+    "visual.presenter",
+    "subtitle.text"
+  ],
+  "input": "source/pilot/batches/closing/cg06-input.json",
+  "sharedStyle": "source/pilot/complete01-02/shared-text-style.json",
+  "commonSha256": "d3b54498c970352c417cb0938bc54a1425a15bc933171a9ea1fafff8ab8d93f2",
+  "sharedStyleSha256": "13a054ea8bf54d4640828518e895c5e1a8f56dc8cdc518da5f1cbc97d4bc0eed",
+  "supportBindings": {
+    "source/pilot/t04_render.py": "6365e423b9f1a806db32a3f6126a234ab62f12312c2341004933e4b98752bfe6",
+    "source/pilot/components/visual.py": "fbc9b4a049580a300361fb1b2c3394a67a7314aa9d367bd87a946a7378088ee3",
+    "source/pilot/round2_render.py": "147709ed97f73b5bc83110ca53b4fb8599ad998f5f77905b2dfc92440e590723",
+    "source/pilot/t04/input-A.json": "69a02833bc8beb9e3bb201fb8b50873814572532ee668d7edf318f5c46f56024",
+    "source/pilot/components/runtime.py": "b543e9a16b8d09f702c87f591270d1d26552e8dd4f31ef594c1d69467f819bd7",
+    "source/pilot/components/pairing.py": "c6a391e5fa9f3d885e8e719729ca03d20bf21171d7922eb3b78eeb7d8eeee649"
+  },
+  "runtimeSha256": "b543e9a16b8d09f702c87f591270d1d26552e8dd4f31ef594c1d69467f819bd7",
+  "integrationBinding": "Current dependency snapshot; technical review below does not certify visual matching."
+}

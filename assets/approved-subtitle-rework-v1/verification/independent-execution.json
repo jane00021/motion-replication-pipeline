@@ -1,0 +1,51 @@
+{
+  "approvalFileHashesVerified": true,
+  "cases": [
+    {
+      "case": "N07",
+      "fullDecode": true,
+      "frameCount": 146,
+      "cacheStable": true,
+      "textChangesOutput": true
+    },
+    {
+      "case": "N13",
+      "fullDecode": true,
+      "frameCount": 58,
+      "cacheStable": true,
+      "textChangesOutput": true
+    },
+    {
+      "case": "N17",
+      "fullDecode": true,
+      "frameCount": 70,
+      "cacheStable": true,
+      "textChangesOutput": true
+    },
+    {
+      "case": "N21",
+      "fullDecode": true,
+      "frameCount": 71,
+      "cacheStable": true,
+      "textChangesOutput": true
+    },
+    {
+      "case": "N22",
+      "fullDecode": true,
+      "frameCount": 94,
+      "cacheStable": true,
+      "textChangesOutput": true
+    },
+    {
+      "case": "N24",
+      "fullDecode": true,
+      "frameCount": 98,
+      "cacheStable": true,
+      "textChangesOutput": true
+    }
+  ],
+  "splitZeroDisplacementConservesPixels": true,
+  "workingDirectory": "C:\\Users\\Administrator",
+  "originalProjectRequired": false,
+  "note": "Technical replay and input interventions only; new references still need measured mechanism/font/timing comparison and user review."
+}

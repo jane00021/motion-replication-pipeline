@@ -1,0 +1,1042 @@
+{
+  "schema": 2,
+  "mode": "skill-test-feedback",
+  "families": {
+    "visual": [
+      {
+        "id": "v01",
+        "name": "人物暗角与底部图片叠加",
+        "mechanism": "以暗角聚焦人物，底部图片承接工作语境；图片不是字幕。",
+        "occurrences": [
+          "cg01"
+        ],
+        "groups": [
+          "cg01"
+        ]
+      },
+      {
+        "id": "v02",
+        "name": "撒金币前景叠加",
+        "mechanism": "金币作为独立前景动作，配合后续标题形成同一完整表达。",
+        "occurrences": [
+          "cg02"
+        ],
+        "groups": [
+          "cg02"
+        ]
+      },
+      {
+        "id": "v03",
+        "name": "城市背景、圆形人物窗与斜切拼接",
+        "mechanism": "城市背景建立语境，圆形人物窗保留讲述，斜切引入工资案例；属于一组内推进。",
+        "occurrences": [
+          "cg04"
+        ],
+        "groups": [
+          "cg04"
+        ]
+      },
+      {
+        "id": "v04",
+        "name": "暗纹背景与圆形人物窗共用画面",
+        "mechanism": "先隔离共同画面承载机制；序号、问号、感叹号、分支箭头和例图不用于重复建立此画面 family。",
+        "occurrences": [
+          "cg10",
+          "cg11",
+          "cg12",
+          "cg13",
+          "cg14",
+          "cg15",
+          "cg16"
+        ],
+        "groups": [
+          "cg10",
+          "cg11",
+          "cg12",
+          "cg13",
+          "cg14",
+          "cg15",
+          "cg16"
+        ]
+      },
+      {
+        "id": "v05",
+        "name": "人物缩入双卡片对比画面",
+        "mechanism": "人物窗让位，左右图片及标签递进出现，以空间并列承载比较。",
+        "occurrences": [
+          "cg07"
+        ],
+        "groups": [
+          "cg07"
+        ]
+      },
+      {
+        "id": "v06",
+        "name": "人物让位与叠放素材面板",
+        "mechanism": "人物让位于示例素材，面板前后叠放承接例子；不误称纯竖屏手机。",
+        "occurrences": [
+          "cg08"
+        ],
+        "groups": [
+          "cg08"
+        ]
+      },
+      {
+        "id": "v07",
+        "name": "横线框景与圆形人物窗",
+        "mechanism": "横线围合案例视频，人物窗位于线上，结论字幕置于框景下方。",
+        "occurrences": [
+          "cg09"
+        ],
+        "groups": [
+          "cg09"
+        ]
+      },
+      {
+        "id": "v08",
+        "name": "整体画面缩小强调",
+        "mechanism": "用户指出的整体缩小动作；字幕与缩小过程搭配强调。",
+        "occurrences": [
+          "cg17"
+        ],
+        "groups": [
+          "cg17"
+        ]
+      },
+      {
+        "id": "v09",
+        "name": "整体画面放大强调",
+        "mechanism": "用户指出的整体放大动作；与缩小动作分开，不能只按文字分类。",
+        "occurrences": [
+          "cg18"
+        ],
+        "groups": [
+          "cg18"
+        ]
+      }
+    ],
+    "subtitle": [
+      {
+        "id": "t01",
+        "name": "开场多层文字逐步揭晓",
+        "mechanism": "先铺句子，再揭晓重点词；具体字级时钟待测。",
+        "occurrences": [
+          "cg01"
+        ],
+        "groups": [
+          "cg01"
+        ]
+      },
+      {
+        "id": "t02",
+        "name": "口播字幕与标题连续接力",
+        "mechanism": "句子字幕铺垫，财富真相大标题接管强调。",
+        "occurrences": [
+          "cg02"
+        ],
+        "groups": [
+          "cg02"
+        ]
+      },
+      {
+        "id": "t03",
+        "name": "场景标题与工资案例字幕",
+        "mechanism": "场景标题建立语境，案例字幕随素材推进。",
+        "occurrences": [
+          "cg04"
+        ],
+        "groups": [
+          "cg04"
+        ]
+      },
+      {
+        "id": "t04",
+        "name": "口播重点词字幕",
+        "mechanism": "人物不做额外画面动效；字幕换句、强调重点词。",
+        "occurrences": [
+          "cg06"
+        ],
+        "groups": [
+          "cg06"
+        ]
+      },
+      {
+        "id": "t05",
+        "name": "双卡片标题与标签",
+        "mechanism": "主标题后依次出现卡片标签；用于并列比较。",
+        "occurrences": [
+          "cg07"
+        ],
+        "groups": [
+          "cg07"
+        ]
+      },
+      {
+        "id": "t06",
+        "name": "示例面板内字幕",
+        "mechanism": "文字随面板呈现示例内容。",
+        "occurrences": [
+          "cg08"
+        ],
+        "groups": [
+          "cg08"
+        ]
+      },
+      {
+        "id": "t08",
+        "name": "数量标题分层揭晓",
+        "mechanism": "三个→财经底线，分层揭晓数量与概念。",
+        "occurrences": [
+          "cg10"
+        ],
+        "groups": [
+          "cg10"
+        ]
+      },
+      {
+        "id": "t09",
+        "name": "序号与条目标签",
+        "mechanism": "序号1/2/3是同一序次字幕机制的 variant，不是三种画面动效。",
+        "occurrences": [
+          "cg11",
+          "cg13",
+          "cg16"
+        ],
+        "groups": [
+          "cg11",
+          "cg13",
+          "cg16"
+        ]
+      },
+      {
+        "id": "t10",
+        "name": "概念与问号对照",
+        "mechanism": "分清楚→想要/需要→问号，以空间关系表达区别。",
+        "occurrences": [
+          "cg12"
+        ],
+        "groups": [
+          "cg12"
+        ]
+      },
+      {
+        "id": "t11",
+        "name": "风险警示字幕与感叹号",
+        "mechanism": "句子基础上叠加警示图标和醒目文字。",
+        "occurrences": [
+          "cg14"
+        ],
+        "groups": [
+          "cg14"
+        ]
+      },
+      {
+        "id": "t12",
+        "name": "分支箭头与端点字幕",
+        "mechanism": "总句后分支到投机/炒作；表达类别关系。",
+        "occurrences": [
+          "cg15"
+        ],
+        "groups": [
+          "cg15"
+        ]
+      },
+      {
+        "id": "t13",
+        "name": "缩小画面配巨字强调",
+        "mechanism": "巨字与缩小动作协同，强调认知与筛选。",
+        "occurrences": [
+          "cg17"
+        ],
+        "groups": [
+          "cg17"
+        ]
+      },
+      {
+        "id": "t14",
+        "name": "浮动短语分次强调",
+        "mechanism": "放大画面上的不跟风/不浮躁等文字分次出现。",
+        "occurrences": [
+          "cg18"
+        ],
+        "groups": [
+          "cg18"
+        ]
+      },
+      {
+        "id": "t15",
+        "name": "收尾文字顺次落位",
+        "mechanism": "纯字幕接力，最终句子落位结束。",
+        "occurrences": [
+          "cg19"
+        ],
+        "groups": [
+          "cg19"
+        ]
+      }
+    ]
+  },
+  "occurrences": [
+    {
+      "id": "cg01",
+      "name": "暗角、底部图片与开场文字揭晓",
+      "timecode": "00:00.000-00:02.200",
+      "visual": "v01",
+      "subtitle": "t01",
+      "members": [
+        "cg01"
+      ],
+      "startFrame": 0,
+      "endFrame": 66,
+      "note": "这里是画面动效加字幕动效；底部还有图片素材",
+      "originalName": "暗角 + 开场下方字幕",
+      "compositionMode": "combined",
+      "classificationRevision": "composition-modes-v2",
+      "durationFrames": 66,
+      "boundaryAuthority": "user-saved-frames",
+      "sourceType": "original-reference"
+    },
+    {
+      "id": "cg02",
+      "name": "撒金币与财富标题的连续组合",
+      "timecode": "00:03.600-00:05.800",
+      "visual": "v02",
+      "subtitle": "t02",
+      "members": [
+        "cg02",
+        "cg03"
+      ],
+      "startFrame": 108,
+      "endFrame": 174,
+      "note": "\n手动合并：cg03",
+      "originalName": "撒金币 + 重点字幕 ＋ 整体后缩 + 大字标题",
+      "compositionMode": "combined",
+      "classificationRevision": "composition-modes-v2",
+      "durationFrames": 66,
+      "boundaryAuthority": "user-saved-frames",
+      "sourceType": "original-reference"
+    },
+    {
+      "id": "cg04",
+      "name": "城市语境、人物窗与工资案例斜切推进",
+      "timecode": "00:05.800-00:10.000",
+      "visual": "v03",
+      "subtitle": "t03",
+      "members": [
+        "cg04",
+        "cg05"
+      ],
+      "startFrame": 174,
+      "endFrame": 300,
+      "note": "手动合并：cg05",
+      "originalName": "城市素材 + 圆形人物窗 ＋ 斜切素材拼接 + 场景字幕",
+      "compositionMode": "combined",
+      "classificationRevision": "composition-modes-v2",
+      "durationFrames": 126,
+      "boundaryAuthority": "user-saved-frames",
+      "sourceType": "original-reference"
+    },
+    {
+      "id": "cg06",
+      "name": "解释口播与重点词字幕",
+      "timecode": "00:10.000-00:12.200",
+      "visual": null,
+      "subtitle": "t04",
+      "members": [
+        "cg06"
+      ],
+      "startFrame": 300,
+      "endFrame": 366,
+      "note": "这里没有暗角；属于纯字幕动效",
+      "originalName": "暗角 + 解释下方字幕",
+      "compositionMode": "subtitle-only",
+      "classificationRevision": "composition-modes-v2",
+      "durationFrames": 66,
+      "boundaryAuthority": "user-saved-frames",
+      "sourceType": "original-reference"
+    },
+    {
+      "id": "cg07",
+      "name": "双卡片对比与递进标签",
+      "timecode": "00:12.233-00:15.000",
+      "visual": "v05",
+      "subtitle": "t05",
+      "members": [
+        "cg07"
+      ],
+      "startFrame": 367,
+      "endFrame": 450,
+      "note": "",
+      "originalName": "双卡片对比 + 面板标签",
+      "compositionMode": "combined",
+      "classificationRevision": "composition-modes-v2",
+      "durationFrames": 83,
+      "boundaryAuthority": "user-saved-frames",
+      "sourceType": "original-reference"
+    },
+    {
+      "id": "cg08",
+      "name": "叠放示例面板与面板字幕",
+      "timecode": "00:15.400-00:17.700",
+      "visual": "v06",
+      "subtitle": "t06",
+      "members": [
+        "cg08"
+      ],
+      "startFrame": 462,
+      "endFrame": 531,
+      "note": "",
+      "originalName": "竖屏素材面板 + 面板标签",
+      "compositionMode": "combined",
+      "classificationRevision": "composition-modes-v2",
+      "durationFrames": 69,
+      "boundaryAuthority": "user-saved-frames",
+      "sourceType": "original-reference"
+    },
+    {
+      "id": "cg09",
+      "name": "横线框景与人物窗（仅画面动效）",
+      "timecode": "00:17.700-00:19.933",
+      "visual": "v07",
+      "subtitle": null,
+      "members": [
+        "cg09"
+      ],
+      "startFrame": 531,
+      "endFrame": 598,
+      "note": "这是单独画面动效；字幕是口播主字幕",
+      "originalName": "横线声明 + 财经底线",
+      "compositionMode": "visual-only",
+      "classificationRevision": "composition-modes-v2",
+      "ordinarySpeechCaption": true,
+      "durationFrames": 67,
+      "boundaryAuthority": "user-saved-frames",
+      "sourceType": "original-reference"
+    },
+    {
+      "id": "cg10",
+      "name": "共用圆形人物画面＋三个财经底线揭晓",
+      "timecode": "00:20.567-00:22.333",
+      "visual": "v04",
+      "subtitle": "t08",
+      "members": [
+        "cg10"
+      ],
+      "startFrame": 617,
+      "endFrame": 670,
+      "note": "画面动效+字幕动效；",
+      "originalName": "整体后缩强调 + 短结论",
+      "compositionMode": "combined",
+      "classificationRevision": "composition-modes-v2",
+      "durationFrames": 53,
+      "boundaryAuthority": "user-saved-frames",
+      "sourceType": "original-reference"
+    },
+    {
+      "id": "cg11",
+      "name": "共用圆形人物画面＋序号1和消费建议",
+      "timecode": "00:22.300-00:24.800",
+      "visual": "v04",
+      "subtitle": "t09",
+      "members": [
+        "cg11"
+      ],
+      "startFrame": 669,
+      "endFrame": 744,
+      "note": "和cg10相同的画面动效+不同的字幕动效；",
+      "originalName": "序号卡片 1",
+      "compositionMode": "combined",
+      "classificationRevision": "composition-modes-v2",
+      "durationFrames": 75,
+      "boundaryAuthority": "user-saved-frames",
+      "sourceType": "original-reference"
+    },
+    {
+      "id": "cg12",
+      "name": "共用圆形人物画面＋想要与需要问号对照",
+      "timecode": "00:25.167-00:26.767",
+      "visual": "v04",
+      "subtitle": "t10",
+      "members": [
+        "cg12"
+      ],
+      "startFrame": 755,
+      "endFrame": 803,
+      "note": "和cg10相同的画面动效+不同的字幕动效；",
+      "originalName": "序号卡片 2",
+      "compositionMode": "combined",
+      "classificationRevision": "composition-modes-v2",
+      "durationFrames": 48,
+      "boundaryAuthority": "user-saved-frames",
+      "sourceType": "original-reference"
+    },
+    {
+      "id": "cg13",
+      "name": "共用圆形人物画面＋序号2与本金强调",
+      "timecode": "00:26.800-00:28.933",
+      "visual": "v04",
+      "subtitle": "t09",
+      "members": [
+        "cg13"
+      ],
+      "startFrame": 804,
+      "endFrame": 868,
+      "note": "和cg10相同的画面动效+不同的字幕动效；",
+      "originalName": "序号卡片 + 财经底线",
+      "compositionMode": "combined",
+      "classificationRevision": "composition-modes-v2",
+      "durationFrames": 64,
+      "boundaryAuthority": "user-saved-frames",
+      "sourceType": "original-reference"
+    },
+    {
+      "id": "cg14",
+      "name": "共用圆形人物画面＋感叹号风险警示",
+      "timecode": "00:30.567-00:31.733",
+      "visual": "v04",
+      "subtitle": "t11",
+      "members": [
+        "cg14"
+      ],
+      "startFrame": 917,
+      "endFrame": 952,
+      "note": "和cg10相同的画面动效+不同的字幕动效；",
+      "originalName": "序号画面 + 感叹号",
+      "compositionMode": "combined",
+      "classificationRevision": "composition-modes-v2",
+      "durationFrames": 35,
+      "boundaryAuthority": "user-saved-frames",
+      "sourceType": "original-reference"
+    },
+    {
+      "id": "cg15",
+      "name": "共用圆形人物画面＋投机炒作分支",
+      "timecode": "00:32.000-00:33.500",
+      "visual": "v04",
+      "subtitle": "t12",
+      "members": [
+        "cg15"
+      ],
+      "startFrame": 960,
+      "endFrame": 1005,
+      "note": "和cg10相同的画面动效+不同的字幕动效；",
+      "originalName": "分支箭头 + 端点字幕",
+      "compositionMode": "combined",
+      "classificationRevision": "composition-modes-v2",
+      "durationFrames": 45,
+      "boundaryAuthority": "user-saved-frames",
+      "sourceType": "original-reference"
+    },
+    {
+      "id": "cg16",
+      "name": "共用圆形人物画面＋序号3和减少负债",
+      "timecode": "00:33.600-00:34.900",
+      "visual": "v04",
+      "subtitle": "t09",
+      "members": [
+        "cg16"
+      ],
+      "startFrame": 1008,
+      "endFrame": 1047,
+      "note": "和cg10相同的画面动效+不同的字幕动效；",
+      "originalName": "序号卡片 3",
+      "compositionMode": "combined",
+      "classificationRevision": "composition-modes-v2",
+      "durationFrames": 39,
+      "boundaryAuthority": "user-saved-frames",
+      "sourceType": "original-reference"
+    },
+    {
+      "id": "cg17",
+      "name": "整体缩小强调＋认知筛选巨字",
+      "timecode": "00:36.767-00:37.867",
+      "visual": "v08",
+      "subtitle": "t13",
+      "members": [
+        "cg17"
+      ],
+      "startFrame": 1103,
+      "endFrame": 1136,
+      "note": "画面动效（缩小画面强调）+新的字幕动效",
+      "originalName": "暗角 + 总结下方字幕",
+      "compositionMode": "combined",
+      "classificationRevision": "composition-modes-v2",
+      "durationFrames": 33,
+      "boundaryAuthority": "user-saved-frames",
+      "sourceType": "original-reference"
+    },
+    {
+      "id": "cg18",
+      "name": "整体放大强调＋短语分次落位",
+      "timecode": "00:37.833-00:38.967",
+      "visual": "v09",
+      "subtitle": "t14",
+      "members": [
+        "cg18"
+      ],
+      "startFrame": 1135,
+      "endFrame": 1169,
+      "note": "画面动效放大+新的字幕动效",
+      "originalName": "整体后缩 + 总结大字",
+      "compositionMode": "combined",
+      "classificationRevision": "composition-modes-v2",
+      "durationFrames": 34,
+      "boundaryAuthority": "user-saved-frames",
+      "sourceType": "original-reference"
+    },
+    {
+      "id": "cg19",
+      "name": "收尾口播与结句字幕",
+      "timecode": "00:39.067-00:40.600",
+      "visual": null,
+      "subtitle": "t15",
+      "members": [
+        "cg19"
+      ],
+      "startFrame": 1172,
+      "endFrame": 1218,
+      "note": "字幕动效",
+      "originalName": "人物收尾 + 结束字幕",
+      "compositionMode": "subtitle-only",
+      "classificationRevision": "composition-modes-v2",
+      "durationFrames": 46,
+      "boundaryAuthority": "user-saved-frames",
+      "sourceType": "original-reference"
+    }
+  ],
+  "completeGroups": [
+    {
+      "id": "cg01",
+      "name": "暗角、底部图片与开场文字揭晓",
+      "timecode": "00:00.000-00:02.200",
+      "visual": "v01",
+      "subtitle": "t01",
+      "members": [
+        "cg01"
+      ],
+      "startFrame": 0,
+      "endFrame": 66,
+      "note": "这里是画面动效加字幕动效；底部还有图片素材",
+      "originalName": "暗角 + 开场下方字幕",
+      "compositionMode": "combined",
+      "classificationRevision": "composition-modes-v2",
+      "durationFrames": 66,
+      "boundaryAuthority": "user-saved-frames",
+      "sourceType": "original-reference"
+    },
+    {
+      "id": "cg02",
+      "name": "撒金币与财富标题的连续组合",
+      "timecode": "00:03.600-00:05.800",
+      "visual": "v02",
+      "subtitle": "t02",
+      "members": [
+        "cg02",
+        "cg03"
+      ],
+      "startFrame": 108,
+      "endFrame": 174,
+      "note": "\n手动合并：cg03",
+      "originalName": "撒金币 + 重点字幕 ＋ 整体后缩 + 大字标题",
+      "compositionMode": "combined",
+      "classificationRevision": "composition-modes-v2",
+      "durationFrames": 66,
+      "boundaryAuthority": "user-saved-frames",
+      "sourceType": "original-reference"
+    },
+    {
+      "id": "cg04",
+      "name": "城市语境、人物窗与工资案例斜切推进",
+      "timecode": "00:05.800-00:10.000",
+      "visual": "v03",
+      "subtitle": "t03",
+      "members": [
+        "cg04",
+        "cg05"
+      ],
+      "startFrame": 174,
+      "endFrame": 300,
+      "note": "手动合并：cg05",
+      "originalName": "城市素材 + 圆形人物窗 ＋ 斜切素材拼接 + 场景字幕",
+      "compositionMode": "combined",
+      "classificationRevision": "composition-modes-v2",
+      "durationFrames": 126,
+      "boundaryAuthority": "user-saved-frames",
+      "sourceType": "original-reference"
+    },
+    {
+      "id": "cg06",
+      "name": "解释口播与重点词字幕",
+      "timecode": "00:10.000-00:12.200",
+      "visual": null,
+      "subtitle": "t04",
+      "members": [
+        "cg06"
+      ],
+      "startFrame": 300,
+      "endFrame": 366,
+      "note": "这里没有暗角；属于纯字幕动效",
+      "originalName": "暗角 + 解释下方字幕",
+      "compositionMode": "subtitle-only",
+      "classificationRevision": "composition-modes-v2",
+      "durationFrames": 66,
+      "boundaryAuthority": "user-saved-frames",
+      "sourceType": "original-reference"
+    },
+    {
+      "id": "cg07",
+      "name": "双卡片对比与递进标签",
+      "timecode": "00:12.233-00:15.000",
+      "visual": "v05",
+      "subtitle": "t05",
+      "members": [
+        "cg07"
+      ],
+      "startFrame": 367,
+      "endFrame": 450,
+      "note": "",
+      "originalName": "双卡片对比 + 面板标签",
+      "compositionMode": "combined",
+      "classificationRevision": "composition-modes-v2",
+      "durationFrames": 83,
+      "boundaryAuthority": "user-saved-frames",
+      "sourceType": "original-reference"
+    },
+    {
+      "id": "cg08",
+      "name": "叠放示例面板与面板字幕",
+      "timecode": "00:15.400-00:17.700",
+      "visual": "v06",
+      "subtitle": "t06",
+      "members": [
+        "cg08"
+      ],
+      "startFrame": 462,
+      "endFrame": 531,
+      "note": "",
+      "originalName": "竖屏素材面板 + 面板标签",
+      "compositionMode": "combined",
+      "classificationRevision": "composition-modes-v2",
+      "durationFrames": 69,
+      "boundaryAuthority": "user-saved-frames",
+      "sourceType": "original-reference"
+    },
+    {
+      "id": "cg09",
+      "name": "横线框景与人物窗（仅画面动效）",
+      "timecode": "00:17.700-00:19.933",
+      "visual": "v07",
+      "subtitle": null,
+      "members": [
+        "cg09"
+      ],
+      "startFrame": 531,
+      "endFrame": 598,
+      "note": "这是单独画面动效；字幕是口播主字幕",
+      "originalName": "横线声明 + 财经底线",
+      "compositionMode": "visual-only",
+      "classificationRevision": "composition-modes-v2",
+      "ordinarySpeechCaption": true,
+      "durationFrames": 67,
+      "boundaryAuthority": "user-saved-frames",
+      "sourceType": "original-reference"
+    },
+    {
+      "id": "cg10",
+      "name": "共用圆形人物画面＋三个财经底线揭晓",
+      "timecode": "00:20.567-00:22.333",
+      "visual": "v04",
+      "subtitle": "t08",
+      "members": [
+        "cg10"
+      ],
+      "startFrame": 617,
+      "endFrame": 670,
+      "note": "画面动效+字幕动效；",
+      "originalName": "整体后缩强调 + 短结论",
+      "compositionMode": "combined",
+      "classificationRevision": "composition-modes-v2",
+      "durationFrames": 53,
+      "boundaryAuthority": "user-saved-frames",
+      "sourceType": "original-reference"
+    },
+    {
+      "id": "cg11",
+      "name": "共用圆形人物画面＋序号1和消费建议",
+      "timecode": "00:22.300-00:24.800",
+      "visual": "v04",
+      "subtitle": "t09",
+      "members": [
+        "cg11"
+      ],
+      "startFrame": 669,
+      "endFrame": 744,
+      "note": "和cg10相同的画面动效+不同的字幕动效；",
+      "originalName": "序号卡片 1",
+      "compositionMode": "combined",
+      "classificationRevision": "composition-modes-v2",
+      "durationFrames": 75,
+      "boundaryAuthority": "user-saved-frames",
+      "sourceType": "original-reference"
+    },
+    {
+      "id": "cg12",
+      "name": "共用圆形人物画面＋想要与需要问号对照",
+      "timecode": "00:25.167-00:26.767",
+      "visual": "v04",
+      "subtitle": "t10",
+      "members": [
+        "cg12"
+      ],
+      "startFrame": 755,
+      "endFrame": 803,
+      "note": "和cg10相同的画面动效+不同的字幕动效；",
+      "originalName": "序号卡片 2",
+      "compositionMode": "combined",
+      "classificationRevision": "composition-modes-v2",
+      "durationFrames": 48,
+      "boundaryAuthority": "user-saved-frames",
+      "sourceType": "original-reference"
+    },
+    {
+      "id": "cg13",
+      "name": "共用圆形人物画面＋序号2与本金强调",
+      "timecode": "00:26.800-00:28.933",
+      "visual": "v04",
+      "subtitle": "t09",
+      "members": [
+        "cg13"
+      ],
+      "startFrame": 804,
+      "endFrame": 868,
+      "note": "和cg10相同的画面动效+不同的字幕动效；",
+      "originalName": "序号卡片 + 财经底线",
+      "compositionMode": "combined",
+      "classificationRevision": "composition-modes-v2",
+      "durationFrames": 64,
+      "boundaryAuthority": "user-saved-frames",
+      "sourceType": "original-reference"
+    },
+    {
+      "id": "cg14",
+      "name": "共用圆形人物画面＋感叹号风险警示",
+      "timecode": "00:30.567-00:31.733",
+      "visual": "v04",
+      "subtitle": "t11",
+      "members": [
+        "cg14"
+      ],
+      "startFrame": 917,
+      "endFrame": 952,
+      "note": "和cg10相同的画面动效+不同的字幕动效；",
+      "originalName": "序号画面 + 感叹号",
+      "compositionMode": "combined",
+      "classificationRevision": "composition-modes-v2",
+      "durationFrames": 35,
+      "boundaryAuthority": "user-saved-frames",
+      "sourceType": "original-reference"
+    },
+    {
+      "id": "cg15",
+      "name": "共用圆形人物画面＋投机炒作分支",
+      "timecode": "00:32.000-00:33.500",
+      "visual": "v04",
+      "subtitle": "t12",
+      "members": [
+        "cg15"
+      ],
+      "startFrame": 960,
+      "endFrame": 1005,
+      "note": "和cg10相同的画面动效+不同的字幕动效；",
+      "originalName": "分支箭头 + 端点字幕",
+      "compositionMode": "combined",
+      "classificationRevision": "composition-modes-v2",
+      "durationFrames": 45,
+      "boundaryAuthority": "user-saved-frames",
+      "sourceType": "original-reference"
+    },
+    {
+      "id": "cg16",
+      "name": "共用圆形人物画面＋序号3和减少负债",
+      "timecode": "00:33.600-00:34.900",
+      "visual": "v04",
+      "subtitle": "t09",
+      "members": [
+        "cg16"
+      ],
+      "startFrame": 1008,
+      "endFrame": 1047,
+      "note": "和cg10相同的画面动效+不同的字幕动效；",
+      "originalName": "序号卡片 3",
+      "compositionMode": "combined",
+      "classificationRevision": "composition-modes-v2",
+      "durationFrames": 39,
+      "boundaryAuthority": "user-saved-frames",
+      "sourceType": "original-reference"
+    },
+    {
+      "id": "cg17",
+      "name": "整体缩小强调＋认知筛选巨字",
+      "timecode": "00:36.767-00:37.867",
+      "visual": "v08",
+      "subtitle": "t13",
+      "members": [
+        "cg17"
+      ],
+      "startFrame": 1103,
+      "endFrame": 1136,
+      "note": "画面动效（缩小画面强调）+新的字幕动效",
+      "originalName": "暗角 + 总结下方字幕",
+      "compositionMode": "combined",
+      "classificationRevision": "composition-modes-v2",
+      "durationFrames": 33,
+      "boundaryAuthority": "user-saved-frames",
+      "sourceType": "original-reference"
+    },
+    {
+      "id": "cg18",
+      "name": "整体放大强调＋短语分次落位",
+      "timecode": "00:37.833-00:38.967",
+      "visual": "v09",
+      "subtitle": "t14",
+      "members": [
+        "cg18"
+      ],
+      "startFrame": 1135,
+      "endFrame": 1169,
+      "note": "画面动效放大+新的字幕动效",
+      "originalName": "整体后缩 + 总结大字",
+      "compositionMode": "combined",
+      "classificationRevision": "composition-modes-v2",
+      "durationFrames": 34,
+      "boundaryAuthority": "user-saved-frames",
+      "sourceType": "original-reference"
+    },
+    {
+      "id": "cg19",
+      "name": "收尾口播与结句字幕",
+      "timecode": "00:39.067-00:40.600",
+      "visual": null,
+      "subtitle": "t15",
+      "members": [
+        "cg19"
+      ],
+      "startFrame": 1172,
+      "endFrame": 1218,
+      "note": "字幕动效",
+      "originalName": "人物收尾 + 结束字幕",
+      "compositionMode": "subtitle-only",
+      "classificationRevision": "composition-modes-v2",
+      "durationFrames": 46,
+      "boundaryAuthority": "user-saved-frames",
+      "sourceType": "original-reference"
+    }
+  ],
+  "variants": [
+    {
+      "visualFamily": "v04",
+      "occurrences": [
+        "cg10",
+        "cg11",
+        "cg12",
+        "cg13",
+        "cg14",
+        "cg15",
+        "cg16"
+      ],
+      "reason": "同一画面机制；文字、素材、序号及不同字幕组件不重复计画面family"
+    }
+  ],
+  "feedback": {
+    "schema": 2,
+    "status": "applied-not-stage-approved",
+    "source": "observations/manual-review/adjustments.json",
+    "sourceSha256": "ad019b72bf6d8488083dad54865249365ea5f989d5d1519abe1019c7669afed8",
+    "annotationCount": 17,
+    "completeGroupCount": 17,
+    "rawPreserved": true,
+    "decisions": [
+      {
+        "id": "cg09",
+        "sourceNote": "这是单独画面动效；字幕是口播主字幕",
+        "reason": "用户最终备注明确这是单独画面动效；可见文字是普通口播主字幕，不构成独立字幕动效。结构化选择尚为旧combined，按最新明确备注修正分析层，原文件保留。",
+        "fields": {
+          "compositionMode": "visual-only",
+          "subtitle": null,
+          "name": "横线框景与人物窗（仅画面动效）",
+          "ordinarySpeechCaption": true
+        },
+        "purpose": "横线框景与人物窗组织案例画面；口播主字幕同步出现，但不作为字幕动效组件重复计组。"
+      }
+    ],
+    "unresolved": [],
+    "lessons": [
+      {
+        "id": "feedback-01",
+        "source": [
+          "cg01"
+        ],
+        "lesson": "暗角、底图和文字必须分层；不能漏掉底部图片。"
+      },
+      {
+        "id": "feedback-02",
+        "source": [
+          "cg02",
+          "cg03"
+        ],
+        "lesson": "同一完整组可以由画面动作铺垫，再让字幕接管；不能按换标题拆成两组。"
+      },
+      {
+        "id": "feedback-03",
+        "source": [
+          "cg04",
+          "cg05"
+        ],
+        "lesson": "城市与斜切案例为同组内推进，不以素材更替重复计完整组。"
+      },
+      {
+        "id": "feedback-04",
+        "source": [
+          "cg06",
+          "cg19"
+        ],
+        "lesson": "普通口播底片不等于画面动效；可仅有字幕动效。"
+      },
+      {
+        "id": "feedback-05",
+        "source": [
+          "cg10",
+          "cg11",
+          "cg12",
+          "cg13",
+          "cg14",
+          "cg15",
+          "cg16"
+        ],
+        "lesson": "共同圆形人物画面只归一个画面family；序号、问号、风险警示与分支属于字幕/图形表达组件。"
+      },
+      {
+        "id": "feedback-06",
+        "source": [
+          "cg17",
+          "cg18"
+        ],
+        "lesson": "整体缩小与整体放大是真实动作差异，分别记录，再研究字幕如何接力。"
+      }
+    ]
+  },
+  "compositionModes": [
+    {
+      "id": "visual-only",
+      "name": "仅画面动效"
+    },
+    {
+      "id": "subtitle-only",
+      "name": "仅字幕动效"
+    },
+    {
+      "id": "combined",
+      "name": "画面＋字幕动态组合"
+    }
+  ]
+}

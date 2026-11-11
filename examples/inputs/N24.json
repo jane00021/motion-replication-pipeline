@@ -1,0 +1,80 @@
+{
+  "subtitle": {
+    "mode": "typed-relay",
+    "first": "一步一步来",
+    "second": [
+      {
+        "text": "生活才能",
+        "role": "white"
+      },
+      {
+        "text": "慢慢变好",
+        "role": "gold"
+      }
+    ],
+    "clock": {
+      "first": [
+        4,
+        8,
+        12,
+        16,
+        20
+      ],
+      "firstClear": 43,
+      "secondStart": 43,
+      "secondSettle": 53
+    },
+    "styles": {
+      "white": {
+        "font": "asset:fonts/706b8c0de2de.otf",
+        "size": 18,
+        "fill": "#fffdf0",
+        "shadow": {
+          "x": 0.7,
+          "y": 1.0,
+          "blur": 0.4,
+          "color": "#211e17",
+          "opacity": 0.85
+        }
+      },
+      "gold": {
+        "font": "asset:fonts/706b8c0de2de.otf",
+        "size": 22,
+        "fill": "#dcc34b",
+        "shadow": {
+          "x": 0.7,
+          "y": 1.0,
+          "blur": 0.4,
+          "color": "#211e17",
+          "opacity": 0.85
+        },
+        "outline": 0.18,
+        "outlineColor": "#4b3d14"
+      }
+    },
+    "y": 332,
+    "firstStyle": {
+      "font": "asset:fonts/706b8c0de2de.otf",
+      "size": 18,
+      "fill": "#dcc34b",
+      "shadow": {
+        "x": 0.7,
+        "y": 1.0,
+        "blur": 0.4,
+        "color": "#211e17",
+        "opacity": 0.85
+      },
+      "outline": 0.18,
+      "outlineColor": "#4b3d14"
+    }
+  },
+  "mechanism": "typed-relay",
+  "canvas": [
+    284,
+    504
+  ],
+  "fps": 30,
+  "frameCount": 98,
+  "caseOnly": true,
+  "originOccurrence": "N24"
+}

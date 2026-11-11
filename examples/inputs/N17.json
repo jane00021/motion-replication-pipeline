@@ -1,0 +1,46 @@
+{
+  "text": {
+    "sentence": "别陷在焦虑里抱怨没钱"
+  },
+  "roles": {
+    "sentence": {
+      "font": "asset:fonts/706b8c0de2de.otf",
+      "size": 18.5,
+      "top": [
+        249,
+        228,
+        100
+      ],
+      "bottom": [
+        180,
+        143,
+        30
+      ],
+      "outline": 0.45,
+      "shadow": {
+        "dx": 0.8,
+        "dy": 1.4,
+        "blur": 0.4,
+        "opacity": 0.95
+      }
+    }
+  },
+  "motion": {
+    "y": 401,
+    "amplitude": 3.2,
+    "period": 25,
+    "phaseStep": 0.58,
+    "rotation": 4,
+    "tracking": 0.25,
+    "start": 0
+  },
+  "mechanism": "gold-wave",
+  "canvas": [
+    284,
+    504
+  ],
+  "fps": 30,
+  "frameCount": 70,
+  "caseOnly": true,
+  "originOccurrence": "N17"
+}

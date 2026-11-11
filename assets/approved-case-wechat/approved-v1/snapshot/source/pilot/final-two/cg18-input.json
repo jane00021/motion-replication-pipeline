@@ -1,0 +1,179 @@
+{
+  "occurrence": "cg18",
+  "name": "整体回到满屏与左右短语板接力",
+  "sourceRange": [
+    1135,
+    1169
+  ],
+  "sourceFrames": [
+    1135,
+    1169
+  ],
+  "rawRange": [
+    38.82,
+    40.52
+  ],
+  "frameCount": 51,
+  "visualFamily": "v09",
+  "subtitleFamily": "t14",
+  "visual": {
+    "keyframes": [
+      {
+        "frame": 0,
+        "rect": [
+          10,
+          23,
+          272,
+          490
+        ]
+      },
+      {
+        "frame": 1,
+        "rect": [
+          10,
+          24,
+          268,
+          490
+        ]
+      },
+      {
+        "frame": 2,
+        "rect": [
+          5,
+          14,
+          274,
+          498
+        ]
+      },
+      {
+        "frame": 3,
+        "rect": [
+          0,
+          6,
+          278,
+          502
+        ]
+      },
+      {
+        "frame": 4,
+        "rect": [
+          0,
+          0,
+          283,
+          508
+        ]
+      },
+      {
+        "frame": 5,
+        "rect": [
+          0,
+          0,
+          284,
+          508
+        ]
+      },
+      {
+        "frame": 12,
+        "rect": [
+          0,
+          0,
+          286,
+          508
+        ]
+      }
+    ]
+  },
+  "subtitle": {
+    "style": {
+      "path": "C:/Windows/Fonts/Source Han Serif SC Heavy (TrueType).ttf",
+      "face": 0,
+      "size": 22,
+      "weightPx": 0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "fill": "#f7f7f0",
+      "outlinePx": 0,
+      "outline": "#26241c",
+      "shadow": {
+        "dx": 1.05,
+        "dy": 1.6,
+        "blur": 0.7,
+        "color": "#08090d",
+        "opacity": 0.88
+      },
+      "glow": 1.0
+    },
+    "phrases": [
+      {
+        "text": "要踏实",
+        "rect": [
+          12,
+          282,
+          99,
+          40
+        ],
+        "plateIn": [
+          5,
+          9
+        ],
+        "textStart": 8,
+        "stagger": 2,
+        "style": {
+          "path": "C:/Windows/Fonts/Source Han Serif SC Heavy (TrueType).ttf",
+          "size": 64,
+          "inkWidth": 22,
+          "inkHeight": 23,
+          "weightPx": 0.3,
+          "fill": "#fffef8",
+          "shadow": {
+            "dx": 1.5,
+            "dy": 2,
+            "blur": 0.25,
+            "opacity": 0.9
+          },
+          "outlinePx": 0
+        },
+        "tracking": 1
+      },
+      {
+        "text": "别求快",
+        "rect": [
+          170,
+          263,
+          103,
+          40
+        ],
+        "plateIn": [
+          18,
+          22
+        ],
+        "textStart": 22,
+        "stagger": 2,
+        "style": {
+          "path": "C:/Windows/Fonts/Source Han Serif SC Heavy (TrueType).ttf",
+          "size": 64,
+          "inkWidth": 22,
+          "inkHeight": 23,
+          "weightPx": 0.3,
+          "fill": "#fffef8",
+          "shadow": {
+            "dx": 1.5,
+            "dy": 2,
+            "blur": 0.25,
+            "opacity": 0.9
+          },
+          "outlinePx": 0
+        },
+        "tracking": 1
+      }
+    ],
+    "exit": [
+      45,
+      50
+    ]
+  },
+  "calibratedRoles": true,
+  "purpose": "踏实比求快更重要；画面恢复满屏后，左侧要踏实先落位，右侧别求快随后对照，逐字显形后留阅读时间。",
+  "fps": 30,
+  "frames": 51
+}

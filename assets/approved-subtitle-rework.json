@@ -1,0 +1,31 @@
+{
+  "version": "subtitle-rework-v1",
+  "case": "assets/approved-subtitle-rework-v1",
+  "approval": "assets/approved-subtitle-rework-v1/approval.json",
+  "mechanisms": {
+    "N07": "split-title",
+    "N13": "bilingual-title",
+    "N17": "gold-wave",
+    "N21": "split-line",
+    "N22": "diagonal-line",
+    "N24": "typed-relay"
+  },
+  "executor": "scripts/render_subtitle.py",
+  "originalFontConfirmed": false,
+  "verification": [
+    "assets/approved-subtitle-rework-v1/verification/independent-execution.json",
+    "assets/approved-subtitle-rework-v1/verification/portable-parity.json"
+  ],
+  "installedAtUtc": "2026-11-10T16:50:03.013836+00:00",
+  "skillSchemaValid": true,
+  "runtimeBindings": {
+    "scripts/subtitle_engine/closing.py": "b7be53309f378a68e028a0c62377677d1fdb6d6a72876c605b3ebae6335b4776",
+    "scripts/subtitle_engine/core.py": "2a032c21501dfb3e2e7e8f70d8ebcc9c325bf402f4997fdacd3fade70eb04a6f",
+    "scripts/subtitle_engine/emphasis.py": "989937a900d05be6bb368c81ffb8b3f8aeaa01035604841f2c348ca829d922e4",
+    "scripts/subtitle_engine/split_title.py": "43e0989a8ba2ab3730d8fd681d42cfe49d9b5faff718f852b95dde0c7c996237",
+    "scripts/subtitle_engine/__init__.py": "b8d711ec58aba64ce3f9ffa0cae55ae44193775883547ff862a0e3583d38fac9",
+    "scripts/render_subtitle.py": "873c9cade9be31ffc0262042cc049258e7db79fbd06b0d66e561a6154f20ba70",
+    "scripts/check_subtitle_executor.py": "4d9451c0f41598e0830d15eb01890a867fe881b8c7dc8c2b9aa86da430399ced",
+    "references/subtitle-execution.md": "cc5ec18eb545bbfd5dec947cc867cec1af227d542b04b429f296673ce2f2151b"
+  }
+}

@@ -1,0 +1,824 @@
+{
+  "version": "subtitle-rework-v1",
+  "recordedAtUtc": "2026-11-10T16:45:00.838183+00:00",
+  "quote": "非常之完美；然后把当前修复好的字幕动效组能力更新到skill",
+  "scope": [
+    "N07",
+    "N13",
+    "N17",
+    "N21",
+    "N22",
+    "N24"
+  ],
+  "approvalScope": "当前六个已展示完整结果的字幕视觉效果认可；不等于原字体身份、精确曲线、听审、其他组或整个03节点通过",
+  "groups": [
+    {
+      "occurrence": "N07",
+      "media": "render/pilot/subtitle-rework/N07/N07.mp4",
+      "mediaSha256": "187fd8b5d78b5cc3377202633ca3377bec8a94d5bc953d1dd624081f17ddf099",
+      "reference": "render/pilot/subtitle-rework/N07/N07-reference.mp4",
+      "input": "source/pilot/subtitle-rework/N07/new-content-input.json",
+      "inputSha256": "2d1addcb8a5bb48c0de4bbf21141cf3d76c249753583a5fcec47594f60db2fc7",
+      "recipe": "source/pilot/subtitle-rework/N07/new-content-recipe.json",
+      "recipeSha256": "8def1e2e008c40a96979e08bc7c7ea50c5d963c87173b7a86384bc365a6127e6",
+      "sources": {
+        "source/pilot/batches/evidence/providers.py": "f63b57967870c45a961f642b8c8e8ca53fcd7c6498dd8fa483f6e74df876a983",
+        "source/pilot/subtitle-rework/N07/providers.py": "9b83d9ee726c0a089c92e7c2ea245a333db0bcbd58cc63b269df2adfa6523dd4"
+      },
+      "supportBindings": {
+        "source/pilot/components.py": "0ed9f9d2a63061be8bb59f164fb8ca7d4be77c5c0865ccf1efe9c37e2d056b58",
+        "source/pilot/batches/evidence/providers.py": "f63b57967870c45a961f642b8c8e8ca53fcd7c6498dd8fa483f6e74df876a983",
+        "source/pilot/batch_runtime.py": "af57255dd3dd0d7c723002c84a46d234a96420f93470378b80ed14f78554e66b",
+        "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf": "706b8c0de2deff6cbc0c87e2cdedfd33a78b7ffd76cebb4549012f197ba611fe"
+      },
+      "layerOrder": [
+        "visual.background",
+        "visual.history",
+        "visual.documents",
+        "subtitle.documentMarker",
+        "subtitle.whiteUpper",
+        "subtitle.whiteLower",
+        "subtitle.goldMiddle",
+        "subtitle.setupSpeech"
+      ],
+      "disclosedLimitations": [
+        "原字体身份未确认，原声效未独立重建；新词点尚未人工听审",
+        "图形/文档为原创示意，不能冒称论文证据",
+        "人物matte只验证当前口播，头发/手指边缘仍待视觉复审"
+      ]
+    },
+    {
+      "occurrence": "N13",
+      "media": "render/pilot/subtitle-rework/emphasis/N13.mp4",
+      "mediaSha256": "d9af8231bbb2ecd4ba4515890107c89025897897753f51de78f0fe54a1883f8b",
+      "reference": "render/pilot/subtitle-rework/emphasis/N13-reference.mp4",
+      "input": "source/pilot/subtitle-rework/emphasis/N13-input.json",
+      "inputSha256": "96146de808264d52993ff4f5c59e2a4a98f6f44a14189ffdaa5e782b90429968",
+      "recipe": "source/pilot/subtitle-rework/emphasis/N13-recipe.json",
+      "recipeSha256": "9ac6b9ae72e0d541e5befe7132f99487bb7989fb85ec9e77f3473177757289f5",
+      "sources": {
+        "source/pilot/components.py": "0ed9f9d2a63061be8bb59f164fb8ca7d4be77c5c0865ccf1efe9c37e2d056b58",
+        "source/pilot/subtitle-rework/emphasis/providers.py": "064f1d6d85c4ba6a4a9c2093913ddb778d9614cdc4b2f34e57301a9fda5378d9"
+      },
+      "supportBindings": {
+        "source/pilot/components.py": "0ed9f9d2a63061be8bb59f164fb8ca7d4be77c5c0865ccf1efe9c37e2d056b58",
+        "source/pilot/batches/prompts/providers.py": "8a786dc137ee04c8daaf27d7f2a473bc725a5729881a96fa65d2fc0a3c6adf06",
+        "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf": "706b8c0de2deff6cbc0c87e2cdedfd33a78b7ffd76cebb4549012f197ba611fe",
+        "C:/Windows/Fonts/georgiab.ttf": "72a6cd94fab6c179392075d3fb361e269cdddfad41bb7ab385fa22a37e49a900",
+        "source/pilot/batch_runtime.py": "af57255dd3dd0d7c723002c84a46d234a96420f93470378b80ed14f78554e66b"
+      },
+      "layerOrder": [
+        "visual.presenter",
+        "visual.focus",
+        "subtitle.english",
+        "subtitle.headline"
+      ],
+      "disclosedLimitations": [
+        "原字体未知，采用思源宋Bold候选；具体字形及压缩特征仍有差异",
+        "动态参数依据逐帧观测近似，未声称轨迹逐像素一致",
+        "保留新口播原声，词级听审和原片音效未完成"
+      ]
+    },
+    {
+      "occurrence": "N17",
+      "media": "render/pilot/subtitle-rework/emphasis/N17.mp4",
+      "mediaSha256": "33dd153e65652abee35d46bf9e83d0ddb9ac369d49b942fc3b6f53f0f8478517",
+      "reference": "render/pilot/subtitle-rework/emphasis/N17-reference.mp4",
+      "input": "source/pilot/subtitle-rework/emphasis/N17-input.json",
+      "inputSha256": "2aea466eb84a351921bc4643887d906a1714c18b4861aad21db964e6a0b3bee0",
+      "recipe": "source/pilot/subtitle-rework/emphasis/N17-recipe.json",
+      "recipeSha256": "2efd75b5844249f5d28899fcd06c7a020191cd35808cd09756ef2bd37dcc418c",
+      "sources": {
+        "source/pilot/batches/prompts/providers.py": "8a786dc137ee04c8daaf27d7f2a473bc725a5729881a96fa65d2fc0a3c6adf06",
+        "source/pilot/subtitle-rework/emphasis/providers.py": "064f1d6d85c4ba6a4a9c2093913ddb778d9614cdc4b2f34e57301a9fda5378d9"
+      },
+      "supportBindings": {
+        "source/pilot/components.py": "0ed9f9d2a63061be8bb59f164fb8ca7d4be77c5c0865ccf1efe9c37e2d056b58",
+        "source/pilot/batches/prompts/providers.py": "8a786dc137ee04c8daaf27d7f2a473bc725a5729881a96fa65d2fc0a3c6adf06",
+        "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf": "706b8c0de2deff6cbc0c87e2cdedfd33a78b7ffd76cebb4549012f197ba611fe",
+        "source/pilot/batch_runtime.py": "af57255dd3dd0d7c723002c84a46d234a96420f93470378b80ed14f78554e66b"
+      },
+      "layerOrder": [
+        "zoom.zoomedPresenter",
+        "visual.sticker",
+        "subtitle.goldSentence"
+      ],
+      "disclosedLimitations": [
+        "原字体未知，采用思源宋Bold候选；具体字形及压缩特征仍有差异",
+        "动态参数依据逐帧观测近似，未声称轨迹逐像素一致",
+        "保留新口播原声，词级听审和原片音效未完成"
+      ]
+    },
+    {
+      "occurrence": "N21",
+      "media": "render/pilot/subtitle-rework/closing/N21-applied.mp4",
+      "mediaSha256": "b3877e3809f6c34e02e54e4a307ba67aa0bed01840d949bffb27dcfa39bb1fd5",
+      "reference": "render/pilot/subtitle-rework/closing/N21-reference.mp4",
+      "input": "source/pilot/subtitle-rework/closing/N21-input.json",
+      "inputSha256": "262037276739032cd15693b976bf4f1a5dbf4b42a0ef6a9d6f850ee2d64714e9",
+      "recipe": "source/pilot/subtitle-rework/closing/N21-recipe.json",
+      "recipeSha256": "c26d2890f0a295032a793661e929b3117cf8049902777ee2bb5c95f6c822cd6e",
+      "sources": {
+        "source/pilot/batches/prompts/providers.py": "8a786dc137ee04c8daaf27d7f2a473bc725a5729881a96fa65d2fc0a3c6adf06",
+        "source/pilot/subtitle-rework/closing/provider.py": "d51505c597f394e35b49b563c0332825ea85171654a49f4096284060217a1c1c"
+      },
+      "supportBindings": {
+        "source/pilot/components.py": "0ed9f9d2a63061be8bb59f164fb8ca7d4be77c5c0865ccf1efe9c37e2d056b58",
+        "source/pilot/subtitle-rework/N07/providers.py": "9b83d9ee726c0a089c92e7c2ea245a333db0bcbd58cc63b269df2adfa6523dd4",
+        "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf": "706b8c0de2deff6cbc0c87e2cdedfd33a78b7ffd76cebb4549012f197ba611fe",
+        "C:/Windows/Fonts/Source Han Serif SC Heavy (TrueType).ttf": "152bc1c4535b8bcb6ec52e0aa4563bced6f43206c59ba32fbfa34a6a192a8304",
+        "source/pilot/batch_runtime.py": "af57255dd3dd0d7c723002c84a46d234a96420f93470378b80ed14f78554e66b"
+      },
+      "layerOrder": [
+        "base.presenter",
+        "subtitle.closingText"
+      ],
+      "disclosedLimitations": [
+        "原字体身份与精确材质仍未确认，采用同字校准候选",
+        "动作依据源过程观察重建，精确曲线仍近似",
+        "新台词时点需人工听审；未获得本轮用户认可"
+      ]
+    },
+    {
+      "occurrence": "N22",
+      "media": "render/pilot/subtitle-rework/closing/N22-applied.mp4",
+      "mediaSha256": "b9982dd61841668d2b0cde8550c5608bed9110973c83895eca5ba3ca70bdc7af",
+      "reference": "render/pilot/subtitle-rework/closing/N22-reference.mp4",
+      "input": "source/pilot/subtitle-rework/closing/N22-input.json",
+      "inputSha256": "374287c8cd535d9a47b62029967ef19d5f96e89f31f4173ba569575dbca9f24b",
+      "recipe": "source/pilot/subtitle-rework/closing/N22-recipe.json",
+      "recipeSha256": "65a56b2c4ffe881d0b47d5e1ff8a340608b2d2a4bf842970879276ff9096ecc6",
+      "sources": {
+        "source/pilot/batches/prompts/providers.py": "8a786dc137ee04c8daaf27d7f2a473bc725a5729881a96fa65d2fc0a3c6adf06",
+        "source/pilot/subtitle-rework/closing/provider.py": "d51505c597f394e35b49b563c0332825ea85171654a49f4096284060217a1c1c"
+      },
+      "supportBindings": {
+        "source/pilot/components.py": "0ed9f9d2a63061be8bb59f164fb8ca7d4be77c5c0865ccf1efe9c37e2d056b58",
+        "source/pilot/subtitle-rework/N07/providers.py": "9b83d9ee726c0a089c92e7c2ea245a333db0bcbd58cc63b269df2adfa6523dd4",
+        "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf": "706b8c0de2deff6cbc0c87e2cdedfd33a78b7ffd76cebb4549012f197ba611fe",
+        "C:/Windows/Fonts/Source Han Serif SC Heavy (TrueType).ttf": "152bc1c4535b8bcb6ec52e0aa4563bced6f43206c59ba32fbfa34a6a192a8304",
+        "source/pilot/batch_runtime.py": "af57255dd3dd0d7c723002c84a46d234a96420f93470378b80ed14f78554e66b"
+      },
+      "layerOrder": [
+        "base.presenter",
+        "subtitle.closingText"
+      ],
+      "disclosedLimitations": [
+        "原字体身份与精确材质仍未确认，采用同字校准候选",
+        "动作依据源过程观察重建，精确曲线仍近似",
+        "新台词时点需人工听审；未获得本轮用户认可"
+      ]
+    },
+    {
+      "occurrence": "N24",
+      "media": "render/pilot/subtitle-rework/closing/N24-applied.mp4",
+      "mediaSha256": "6008adda78c1f4de2ab42cd35791b36204f8478c1ee68a4712a764775dbd4a73",
+      "reference": "render/pilot/subtitle-rework/closing/N24-reference.mp4",
+      "input": "source/pilot/subtitle-rework/closing/N24-input.json",
+      "inputSha256": "13d0dd260f5b9be48cb7271862fb5c718a1fb464c8c8a4b167669855edc33228",
+      "recipe": "source/pilot/subtitle-rework/closing/N24-recipe.json",
+      "recipeSha256": "4b7b0e24819d7642d93ca7fb82649d44c05bf3f1bdcc26ced900923de24d46ad",
+      "sources": {
+        "source/pilot/batches/prompts/providers.py": "8a786dc137ee04c8daaf27d7f2a473bc725a5729881a96fa65d2fc0a3c6adf06",
+        "source/pilot/subtitle-rework/closing/provider.py": "d51505c597f394e35b49b563c0332825ea85171654a49f4096284060217a1c1c"
+      },
+      "supportBindings": {
+        "source/pilot/components.py": "0ed9f9d2a63061be8bb59f164fb8ca7d4be77c5c0865ccf1efe9c37e2d056b58",
+        "source/pilot/subtitle-rework/N07/providers.py": "9b83d9ee726c0a089c92e7c2ea245a333db0bcbd58cc63b269df2adfa6523dd4",
+        "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf": "706b8c0de2deff6cbc0c87e2cdedfd33a78b7ffd76cebb4549012f197ba611fe",
+        "source/pilot/batch_runtime.py": "af57255dd3dd0d7c723002c84a46d234a96420f93470378b80ed14f78554e66b"
+      },
+      "layerOrder": [
+        "base.presenter",
+        "subtitle.closingText"
+      ],
+      "disclosedLimitations": [
+        "原字体身份与精确材质仍未确认，采用同字校准候选",
+        "动作依据源过程观察重建，精确曲线仍近似",
+        "新台词时点需人工听审；未获得本轮用户认可"
+      ]
+    }
+  ],
+  "files": {
+    "snapshot/source/pilot/batch_runtime.py": {
+      "sha256": "af57255dd3dd0d7c723002c84a46d234a96420f93470378b80ed14f78554e66b",
+      "bytes": 7291
+    },
+    "snapshot/source/pilot/browser_batches.py": {
+      "sha256": "1eb8c5499798e9017fb1bcd8c84e4a3389407950df28607bbadaf5f35e38daf1",
+      "bytes": 2223
+    },
+    "snapshot/source/pilot/browser_subtitle_rework.py": {
+      "sha256": "32bff677e13c560d7efb816bffa4f98d798ead0f65820917a6ad2d450bbf5729",
+      "bytes": 1900
+    },
+    "snapshot/source/pilot/collect_batches.py": {
+      "sha256": "d1e9668ed78b9862062d48f4fe1ad5d98f6bd76ba9232b9d7e9c29c9d8a98aef",
+      "bytes": 7632
+    },
+    "snapshot/source/pilot/components.py": {
+      "sha256": "0ed9f9d2a63061be8bb59f164fb8ca7d4be77c5c0865ccf1efe9c37e2d056b58",
+      "bytes": 4862
+    },
+    "snapshot/source/pilot/integrate_subtitle_rework.py": {
+      "sha256": "83eb8682a152bcbf4e821e172a3d483fe0fa0c8028dce85f4e00ebc2445e0d1a",
+      "bytes": 5685
+    },
+    "snapshot/source/pilot/matte.py": {
+      "sha256": "fded08f61e7acdce8b4910323bff28bf3979127c3fa06372a9a6adbbfa0c6d52",
+      "bytes": 1779
+    },
+    "snapshot/source/pilot/matte_helper.py": {
+      "sha256": "e06838ede0c092252d25288f65c7ece06f1a13fc685e4a76cb8950acb94321f9",
+      "bytes": 2210
+    },
+    "snapshot/source/pilot/prepare.py": {
+      "sha256": "560403895e0c5b73ee8ac85bbe33278fd4ee8e17715dd67b9d4cdec323103287",
+      "bytes": 2414
+    },
+    "snapshot/source/pilot/record_subtitle_skill_update.py": {
+      "sha256": "ac106d87691abc98c1738a70e5d427bcc584b75fb444417d1ea47c54a8783d9c",
+      "bytes": 5902
+    },
+    "snapshot/source/pilot/render.py": {
+      "sha256": "91b7cde083e669cb834ea43b076958cd54c10dc708a9ad3212326d65276d0c5b",
+      "bytes": 2840
+    },
+    "snapshot/source/pilot/server.py": {
+      "sha256": "796e4311fdf5abfe66394e4131994aa41ce9961e1a26b5e4674568231369b1b6",
+      "bytes": 1916
+    },
+    "snapshot/source/pilot/verify.py": {
+      "sha256": "063531b62691be1b84785ef74c26c9846f6141dd7479ab1898b37854cfc3d93b",
+      "bytes": 4852
+    },
+    "snapshot/source/pilot/batches/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "snapshot/source/pilot/subtitle-rework/closing/build.py": {
+      "sha256": "3b0b796d9e3bd6e63b8d1245ce40bb1e22cc4ffee7aef7ebcec67672015b9bfd",
+      "bytes": 4880
+    },
+    "snapshot/source/pilot/subtitle-rework/closing/prepare.py": {
+      "sha256": "cfd7c7113d366169c2bdd5b3938519b6e945f1b99aa4bbde3bc81913329729c4",
+      "bytes": 4006
+    },
+    "snapshot/source/pilot/subtitle-rework/closing/provider.py": {
+      "sha256": "d51505c597f394e35b49b563c0332825ea85171654a49f4096284060217a1c1c",
+      "bytes": 4519
+    },
+    "snapshot/source/pilot/subtitle-rework/emphasis/build.py": {
+      "sha256": "488a8292afea8380ea27fc54372f134a30187c9b7764af36375543ac3aadefbf",
+      "bytes": 2973
+    },
+    "snapshot/source/pilot/subtitle-rework/emphasis/proofs.py": {
+      "sha256": "7b12bc5823df91b8294d26344842d91b4520b7f2f27712feb0f644f23efecc24",
+      "bytes": 4186
+    },
+    "snapshot/source/pilot/subtitle-rework/emphasis/providers.py": {
+      "sha256": "064f1d6d85c4ba6a4a9c2093913ddb778d9614cdc4b2f34e57301a9fda5378d9",
+      "bytes": 3720
+    },
+    "snapshot/source/pilot/subtitle-rework/emphasis/review.py": {
+      "sha256": "e4c006a862e1b1d6f39118a259ac96e5c32c210d247f3b74a6444742dab1f88a",
+      "bytes": 4968
+    },
+    "snapshot/source/pilot/subtitle-rework/N07/build.py": {
+      "sha256": "78d147c7331196dafb22c533f63c5600672f00da464c7dab45c930459403df43",
+      "bytes": 3998
+    },
+    "snapshot/source/pilot/subtitle-rework/N07/providers.py": {
+      "sha256": "9b83d9ee726c0a089c92e7c2ea245a333db0bcbd58cc63b269df2adfa6523dd4",
+      "bytes": 4761
+    },
+    "snapshot/source/pilot/subtitle-rework/N07/verify.py": {
+      "sha256": "962b9765e518a9d84a45e9f98d1a9fd5576bc09936fd943081a6755aba4bcf06",
+      "bytes": 4105
+    },
+    "snapshot/source/pilot/batches/evidence/build.py": {
+      "sha256": "30168eabb738a80128aca86721474f3713171fc060335f6ecbf1d7e9d34c3872",
+      "bytes": 9489
+    },
+    "snapshot/source/pilot/batches/evidence/providers.py": {
+      "sha256": "f63b57967870c45a961f642b8c8e8ca53fcd7c6498dd8fa483f6e74df876a983",
+      "bytes": 5653
+    },
+    "snapshot/source/pilot/batches/evidence/review.py": {
+      "sha256": "84550bb5f0e2c83c0faf6c550a3225dff4e18ec9e5ec0d2a0f19f923aec259e2",
+      "bytes": 3863
+    },
+    "snapshot/source/pilot/batches/evidence/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "snapshot/source/pilot/batches/prompts/build.py": {
+      "sha256": "a4f73bc10b23db18e04ee3f81d26dabcc3542a2e56440a2184d2da16932fe1ee",
+      "bytes": 6567
+    },
+    "snapshot/source/pilot/batches/prompts/proofs.py": {
+      "sha256": "386efbe980691c55214ea5cf1fec247d6e895b28a93a3240f5279f4109c024cb",
+      "bytes": 6911
+    },
+    "snapshot/source/pilot/batches/prompts/providers.py": {
+      "sha256": "8a786dc137ee04c8daaf27d7f2a473bc725a5729881a96fa65d2fc0a3c6adf06",
+      "bytes": 7238
+    },
+    "snapshot/source/pilot/batches/prompts/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "snapshot/source/pilot/batches/stages/build.py": {
+      "sha256": "6c9d6c02dfa5451580e8038f265445ad0ab042a1d5e2f7bed8bbf4abfad23fcf",
+      "bytes": 4180
+    },
+    "snapshot/source/pilot/batches/stages/providers.py": {
+      "sha256": "6dd221f5f92e1f6311d76f628843cbd6fa78a5cf38f3d6811c2b1fc6a734dd0f",
+      "bytes": 10872
+    },
+    "snapshot/source/pilot/batches/stages/verify.py": {
+      "sha256": "3b17f78465e9536fcca04ebc69c8469e08d605218456df2cd0fe7576b3cc465e",
+      "bytes": 4010
+    },
+    "snapshot/source/pilot/batches/stages/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "snapshot/observations/group-catalog.json": {
+      "sha256": "102cbf5722bfc2a557f8c0559aec787fd28fe0385b7204118832a3c71d5ebb1d",
+      "bytes": 163006
+    },
+    "snapshot/render/pilot/all-groups-metadata.json": {
+      "sha256": "a76ee93894b57cd1313fa973bf9b215d3a51150ea0e5f63e320e898d1f0d5062",
+      "bytes": 80287
+    },
+    "snapshot/render/pilot/index.html": {
+      "sha256": "45979302f7f94add7deb31500a9345e88493654d7857b964a94fe089eff190db",
+      "bytes": 29142
+    },
+    "fonts/706b8c0de2de.otf": {
+      "sha256": "706b8c0de2deff6cbc0c87e2cdedfd33a78b7ffd76cebb4549012f197ba611fe",
+      "bytes": 25521732
+    },
+    "snapshot/source/pilot/subtitle-rework/N07/new-content-input.json": {
+      "sha256": "2d1addcb8a5bb48c0de4bbf21141cf3d76c249753583a5fcec47594f60db2fc7",
+      "bytes": 3154
+    },
+    "fonts/1fdeab255303.mp4": {
+      "sha256": "1fdeab255303ee95ae50d27ee1a35462ce3bbf2f8dfec07f3a96b7cf7ed26c33",
+      "bytes": 4292026
+    },
+    "snapshot/source/pilot/batches/evidence/assets/note-0.png": {
+      "sha256": "02a862e9f9ec2243c2e1a9057c240b395499c58e53e16ef6537943b01075a9ed",
+      "bytes": 34478
+    },
+    "snapshot/source/pilot/batches/evidence/assets/note-1.png": {
+      "sha256": "5d1b5c6facba0039f7565eefe6ec65a3518ce93ad8b0ce19ce890b40571424ec",
+      "bytes": 32451
+    },
+    "snapshot/source/pilot/batches/evidence/assets/note-2.png": {
+      "sha256": "ca84bea2573cc0b6913db8a6f05b3bbb2ea625ab73b61d76332e9d5f9e1c8651",
+      "bytes": 37816
+    },
+    "snapshot/source/pilot/batches/evidence/assets/note-3.png": {
+      "sha256": "a2b73125d733aa4ea12ae38cc8ceb91a6d684891d1b836d4130afca758091c62",
+      "bytes": 36513
+    },
+    "snapshot/render/pilot/subtitle-rework/N07/N07.mp4": {
+      "sha256": "187fd8b5d78b5cc3377202633ca3377bec8a94d5bc953d1dd624081f17ddf099",
+      "bytes": 354352
+    },
+    "snapshot/render/pilot/subtitle-rework/N07/N07-reference.mp4": {
+      "sha256": "e89adb63ffad1ff48529c85c296625dc02c15e94a478ebbdbf44540ce29c55f8",
+      "bytes": 266189
+    },
+    "snapshot/source/pilot/subtitle-rework/N07/new-content-recipe.json": {
+      "sha256": "8def1e2e008c40a96979e08bc7c7ea50c5d963c87173b7a86384bc365a6127e6",
+      "bytes": 1642
+    },
+    "fonts/72a6cd94fab6.ttf": {
+      "sha256": "72a6cd94fab6c179392075d3fb361e269cdddfad41bb7ab385fa22a37e49a900",
+      "bytes": 207476
+    },
+    "snapshot/source/pilot/subtitle-rework/emphasis/N13-input.json": {
+      "sha256": "96146de808264d52993ff4f5c59e2a4a98f6f44a14189ffdaa5e782b90429968",
+      "bytes": 3443
+    },
+    "snapshot/render/pilot/subtitle-rework/emphasis/N13.mp4": {
+      "sha256": "d9af8231bbb2ecd4ba4515890107c89025897897753f51de78f0fe54a1883f8b",
+      "bytes": 486956
+    },
+    "snapshot/render/pilot/subtitle-rework/emphasis/N13-reference.mp4": {
+      "sha256": "8ead1190197f32f0ac1165465d96fc94317c40772da5405ba1bf8d7efab14e0a",
+      "bytes": 59272
+    },
+    "snapshot/source/pilot/subtitle-rework/emphasis/N13-recipe.json": {
+      "sha256": "9ac6b9ae72e0d541e5befe7132f99487bb7989fb85ec9e77f3473177757289f5",
+      "bytes": 1570
+    },
+    "snapshot/source/pilot/subtitle-rework/emphasis/N17-input.json": {
+      "sha256": "2aea466eb84a351921bc4643887d906a1714c18b4861aad21db964e6a0b3bee0",
+      "bytes": 2392
+    },
+    "snapshot/render/pilot/subtitle-rework/emphasis/N17.mp4": {
+      "sha256": "33dd153e65652abee35d46bf9e83d0ddb9ac369d49b942fc3b6f53f0f8478517",
+      "bytes": 740371
+    },
+    "snapshot/render/pilot/subtitle-rework/emphasis/N17-reference.mp4": {
+      "sha256": "04ea593a6367d0117e49eccb7965250d83e9360b212d4e46a1f5e688976cc991",
+      "bytes": 168317
+    },
+    "snapshot/source/pilot/subtitle-rework/emphasis/N17-recipe.json": {
+      "sha256": "2efd75b5844249f5d28899fcd06c7a020191cd35808cd09756ef2bd37dcc418c",
+      "bytes": 1773
+    },
+    "fonts/152bc1c4535b.ttf": {
+      "sha256": "152bc1c4535b8bcb6ec52e0aa4563bced6f43206c59ba32fbfa34a6a192a8304",
+      "bytes": 2525144
+    },
+    "snapshot/source/pilot/subtitle-rework/closing/N21-input.json": {
+      "sha256": "262037276739032cd15693b976bf4f1a5dbf4b42a0ef6a9d6f850ee2d64714e9",
+      "bytes": 2081
+    },
+    "snapshot/render/pilot/subtitle-rework/closing/N21-applied.mp4": {
+      "sha256": "b3877e3809f6c34e02e54e4a307ba67aa0bed01840d949bffb27dcfa39bb1fd5",
+      "bytes": 446687
+    },
+    "snapshot/render/pilot/subtitle-rework/closing/N21-reference.mp4": {
+      "sha256": "b1772c156910ca0caa26869a37d67ac451896bf01fd502861ea659e6b6b71ee2",
+      "bytes": 122270
+    },
+    "snapshot/source/pilot/subtitle-rework/closing/N21-recipe.json": {
+      "sha256": "c26d2890f0a295032a793661e929b3117cf8049902777ee2bb5c95f6c822cd6e",
+      "bytes": 1511
+    },
+    "snapshot/source/pilot/subtitle-rework/closing/N22-input.json": {
+      "sha256": "374287c8cd535d9a47b62029967ef19d5f96e89f31f4173ba569575dbca9f24b",
+      "bytes": 2081
+    },
+    "snapshot/render/pilot/subtitle-rework/closing/N22-applied.mp4": {
+      "sha256": "b9982dd61841668d2b0cde8550c5608bed9110973c83895eca5ba3ca70bdc7af",
+      "bytes": 557137
+    },
+    "snapshot/render/pilot/subtitle-rework/closing/N22-reference.mp4": {
+      "sha256": "101818a8e44ca9105904d6fbf617d6858a7df4a93477bb8531e6adb75434c530",
+      "bytes": 114506
+    },
+    "snapshot/source/pilot/subtitle-rework/closing/N22-recipe.json": {
+      "sha256": "65a56b2c4ffe881d0b47d5e1ff8a340608b2d2a4bf842970879276ff9096ecc6",
+      "bytes": 1511
+    },
+    "snapshot/source/pilot/subtitle-rework/closing/N24-input.json": {
+      "sha256": "13d0dd260f5b9be48cb7271862fb5c718a1fb464c8c8a4b167669855edc33228",
+      "bytes": 3018
+    },
+    "snapshot/render/pilot/subtitle-rework/closing/N24-applied.mp4": {
+      "sha256": "6008adda78c1f4de2ab42cd35791b36204f8478c1ee68a4712a764775dbd4a73",
+      "bytes": 756110
+    },
+    "snapshot/render/pilot/subtitle-rework/closing/N24-reference.mp4": {
+      "sha256": "441a4b16e762a600808f94e41ca080403f8da20822fdefe939dd9080ccb2e94c",
+      "bytes": 250005
+    },
+    "snapshot/source/pilot/subtitle-rework/closing/N24-recipe.json": {
+      "sha256": "4b7b0e24819d7642d93ca7fb82649d44c05bf3f1bdcc26ced900923de24d46ad",
+      "bytes": 1377
+    },
+    "snapshot/reviews/pilot/subtitle-rework/before-metadata.json": {
+      "sha256": "620dc97bfe2f577087d945662b3b91251b550b0d085c448021aeec91b6d0030d",
+      "bytes": 71259
+    },
+    "snapshot/reviews/pilot/subtitle-rework/browser.json": {
+      "sha256": "c5ef2b853a14dda483d37af45cee879362218ee76b2199f963faa48b17f7f5ea",
+      "bytes": 1220
+    },
+    "snapshot/reviews/pilot/subtitle-rework/case-learning.json": {
+      "sha256": "7a4030a144c6412ffe375370975224cb721089557e30bc4eefa7ca20a519ae1a",
+      "bytes": 2502
+    },
+    "snapshot/reviews/pilot/subtitle-rework/integration.json": {
+      "sha256": "43a5f03555755b08597057a9f21be6a379b44cd51609b0ed4d80bc516f541999",
+      "bytes": 3850
+    },
+    "snapshot/reviews/pilot/subtitle-rework/N07-browser.png": {
+      "sha256": "2d55874663b5ddf52a778289acae31819d387ea72c85ecbbc697f1af222a36e5",
+      "bytes": 232590
+    },
+    "snapshot/reviews/pilot/subtitle-rework/N07-source.jpg": {
+      "sha256": "a68ca0c46daddb1cf7ed2fc96cbc23cf8f659b5983fe9f5d6f115aadf927ccb2",
+      "bytes": 112129
+    },
+    "snapshot/reviews/pilot/subtitle-rework/N13-browser.png": {
+      "sha256": "a0c126506cd7b228eda46a7ce71308b2c30c12af20c192954fb819168c3bdb0f",
+      "bytes": 379487
+    },
+    "snapshot/reviews/pilot/subtitle-rework/N13-source.jpg": {
+      "sha256": "461d3c1efdb9f23d1c45f675b466a6838ba075830a12c61f8c2ca84453383d3b",
+      "bytes": 210648
+    },
+    "snapshot/reviews/pilot/subtitle-rework/N17-browser.png": {
+      "sha256": "23f6d02098f139527baba581b75c0db356d04ffff488c93538acca40feb145d2",
+      "bytes": 390831
+    },
+    "snapshot/reviews/pilot/subtitle-rework/N17-source.jpg": {
+      "sha256": "8524a97342a89eb14b412323562c136faeec9b197004bb5552adcb2510b3ad33",
+      "bytes": 145968
+    },
+    "snapshot/reviews/pilot/subtitle-rework/N21-browser.png": {
+      "sha256": "c5b4cfdc3d5377d5adeed074c346cb24c2ee129bdc6d5f5e708fd85f4f765bad",
+      "bytes": 388764
+    },
+    "snapshot/reviews/pilot/subtitle-rework/N21-source.jpg": {
+      "sha256": "26c5cccc21b0a516def75cc6fd6036acb218b7c1fecd3b9d87b1341b944a5ce9",
+      "bytes": 232265
+    },
+    "snapshot/reviews/pilot/subtitle-rework/N22-browser.png": {
+      "sha256": "ff48945f13a319b1a92ecd73b3f569365196f5e0ee6dbee68fff5003ab654d48",
+      "bytes": 388084
+    },
+    "snapshot/reviews/pilot/subtitle-rework/N22-source.jpg": {
+      "sha256": "457c0f8d87f409741e24efcbd6d71e2d5ef7bbead69dd6d6d7e8dc9777447164",
+      "bytes": 203672
+    },
+    "snapshot/reviews/pilot/subtitle-rework/N24-browser.png": {
+      "sha256": "dc45afd50be73b1b189131cadb6e1b01b90ba2ee8c5a00417279547537fab318",
+      "bytes": 374432
+    },
+    "snapshot/reviews/pilot/subtitle-rework/N24-source.jpg": {
+      "sha256": "6b0400cfdfc4db41b45e0077462276abfd595c093c492edb8a46da8ea4af42e0",
+      "bytes": 162948
+    },
+    "snapshot/reviews/pilot/subtitle-rework/closing/ink-measurements.json": {
+      "sha256": "974e6438b22796dc5af841d46ee4e3f84e821a81133952c04c96989084a4bfb7",
+      "bytes": 943
+    },
+    "snapshot/reviews/pilot/subtitle-rework/closing/N21-entry-detail.jpg": {
+      "sha256": "5eb08dc7f07dba160b3ba63e28d13c7d622047c5abed007718795a68fa94cfb9",
+      "bytes": 206508
+    },
+    "snapshot/reviews/pilot/subtitle-rework/closing/N21-gold-weight-candidates.jpg": {
+      "sha256": "0b4af20dc13061490b984ab3fab362631ec34dbf9215d6e0dde398aa687b5192",
+      "bytes": 12466
+    },
+    "snapshot/reviews/pilot/subtitle-rework/closing/N21-new-content-encoded.jpg": {
+      "sha256": "319550a75be84b9945b7424dcbfa4934c207bdddacc46d87656c6361f5e938a9",
+      "bytes": 93366
+    },
+    "snapshot/reviews/pilot/subtitle-rework/closing/N21-same-clock-process.jpg": {
+      "sha256": "586f2839b85cdd9128c5d21621841aa7f3134184d627696417a1f9e2324d07c8",
+      "bytes": 103401
+    },
+    "snapshot/reviews/pilot/subtitle-rework/closing/N21-same-word-static.jpg": {
+      "sha256": "7a5b894de0a12dbef5768372bfa2f14013a508bbabda433a0a63bb34626055d5",
+      "bytes": 14005
+    },
+    "snapshot/reviews/pilot/subtitle-rework/closing/N21-source-process.jpg": {
+      "sha256": "f92fecb049a3aa27e25a653815280fc01389d2e7c052cdd3c38432004bec4566",
+      "bytes": 142352
+    },
+    "snapshot/reviews/pilot/subtitle-rework/closing/N21-verification.json": {
+      "sha256": "30fa553be5a8a2844c7631560905afd8a6882fed462f78256f05977037e315ef",
+      "bytes": 1333
+    },
+    "snapshot/reviews/pilot/subtitle-rework/closing/N22-entry-detail.jpg": {
+      "sha256": "abaf5ff177b3a3bbeffc15d42f056c31766b5f948af7100be7fd73ab36626b1b",
+      "bytes": 196335
+    },
+    "snapshot/reviews/pilot/subtitle-rework/closing/N22-new-content-encoded.jpg": {
+      "sha256": "3f227d5fc36576ca49c1f390ee0591024df1a08eb4395759ea18d1c01b90a4fe",
+      "bytes": 95943
+    },
+    "snapshot/reviews/pilot/subtitle-rework/closing/N22-same-clock-process.jpg": {
+      "sha256": "d8e7557e0320234d1f7a640da785a815db42750ba961284b285c9f433e6e6092",
+      "bytes": 100277
+    },
+    "snapshot/reviews/pilot/subtitle-rework/closing/N22-same-word-static.jpg": {
+      "sha256": "d8dc78639348bdc84158dc5e46303323453ca6543eeded481e2042017ce5a6c0",
+      "bytes": 12183
+    },
+    "snapshot/reviews/pilot/subtitle-rework/closing/N22-source-process.jpg": {
+      "sha256": "bc75a0f02f8cf0237135937f77ab15559e7c86e8c281efdd8ebe98cf1f5981d1",
+      "bytes": 140801
+    },
+    "snapshot/reviews/pilot/subtitle-rework/closing/N22-verification.json": {
+      "sha256": "edb4795f19d3746f1cff781fbe6ec5a09677e17f8d8d8e25a4512ae671af7398",
+      "bytes": 1333
+    },
+    "snapshot/reviews/pilot/subtitle-rework/closing/N24-entry-detail.jpg": {
+      "sha256": "4699b24a32241c1ab5e7ae59c88aa7737b3c6c4ca47ba581a75761f10aa729c0",
+      "bytes": 163976
+    },
+    "snapshot/reviews/pilot/subtitle-rework/closing/N24-new-content-encoded.jpg": {
+      "sha256": "d1198de36dcf0c5153d6ae4d075f6d7d625ba77311a1f7bb0010529644edb8f6",
+      "bytes": 92840
+    },
+    "snapshot/reviews/pilot/subtitle-rework/closing/N24-same-clock-process.jpg": {
+      "sha256": "b1448eeade4249d6bbdb20270d31000848b50bd22d22389af0c660b756ef8cbe",
+      "bytes": 81528
+    },
+    "snapshot/reviews/pilot/subtitle-rework/closing/N24-same-word-static.jpg": {
+      "sha256": "5e45847f7f9c2c2d2e7c41d3130095fe8296398d269120aac46c13dd35349653",
+      "bytes": 10845
+    },
+    "snapshot/reviews/pilot/subtitle-rework/closing/N24-source-process.jpg": {
+      "sha256": "920cd33faf923b8c269c6eb165ca3a9c95309ab38ca34c833ea834a2fce8311c",
+      "bytes": 126835
+    },
+    "snapshot/reviews/pilot/subtitle-rework/closing/N24-verification.json": {
+      "sha256": "efe5101781643ca0627de59883359504e224833fb7fdf496ed74b240093526aa",
+      "bytes": 1321
+    },
+    "snapshot/reviews/pilot/subtitle-rework/closing/rework.json": {
+      "sha256": "ec73abd2009120bcc847f4f5d04ca8de950fe91b7e1a6b08089ca6659f8cc60f",
+      "bytes": 1298
+    },
+    "snapshot/reviews/pilot/subtitle-rework/closing/same-word-font-candidates.jpg": {
+      "sha256": "47c0b00afe6f1db62518b300d1771a2074b46006fc4c5be2def70254e289a850",
+      "bytes": 27910
+    },
+    "snapshot/reviews/pilot/subtitle-rework/closing/same-word-layout.json": {
+      "sha256": "be7d0310a0f06d7a229dc774637a29d0189e17de967d72843e3940334fb4db28",
+      "bytes": 2238
+    },
+    "snapshot/reviews/pilot/subtitle-rework/emphasis/font-shadow-checks.json": {
+      "sha256": "0e5fefdb0b356c41746271456a44e446a657b6e82822675b82c9ea9be62b45ce",
+      "bytes": 786
+    },
+    "snapshot/reviews/pilot/subtitle-rework/emphasis/N13-encoded-complete-compare.jpg": {
+      "sha256": "a562a9e598ac0ef66b9a794fb2dfaab88a3ca976c5334251e4cdde3b905976f8",
+      "bytes": 188038
+    },
+    "snapshot/reviews/pilot/subtitle-rework/emphasis/N13-gold-colour-measure.json": {
+      "sha256": "56bc5eeb221aa318ea6e12fda9dc0941aaf91957055bc6177988a865a1d766a8",
+      "bytes": 3446
+    },
+    "snapshot/reviews/pilot/subtitle-rework/emphasis/N13-same-word-encoded-process.jpg": {
+      "sha256": "01bc229c10bb4b666275279f01d614d26df4db94719c46e8c8bc03aa06464648",
+      "bytes": 125796
+    },
+    "snapshot/reviews/pilot/subtitle-rework/emphasis/N13-same-word-input.json": {
+      "sha256": "80d87a0cd1e8b6675a5f11236d76f78a17391fe5c0852049b72a69fb16d7e8c3",
+      "bytes": 3442
+    },
+    "snapshot/reviews/pilot/subtitle-rework/emphasis/N13-source-every-frame.jpg": {
+      "sha256": "b8f83913324860cd6f34bdaea948ab7cc80ea234feadd0309869f60138bc0851",
+      "bytes": 182007
+    },
+    "snapshot/reviews/pilot/subtitle-rework/emphasis/N17-encoded-complete-compare.jpg": {
+      "sha256": "dfb99b982160c6b8a1def9f12e2e167788dfebf501be3c3d7bc1434e7f4be24f",
+      "bytes": 191642
+    },
+    "snapshot/reviews/pilot/subtitle-rework/emphasis/N17-same-word-encoded-process.jpg": {
+      "sha256": "3f2620455a6d28350802b45f97982b6e4f8173868056af986bc4b636c92286fc",
+      "bytes": 130721
+    },
+    "snapshot/reviews/pilot/subtitle-rework/emphasis/N17-same-word-input.json": {
+      "sha256": "a27b064abc2184c6fe96823439153789fc06dc7115f8039fa7e84b3aea01c058",
+      "bytes": 2392
+    },
+    "snapshot/reviews/pilot/subtitle-rework/emphasis/N17-source-every-frame.jpg": {
+      "sha256": "2af6b54491da49a85628c6f4512dcb8cc988adfc652636dfc8a42d5463cc6b59",
+      "bytes": 110301
+    },
+    "snapshot/reviews/pilot/subtitle-rework/emphasis/N17-word-motion.jpg": {
+      "sha256": "7d6966cb41ac93ed816e65b4b8eea8fd2b71db0550a0325fc8a5001db3cc2e83",
+      "bytes": 109055
+    },
+    "snapshot/reviews/pilot/subtitle-rework/emphasis/review.json": {
+      "sha256": "85408d2238e761bbca85e281dfef8501eac4be7a1f6e4f12be0b03d6e5c08514",
+      "bytes": 3466
+    },
+    "snapshot/reviews/pilot/subtitle-rework/emphasis/same-word-static-font-comparison.jpg": {
+      "sha256": "cfb8fa7e677e7750d01cbdd7d29cfb42a25e2bfcbb5c76acda3bc00829745de2",
+      "bytes": 32714
+    },
+    "snapshot/reviews/pilot/subtitle-rework/emphasis/source-1421.png": {
+      "sha256": "835db871d58db68d1f307154a1fd91fd8ca7f80af498cf32a96d62c45562c1f3",
+      "bytes": 107126
+    },
+    "snapshot/reviews/pilot/subtitle-rework/emphasis/source-1430.png": {
+      "sha256": "6d37490a71f08fcf07887767766f9ee578ea1b417666741f4bcf4afd3bfe9826",
+      "bytes": 115593
+    },
+    "snapshot/reviews/pilot/subtitle-rework/emphasis/source-1442.png": {
+      "sha256": "5758f3fa8d900e80187105c2618f33a8babfee3d35b0c5b8e6bd1d31468e0551",
+      "bytes": 118766
+    },
+    "snapshot/reviews/pilot/subtitle-rework/emphasis/source-1863.png": {
+      "sha256": "d5492e28a92f01ab899ed0dff9403d5a4178e7709b546a97502cc0f2fb5c1c0e",
+      "bytes": 118824
+    },
+    "snapshot/reviews/pilot/subtitle-rework/emphasis/source-1878.png": {
+      "sha256": "6fe898e044cacdbbf66c73d9c07b7ee074c658aff142b8efb7a5d2c32f915dce",
+      "bytes": 134825
+    },
+    "snapshot/reviews/pilot/subtitle-rework/emphasis/source-1910.png": {
+      "sha256": "d38e2838ecaea0af63166f536f19aeadcc1a5cdbb7732df47f3b0a0dc2c9a714",
+      "bytes": 130152
+    },
+    "snapshot/reviews/subtitle-rework/N07/crop-530.png": {
+      "sha256": "95f8e8b576d47014c5325d94cc55a3622c2dd9cfec86416ffc7c7b0a590765cf",
+      "bytes": 15407
+    },
+    "snapshot/reviews/subtitle-rework/N07/crop-540.png": {
+      "sha256": "c5704fb64ddc039861de9b7553af981ee8e1dda3bafa006defe88930e6b5f08a",
+      "bytes": 48266
+    },
+    "snapshot/reviews/subtitle-rework/N07/crop-550.png": {
+      "sha256": "3967bcbabc03cf403491de8483cc4527ed45fe5e2ee51e79ffce75f57568884c",
+      "bytes": 55131
+    },
+    "snapshot/reviews/subtitle-rework/N07/crop-553.png": {
+      "sha256": "686da5e4423ac4085fe1403377be9ec060dd453649eb77452a9b0e231da2c6cf",
+      "bytes": 66735
+    },
+    "snapshot/reviews/subtitle-rework/N07/crop-556.png": {
+      "sha256": "92ec05f753a570a873343da36b7111d586c4fdaef85cc28d96adf4cf2b48581e",
+      "bytes": 71160
+    },
+    "snapshot/reviews/subtitle-rework/N07/crop-560.png": {
+      "sha256": "dda7f371020e89f1ea41a8902e809d413ae9e7e98e98c40c16f64cb49a28aded",
+      "bytes": 116917
+    },
+    "snapshot/reviews/subtitle-rework/N07/crop-565.png": {
+      "sha256": "9d36a4dcf1af144ce1e390d2aa2d2d73aa4102dfbbb96088768ab9bbb749f827",
+      "bytes": 146726
+    },
+    "snapshot/reviews/subtitle-rework/N07/crop-575.png": {
+      "sha256": "14f8c6735f4b271ca33944f474ae1d67be127d7c2904fc2832a3b520d68152d6",
+      "bytes": 151751
+    },
+    "snapshot/reviews/subtitle-rework/N07/gold-114.png": {
+      "sha256": "ae9c4ace393edac73087591085d86cf6a9bb99faf6df9ed2efc29dcfd12e6ddd",
+      "bytes": 2411
+    },
+    "snapshot/reviews/subtitle-rework/N07/gold-120.png": {
+      "sha256": "49f091f1a39924e8872c3919ba5e9d0a4f71a22aed7ba6e657c2a455293c30af",
+      "bytes": 2481
+    },
+    "snapshot/reviews/subtitle-rework/N07/gold-134.png": {
+      "sha256": "77ab3fe86a45a86945cc3c607116fb4883dd0bd8f1c418e705c64e0c17e8ed67",
+      "bytes": 2492
+    },
+    "snapshot/reviews/subtitle-rework/N07/process-comparison.jpg": {
+      "sha256": "2210ccb4500e58c64e13626deff7b9ce7de7e393ade0bf54098488df8e6d64c6",
+      "bytes": 289999
+    },
+    "snapshot/reviews/subtitle-rework/N07/same-word-calibration.png": {
+      "sha256": "1dfe100d56cdc58be109bc67e9bef1f0c26b472766b8f863b5cd6e943164081a",
+      "bytes": 100317
+    },
+    "snapshot/reviews/subtitle-rework/N07/source-phases.jpg": {
+      "sha256": "18de51d7555bcb59bd18be7b49d17ac7aa89ca7a5184b59cdffde0b3b128fa92",
+      "bytes": 372319
+    },
+    "snapshot/reviews/subtitle-rework/N07/split-timing.jpg": {
+      "sha256": "d088e4e60ba6ae07c43558b29d61e2fe400a0bca5b18f4cb849dec595b031458",
+      "bytes": 77426
+    },
+    "snapshot/reviews/subtitle-rework/N07/verification.json": {
+      "sha256": "cb359cf85ab2ee4ec2a0a0a0608338bd3f5ebe2b944a1da8df5cc6f6cf43ac66",
+      "bytes": 642
+    },
+    "snapshot/source/pilot/subtitle-rework/closing/N21-same-word.json": {
+      "sha256": "e5865b72c2fd2aa947cc3e339208023becfb9790d620d3a0e25fa2a025e3e958",
+      "bytes": 2089
+    },
+    "snapshot/source/pilot/subtitle-rework/closing/N22-same-word.json": {
+      "sha256": "e6ae5d5fa7e9787412f182a7c1a7e9f247611038e6cdc913512ddb7029c9df94",
+      "bytes": 2081
+    },
+    "snapshot/source/pilot/subtitle-rework/closing/N24-same-word.json": {
+      "sha256": "ec67ea1bfe2efc172797d466425a5a3823dd058c587e8b1f0ae22a468acede97",
+      "bytes": 3070
+    },
+    "snapshot/source/pilot/subtitle-rework/closing/PURPOSE.md": {
+      "sha256": "ce306704f30fa1fd50486b24a13c366939f9c488f715ad2a32f8a3f92e700503",
+      "bytes": 2613
+    },
+    "snapshot/source/pilot/subtitle-rework/N07/font-metrics.json": {
+      "sha256": "8c22b1483bc0e87650b769d58cd90998788e624e922f6ae71130ad1b37d3cb24",
+      "bytes": 1999
+    },
+    "snapshot/source/pilot/subtitle-rework/N07/OBSERVATION.md": {
+      "sha256": "17a8ec949ce17449ddb6ed3964e8455c0941c21e0294455e52b2b2598ff7bac6",
+      "bytes": 2916
+    },
+    "snapshot/source/pilot/subtitle-rework/N07/same-word-input.json": {
+      "sha256": "9d8df0826e65d8c945d0de57a2dd9a1e9184eda5e35fee4e5ae3af54fdbe70f7",
+      "bytes": 3178
+    },
+    "snapshot/source/pilot/subtitle-rework/N07/same-word-recipe.json": {
+      "sha256": "7fd4f0caee798cb91843f131a2d89fc76122e353a1b06781eb0f0b7bf76d69d2",
+      "bytes": 1640
+    }
+  },
+  "fontMap": {
+    "D:\\SKILL\\font-check\\SourceHanSerifSC-Bold.otf": "fonts/706b8c0de2de.otf",
+    "C:\\Users\\Administrator\\.codex\\skills\\motion-replication-pipeline\\assets\\migration-demo\\talking-head-raw.mp4": "fonts/1fdeab255303.mp4",
+    "C:\\Windows\\Fonts\\georgiab.ttf": "fonts/72a6cd94fab6.ttf",
+    "C:\\Windows\\Fonts\\Source Han Serif SC Heavy (TrueType).ttf": "fonts/152bc1c4535b.ttf"
+  },
+  "stageAccepted": false,
+  "formalLibraryExpanded": false
+}

@@ -1,0 +1,3061 @@
+{
+  "schema": 1,
+  "createdAtUtc": "2026-11-10T14:49:41.305806+00:00",
+  "humanQuote": "好的；当前19组全部通过",
+  "catalogCompleteOccurrences": 17,
+  "legacyMemberCount": 19,
+  "countExplanation": "User calls19 by historical IDs; final merged catalogue contains17 complete occurrences. No additional groups invented.",
+  "groups": [
+    {
+      "occurrence": "cg01",
+      "name": "暗角、底部图片与开场文字揭晓",
+      "sourceFrames": [
+        0,
+        66
+      ],
+      "rawRange": [
+        0.0,
+        5.8
+      ],
+      "video": "render/pilot/last-four/opening/cg01.mp4",
+      "videoSha256": "bcb7473ca503f5f4467ca8165de1ea9d659399075e61f4a2e2e75ab8e8991cad",
+      "recipe": "source/pilot/last-four/opening/cg01-recipe.json",
+      "recipeSha256": "9245808b61a20af02bc53229f177ac7ebf4e5013db074d2852f7f8ac33e8b79c",
+      "parameters": "source/pilot/last-four/opening/cg01-input.json",
+      "parametersSha256": "39f1e0319a10b617121c93147427286c0e0d9d60bf7c5fe921c185968c99264e",
+      "components": [
+        {
+          "kind": "visual",
+          "family": "v01",
+          "source": "source/pilot/components/visual.py",
+          "actualSha256": "88db2994474246464846cdbedba12d1df8bb7f29c9fb23a098ae2f7afe882a76",
+          "recipeSha256": "88db2994474246464846cdbedba12d1df8bb7f29c9fb23a098ae2f7afe882a76",
+          "recipeBindingMatches": true
+        },
+        {
+          "kind": "subtitle",
+          "family": "t01",
+          "source": "source/pilot/components/subtitle.py",
+          "actualSha256": "efd008696ea2b1de1f4d430e18719584350436b1ac1003102e598252146f614a",
+          "recipeSha256": "efd008696ea2b1de1f4d430e18719584350436b1ac1003102e598252146f614a",
+          "recipeBindingMatches": true
+        }
+      ],
+      "compositionOrder": [
+        "visual.presenter",
+        "visual.focus",
+        "visual.workPhoto",
+        "subtitle.questionText"
+      ],
+      "status": "human-approved-displayed-media",
+      "disclosedLimitations": [
+        "原字体身份未确认，候选字形/材质仍需用户复审",
+        "新口播原声保留，原片音效尚未重建，词时钟未经听审",
+        "新片时长延长，仅可阶段对齐，不冒充原时钟同帧比较",
+        "真实工作照片与原工作图片不同"
+      ]
+    },
+    {
+      "occurrence": "cg02",
+      "name": "撒金币与财富标题的连续组合",
+      "sourceFrames": [
+        108,
+        174
+      ],
+      "rawRange": [
+        29.3,
+        32.1
+      ],
+      "video": "render/pilot/last-four/opening/cg02.mp4",
+      "videoSha256": "cb7eaf3b2cdcb9b41b19e96f1f04e549e49184acfbba6a2f28f59a99cfaebbc5",
+      "recipe": "source/pilot/last-four/opening/cg02-recipe.json",
+      "recipeSha256": "97c682358a933a14be392d295e526fcb7d6bfb1d2424c6bec3556db5212e3f16",
+      "parameters": "source/pilot/last-four/opening/cg02-input.json",
+      "parametersSha256": "00af0a1107b22141608c5fd3d9051617d3b287ab0b0235796d721d3a1123b376",
+      "components": [
+        {
+          "kind": "visual",
+          "family": "v02",
+          "source": "source/pilot/components/visual.py",
+          "actualSha256": "88db2994474246464846cdbedba12d1df8bb7f29c9fb23a098ae2f7afe882a76",
+          "recipeSha256": "88db2994474246464846cdbedba12d1df8bb7f29c9fb23a098ae2f7afe882a76",
+          "recipeBindingMatches": true
+        },
+        {
+          "kind": "subtitle",
+          "family": "t02",
+          "source": "source/pilot/components/subtitle.py",
+          "actualSha256": "efd008696ea2b1de1f4d430e18719584350436b1ac1003102e598252146f614a",
+          "recipeSha256": "efd008696ea2b1de1f4d430e18719584350436b1ac1003102e598252146f614a",
+          "recipeBindingMatches": true
+        }
+      ],
+      "compositionOrder": [
+        "visual.presenter",
+        "subtitle.behindTitle",
+        "visual.presenterForeground",
+        "visual.symbols",
+        "subtitle.speechCaption"
+      ],
+      "status": "human-approved-displayed-media",
+      "disclosedLimitations": [
+        "原字体身份未确认，候选字形/材质仍需用户复审",
+        "新口播原声保留，原片音效尚未重建，词时钟未经听审",
+        "新片时长延长，仅可阶段对齐，不冒充原时钟同帧比较",
+        "红色警示SVG为风险语义替换，材质与原金币不同",
+        "RVM柔边改善人手/头发遮挡，局部发丝仍可有柔边误差"
+      ]
+    },
+    {
+      "occurrence": "cg04",
+      "name": "城市语境、人物窗与工资案例斜切推进",
+      "sourceFrames": [
+        174,
+        300
+      ],
+      "rawRange": [
+        14.466667,
+        19.5
+      ],
+      "video": "render/pilot/detail-two/cg04.mp4",
+      "videoSha256": "4361550c64928a1b7b88b0f090468e705cbe6935a0ae9ffcf0685a6ef772b918",
+      "recipe": "source/pilot/detail-two/cg04-recipe.json",
+      "recipeSha256": "21809c9b3122a05aa5c03337b7d23e8b03754a747dee647706639f23513bf745",
+      "parameters": "source/pilot/detail-two/cg04-input.json",
+      "parametersSha256": "cd6316af18882b69c07a6728490805841a95ce4f3b264dfd4dcebcede772c48e",
+      "components": [
+        {
+          "kind": "visual",
+          "family": "v03",
+          "source": "source/pilot/components/scene_batch.py",
+          "actualSha256": "b8e3f1f59644e80a809986bb038454ce6aa98bad5b91eedb76f036b075896561",
+          "recipeSha256": "4189d5e8abfa1900ead7014479c0d9552cfe8309e476869bf478f43dbd65ca9e",
+          "recipeBindingMatches": false
+        },
+        {
+          "kind": "subtitle",
+          "family": "t03",
+          "source": "source/pilot/components/scene_batch.py",
+          "actualSha256": "b8e3f1f59644e80a809986bb038454ce6aa98bad5b91eedb76f036b075896561",
+          "recipeSha256": "4189d5e8abfa1900ead7014479c0d9552cfe8309e476869bf478f43dbd65ca9e",
+          "recipeBindingMatches": false
+        }
+      ],
+      "compositionOrder": [
+        "visual.background",
+        "visual.example",
+        "visual.tornEdge",
+        "visual.presenter",
+        "visual.returnPresenter",
+        "subtitle.text"
+      ],
+      "status": "human-approved-displayed-media",
+      "disclosedLimitations": [
+        "原片城市与真人工作素材改为新内容SVG示意，视觉材质不同；不是原作者SVG源码",
+        "粗黑标题字形仍为Noto候选人工加重，笔画端点与原片窄黑体有差异",
+        "动作与新口播时长按阶段调整；新音轨保留，原音效未独立重建且未听审"
+      ]
+    },
+    {
+      "occurrence": "cg06",
+      "name": "解释口播与重点词字幕",
+      "sourceFrames": [
+        300,
+        366
+      ],
+      "rawRange": [
+        19.4,
+        22.6
+      ],
+      "video": "render/pilot/t04/applied-A.mp4",
+      "videoSha256": "d0a41a1a09fa969301d53ea8a6c38f508d589db6e65a4d0b24e63b50094ee72c",
+      "recipe": "source/pilot/batches/closing/cg06-recipe.json",
+      "recipeSha256": "b902f81041ac097f1a8b9fab86f57c6d2324225ef1195998b125e1ffddf14138",
+      "parameters": "source/pilot/batches/closing/cg06-input.json",
+      "parametersSha256": "126cd25b2245599a73a394bf16bd28b1ea1d95a3384d0f2fb3e74c7852f98b4e",
+      "components": [
+        {
+          "kind": "visual",
+          "family": null,
+          "source": "source/pilot/components/runtime.py",
+          "actualSha256": "b543e9a16b8d09f702c87f591270d1d26552e8dd4f31ef594c1d69467f819bd7",
+          "recipeSha256": "b543e9a16b8d09f702c87f591270d1d26552e8dd4f31ef594c1d69467f819bd7",
+          "recipeBindingMatches": true
+        },
+        {
+          "kind": "subtitle",
+          "family": "t04",
+          "source": "source/pilot/components/closing_batch.py",
+          "actualSha256": "56067a89c1d43e7fa1ae1bce5519da89144796a7852cde95e57f229f4c839d2d",
+          "recipeSha256": "4ff5893c22ee1dd032a7492294cbaf378e9f15336683587de3c7db9239215bb0",
+          "recipeBindingMatches": false
+        }
+      ],
+      "compositionOrder": [
+        "visual.presenter",
+        "subtitle.text"
+      ],
+      "status": "human-approved-displayed-media",
+      "disclosedLimitations": [
+        "原字体身份仍未确认；字体为候选近似",
+        "新口播字词时间尚未人工听审，语义时点为机器识别候选"
+      ]
+    },
+    {
+      "occurrence": "cg07",
+      "name": "双卡片对比与递进标签",
+      "sourceFrames": [
+        367,
+        450
+      ],
+      "rawRange": [
+        5.833333,
+        9.566667
+      ],
+      "video": "render/pilot/detail-rest/scene/cg07.mp4",
+      "videoSha256": "b811188b976eb761146b05344c7b63a31435d8a2544c327f036efb25456e1067",
+      "recipe": "source/pilot/detail-rest/scene/cg07-recipe.json",
+      "recipeSha256": "a7ee6a31c56168ede17dec925e50f2a6602a7c5d939ed656f9f52a52f06447b6",
+      "parameters": "source/pilot/detail-rest/scene/cg07-input.json",
+      "parametersSha256": "cc68270fa2130b117b6a84e603f079becc0f14481ccb0aca7e65b5d81c2cb6cd",
+      "components": [
+        {
+          "kind": "visual",
+          "family": "v05",
+          "source": "source/pilot/components/scene_batch.py",
+          "actualSha256": "b8e3f1f59644e80a809986bb038454ce6aa98bad5b91eedb76f036b075896561",
+          "recipeSha256": "a87350f5bcea354f5e8e3b15ce5561527724a2047592f567568830154b022168",
+          "recipeBindingMatches": false
+        },
+        {
+          "kind": "subtitle",
+          "family": "t05",
+          "source": "source/pilot/components/scene_batch.py",
+          "actualSha256": "b8e3f1f59644e80a809986bb038454ce6aa98bad5b91eedb76f036b075896561",
+          "recipeSha256": "a87350f5bcea354f5e8e3b15ce5561527724a2047592f567568830154b022168",
+          "recipeBindingMatches": false
+        }
+      ],
+      "compositionOrder": [
+        "visual.background",
+        "visual.presenter",
+        "visual.leftCard",
+        "visual.rightCard",
+        "subtitle.text"
+      ],
+      "status": "human-approved-displayed-media",
+      "disclosedLimitations": [
+        "原字体未确认；候选按角色墨迹盒校准仍有字形差异",
+        "SVG为新口播语义示意素材，不代表原片真实案例视频",
+        "新口播原声保留；原片音效未重建，词级时间未听审"
+      ]
+    },
+    {
+      "occurrence": "cg08",
+      "name": "叠放示例面板与面板字幕",
+      "sourceFrames": [
+        462,
+        531
+      ],
+      "rawRange": [
+        24.466667,
+        29.333333
+      ],
+      "video": "render/pilot/detail-rest/scene/cg08.mp4",
+      "videoSha256": "4d4ae5a22df3916a815c5bf6dad255bd88ce02333d33b75a85b3b126487f5374",
+      "recipe": "source/pilot/detail-rest/scene/cg08-recipe.json",
+      "recipeSha256": "44f3e2f938c10d4273f1aa5d3430c8bc430b83fd6f511bd5b6021fc2aba29760",
+      "parameters": "source/pilot/detail-rest/scene/cg08-input.json",
+      "parametersSha256": "0015e1e5285ed6a4d9b7089923463096fe03fdb335869c4129db7b79e4976b9c",
+      "components": [
+        {
+          "kind": "visual",
+          "family": "v06",
+          "source": "source/pilot/components/scene_batch.py",
+          "actualSha256": "b8e3f1f59644e80a809986bb038454ce6aa98bad5b91eedb76f036b075896561",
+          "recipeSha256": "a87350f5bcea354f5e8e3b15ce5561527724a2047592f567568830154b022168",
+          "recipeBindingMatches": false
+        },
+        {
+          "kind": "subtitle",
+          "family": "t06",
+          "source": "source/pilot/components/scene_batch.py",
+          "actualSha256": "b8e3f1f59644e80a809986bb038454ce6aa98bad5b91eedb76f036b075896561",
+          "recipeSha256": "a87350f5bcea354f5e8e3b15ce5561527724a2047592f567568830154b022168",
+          "recipeBindingMatches": false
+        }
+      ],
+      "compositionOrder": [
+        "visual.background",
+        "visual.topPanel",
+        "visual.secondPanel",
+        "visual.presenter",
+        "subtitle.text"
+      ],
+      "status": "human-approved-displayed-media",
+      "disclosedLimitations": [
+        "原字体未确认；候选按角色墨迹盒校准仍有字形差异",
+        "SVG为新口播语义示意素材，不代表原片真实案例视频",
+        "新口播原声保留；原片音效未重建，词级时间未听审",
+        "模型抠像边缘仍需用户复审，不能称任意人物适用"
+      ]
+    },
+    {
+      "occurrence": "cg09",
+      "name": "横线框景与人物窗（仅画面动效）",
+      "sourceFrames": [
+        531,
+        598
+      ],
+      "rawRange": [
+        34.433333,
+        37.566667
+      ],
+      "video": "render/pilot/last-four/scene/cg09.mp4",
+      "videoSha256": "55674829e930663c2043427e3f1a80f552b2ce66fcd801f72fe4a87aaa3cb028",
+      "recipe": "source/pilot/last-four/scene/cg09-recipe.json",
+      "recipeSha256": "959e75ada50b748b28923b3e3e9739b86a8f51c041794cb6b5a7a9c43cf66ba2",
+      "parameters": "source/pilot/last-four/scene/cg09-input.json",
+      "parametersSha256": "38cbc256abfe8a0bdb252e53e945cfdb7d4a0aaa836d7fa4a211c6fc12461f52",
+      "components": [
+        {
+          "kind": "visual",
+          "family": "v07",
+          "source": "source/pilot/components/scene_batch.py",
+          "actualSha256": "b8e3f1f59644e80a809986bb038454ce6aa98bad5b91eedb76f036b075896561",
+          "recipeSha256": "b8e3f1f59644e80a809986bb038454ce6aa98bad5b91eedb76f036b075896561",
+          "recipeBindingMatches": true
+        }
+      ],
+      "compositionOrder": [
+        "visual.background",
+        "visual.example",
+        "visual.presenter",
+        "visual.ordinaryCaption"
+      ],
+      "status": "human-approved-displayed-media",
+      "disclosedLimitations": [
+        "案例窗已换真实动态办公视频，动作内容与原片捂脸/闹钟案例不同；属于新口播语义替换，不称同一素材",
+        "原字体身份未确认，圆窗与框景几何保持当前校准范围",
+        "素材原音轨静音，仅保留新口播；词点与独立音效未听审"
+      ]
+    },
+    {
+      "occurrence": "cg10",
+      "name": "共用圆形人物画面＋三个财经底线揭晓",
+      "sourceFrames": [
+        617,
+        670
+      ],
+      "rawRange": [
+        11.52,
+        14.46
+      ],
+      "video": "render/pilot/detail-rest/circle/cg10-input.mp4",
+      "videoSha256": "5dcd31fdde5a84a0585a63aa60a96e1ad73a03a25c439cb82c80f3a261aa4afb",
+      "recipe": "source/pilot/detail-rest/circle/cg10-input-recipe.json",
+      "recipeSha256": "048d40641368dfef4d0ca69ca0a3d6c612cde29154a335c48c42374b786168eb",
+      "parameters": "source/pilot/detail-rest/circle/cg10-input.json",
+      "parametersSha256": "fe011094f762d753427791c5cb338a9cb710e0dee45f52f9d805ab0bab0918ec",
+      "components": [
+        {
+          "kind": "visual",
+          "family": "v04",
+          "source": "source/pilot/components/circle_batch.py",
+          "actualSha256": "15cc868b3c3e0ea71bf96bd6445f6ddd43d160e9c80aad051e743bdcff0b4d1d",
+          "recipeSha256": "b5886d1bf5a3a3b6f847e533680481a6aa762ecf8deea4700168e1a1dbd6b750",
+          "recipeBindingMatches": false
+        },
+        {
+          "kind": "subtitle",
+          "family": "t08",
+          "source": "source/pilot/components/circle_batch.py",
+          "actualSha256": "15cc868b3c3e0ea71bf96bd6445f6ddd43d160e9c80aad051e743bdcff0b4d1d",
+          "recipeSha256": "b5886d1bf5a3a3b6f847e533680481a6aa762ecf8deea4700168e1a1dbd6b750",
+          "recipeBindingMatches": false
+        }
+      ],
+      "compositionOrder": [
+        "visual.background",
+        "subtitle.backMark",
+        "visual.presenterWindow",
+        "visual.evidence",
+        "subtitle.foregroundText"
+      ],
+      "status": "human-approved-displayed-media",
+      "disclosedLimitations": [
+        "字体为逐角色候选，原字体身份未确认",
+        "同字候选仅用成片人物圆窗测试，非拿到原源码/素材",
+        "原声效未独立重建，新口播词点未听审",
+        "尚待用户完整视觉检验"
+      ]
+    },
+    {
+      "occurrence": "cg11",
+      "name": "共用圆形人物画面＋序号1和消费建议",
+      "sourceFrames": [
+        669,
+        744
+      ],
+      "rawRange": [
+        12.52,
+        14.46
+      ],
+      "video": "render/pilot/detail-rest/circle/cg11-input.mp4",
+      "videoSha256": "00ba0cc272baccf6330789be2cb3ebb7da466aab211755f90ccc1e2a6b10a6ef",
+      "recipe": "source/pilot/detail-rest/circle/cg11-input-recipe.json",
+      "recipeSha256": "0e3f803fa2b9b0364fbc0b3034e672e8645da1971a742a312b3171a87daca106",
+      "parameters": "source/pilot/detail-rest/circle/cg11-input.json",
+      "parametersSha256": "c467c33ff951e76f6a8d4db8871032520f10cf686d3ea7f8f1978bde972c3a8f",
+      "components": [
+        {
+          "kind": "visual",
+          "family": "v04",
+          "source": "source/pilot/components/circle_batch.py",
+          "actualSha256": "15cc868b3c3e0ea71bf96bd6445f6ddd43d160e9c80aad051e743bdcff0b4d1d",
+          "recipeSha256": "b5886d1bf5a3a3b6f847e533680481a6aa762ecf8deea4700168e1a1dbd6b750",
+          "recipeBindingMatches": false
+        },
+        {
+          "kind": "subtitle",
+          "family": "t09",
+          "source": "source/pilot/components/circle_batch.py",
+          "actualSha256": "15cc868b3c3e0ea71bf96bd6445f6ddd43d160e9c80aad051e743bdcff0b4d1d",
+          "recipeSha256": "b5886d1bf5a3a3b6f847e533680481a6aa762ecf8deea4700168e1a1dbd6b750",
+          "recipeBindingMatches": false
+        }
+      ],
+      "compositionOrder": [
+        "visual.background",
+        "subtitle.backMark",
+        "visual.presenterWindow",
+        "visual.evidence",
+        "subtitle.foregroundText"
+      ],
+      "status": "human-approved-displayed-media",
+      "disclosedLimitations": [
+        "字体为逐角色候选，原字体身份未确认",
+        "同字候选仅用成片人物圆窗测试，非拿到原源码/素材",
+        "原声效未独立重建，新口播词点未听审",
+        "尚待用户完整视觉检验"
+      ]
+    },
+    {
+      "occurrence": "cg12",
+      "name": "共用圆形人物画面＋想要与需要问号对照",
+      "sourceFrames": [
+        755,
+        803
+      ],
+      "rawRange": [
+        22.54,
+        24.48
+      ],
+      "video": "render/pilot/detail-rest/circle/cg12-input.mp4",
+      "videoSha256": "f5e2fa2861c6222883ed1bc1f5c5f19b9866685c6d47428c438ccebf0d6824f6",
+      "recipe": "source/pilot/detail-rest/circle/cg12-input-recipe.json",
+      "recipeSha256": "65ff6bcd43df2a09eadc7f85ece0898de070c0db7657e62f9e7e8f9a3f74f077",
+      "parameters": "source/pilot/detail-rest/circle/cg12-input.json",
+      "parametersSha256": "7f1d422036052e475e6f29056ad38fc9ebad211c159ba6bc25cf8cb9089fe6dc",
+      "components": [
+        {
+          "kind": "visual",
+          "family": "v04",
+          "source": "source/pilot/components/circle_batch.py",
+          "actualSha256": "15cc868b3c3e0ea71bf96bd6445f6ddd43d160e9c80aad051e743bdcff0b4d1d",
+          "recipeSha256": "b5886d1bf5a3a3b6f847e533680481a6aa762ecf8deea4700168e1a1dbd6b750",
+          "recipeBindingMatches": false
+        },
+        {
+          "kind": "subtitle",
+          "family": "t10",
+          "source": "source/pilot/components/circle_batch.py",
+          "actualSha256": "15cc868b3c3e0ea71bf96bd6445f6ddd43d160e9c80aad051e743bdcff0b4d1d",
+          "recipeSha256": "b5886d1bf5a3a3b6f847e533680481a6aa762ecf8deea4700168e1a1dbd6b750",
+          "recipeBindingMatches": false
+        }
+      ],
+      "compositionOrder": [
+        "visual.background",
+        "subtitle.backMark",
+        "visual.presenterWindow",
+        "visual.evidence",
+        "subtitle.foregroundText"
+      ],
+      "status": "human-approved-displayed-media",
+      "disclosedLimitations": [
+        "字体为逐角色候选，原字体身份未确认",
+        "同字候选仅用成片人物圆窗测试，非拿到原源码/素材",
+        "原声效未独立重建，新口播词点未听审",
+        "尚待用户完整视觉检验"
+      ]
+    },
+    {
+      "occurrence": "cg13",
+      "name": "共用圆形人物画面＋序号2与本金强调",
+      "sourceFrames": [
+        804,
+        868
+      ],
+      "rawRange": [
+        26.82,
+        29.34
+      ],
+      "video": "render/pilot/detail-two/cg13.mp4",
+      "videoSha256": "bb5e81f68a399489de3a06c7087d95853caabd5c30c0bc82dbff959121ef884c",
+      "recipe": "source/pilot/detail-two/cg13-recipe.json",
+      "recipeSha256": "90cb61881d1608907f7f482e661b51b7a8fca9a2c7df68ed701e573e4f34c0a7",
+      "parameters": "source/pilot/detail-two/cg13-input.json",
+      "parametersSha256": "56e8491705243fb008b4e976b91c140590350fb0f5c566aebe7a155e42099303",
+      "components": [
+        {
+          "kind": "visual",
+          "family": "v04",
+          "source": "source/pilot/components/circle_batch.py",
+          "actualSha256": "15cc868b3c3e0ea71bf96bd6445f6ddd43d160e9c80aad051e743bdcff0b4d1d",
+          "recipeSha256": "e45843dfa763da8b90147731ba3fcd1da1fcbe61b80c98c088cfb25e2e1156c0",
+          "recipeBindingMatches": false
+        },
+        {
+          "kind": "subtitle",
+          "family": "t09",
+          "source": "source/pilot/components/circle_batch.py",
+          "actualSha256": "15cc868b3c3e0ea71bf96bd6445f6ddd43d160e9c80aad051e743bdcff0b4d1d",
+          "recipeSha256": "e45843dfa763da8b90147731ba3fcd1da1fcbe61b80c98c088cfb25e2e1156c0",
+          "recipeBindingMatches": false
+        }
+      ],
+      "compositionOrder": [
+        "visual.background",
+        "subtitle.backMark",
+        "visual.presenterWindow",
+        "visual.evidence",
+        "subtitle.foregroundText"
+      ],
+      "status": "human-approved-displayed-media",
+      "disclosedLimitations": [
+        "原片钞票改为技能主题SVG，透明叠放关系保留，素材质感仍不同",
+        "宋体角色采用候选字体，原字体身份未确认；数字2的斜切轮廓仍为近似",
+        "字词时间及声音未人工听审；圆窗是几何裁切，未验证通用人物抠像"
+      ]
+    },
+    {
+      "occurrence": "cg14",
+      "name": "共用圆形人物画面＋感叹号风险警示",
+      "sourceFrames": [
+        917,
+        952
+      ],
+      "rawRange": [
+        29.34,
+        32.06
+      ],
+      "video": "render/pilot/detail-rest/circle/cg14-input.mp4",
+      "videoSha256": "0f2c8fef15afcfd363a63a649f60f1dbf5a6ab431b6db7760cbe2f7e16e5bdbb",
+      "recipe": "source/pilot/detail-rest/circle/cg14-input-recipe.json",
+      "recipeSha256": "7576c0a9a2903d7148a15b0c2208c45479dbdfbfb06aa7c979b2119eceba40fc",
+      "parameters": "source/pilot/detail-rest/circle/cg14-input.json",
+      "parametersSha256": "3da82aaa36c2dc3ac63c914fba53e5b4d5855485f898f8d710ab74f4ff4d8017",
+      "components": [
+        {
+          "kind": "visual",
+          "family": "v04",
+          "source": "source/pilot/components/circle_batch.py",
+          "actualSha256": "15cc868b3c3e0ea71bf96bd6445f6ddd43d160e9c80aad051e743bdcff0b4d1d",
+          "recipeSha256": "b5886d1bf5a3a3b6f847e533680481a6aa762ecf8deea4700168e1a1dbd6b750",
+          "recipeBindingMatches": false
+        },
+        {
+          "kind": "subtitle",
+          "family": "t11",
+          "source": "source/pilot/components/circle_batch.py",
+          "actualSha256": "15cc868b3c3e0ea71bf96bd6445f6ddd43d160e9c80aad051e743bdcff0b4d1d",
+          "recipeSha256": "b5886d1bf5a3a3b6f847e533680481a6aa762ecf8deea4700168e1a1dbd6b750",
+          "recipeBindingMatches": false
+        }
+      ],
+      "compositionOrder": [
+        "visual.background",
+        "subtitle.backMark",
+        "visual.presenterWindow",
+        "visual.evidence",
+        "subtitle.foregroundText"
+      ],
+      "status": "human-approved-displayed-media",
+      "disclosedLimitations": [
+        "字体为逐角色候选，原字体身份未确认",
+        "同字候选仅用成片人物圆窗测试，非拿到原源码/素材",
+        "原声效未独立重建，新口播词点未听审",
+        "尚待用户完整视觉检验"
+      ]
+    },
+    {
+      "occurrence": "cg15",
+      "name": "共用圆形人物画面＋投机炒作分支",
+      "sourceFrames": [
+        960,
+        1005
+      ],
+      "rawRange": [
+        38.82,
+        40.52
+      ],
+      "video": "render/pilot/detail-rest/circle/cg15-input.mp4",
+      "videoSha256": "82076aea141402d5ddd1aa9a4cb66e56704cb7daa13d2f2c69da26d557c5b32d",
+      "recipe": "source/pilot/detail-rest/circle/cg15-input-recipe.json",
+      "recipeSha256": "7f38faae1fc30397f82bbc36ebb4aeb9adc86d825ff1576606360513c0a38179",
+      "parameters": "source/pilot/detail-rest/circle/cg15-input.json",
+      "parametersSha256": "bf706317cdfab4d07132c6564beeae7392fef6b2cde6c88f509311110591c69b",
+      "components": [
+        {
+          "kind": "visual",
+          "family": "v04",
+          "source": "source/pilot/components/circle_batch.py",
+          "actualSha256": "15cc868b3c3e0ea71bf96bd6445f6ddd43d160e9c80aad051e743bdcff0b4d1d",
+          "recipeSha256": "b5886d1bf5a3a3b6f847e533680481a6aa762ecf8deea4700168e1a1dbd6b750",
+          "recipeBindingMatches": false
+        },
+        {
+          "kind": "subtitle",
+          "family": "t12",
+          "source": "source/pilot/components/circle_batch.py",
+          "actualSha256": "15cc868b3c3e0ea71bf96bd6445f6ddd43d160e9c80aad051e743bdcff0b4d1d",
+          "recipeSha256": "b5886d1bf5a3a3b6f847e533680481a6aa762ecf8deea4700168e1a1dbd6b750",
+          "recipeBindingMatches": false
+        }
+      ],
+      "compositionOrder": [
+        "visual.background",
+        "subtitle.backMark",
+        "visual.presenterWindow",
+        "visual.evidence",
+        "subtitle.foregroundText"
+      ],
+      "status": "human-approved-displayed-media",
+      "disclosedLimitations": [
+        "字体为逐角色候选，原字体身份未确认",
+        "同字候选仅用成片人物圆窗测试，非拿到原源码/素材",
+        "原声效未独立重建，新口播词点未听审",
+        "尚待用户完整视觉检验"
+      ]
+    },
+    {
+      "occurrence": "cg16",
+      "name": "共用圆形人物画面＋序号3和减少负债",
+      "sourceFrames": [
+        1008,
+        1047
+      ],
+      "rawRange": [
+        40.52,
+        43.8
+      ],
+      "video": "render/pilot/detail-rest/circle/cg16-input.mp4",
+      "videoSha256": "7c8bc07ac70a3f80e7bdef5f90ecc93b39ffed8668d9ac60be2ddeb9cb522560",
+      "recipe": "source/pilot/detail-rest/circle/cg16-input-recipe.json",
+      "recipeSha256": "03abef2f2d0f42e1f3b70aede67889c62f7419e15f7ecbabf7911326c6e478f6",
+      "parameters": "source/pilot/detail-rest/circle/cg16-input.json",
+      "parametersSha256": "7ad30b8ec0de11e7b73dfcbd4e08649b3257dca8eaee70c0b3f9235a7d9a4f41",
+      "components": [
+        {
+          "kind": "visual",
+          "family": "v04",
+          "source": "source/pilot/components/circle_batch.py",
+          "actualSha256": "15cc868b3c3e0ea71bf96bd6445f6ddd43d160e9c80aad051e743bdcff0b4d1d",
+          "recipeSha256": "b5886d1bf5a3a3b6f847e533680481a6aa762ecf8deea4700168e1a1dbd6b750",
+          "recipeBindingMatches": false
+        },
+        {
+          "kind": "subtitle",
+          "family": "t09",
+          "source": "source/pilot/components/circle_batch.py",
+          "actualSha256": "15cc868b3c3e0ea71bf96bd6445f6ddd43d160e9c80aad051e743bdcff0b4d1d",
+          "recipeSha256": "b5886d1bf5a3a3b6f847e533680481a6aa762ecf8deea4700168e1a1dbd6b750",
+          "recipeBindingMatches": false
+        }
+      ],
+      "compositionOrder": [
+        "visual.background",
+        "subtitle.backMark",
+        "visual.presenterWindow",
+        "visual.evidence",
+        "subtitle.foregroundText"
+      ],
+      "status": "human-approved-displayed-media",
+      "disclosedLimitations": [
+        "字体为逐角色候选，原字体身份未确认",
+        "同字候选仅用成片人物圆窗测试，非拿到原源码/素材",
+        "原声效未独立重建，新口播词点未听审",
+        "尚待用户完整视觉检验"
+      ]
+    },
+    {
+      "occurrence": "cg17",
+      "name": "整体缩小强调＋认知筛选巨字",
+      "sourceFrames": [
+        1103,
+        1136
+      ],
+      "rawRange": [
+        26.82,
+        29.32
+      ],
+      "video": "render/pilot/final-two/cg17.mp4",
+      "videoSha256": "8bad27700a08f04979d833cf854d35dc6d3b5bbc5bfd005543ee13bb4bb7b2ef",
+      "recipe": "source/pilot/final-two/cg17-recipe.json",
+      "recipeSha256": "ceed04d1c873199bf81188eff44674a37d2ca3460f8321308860432a2e9ddc8f",
+      "parameters": "source/pilot/final-two/cg17-input.json",
+      "parametersSha256": "f7726028780473bb8cc4462588c8892533b50238381e6766fa04b418fc104440",
+      "components": [
+        {
+          "kind": "visual",
+          "family": "v08",
+          "source": "source/pilot/components/closing_batch.py",
+          "actualSha256": "56067a89c1d43e7fa1ae1bce5519da89144796a7852cde95e57f229f4c839d2d",
+          "recipeSha256": "56067a89c1d43e7fa1ae1bce5519da89144796a7852cde95e57f229f4c839d2d",
+          "recipeBindingMatches": true
+        },
+        {
+          "kind": "subtitle",
+          "family": "t13",
+          "source": "source/pilot/components/closing_batch.py",
+          "actualSha256": "56067a89c1d43e7fa1ae1bce5519da89144796a7852cde95e57f229f4c839d2d",
+          "recipeSha256": "56067a89c1d43e7fa1ae1bce5519da89144796a7852cde95e57f229f4c839d2d",
+          "recipeBindingMatches": true
+        }
+      ],
+      "compositionOrder": [
+        "visual.stage",
+        "visual.inset",
+        "subtitle.behindTitle",
+        "visual.presenterForeground",
+        "subtitle.speechCaption"
+      ],
+      "status": "human-approved-displayed-media",
+      "disclosedLimitations": [
+        "原字体身份未确认：采用优设标题黑候选，部分字形、斜度与笔画端点仍有差异",
+        "RVM透明前景保留人物/手势，细发和运动柔边仍可能有局部误差",
+        "原参考1.1秒，新口播2.5秒按语义延长；原独立声效与精确词点尚未听审"
+      ]
+    },
+    {
+      "occurrence": "cg18",
+      "name": "整体放大强调＋短语分次落位",
+      "sourceFrames": [
+        1135,
+        1169
+      ],
+      "rawRange": [
+        38.82,
+        40.52
+      ],
+      "video": "render/pilot/final-two/cg18.mp4",
+      "videoSha256": "24d1561469418adf190ca6029b4d961fdd75feef188cefe71ad3d09cbce9e4f3",
+      "recipe": "source/pilot/final-two/cg18-recipe.json",
+      "recipeSha256": "77960c24705be61aa849113199a28b99e36656ef73bc66e0c068b909d0bf8c6c",
+      "parameters": "source/pilot/final-two/cg18-input.json",
+      "parametersSha256": "1177e4d3c98a9831eb7ce9dc4e10406b2af28fda2e842035b7435ff2de7572fb",
+      "components": [
+        {
+          "kind": "visual",
+          "family": "v09",
+          "source": "source/pilot/components/closing_batch.py",
+          "actualSha256": "56067a89c1d43e7fa1ae1bce5519da89144796a7852cde95e57f229f4c839d2d",
+          "recipeSha256": "56067a89c1d43e7fa1ae1bce5519da89144796a7852cde95e57f229f4c839d2d",
+          "recipeBindingMatches": true
+        },
+        {
+          "kind": "subtitle",
+          "family": "t14",
+          "source": "source/pilot/components/closing_batch.py",
+          "actualSha256": "56067a89c1d43e7fa1ae1bce5519da89144796a7852cde95e57f229f4c839d2d",
+          "recipeSha256": "56067a89c1d43e7fa1ae1bce5519da89144796a7852cde95e57f229f4c839d2d",
+          "recipeBindingMatches": true
+        }
+      ],
+      "compositionOrder": [
+        "visual.presenter",
+        "subtitle.phrasePlates"
+      ],
+      "status": "human-approved-displayed-media",
+      "disclosedLimitations": [
+        "原字体身份未确认；宋体候选及半透明板材质仍有差异",
+        "画面恢复满屏按参考关键帧重建，字级时钟按新内容重定时",
+        "新口播1.7秒，原参考约1.13秒；音效与逐词听审未通过"
+      ]
+    },
+    {
+      "occurrence": "cg19",
+      "name": "收尾口播与结句字幕",
+      "sourceFrames": [
+        1172,
+        1218
+      ],
+      "rawRange": [
+        41.2,
+        43.8
+      ],
+      "video": "render/pilot/last-four/closing/complete-applied.mp4",
+      "videoSha256": "f451a07c2cf6b18c1df01a29df0d578b40b61613004029721733e104dc72c327",
+      "recipe": "source/pilot/last-four/closing/recipe.json",
+      "recipeSha256": "d309f552a372579e55a65648ef7bc389ae9c3d6c37f81369fb806d0444ef5074",
+      "parameters": "source/pilot/last-four/closing/input.json",
+      "parametersSha256": "1ba00f1df1b8ff2581d2f26a102841c33d8214fff3e6b7b8b98c023ebd63d9a8",
+      "components": [
+        {
+          "kind": "visual",
+          "family": null,
+          "source": "source/pilot/components/runtime.py",
+          "actualSha256": "b543e9a16b8d09f702c87f591270d1d26552e8dd4f31ef594c1d69467f819bd7",
+          "recipeSha256": "b543e9a16b8d09f702c87f591270d1d26552e8dd4f31ef594c1d69467f819bd7",
+          "recipeBindingMatches": true
+        },
+        {
+          "kind": "subtitle",
+          "family": "t15",
+          "source": "source/pilot/components/closing_batch.py",
+          "actualSha256": "56067a89c1d43e7fa1ae1bce5519da89144796a7852cde95e57f229f4c839d2d",
+          "recipeSha256": "56067a89c1d43e7fa1ae1bce5519da89144796a7852cde95e57f229f4c839d2d",
+          "recipeBindingMatches": true
+        }
+      ],
+      "compositionOrder": [
+        "visual.presenter",
+        "subtitle.text"
+      ],
+      "status": "human-approved-displayed-media",
+      "disclosedLimitations": [
+        "原字体为思源宋体Heavy候选，未确认原字体身份",
+        "新口播37帧接力来自机器语音候选，尚未人工听审",
+        "原片第二句动态模糊与压缩具体曲线仍近似",
+        "本轮仅cg19，不改变其他已认可媒体"
+      ]
+    }
+  ],
+  "files": {
+    "source/pilot/all_groups_panel.py": {
+      "sha256": "61e729f43665dc2f6d4db8dd40c27a213a1c3a43fff78929895a3083d2fc3fe1",
+      "bytes": 4545
+    },
+    "source/pilot/analyze_new_input.py": {
+      "sha256": "ee0db8c3367fef6592e1cf5ebfbc9e16c1f20b5768723946cccff3dcc555901f",
+      "bytes": 1520
+    },
+    "source/pilot/batches_browser_qa.py": {
+      "sha256": "90b79fbcbdd97fa56a438cff90c2003062be127280c0dda19f5ade9b902658b7",
+      "bytes": 3003
+    },
+    "source/pilot/browser_all_groups.py": {
+      "sha256": "151208d0d6250dff22213aee1937dca238103aa0024605de595e6217ebc535b5",
+      "bytes": 2994
+    },
+    "source/pilot/browser_detail_rest.py": {
+      "sha256": "e660b4a7632c5b54215cfdc6f5eaeed0c3230e34fca46e612a7c3233c57479bd",
+      "bytes": 3052
+    },
+    "source/pilot/browser_last_four.py": {
+      "sha256": "5f77af2bc98ed46658cadc768c636b9ef3073c2a2adc1ac64cd060f4c5f5d65e",
+      "bytes": 3049
+    },
+    "source/pilot/calibrate_t04.py": {
+      "sha256": "4fb2bdc134983a90f79c99f5f95c735009cf11f893cd4ce68e5514c6133b423b",
+      "bytes": 2730
+    },
+    "source/pilot/check_component_recipes.py": {
+      "sha256": "17e63d043604b05544f3841ed760b009f5770985e313b09d631a6e8d64066fa1",
+      "bytes": 8372
+    },
+    "source/pilot/check_media_interface.py": {
+      "sha256": "7d00408a8dc584b820b2e4ddfc1b33f8f62427f2e05eb43a4fb6ff94f0a3a21d",
+      "bytes": 3386
+    },
+    "source/pilot/check_migration.py": {
+      "sha256": "90be0ce7a3b2824fbac5251ca5837227d7475e916afab9d99988cca239ec7bc6",
+      "bytes": 2712
+    },
+    "source/pilot/check_pilot.py": {
+      "sha256": "37f1ffd19406bd488f0265a3686bb6e70141ca55bcbad8ad5ded0436a857ef2c",
+      "bytes": 5010
+    },
+    "source/pilot/complete_groups.py": {
+      "sha256": "e44b0ca7a9e40b084a98efbf059c940de32dcae8394c99bd8e685aee631dac65",
+      "bytes": 4711
+    },
+    "source/pilot/complete_groups_qa.py": {
+      "sha256": "e06b2addb8a05187789b58a27eccbce1bf62e19ca0013181f77413344f129898",
+      "bytes": 7192
+    },
+    "source/pilot/component_entry.py": {
+      "sha256": "7fc3f3c1c7d30bb917fbb6c0eedc9b27f450788ee5b6cc1a04be915951a198d4",
+      "bytes": 1591
+    },
+    "source/pilot/finish_pilot_report.py": {
+      "sha256": "b67c8be552a7e93aa66bfab900b216cfe71b6b4264deb0554e9ae1bfab1fd7e8",
+      "bytes": 6267
+    },
+    "source/pilot/integrate_batches.py": {
+      "sha256": "6aa047bd22d4cb95af25858affd1d596db29a9d0b7aab26fc8b29403e4e977d6",
+      "bytes": 12501
+    },
+    "source/pilot/pilot_server.py": {
+      "sha256": "796e4311fdf5abfe66394e4131994aa41ce9961e1a26b5e4674568231369b1b6",
+      "bytes": 1916
+    },
+    "source/pilot/refactor_complete_components.py": {
+      "sha256": "8d8e5c1914b353798715936fea133342fce9f5cb8f031ae4d5f649ef46ddd110",
+      "bytes": 7511
+    },
+    "source/pilot/render_migration.py": {
+      "sha256": "4ed4836b3784ce757fe87f6663a7139d135d20abb4773f18344e30e6465ca4f8",
+      "bytes": 12292
+    },
+    "source/pilot/render_pilot.py": {
+      "sha256": "bf985059a5b96ca5e516f16ff5a387ac620e57685de0cf7a33c81ca7f93db553",
+      "bytes": 11461
+    },
+    "source/pilot/report_batches.py": {
+      "sha256": "c0ece51e20421732fa14ca3e8dcbd89a35783066a1ccfbfd25a008dbcf935937",
+      "bytes": 5714
+    },
+    "source/pilot/report_detail_rest.py": {
+      "sha256": "aaadc4a748e3e7bac80bb3d091ab65143d0b791c35445cff55f012f9ef6b6c94",
+      "bytes": 3471
+    },
+    "source/pilot/review_detail_rest.py": {
+      "sha256": "0687bfc76edc2c022723b637c41dad1e3ca1694976970006396859d64201d293",
+      "bytes": 7973
+    },
+    "source/pilot/review_last_four.py": {
+      "sha256": "48836bae66735b11edaf1be4940563f0027caca1f771c0b3c99f110e0b34a695",
+      "bytes": 7814
+    },
+    "source/pilot/round2_qa.py": {
+      "sha256": "abc4173b6e2592b85ebab3cdc48ef3e9a7ef34e876d9033169d82c939712fd6e",
+      "bytes": 5480
+    },
+    "source/pilot/round2_render.py": {
+      "sha256": "bd25685cf65c3452fc45eaf5fc954a24821f354a1993f56d07ba381f7a9f695b",
+      "bytes": 8813
+    },
+    "source/pilot/subtitle_motion.py": {
+      "sha256": "ef655a85c4e8c9376e58fdcf2b47810221baaed15138f20fbf08f374f2d2b1ae",
+      "bytes": 3739
+    },
+    "source/pilot/t04_compare.py": {
+      "sha256": "7495e9b35593b9022a5d7f18b86e44a3088a392a2560f1cc8bd670f8c653430c",
+      "bytes": 2303
+    },
+    "source/pilot/t04_deliver.py": {
+      "sha256": "4c2c9944c4ee64d4ceb5a252a5f8764c83d7cdf82e6e038a8493d37bc4482b7e",
+      "bytes": 11798
+    },
+    "source/pilot/t04_render.py": {
+      "sha256": "6365e423b9f1a806db32a3f6126a234ab62f12312c2341004933e4b98752bfe6",
+      "bytes": 9688
+    },
+    "source/pilot/t04_shadow_review.py": {
+      "sha256": "3c8aae00932ea35714d75fcde7576a8bc799fd70dd68e2e5015ece6c7dbe9c7d",
+      "bytes": 5086
+    },
+    "source/pilot/components/circle_batch.py": {
+      "sha256": "15cc868b3c3e0ea71bf96bd6445f6ddd43d160e9c80aad051e743bdcff0b4d1d",
+      "bytes": 13061
+    },
+    "source/pilot/components/closing_batch.py": {
+      "sha256": "56067a89c1d43e7fa1ae1bce5519da89144796a7852cde95e57f229f4c839d2d",
+      "bytes": 6182
+    },
+    "source/pilot/components/common.py": {
+      "sha256": "d3b54498c970352c417cb0938bc54a1425a15bc933171a9ea1fafff8ab8d93f2",
+      "bytes": 1551
+    },
+    "source/pilot/components/detail_tools.py": {
+      "sha256": "3b1f04d33430062ce3063b01d16e2b80580b3b7790be6d2f53ad6e62c5d56ff5",
+      "bytes": 2135
+    },
+    "source/pilot/components/media_source.py": {
+      "sha256": "0342cfcfc3e7117ce51e199d1aeabb759c3e56ca76f2014229a95fd99bf984dc",
+      "bytes": 5457
+    },
+    "source/pilot/components/pairing.py": {
+      "sha256": "c6a391e5fa9f3d885e8e719729ca03d20bf21171d7922eb3b78eeb7d8eeee649",
+      "bytes": 3155
+    },
+    "source/pilot/components/runtime.py": {
+      "sha256": "b543e9a16b8d09f702c87f591270d1d26552e8dd4f31ef594c1d69467f819bd7",
+      "bytes": 2763
+    },
+    "source/pilot/components/scene_batch.py": {
+      "sha256": "b8e3f1f59644e80a809986bb038454ce6aa98bad5b91eedb76f036b075896561",
+      "bytes": 10757
+    },
+    "source/pilot/components/subtitle.py": {
+      "sha256": "efd008696ea2b1de1f4d430e18719584350436b1ac1003102e598252146f614a",
+      "bytes": 3873
+    },
+    "source/pilot/components/visual.py": {
+      "sha256": "88db2994474246464846cdbedba12d1df8bb7f29c9fb23a098ae2f7afe882a76",
+      "bytes": 5898
+    },
+    "source/pilot/components/__init__.py": {
+      "sha256": "4863c0da01cdda955cebd66baf90a2196f220159ed14cd4b1300a9a6ab664492",
+      "bytes": 68
+    },
+    "source/pilot/detail-two/assets_build.py": {
+      "sha256": "b554cf23e59bdad2fd5342107787f68f18b4ceb90825a3f4626962cf4151cde1",
+      "bytes": 4862
+    },
+    "source/pilot/detail-two/browser.py": {
+      "sha256": "2548151c67dc255546ee576803ba278dfb4dafce695cd2d0bb82b089d867bc03",
+      "bytes": 1738
+    },
+    "source/pilot/detail-two/build.py": {
+      "sha256": "9372eaa5e51ae04022add876315496e6465bee4ab9a4ebe9e5d7c48cd5735388",
+      "bytes": 4724
+    },
+    "source/pilot/detail-two/font_calibrate.py": {
+      "sha256": "6a9d334e33b56ab22b7e154c80e584b5132ea6bc1191972921c16330bab8e16c",
+      "bytes": 1232
+    },
+    "source/pilot/detail-two/rasterize.py": {
+      "sha256": "651579951a46c4b54e5a8f3b3676f75f13c35f854e2b918c060383bc42b7a905",
+      "bytes": 638
+    },
+    "source/pilot/detail-two/review.py": {
+      "sha256": "bad499a00f52c368e5f54f30e0596be2945a370b4e6120a417381aaac38b8d7b",
+      "bytes": 8425
+    },
+    "source/pilot/final-two/browser.py": {
+      "sha256": "74f228db46406f41d629024e852c9fb9b62e19d1835d3c826cd40113b2c9f1cd",
+      "bytes": 1751
+    },
+    "source/pilot/final-two/build.py": {
+      "sha256": "2f96495ace76358eae30670c6ee232cefcc57d180621930f9d53ad038fed692e",
+      "bytes": 4793
+    },
+    "source/pilot/final-two/matte.py": {
+      "sha256": "dbd41dd092f8d130e3f1a074d3a0ab19772032294f3f4ff24cab7ae8691774fb",
+      "bytes": 1769
+    },
+    "source/pilot/final-two/review.py": {
+      "sha256": "04849ba53ab9706a285b0a3de5a0d919cd979550ea34081d48f7c0089b24ea7b",
+      "bytes": 6494
+    },
+    "source/pilot/last-four/closing/build.py": {
+      "sha256": "98db2879a80fa923204bac53778409f234bcd4a817645e9f7aaa6c368cf471e7",
+      "bytes": 8407
+    },
+    "source/pilot/last-four/opening/build.py": {
+      "sha256": "af20d610ff14cfa336b58aed09b9db04d5a427b8d35cd80997e8f7eacd428e42",
+      "bytes": 5706
+    },
+    "source/pilot/last-four/opening/matte.py": {
+      "sha256": "84aedec3979c504db4ace68f15170e73069f9acfd559f71004fb1a22b426ea60",
+      "bytes": 1798
+    },
+    "source/pilot/last-four/opening/proofs.py": {
+      "sha256": "08e58d7185f5a8f07e97059457f79c1d9fadc83c7ee7d842082fdc4b84dc341f",
+      "bytes": 4302
+    },
+    "source/pilot/last-four/scene/build.py": {
+      "sha256": "4141075fa75fb4c3b8ec79b89ac4f61cff66ee4bc012b9f9a5badb8bb408e856",
+      "bytes": 5657
+    },
+    "source/pilot/detail-rest/circle/build.py": {
+      "sha256": "87378394d98a7ab998f4d18cb84d74e9ab965060d6e8b7868bfec9e836d56dd2",
+      "bytes": 9281
+    },
+    "source/pilot/detail-rest/circle/check.py": {
+      "sha256": "44cea70350c58577549defd0ae5d8abcd3a09ad8d7f8d9ee41253519ac860e1d",
+      "bytes": 3531
+    },
+    "source/pilot/detail-rest/scene/assets_build.py": {
+      "sha256": "3ca9f9820448752ae2dc1ad22177c436f9cef11fb064a39dc5d6a85aefcc827a",
+      "bytes": 3810
+    },
+    "source/pilot/detail-rest/scene/build.py": {
+      "sha256": "c04605a6d0c7bc0bf2cf92ecb93c76e408614bd84dd44853653c8e13a8071030",
+      "bytes": 4993
+    },
+    "source/pilot/detail-rest/scene/download_model.py": {
+      "sha256": "494719441c8893efdf37bef103fbdf49d66251d00274c917a7ed63ac233cb9d5",
+      "bytes": 423
+    },
+    "source/pilot/detail-rest/scene/matte_build.py": {
+      "sha256": "f0e6aa4c42ae394a394445f4dc0d2a2af307088d85460f3db54eb243ff58926f",
+      "bytes": 2408
+    },
+    "source/pilot/detail-rest/scene/model_fallback.py": {
+      "sha256": "850f202675e7b5a7b671742c37f3d7a5aa46cceabd4f56ffb5b72421a2cd2f78",
+      "bytes": 545
+    },
+    "source/pilot/detail-rest/scene/patch_scene.py": {
+      "sha256": "4a6442a99bf65b7b4eddccd104574727f9502822025161f708155275952a65ca",
+      "bytes": 5073
+    },
+    "source/pilot/detail-rest/scene/proofs.py": {
+      "sha256": "0bb62384e596334748a106864c3b1b488ad8c5f94361e86d7b1bd9462d7cf1f5",
+      "bytes": 2735
+    },
+    "source/pilot/detail-rest/scene/review.py": {
+      "sha256": "7d5de972f5a4a4cd1aae96c448904acb91e26f6fddcdda14998158de89d1b3e9",
+      "bytes": 3027
+    },
+    "source/pilot/batches/circle/check.py": {
+      "sha256": "80205ceaafb0ff7ed5979149dbcc7144a3c8a1bf1e7d30da1138441efb82f4bd",
+      "bytes": 2673
+    },
+    "source/pilot/batches/circle/run.py": {
+      "sha256": "8a73e2886df293447656cf1315e5551ccd7fd323c84abf83c7eef3c2d31a542d",
+      "bytes": 13442
+    },
+    "source/pilot/batches/closing/build.py": {
+      "sha256": "743ad812ce486581504ce8ae32488c3267f1d217edd6db15abae7ae648729369",
+      "bytes": 7957
+    },
+    "source/pilot/batches/closing/verify.py": {
+      "sha256": "7cb1ddec2d7a06870adc06359b4402efadb56d33800f613143fd28c6021c6e71",
+      "bytes": 4571
+    },
+    "source/pilot/batches/scene/bind_dependencies.py": {
+      "sha256": "46c53d1288676ddba0eacb41247327261a0485c821c879cb1a1174438be700bf",
+      "bytes": 591
+    },
+    "source/pilot/batches/scene/build.py": {
+      "sha256": "7c0d914784bb86ed88700a83f8edc4d166874ccbe4ed754f1fd2dce3aff2ee13",
+      "bytes": 9044
+    },
+    "source/pilot/batches/scene/calibrate.py": {
+      "sha256": "8c41bbe41ceda6fdf46449bc4fc7f5c2246ca01b6ff02e43c48d6c859bbfe743",
+      "bytes": 994
+    },
+    "source/pilot/batches/scene/download_assets.py": {
+      "sha256": "97e10cd0147846428b3e2f93fb3612d8098613feb0bc35294b5e38af8763bc36",
+      "bytes": 734
+    },
+    "source/pilot/batches/scene/proofs.py": {
+      "sha256": "9724832619023a9c67a95ee840b3718ed62102f447fb370d7f2e2805775c6d6e",
+      "bytes": 3317
+    },
+    "render/pilot/all-groups-metadata.json": {
+      "sha256": "cb319a959f0e9d08306cae117efe624370d9a6d60dd72bd111bda5b6c72e4547",
+      "bytes": 26276
+    },
+    "observations/group-catalog.json": {
+      "sha256": "abb35d60d5a63c316ddc878c93f4e049c6283d9585a618d31a47fea9f7d1f42b",
+      "bytes": 31411
+    },
+    "render/pilot/index.html": {
+      "sha256": "4323e2a5aae2d715a1b6df773b6a9229dd0a4ea65c64c885c25b059efc895699",
+      "bytes": 30400
+    },
+    "workflow-context.json": {
+      "sha256": "5c884eb19d64f413b9f29bc77d05bbc79f4d2a91a282a99d085e721a20fc8d1d",
+      "bytes": 1047
+    },
+    "source/pilot/complete01-02/shared-text-style.json": {
+      "sha256": "13a054ea8bf54d4640828518e895c5e1a8f56dc8cdc518da5f1cbc97d4bc0eed",
+      "bytes": 358
+    },
+    "source/pilot/last-four/opening/cg01-input.json": {
+      "sha256": "39f1e0319a10b617121c93147427286c0e0d9d60bf7c5fe921c185968c99264e",
+      "bytes": 3422
+    },
+    "source/pilot/complete01-02/PURPOSE.md": {
+      "sha256": "2fcb823e0584b7b8a2fde882e6cadfe5f7adad3f28bf802e21a3bfd46b830d7a",
+      "bytes": 3251
+    },
+    "source/pilot/complete01-02/assets/work-keyboard.jpg": {
+      "sha256": "d87219eebd8a690700471dcc842cccca005c52cb5b74c588b007983974264366",
+      "bytes": 68236
+    },
+    "render/pilot/last-four/opening/cg01.mp4": {
+      "sha256": "bcb7473ca503f5f4467ca8165de1ea9d659399075e61f4a2e2e75ab8e8991cad",
+      "bytes": 1111980
+    },
+    "observations/accepted-review/cg01/reference-clip.mp4": {
+      "sha256": "35afd14d004fd2e921c4d4cbfb502fb73b9d75965d278b941c0fcf10f1360e1d",
+      "bytes": 142489
+    },
+    "source/pilot/last-four/opening/cg01-recipe.json": {
+      "sha256": "9245808b61a20af02bc53229f177ac7ebf4e5013db074d2852f7f8ac33e8b79c",
+      "bytes": 2484
+    },
+    "source/pilot/last-four/opening/cg02-input.json": {
+      "sha256": "00af0a1107b22141608c5fd3d9051617d3b287ab0b0235796d721d3a1123b376",
+      "bytes": 3001
+    },
+    "source/pilot/detail-rest/circle/assets/warning-red.png": {
+      "sha256": "ba9594aa8c058a828fce6fe798cf4234eaf18a998edd05e93680faba62afe6f4",
+      "bytes": 393307
+    },
+    "source/pilot/detail-rest/circle/assets/warning-red.svg": {
+      "sha256": "b5afa37f79213304368ec4350160115c6df23cabf2b09e209b8f7f65da7de1c6",
+      "bytes": 2106
+    },
+    "source/pilot/last-four/opening/matte02/manifest.json": {
+      "sha256": "f533fc85fc711771382630edcea938e67641dd98995cd07df227ce7e17aecba0",
+      "bytes": 10313
+    },
+    "source/pilot/detail-rest/scene/models/rvm.onnx": {
+      "sha256": "88d4531297118f595bf2fd60f6f566aec2e559393802d1f436c380f0cbbd2828",
+      "bytes": 14975696
+    },
+    "source/pilot/last-four/opening/matte02/0000.png": {
+      "sha256": "5348a55a92ee42554db8002dd6cb0bcd727ff44415dba3cfb223d1e6a8004a77",
+      "bytes": 111718
+    },
+    "source/pilot/last-four/opening/matte02/0001.png": {
+      "sha256": "09d738cb43502d65c72f07a70b6f2edb7036290605e05db9eba7c646353ca472",
+      "bytes": 112501
+    },
+    "source/pilot/last-four/opening/matte02/0002.png": {
+      "sha256": "1d7783925849c167cd11cb3301f3fe1f658181bede456a088bb001fe57fd04c3",
+      "bytes": 112011
+    },
+    "source/pilot/last-four/opening/matte02/0003.png": {
+      "sha256": "61b1f5673e56c63d8fe28ce0c4985097ad64f1a8070912106c31c6c5eef461fa",
+      "bytes": 112570
+    },
+    "source/pilot/last-four/opening/matte02/0004.png": {
+      "sha256": "f9376e1ddc526659ae8d7ce88edcbb588ba9d70a400debecb8e8574d697aa82c",
+      "bytes": 112640
+    },
+    "source/pilot/last-four/opening/matte02/0005.png": {
+      "sha256": "c8985c8714634202693883618d3ce7500d8d6fa5034730920cace7a6b6e3a899",
+      "bytes": 110069
+    },
+    "source/pilot/last-four/opening/matte02/0006.png": {
+      "sha256": "51d3e0f9949ab4a952d3084c98cdc922670a367b3c9cfc90889005a431467adc",
+      "bytes": 108699
+    },
+    "source/pilot/last-four/opening/matte02/0007.png": {
+      "sha256": "65d1f49842aa1f41afee4989a557ff9a493998ab901ef3a371dac1cbd4dfcea7",
+      "bytes": 109430
+    },
+    "source/pilot/last-four/opening/matte02/0008.png": {
+      "sha256": "10cec59b8c029ca4df2026f7cbf3e60e48bda7333a4a0a851c18542eebeef934",
+      "bytes": 109825
+    },
+    "source/pilot/last-four/opening/matte02/0009.png": {
+      "sha256": "158bcdf331685def822ec5e4aca3bc9bcb3c8a74e25f70d87ca53d2e4816879b",
+      "bytes": 110940
+    },
+    "source/pilot/last-four/opening/matte02/0010.png": {
+      "sha256": "1fb88a14ad03e5eda7a761e8aed4c67f646b8dcd28c002732800a147e8db18f1",
+      "bytes": 110876
+    },
+    "source/pilot/last-four/opening/matte02/0011.png": {
+      "sha256": "c54b8bb04b9fa91e970df6a1cc92c265a67c9f57d30a1d6c44a0777914b38b12",
+      "bytes": 111428
+    },
+    "source/pilot/last-four/opening/matte02/0012.png": {
+      "sha256": "04185cfd63e3abbeb283a875f614b73fd25632564a727f9e4192dbfa513dc3c7",
+      "bytes": 111137
+    },
+    "source/pilot/last-four/opening/matte02/0013.png": {
+      "sha256": "bd52f4e9c80bc9ad6dc2f73670e7b39369eee350d9491b85b87200f0d525447d",
+      "bytes": 111805
+    },
+    "source/pilot/last-four/opening/matte02/0014.png": {
+      "sha256": "a9a695541d189258baf2c3312cacdf7a89fd81a0e451db81a9828edee4fedbd4",
+      "bytes": 111576
+    },
+    "source/pilot/last-four/opening/matte02/0015.png": {
+      "sha256": "f44453b32e8c5af1d9a16f13801bbd999f61c015fd7621b3f943dcb2838a0356",
+      "bytes": 112160
+    },
+    "source/pilot/last-four/opening/matte02/0016.png": {
+      "sha256": "f84ced3d5310c5bc280a448dda0302ad2dcd660ba3c4b1732aefe90f18e03ed9",
+      "bytes": 112156
+    },
+    "source/pilot/last-four/opening/matte02/0017.png": {
+      "sha256": "45226bd3931b358dd1f81a26ab2667ece26cc68d7decf47eb871f65dec0c5f9e",
+      "bytes": 112348
+    },
+    "source/pilot/last-four/opening/matte02/0018.png": {
+      "sha256": "b54d0181e6f211cd27210b2c2a2f099e905cd50554081f980ca798518a368762",
+      "bytes": 111876
+    },
+    "source/pilot/last-four/opening/matte02/0019.png": {
+      "sha256": "99df1a627e9295db88ae88a8061a26680eb797ecc4f3c4babd42a2e784d9d06a",
+      "bytes": 112300
+    },
+    "source/pilot/last-four/opening/matte02/0020.png": {
+      "sha256": "2a39fecb23cb1dd87baabdd1ef589b58a4075a3f74e4870057c62eba535935b8",
+      "bytes": 112606
+    },
+    "source/pilot/last-four/opening/matte02/0021.png": {
+      "sha256": "b3a335de09700c016fa6549e4f560f1a1bff11fb4ce62584d49643c79ece94dc",
+      "bytes": 99257
+    },
+    "source/pilot/last-four/opening/matte02/0022.png": {
+      "sha256": "5e3541086357da69403b5bc839cb9c6e68df7ecd17b4af14fd5a52ef836dc6ff",
+      "bytes": 106253
+    },
+    "source/pilot/last-four/opening/matte02/0023.png": {
+      "sha256": "e71e7eb99ff40a6534fe0bd6b13f77f472963c1a3c0f710ac69fb90fc5bf43a1",
+      "bytes": 107190
+    },
+    "source/pilot/last-four/opening/matte02/0024.png": {
+      "sha256": "b8bcb5561435ed2f6963dea104ba78ec45f06a135b15a105f0eb39956feb2c68",
+      "bytes": 106895
+    },
+    "source/pilot/last-four/opening/matte02/0025.png": {
+      "sha256": "ae7009bf602b34d91a8c4c48e3b91c56b4de6b0185734732f8ee9e4b7d92d427",
+      "bytes": 108471
+    },
+    "source/pilot/last-four/opening/matte02/0026.png": {
+      "sha256": "a269ddf0a2e395e4b603edaf455b71785f00470a657deddc908dc96041fa93da",
+      "bytes": 109915
+    },
+    "source/pilot/last-four/opening/matte02/0027.png": {
+      "sha256": "38724f3ab40f741877ffe83afa116359d8211087260aea38cbe4dc7317f116e5",
+      "bytes": 110035
+    },
+    "source/pilot/last-four/opening/matte02/0028.png": {
+      "sha256": "20106ee3eac7ee74ba6fe9f0f34ba14e6a3ed70137224735cff8b345d0ef2919",
+      "bytes": 112152
+    },
+    "source/pilot/last-four/opening/matte02/0029.png": {
+      "sha256": "de90584afc9c4ae3ffa567e97dc3a48e9d7794b1ff1724c83f4d98bb311c9d04",
+      "bytes": 116872
+    },
+    "source/pilot/last-four/opening/matte02/0030.png": {
+      "sha256": "92393aa67de39ef51d64bf5e2d2b3e86444f2772991c9be0c03b86ad95079b63",
+      "bytes": 118032
+    },
+    "source/pilot/last-four/opening/matte02/0031.png": {
+      "sha256": "ddbbb65b95e215fdb451333542cfc4351cff1fa6cbd2e58c65cdcb606f6767df",
+      "bytes": 118966
+    },
+    "source/pilot/last-four/opening/matte02/0032.png": {
+      "sha256": "d1dc84af3499bcd7b0ce0b1402a02009e9e2d3edf0ec5f9a4a08d31eadf985f2",
+      "bytes": 119354
+    },
+    "source/pilot/last-four/opening/matte02/0033.png": {
+      "sha256": "307fa5d9535faa97f8ff568a38851d7c0874702a7cae63d950ce979f13395374",
+      "bytes": 119899
+    },
+    "source/pilot/last-four/opening/matte02/0034.png": {
+      "sha256": "5cdccff91a224c1f279e92e539ec38f382151e1d24a1052bfff063657187fedb",
+      "bytes": 120384
+    },
+    "source/pilot/last-four/opening/matte02/0035.png": {
+      "sha256": "9fee5cf460fb242fed3ea598a17e1945ac9bbeec6fcae6230db4d4bc97cd93d6",
+      "bytes": 122026
+    },
+    "source/pilot/last-four/opening/matte02/0036.png": {
+      "sha256": "023e80bf31996db96b95aa9dd72aab9c63a21b9e1b7ea3c984cfc8ca88d76e85",
+      "bytes": 121769
+    },
+    "source/pilot/last-four/opening/matte02/0037.png": {
+      "sha256": "85d1a3f787f6e11a090d5a436c6ee596735f49b8cde46cba13c0f2749adf1086",
+      "bytes": 121896
+    },
+    "source/pilot/last-four/opening/matte02/0038.png": {
+      "sha256": "e3e8dac2d4dcf145aa1616c87010add6bb4b55226da9103c44dcf94883223ffa",
+      "bytes": 121773
+    },
+    "source/pilot/last-four/opening/matte02/0039.png": {
+      "sha256": "5aad92bc8d2d645c87269df391cf683ab9ae3ff278e784d1d9aa8f9c34a15682",
+      "bytes": 122717
+    },
+    "source/pilot/last-four/opening/matte02/0040.png": {
+      "sha256": "cebd9ca75ba1a6b8b72b5c9a4389a404bc063f155362804512867932bdb392c4",
+      "bytes": 122577
+    },
+    "source/pilot/last-four/opening/matte02/0041.png": {
+      "sha256": "ea4b4bf3ab12d5110f3a8a257c7ddb4b4c131461da076cc4c16654efa008ee75",
+      "bytes": 122894
+    },
+    "source/pilot/last-four/opening/matte02/0042.png": {
+      "sha256": "02a7e31d95cfb778a1accb6b1d85c2a4a7c928c681fb79e4865d0b58f4e1a213",
+      "bytes": 122883
+    },
+    "source/pilot/last-four/opening/matte02/0043.png": {
+      "sha256": "f1182c494f604c18008561aa3b01fcf19f3245af4ee47438f51281656afa54c0",
+      "bytes": 123593
+    },
+    "source/pilot/last-four/opening/matte02/0044.png": {
+      "sha256": "b86becc65f97ca54051369c4e7ebf589b5e570f7645d828dceb3ee465c25e100",
+      "bytes": 122208
+    },
+    "source/pilot/last-four/opening/matte02/0045.png": {
+      "sha256": "1ba6e1a730e460a374bbf457345a11537b3d915a7856947b63bba2b802e47c2e",
+      "bytes": 123651
+    },
+    "source/pilot/last-four/opening/matte02/0046.png": {
+      "sha256": "a33fbb49853ec656daa4ce77a70314a93a05e788d6993bb74a7913ee2bc8ff1d",
+      "bytes": 123940
+    },
+    "source/pilot/last-four/opening/matte02/0047.png": {
+      "sha256": "f1d24bce9f6d78725b5e34b152cbbee768ccbd6132f3979798e5329c879a54d1",
+      "bytes": 125096
+    },
+    "source/pilot/last-four/opening/matte02/0048.png": {
+      "sha256": "58fb3952737bafe16f8900fdfe51a6bfa1fdab926a5b2ec77953fd433e71b925",
+      "bytes": 125401
+    },
+    "source/pilot/last-four/opening/matte02/0049.png": {
+      "sha256": "c2de868a1ed8cea913232b0cbcd9483eac08a378122f48643e80bc05023ba7af",
+      "bytes": 124692
+    },
+    "source/pilot/last-four/opening/matte02/0050.png": {
+      "sha256": "724e62749e93018e25f09f78e3ac6c18c16230dbc541ffe515e13815059c8f23",
+      "bytes": 124682
+    },
+    "source/pilot/last-four/opening/matte02/0051.png": {
+      "sha256": "381c4661508f13eb06cd0bb0d11aaa9f95dee6d3bc0773643cfd07bf6806c8a3",
+      "bytes": 123643
+    },
+    "source/pilot/last-four/opening/matte02/0052.png": {
+      "sha256": "ad77eccd6f1b8e275d6a13fe39e3acef17de4350f60d521a6ff5fc6ff580bc85",
+      "bytes": 124007
+    },
+    "source/pilot/last-four/opening/matte02/0053.png": {
+      "sha256": "924b412f7ba00b729fa46f0051cb269638f3e53e829d3e5bc6dc1a6cce5345ed",
+      "bytes": 123653
+    },
+    "source/pilot/last-four/opening/matte02/0054.png": {
+      "sha256": "d5614cf2e3be18233c3ced301c5b2b595d70cb312f493aab4b9148d99a2a86db",
+      "bytes": 123033
+    },
+    "source/pilot/last-four/opening/matte02/0055.png": {
+      "sha256": "fc4a40fff850ce2007ee5574b2aef0748808c2c66994403aba69a622b7c14164",
+      "bytes": 123607
+    },
+    "source/pilot/last-four/opening/matte02/0056.png": {
+      "sha256": "f6936d2c54c25943b9a498972b48205da395f17ef9673655e0033410b0200259",
+      "bytes": 124388
+    },
+    "source/pilot/last-four/opening/matte02/0057.png": {
+      "sha256": "53f22f038a3c74d527af220c3d2368ddeeab4761faa1c64fe97018f0e60a51b3",
+      "bytes": 124440
+    },
+    "source/pilot/last-four/opening/matte02/0058.png": {
+      "sha256": "733d31737373ba1bbfc01259bfd79f655eaabaa49e5e9d449cd5a082d129751c",
+      "bytes": 122410
+    },
+    "source/pilot/last-four/opening/matte02/0059.png": {
+      "sha256": "781f73cc0e0fc3a77c81d3c8558e3f39a8dba8559903d929c6df334dc18acfb6",
+      "bytes": 115742
+    },
+    "source/pilot/last-four/opening/matte02/0060.png": {
+      "sha256": "86edf7c3e09c36d271ea4cb244df170d0d4cbd9123609904907efe424631290c",
+      "bytes": 113919
+    },
+    "source/pilot/last-four/opening/matte02/0061.png": {
+      "sha256": "c2e053afb307398aefe37cec94ad07024e85cd07b52c6f6cf03685e8fcb93ea3",
+      "bytes": 114123
+    },
+    "source/pilot/last-four/opening/matte02/0062.png": {
+      "sha256": "8c6f8decde996621ce63e986cde6fe73010bdbf14c10b51fce0a0a9bcad44175",
+      "bytes": 112983
+    },
+    "source/pilot/last-four/opening/matte02/0063.png": {
+      "sha256": "3efbf94095eb1a4660761b4612fa1a4e54bf2aa184ce8466577d22097726b214",
+      "bytes": 111581
+    },
+    "source/pilot/last-four/opening/matte02/0064.png": {
+      "sha256": "f13c9840d89978471f80a7305efeff2be81aa6200fbcfb3acc519483ba47e5d1",
+      "bytes": 111486
+    },
+    "source/pilot/last-four/opening/matte02/0065.png": {
+      "sha256": "5a012a90818b6a391c6b8a17713738712eae4243231eeea128f6e1970febbeab",
+      "bytes": 109733
+    },
+    "source/pilot/last-four/opening/matte02/0066.png": {
+      "sha256": "2fbb2807c8b11550afa16637c5eebd75022ace3d97858fa6d9b24af805e98627",
+      "bytes": 110867
+    },
+    "source/pilot/last-four/opening/matte02/0067.png": {
+      "sha256": "2ab4164a639e33313c2eb474a06308b69862b4d45258f16ffa2150ed8e6e9b53",
+      "bytes": 111828
+    },
+    "source/pilot/last-four/opening/matte02/0068.png": {
+      "sha256": "e022177c3255bab21afe92d08880c5a36f9b9c5cd71b71af62f2f5eb70261930",
+      "bytes": 111095
+    },
+    "source/pilot/last-four/opening/matte02/0069.png": {
+      "sha256": "3d0bd035b5f091799ab304b51bb92192c6578ef2fa0285e88aa15a31df853077",
+      "bytes": 112111
+    },
+    "source/pilot/last-four/opening/matte02/0070.png": {
+      "sha256": "94a94195e317d3b221bcff482c4f527a045674d23a0abb44a52dee6ab45307cb",
+      "bytes": 112168
+    },
+    "source/pilot/last-four/opening/matte02/0071.png": {
+      "sha256": "bcb179a7852092b840a420c14646d2f368867296a72f2bd6a35054a0d7e23a70",
+      "bytes": 112708
+    },
+    "source/pilot/last-four/opening/matte02/0072.png": {
+      "sha256": "9eb68c8bd0d52e7d2d8a16d05d1ac8662b0e52f5d6c18dedbfc57add5adc1edc",
+      "bytes": 112736
+    },
+    "source/pilot/last-four/opening/matte02/0073.png": {
+      "sha256": "45a8be49661ff129b55eb44ffd9126ff2768f2846a6db1ae8cee6c51208ae5a6",
+      "bytes": 113080
+    },
+    "source/pilot/last-four/opening/matte02/0074.png": {
+      "sha256": "e7691bb214a78561397aa6d13b78332e7004551779b3097a0169f6e1815ed8e4",
+      "bytes": 112981
+    },
+    "source/pilot/last-four/opening/matte02/0075.png": {
+      "sha256": "e4b68ccd80ed3c74469154c4d3ad70ca58ef4ead36633b6d4a1d6033d56fa662",
+      "bytes": 113854
+    },
+    "source/pilot/last-four/opening/matte02/0076.png": {
+      "sha256": "8d65891dd055979efbb8bf4ba177ac0dea7ceb65610bec77f2dfaef2003ffc7f",
+      "bytes": 113468
+    },
+    "source/pilot/last-four/opening/matte02/0077.png": {
+      "sha256": "5df4111d734af17d808b06bda6f5eeff26c6c48b497052a7eaf6abba2a80d5ef",
+      "bytes": 114763
+    },
+    "source/pilot/last-four/opening/matte02/0078.png": {
+      "sha256": "ec16fec7558d39f8b15100e3c973a15755c24b01db4caba6c98dc6385e16b8cd",
+      "bytes": 114369
+    },
+    "source/pilot/last-four/opening/matte02/0079.png": {
+      "sha256": "2e49c65b2eb5429e1dffb1f1e58dca559d3075e318f2b64659bef44707b7c5c5",
+      "bytes": 114962
+    },
+    "source/pilot/last-four/opening/matte02/0080.png": {
+      "sha256": "e26d8a2fe8717c8629f08f4551ac36bb86d6079aaab3444048ea189e356c98f2",
+      "bytes": 115863
+    },
+    "source/pilot/last-four/opening/matte02/0081.png": {
+      "sha256": "23330339f8c6c18edc0b08007c8f7a5eb4bce12d0b37ea531efbece4dd8ad6fb",
+      "bytes": 116089
+    },
+    "source/pilot/last-four/opening/matte02/0082.png": {
+      "sha256": "48160237cb7fa0b3ee73632f22792f86630dbcbeaee46665fd8a6f36c613f5f0",
+      "bytes": 115569
+    },
+    "source/pilot/last-four/opening/matte02/0083.png": {
+      "sha256": "bff12c13b88c0d7152ca23974d917c67c9a57504f6a7a7a97c3e0d7ee9110741",
+      "bytes": 115386
+    },
+    "render/pilot/last-four/opening/cg02.mp4": {
+      "sha256": "cb7eaf3b2cdcb9b41b19e96f1f04e549e49184acfbba6a2f28f59a99cfaebbc5",
+      "bytes": 989563
+    },
+    "observations/accepted-review/cg02/reference-clip.mp4": {
+      "sha256": "31f9a048d3589657b7b5032d0bbde3f4c6692e92dcc484bd4cba8472d90ac79f",
+      "bytes": 203074
+    },
+    "source/pilot/last-four/opening/cg02-recipe.json": {
+      "sha256": "97c682358a933a14be392d295e526fcb7d6bfb1d2424c6bec3556db5212e3f16",
+      "bytes": 3048
+    },
+    "source/pilot/detail-two/cg04-input.json": {
+      "sha256": "cd6316af18882b69c07a6728490805841a95ce4f3b264dfd4dcebcede772c48e",
+      "bytes": 2988
+    },
+    "source/pilot/detail-two/assets/business-risk-desk.png": {
+      "sha256": "2a248d1e8cc97df538bcc1f45d426ad0c104a759c8e4d6de1883f462f31d7750",
+      "bytes": 204342
+    },
+    "source/pilot/detail-two/assets/business-risk-desk.svg": {
+      "sha256": "a8d4e09200790a63b6a54d802c6a31320da8915feecb4abaaabd371b4b85d48c",
+      "bytes": 2251
+    },
+    "source/pilot/detail-two/assets/business-skyline.png": {
+      "sha256": "74168b3496bcacdeb6673b1c17a02aadfabfb5ed0909d2f3305519b0863bd8c5",
+      "bytes": 828766
+    },
+    "source/pilot/detail-two/assets/business-skyline.svg": {
+      "sha256": "0d855b2a5049561667658cc45f33f430e60a8d78aa9396ff668c246ab2e9538a",
+      "bytes": 16698
+    },
+    "source/pilot/detail-two/assets/practical-skills-spread.png": {
+      "sha256": "b9d80358a986d832e9beae9c4d910e844da7867e6fb1c015d26fd9c748582162",
+      "bytes": 342474
+    },
+    "source/pilot/detail-two/assets/practical-skills-spread.svg": {
+      "sha256": "4ae364b7409406042aa804f8589e0ab7fcbbc31efb1f7ab7076bf869db8c9861",
+      "bytes": 2482
+    },
+    "render/pilot/detail-two/cg04.mp4": {
+      "sha256": "4361550c64928a1b7b88b0f090468e705cbe6935a0ae9ffcf0685a6ef772b918",
+      "bytes": 539029
+    },
+    "observations/accepted-review/cg04/reference-clip.mp4": {
+      "sha256": "483a6c11c2d7f1ac1846940d79c9d20e2e6818eb0658a49b62e7ebdfc8aea42b",
+      "bytes": 267879
+    },
+    "source/pilot/detail-two/cg04-recipe.json": {
+      "sha256": "21809c9b3122a05aa5c03337b7d23e8b03754a747dee647706639f23513bf745",
+      "bytes": 2717
+    },
+    "source/pilot/batches/closing/cg06-input.json": {
+      "sha256": "126cd25b2245599a73a394bf16bd28b1ea1d95a3384d0f2fb3e74c7852f98b4e",
+      "bytes": 423
+    },
+    "source/pilot/t04/input-A.json": {
+      "sha256": "69a02833bc8beb9e3bb201fb8b50873814572532ee668d7edf318f5c46f56024",
+      "bytes": 2455
+    },
+    "render/pilot/t04/applied-A.mp4": {
+      "sha256": "d0a41a1a09fa969301d53ea8a6c38f508d589db6e65a4d0b24e63b50094ee72c",
+      "bytes": 751281
+    },
+    "observations/accepted-review/cg06/reference-clip.mp4": {
+      "sha256": "b157edaeaceb198e43d7482878c6236e158f7b5ceafcf142afa43d21e5477447",
+      "bytes": 122970
+    },
+    "source/pilot/batches/closing/cg06-recipe.json": {
+      "sha256": "b902f81041ac097f1a8b9fab86f57c6d2324225ef1195998b125e1ffddf14138",
+      "bytes": 1917
+    },
+    "source/pilot/detail-rest/scene/cg07-input.json": {
+      "sha256": "cc68270fa2130b117b6a84e603f079becc0f14481ccb0aca7e65b5d81c2cb6cd",
+      "bytes": 3072
+    },
+    "source/pilot/detail-rest/scene/assets/anxiety.png": {
+      "sha256": "320c8e9f5744225d1472c0d28b2f4c995fcc9702e1200eb2ec6584bc8470cc67",
+      "bytes": 52381
+    },
+    "source/pilot/detail-rest/scene/assets/anxiety.svg": {
+      "sha256": "e3f9c93b58889d3654b996f9a9f35bd58a17544af441f30db8baa37f5247f1b8",
+      "bytes": 914
+    },
+    "source/pilot/detail-rest/scene/assets/cost.png": {
+      "sha256": "b83be62c36bb84b7e22b97eadcee6363931d4744f7f428db7eaa855d0221dbd1",
+      "bytes": 80626
+    },
+    "source/pilot/detail-rest/scene/assets/cost.svg": {
+      "sha256": "86da76d910598d2e86ddeb303f70e374782a82867be607c9d9ddd91c7d4a868f",
+      "bytes": 1054
+    },
+    "source/pilot/detail-rest/scene/assets/experience.png": {
+      "sha256": "116b5eb4162b44b72e6edad9f9425e937289938bc92965f395ff1568965dc0e7",
+      "bytes": 74288
+    },
+    "source/pilot/detail-rest/scene/assets/experience.svg": {
+      "sha256": "c7558299fbb1b78b3a86eb22c42db38299f6b63f903ffbec0e32f756fec8392c",
+      "bytes": 1145
+    },
+    "source/pilot/detail-rest/scene/assets/opinions.png": {
+      "sha256": "51f626781c8642137546a55ae0378e4266e461c46d51c8619802b5eef96d9a89",
+      "bytes": 145814
+    },
+    "source/pilot/detail-rest/scene/assets/opinions.svg": {
+      "sha256": "0b9b325ab29f12e8f9a4258fb862715cb017d281269506425855ad59de7bdfde",
+      "bytes": 921
+    },
+    "source/pilot/detail-rest/scene/assets/skill.png": {
+      "sha256": "fc803bc4cd569889e2694602e676e5354b7d4d9d32ffa1f11de0a19fea76650c",
+      "bytes": 44028
+    },
+    "source/pilot/detail-rest/scene/assets/skill.svg": {
+      "sha256": "75b300b772e4b535c190fa98aff49a335deb853528c9b1e08185f4637e9a2c77",
+      "bytes": 973
+    },
+    "render/pilot/detail-rest/scene/cg07.mp4": {
+      "sha256": "b811188b976eb761146b05344c7b63a31435d8a2544c327f036efb25456e1067",
+      "bytes": 432135
+    },
+    "observations/accepted-review/cg07/reference-clip.mp4": {
+      "sha256": "fb6fe8a7be3b8df73a42f5e76e4554199d2980a26ddba1739a5073339cd3467a",
+      "bytes": 174571
+    },
+    "source/pilot/detail-rest/scene/cg07-recipe.json": {
+      "sha256": "a7ee6a31c56168ede17dec925e50f2a6602a7c5d939ed656f9f52a52f06447b6",
+      "bytes": 3174
+    },
+    "source/pilot/detail-rest/scene/cg08-input.json": {
+      "sha256": "0015e1e5285ed6a4d9b7089923463096fe03fdb335869c4129db7b79e4976b9c",
+      "bytes": 2598
+    },
+    "source/pilot/detail-rest/scene/models/provenance.json": {
+      "sha256": "5ca014f7f07e3ef7c922cface0b1c47f6296a7acdab6f45759d04a0c24f733f2",
+      "bytes": 601
+    },
+    "source/pilot/detail-rest/scene/matte/manifest.json": {
+      "sha256": "875dd84e0312cb54ea111db743494462a6e8bc66b2b2fcc538c39d94f04a0a06",
+      "bytes": 18537
+    },
+    "source/pilot/detail-rest/scene/matte/0000.png": {
+      "sha256": "ad51d04bea7c3a6c8511db64358e7477e6d7797af01f60c5208e72dd018167fd",
+      "bytes": 605278
+    },
+    "source/pilot/detail-rest/scene/matte/0001.png": {
+      "sha256": "1f22c3b345e57ea13737d04d350ecfd9268fd5d42f21e0b71e5a32477bac1815",
+      "bytes": 605618
+    },
+    "source/pilot/detail-rest/scene/matte/0002.png": {
+      "sha256": "ee101d3ddb796da1ccc869d352bac2fad7c0d37eb775740318a16ae3014618a6",
+      "bytes": 609650
+    },
+    "source/pilot/detail-rest/scene/matte/0003.png": {
+      "sha256": "886f94f4ecfc291f4e459f7a8e2e9f5cd4e9af20e7bbfbc4d174b6bfca9fa5d3",
+      "bytes": 609218
+    },
+    "source/pilot/detail-rest/scene/matte/0004.png": {
+      "sha256": "6413d8a4196ac229aee5830c5b6d4a91c54967a1f2de5cfcb68d5d65497622a0",
+      "bytes": 606058
+    },
+    "source/pilot/detail-rest/scene/matte/0005.png": {
+      "sha256": "b4fd230aa9d553a42f2955997e044e5592126a02f2356a5eeff50c4baa9ba070",
+      "bytes": 603439
+    },
+    "source/pilot/detail-rest/scene/matte/0006.png": {
+      "sha256": "6023bc1e81cbd62c3b6fc1f65e7127ccbccffa1fb0ae5e98928e808ec28a2788",
+      "bytes": 599957
+    },
+    "source/pilot/detail-rest/scene/matte/0007.png": {
+      "sha256": "5c1d74bec9e5a3b710767502c597a8dd7df32e720c3850989a993cfdee07458d",
+      "bytes": 607097
+    },
+    "source/pilot/detail-rest/scene/matte/0008.png": {
+      "sha256": "8aa29b9c37fd0e1f6cfbf2c1570eb2821cd5072fb54d535c460323e1857fc210",
+      "bytes": 611104
+    },
+    "source/pilot/detail-rest/scene/matte/0009.png": {
+      "sha256": "a8c3e329bb9a864216fae6f1eca7980c8e99067a73334876b5a55ad44162b328",
+      "bytes": 612243
+    },
+    "source/pilot/detail-rest/scene/matte/0010.png": {
+      "sha256": "1185ff5c8ccaf0dc06e3873ae91a0196b083373d83b61336a65e63b6e59923c7",
+      "bytes": 612913
+    },
+    "source/pilot/detail-rest/scene/matte/0011.png": {
+      "sha256": "1ff3e5a068ed495ca8f454315642d008e6f18df77868814c4f4ddc91084b3ff8",
+      "bytes": 611100
+    },
+    "source/pilot/detail-rest/scene/matte/0012.png": {
+      "sha256": "218b512cf709ab00e8d6babf2fcb5e4a5e5e53701af0207972c07133d3c77f91",
+      "bytes": 612346
+    },
+    "source/pilot/detail-rest/scene/matte/0013.png": {
+      "sha256": "2d83eb0bd6429c271ab088b8ed0a3d3d59e864176cae14f3041acbbcd704db14",
+      "bytes": 611358
+    },
+    "source/pilot/detail-rest/scene/matte/0014.png": {
+      "sha256": "462d08da1bc7f6741b08d0e180e07a5bb114dc25575a25bda94aeacbd38675da",
+      "bytes": 607105
+    },
+    "source/pilot/detail-rest/scene/matte/0015.png": {
+      "sha256": "3b6f96daecf5608232dabc68c575a36fb44efb0f1947d2c788713792b40a0c24",
+      "bytes": 603619
+    },
+    "source/pilot/detail-rest/scene/matte/0016.png": {
+      "sha256": "08ad0e034d08a69959154f8332bff295406b905f0afaed319681d05f729f36d1",
+      "bytes": 591852
+    },
+    "source/pilot/detail-rest/scene/matte/0017.png": {
+      "sha256": "933eee7e714f463fdb6ecc427de06b88b4757d285bc78034927552b1e9ce35ac",
+      "bytes": 580835
+    },
+    "source/pilot/detail-rest/scene/matte/0018.png": {
+      "sha256": "d587f2a8c41efe50d290b7e4b89d30534d8edee81095bd9cc39316c065ad3d5f",
+      "bytes": 572175
+    },
+    "source/pilot/detail-rest/scene/matte/0019.png": {
+      "sha256": "6d75eae83e520737a3573d33f0820e46ddf56803965637d1e845bc2d44635784",
+      "bytes": 575270
+    },
+    "source/pilot/detail-rest/scene/matte/0020.png": {
+      "sha256": "b1238b3d580dccfe13adaab6e0ff9cc45294e02336167529a21f1dc3519195c6",
+      "bytes": 580271
+    },
+    "source/pilot/detail-rest/scene/matte/0021.png": {
+      "sha256": "544d2f80c68031dfa245335aac003e48460de0ba6518ad4d3a9fcfc810214469",
+      "bytes": 580681
+    },
+    "source/pilot/detail-rest/scene/matte/0022.png": {
+      "sha256": "9cc275e359c6045368eb7b792f8780006ec9f82f9ba3b318d17182958c13ed35",
+      "bytes": 575840
+    },
+    "source/pilot/detail-rest/scene/matte/0023.png": {
+      "sha256": "f35bff26e5d996730f04ef5328cafbd2269106af1b465b829663f0ec28828f18",
+      "bytes": 579282
+    },
+    "source/pilot/detail-rest/scene/matte/0024.png": {
+      "sha256": "2b09c3aae6fe14be5eccaed3c648a88d0c2afd5ebf07a8904dd2ec7ef8e36f59",
+      "bytes": 583617
+    },
+    "source/pilot/detail-rest/scene/matte/0025.png": {
+      "sha256": "c0c97ee1607c14ecf50e9f646c97e113b16d8272b3cfa81d8d651538fc492af4",
+      "bytes": 580156
+    },
+    "source/pilot/detail-rest/scene/matte/0026.png": {
+      "sha256": "421c128bbe21703ccad5d5d699a4f7f9b25970d74dd5fa775cdc311f6926c6ff",
+      "bytes": 580552
+    },
+    "source/pilot/detail-rest/scene/matte/0027.png": {
+      "sha256": "f3302d68c487f126b4a54e0c7980fd6de13e51246940e6ccccbe539f436aa40b",
+      "bytes": 585073
+    },
+    "source/pilot/detail-rest/scene/matte/0028.png": {
+      "sha256": "ef9154516cfc0522797fb1f178a181ac857a5c80d6df88f1ef750595e4674b10",
+      "bytes": 587640
+    },
+    "source/pilot/detail-rest/scene/matte/0029.png": {
+      "sha256": "014e22e2ef82b6243216e97424d51414c15773e4ead2c5309e36e42d10cc079b",
+      "bytes": 581400
+    },
+    "source/pilot/detail-rest/scene/matte/0030.png": {
+      "sha256": "019101116d83853a82776682144f3d6092e1074b1b184e34cd601d6601499413",
+      "bytes": 584814
+    },
+    "source/pilot/detail-rest/scene/matte/0031.png": {
+      "sha256": "fcd239b288e3e3ac77d223aa3b80801fbc92ccfad94aa46b051d98aabb3734f9",
+      "bytes": 582524
+    },
+    "source/pilot/detail-rest/scene/matte/0032.png": {
+      "sha256": "d91aaf3abba6fa52c08eca194c3d7d258d6d856c17063cccb3beb3fbd4adc46d",
+      "bytes": 586330
+    },
+    "source/pilot/detail-rest/scene/matte/0033.png": {
+      "sha256": "822175fc0829e20ca5eda968b8f28e24895c172c260a4d6cd403e7ef6cef5df9",
+      "bytes": 583973
+    },
+    "source/pilot/detail-rest/scene/matte/0034.png": {
+      "sha256": "357ab0b47bcf2df4bb5b3d6826e269efece047d8dcef1a525b89c0a7ceeb9a41",
+      "bytes": 590838
+    },
+    "source/pilot/detail-rest/scene/matte/0035.png": {
+      "sha256": "e8ecdbd84ccbfb8460138831b2712c3fd10487223c6c928b37996c968ec0f767",
+      "bytes": 588105
+    },
+    "source/pilot/detail-rest/scene/matte/0036.png": {
+      "sha256": "888934296b9bc86d0294bab852ccc3c4e5f918628e5b1f15e84e95cf213a41c7",
+      "bytes": 590262
+    },
+    "source/pilot/detail-rest/scene/matte/0037.png": {
+      "sha256": "507f86cde366737d71e50c07ce45df1165dacc632b2de82ca74f23f504f4e045",
+      "bytes": 590652
+    },
+    "source/pilot/detail-rest/scene/matte/0038.png": {
+      "sha256": "ae6edf596999e4ee76aba8a57420b6b3920158c290ac33e1f7ae7aa759aac6e7",
+      "bytes": 595036
+    },
+    "source/pilot/detail-rest/scene/matte/0039.png": {
+      "sha256": "971ad99877ef6c9f785948f3ea434dce48798d179aa2180d7251f647f8cd6574",
+      "bytes": 593169
+    },
+    "source/pilot/detail-rest/scene/matte/0040.png": {
+      "sha256": "d3875ac289f8bf7919950c5df9ae2bc3b74f86ccc7f5cfd5829fa01d35ab8571",
+      "bytes": 597624
+    },
+    "source/pilot/detail-rest/scene/matte/0041.png": {
+      "sha256": "3f978531e94d5950dcde4ca11ba9e197086763a80d5d528090a46104a150fc3d",
+      "bytes": 595976
+    },
+    "source/pilot/detail-rest/scene/matte/0042.png": {
+      "sha256": "c9e5f6144873830b0ff5e6a7b22940f9acaa436642e588a8d6456b184d7dfa11",
+      "bytes": 595192
+    },
+    "source/pilot/detail-rest/scene/matte/0043.png": {
+      "sha256": "c0ba411adf14b9797388a21419afe51b6b3d2682921ce3e2a1ab34f853813fa3",
+      "bytes": 594939
+    },
+    "source/pilot/detail-rest/scene/matte/0044.png": {
+      "sha256": "3552dfd3d8c073299281480fd9e3433b7d6cc8fd7f45cd0421346a88b5ca449a",
+      "bytes": 592938
+    },
+    "source/pilot/detail-rest/scene/matte/0045.png": {
+      "sha256": "a1dfd9ab0508b2405de1d60e7166e31097506f6a3528beea9aea47271377c7f2",
+      "bytes": 593535
+    },
+    "source/pilot/detail-rest/scene/matte/0046.png": {
+      "sha256": "da7ab932f37fa02fd9420fbdbf6725abb489dfb4b4da27bb3c604865e5549838",
+      "bytes": 591459
+    },
+    "source/pilot/detail-rest/scene/matte/0047.png": {
+      "sha256": "f1f81894205ef151761012541fd865064ceeda0fbd8e7971c821ddb238127c6f",
+      "bytes": 597337
+    },
+    "source/pilot/detail-rest/scene/matte/0048.png": {
+      "sha256": "275f592069285726c6e8ed13d366a863361b0b5c58c206113cf5711ea8977da9",
+      "bytes": 596701
+    },
+    "source/pilot/detail-rest/scene/matte/0049.png": {
+      "sha256": "c58cb3b6c0d414d45fcd3a00df541b216daacfe557bf3cb39a4f3aa7ea69b65e",
+      "bytes": 594108
+    },
+    "source/pilot/detail-rest/scene/matte/0050.png": {
+      "sha256": "10f9a95adcfe160a0600105c21cffa068f800f47bcab4105b19ca6145184bfa7",
+      "bytes": 578445
+    },
+    "source/pilot/detail-rest/scene/matte/0051.png": {
+      "sha256": "84c37ce41ac4640a09913e898a6c2c2b62302456dbb572dfc8f0af010734ddcb",
+      "bytes": 591569
+    },
+    "source/pilot/detail-rest/scene/matte/0052.png": {
+      "sha256": "96bc80c08c71a09f6e74845ba218ce60cb940471f57aa29b0737abca2308e298",
+      "bytes": 587196
+    },
+    "source/pilot/detail-rest/scene/matte/0053.png": {
+      "sha256": "213fbffac4af64916304116a4fd752da4f4bb41a0f5d439690418923ee7d73b1",
+      "bytes": 596374
+    },
+    "source/pilot/detail-rest/scene/matte/0054.png": {
+      "sha256": "6a92267a09e7113d59ea3f0c653740228d00c93567861973e1776a182f0a0647",
+      "bytes": 587572
+    },
+    "source/pilot/detail-rest/scene/matte/0055.png": {
+      "sha256": "ef1a6e16a32ad15f1436e027b737db7dad8f8ff19e4496b3ca59b50cfa33b2ad",
+      "bytes": 597486
+    },
+    "source/pilot/detail-rest/scene/matte/0056.png": {
+      "sha256": "2575f7f569090997ac3710406fde8cef7d23bebacb6ef7a4ff35df5310653e81",
+      "bytes": 591837
+    },
+    "source/pilot/detail-rest/scene/matte/0057.png": {
+      "sha256": "09feab1855037821ef6c499adbb0d70e3361003950ba322c0e5bc153ee5e7f8b",
+      "bytes": 577990
+    },
+    "source/pilot/detail-rest/scene/matte/0058.png": {
+      "sha256": "620b785d8bd05c5b2a3ed4702431ff7e0e44c34ce8b20ce86032321c0c491654",
+      "bytes": 552619
+    },
+    "source/pilot/detail-rest/scene/matte/0059.png": {
+      "sha256": "4ce18118ec687089017154d34ff242af55d48f2dca60cbe7d189d58e926fd41d",
+      "bytes": 550391
+    },
+    "source/pilot/detail-rest/scene/matte/0060.png": {
+      "sha256": "3b3a4e380ba342dc5e40c46b74938b21893fc7991a3a7a8e623d3e8bb5f5d31f",
+      "bytes": 547136
+    },
+    "source/pilot/detail-rest/scene/matte/0061.png": {
+      "sha256": "a14c66212643da07bf542b0d8abc9b09bb1207a259f545dd05f5ff090b3869b9",
+      "bytes": 549103
+    },
+    "source/pilot/detail-rest/scene/matte/0062.png": {
+      "sha256": "6ca543d719c7f33355a01096b64bc9a9fb68ae79edcad9303f53b6bcb8a6350a",
+      "bytes": 542303
+    },
+    "source/pilot/detail-rest/scene/matte/0063.png": {
+      "sha256": "e710dba2037f8cb0c62df1f2870f21e2102b32e2ab54f462cfd15b63e70ea032",
+      "bytes": 550085
+    },
+    "source/pilot/detail-rest/scene/matte/0064.png": {
+      "sha256": "6eeadb31eb2e41add1cba40c49dc0f5bac9e48a14f1d8bcb02e873162d1f5333",
+      "bytes": 547975
+    },
+    "source/pilot/detail-rest/scene/matte/0065.png": {
+      "sha256": "a40b3c050986ea7d8aa82517dd32da29c78ab6998b9f32cfab2ab35212fd0a83",
+      "bytes": 547745
+    },
+    "source/pilot/detail-rest/scene/matte/0066.png": {
+      "sha256": "7bcaecb5007076f16c0f159a95347349f1cc1d71834e253963b931ebbaead0f9",
+      "bytes": 546623
+    },
+    "source/pilot/detail-rest/scene/matte/0067.png": {
+      "sha256": "458e19a354cef4c088e71ec8022af068e557086b293cb86df36a223574216908",
+      "bytes": 556119
+    },
+    "source/pilot/detail-rest/scene/matte/0068.png": {
+      "sha256": "cd90bbf2a90357089e01a5bfe8f7e5b36557a0a22a44dcbbbd99044c65f27768",
+      "bytes": 559080
+    },
+    "source/pilot/detail-rest/scene/matte/0069.png": {
+      "sha256": "ec8763a30006d982328e63d5578fc6851d3f7e828a82ebe3d038eefd05ba2b55",
+      "bytes": 554179
+    },
+    "source/pilot/detail-rest/scene/matte/0070.png": {
+      "sha256": "29a71c9beaef39d9c89232caa3d9df47ede4e661c9537ec29004df5072e8c7c5",
+      "bytes": 555471
+    },
+    "source/pilot/detail-rest/scene/matte/0071.png": {
+      "sha256": "1ac1c9f1513e6b0fc90bb2cb3aca02cac344c41f4ec1d530f5bfc55e2ff4cfb0",
+      "bytes": 554432
+    },
+    "source/pilot/detail-rest/scene/matte/0072.png": {
+      "sha256": "c6802813dff5afe912250dd192b7e8762d786bd0cc9cbc51c022bd93586607a2",
+      "bytes": 556555
+    },
+    "source/pilot/detail-rest/scene/matte/0073.png": {
+      "sha256": "0a0cbae4a9ad2c451c3069f43526b8b11e1e68e858182e2b0c8c469c6bf6873b",
+      "bytes": 556311
+    },
+    "source/pilot/detail-rest/scene/matte/0074.png": {
+      "sha256": "77c12e85c0f7c7d9d6ea40ed9cbde6288a433ed1c99da05125eaa178ff028d59",
+      "bytes": 561851
+    },
+    "source/pilot/detail-rest/scene/matte/0075.png": {
+      "sha256": "96e35d3ee86c3994a924f4f6be2c7b55c65d86dfdb9f57469ed4dde3d3e502c6",
+      "bytes": 559628
+    },
+    "source/pilot/detail-rest/scene/matte/0076.png": {
+      "sha256": "7d3b75cf8e8fd4d20928f922d25291c3f3e186f8fdf1945f93dd1dcc4e8ddba5",
+      "bytes": 499737
+    },
+    "source/pilot/detail-rest/scene/matte/0077.png": {
+      "sha256": "4d064012ff0cc0c53c8b196de69b63a9f149b9a2fe4265f0e919d9dc0438be46",
+      "bytes": 540893
+    },
+    "source/pilot/detail-rest/scene/matte/0078.png": {
+      "sha256": "1f0813c2559b27a7e6741cf12c65c3b1ba981e0fffb16b45b1364968ae3d5e5e",
+      "bytes": 541326
+    },
+    "source/pilot/detail-rest/scene/matte/0079.png": {
+      "sha256": "cf80fde35e22bc0c11440743c8803c7707b4494dc23ed4886a9ff6bb1d44be37",
+      "bytes": 539716
+    },
+    "source/pilot/detail-rest/scene/matte/0080.png": {
+      "sha256": "d4a5b627f207455e7c4b510e1bc879fa6886e622628c600a9bd13e014657f05e",
+      "bytes": 538838
+    },
+    "source/pilot/detail-rest/scene/matte/0081.png": {
+      "sha256": "dd20ed2079f23cc6164f182c43cae5ea62bc987a5bdbb12e3ba3f803c7f2e528",
+      "bytes": 546563
+    },
+    "source/pilot/detail-rest/scene/matte/0082.png": {
+      "sha256": "0ba865db3b8a7de59fe2b55b3e26d6ac8d224fd1dde5ab6fef839cb37c6ab777",
+      "bytes": 552124
+    },
+    "source/pilot/detail-rest/scene/matte/0083.png": {
+      "sha256": "0d1cead4a7cef546d17d5d6cd37e85905c56d8c0e4df197a672abe22fea9a37e",
+      "bytes": 551188
+    },
+    "source/pilot/detail-rest/scene/matte/0084.png": {
+      "sha256": "2e2bb1bc242ffe50dae63bc313db7681a66db7aedd177449316de49e307adc04",
+      "bytes": 553802
+    },
+    "source/pilot/detail-rest/scene/matte/0085.png": {
+      "sha256": "f739fb24afe0366708343df505266c736cca68e8d40b8759528f39882344d76b",
+      "bytes": 552718
+    },
+    "source/pilot/detail-rest/scene/matte/0086.png": {
+      "sha256": "e2d741fb1ede7f7d68cad0fae3fa3e706bbdf79339acbe5f73d5d4a6f4289964",
+      "bytes": 557910
+    },
+    "source/pilot/detail-rest/scene/matte/0087.png": {
+      "sha256": "de7656e371d2d3a1c9d6114959967ea0a9d22b30651ac310c298e10f16a1f613",
+      "bytes": 559651
+    },
+    "source/pilot/detail-rest/scene/matte/0088.png": {
+      "sha256": "ef53db84b1b29afc41767d2c49e2b6939205a81dca0e9b654cf0dbc6e41fe2c2",
+      "bytes": 563077
+    },
+    "source/pilot/detail-rest/scene/matte/0089.png": {
+      "sha256": "feb74ddd70ceff14532fb5c1d55f85c0d881c1d0e5c27e31a5ff9fcd0e37473b",
+      "bytes": 564170
+    },
+    "source/pilot/detail-rest/scene/matte/0090.png": {
+      "sha256": "c4518779ef73d499f109c173f84fe7638eafc4b5d29ba436aae4964f0c95eccc",
+      "bytes": 568326
+    },
+    "source/pilot/detail-rest/scene/matte/0091.png": {
+      "sha256": "bc65b324c9bb53eaf394345e93212c93a20951c100c5d2127efc07172c76617f",
+      "bytes": 565861
+    },
+    "source/pilot/detail-rest/scene/matte/0092.png": {
+      "sha256": "10d398254da94fab29d90c4e390e5841d17aeecaeb2feae3d08231923200a804",
+      "bytes": 572774
+    },
+    "source/pilot/detail-rest/scene/matte/0093.png": {
+      "sha256": "8caf6848aa9a7f9e17749aa43a76630f9f259315ba1d597243d8d62d838b1263",
+      "bytes": 572842
+    },
+    "source/pilot/detail-rest/scene/matte/0094.png": {
+      "sha256": "4ab81a8da6e54c07dee86c37849d25b92829343cb4c3caaebfbb36293aa09081",
+      "bytes": 578040
+    },
+    "source/pilot/detail-rest/scene/matte/0095.png": {
+      "sha256": "9478d1eb6f298c6f86ed8f8b40db162392b034475b699aef67259a4948e858c5",
+      "bytes": 573349
+    },
+    "source/pilot/detail-rest/scene/matte/0096.png": {
+      "sha256": "3953860b2f2e548be1c2d3bb0fa4ff1902cfc1a1747be04c28eb73551f4c5598",
+      "bytes": 578023
+    },
+    "source/pilot/detail-rest/scene/matte/0097.png": {
+      "sha256": "54d5698fe22cb6015bb37ca6d2b97ebc7a6ecd7b846cba74f662d46692b06ef8",
+      "bytes": 579765
+    },
+    "source/pilot/detail-rest/scene/matte/0098.png": {
+      "sha256": "6ea252408aa6b606e317baf9118ab588fb7b106e15eec478b065eea210cad5e5",
+      "bytes": 581921
+    },
+    "source/pilot/detail-rest/scene/matte/0099.png": {
+      "sha256": "8db0f78f610dc433853ef010527aa4248b2e7f227b0774178eee9db98cafc11c",
+      "bytes": 577928
+    },
+    "source/pilot/detail-rest/scene/matte/0100.png": {
+      "sha256": "5a03bad815450d3ba1d86471c14e1bd77accadbfd7882a5916753ca51d5dc395",
+      "bytes": 583324
+    },
+    "source/pilot/detail-rest/scene/matte/0101.png": {
+      "sha256": "9c571f424a9d3178e7b7cc3e7e0120728a62f5e10477f21a51b12b680906696f",
+      "bytes": 579411
+    },
+    "source/pilot/detail-rest/scene/matte/0102.png": {
+      "sha256": "e28d4b893b616fa904d185a6675c96e3d7b333271ab22fff5240de8f13015b86",
+      "bytes": 581628
+    },
+    "source/pilot/detail-rest/scene/matte/0103.png": {
+      "sha256": "ff6933816865a675731f7ccb571a51b5038ef7b7164b860aefbac1692e904683",
+      "bytes": 580375
+    },
+    "source/pilot/detail-rest/scene/matte/0104.png": {
+      "sha256": "5341c90ffe621e88b7440241eb5621cad5bdec8b7958259289c88e17f8081d34",
+      "bytes": 587103
+    },
+    "source/pilot/detail-rest/scene/matte/0105.png": {
+      "sha256": "cdd3694b4e15f564095377f6dcf61c48ff0bfcede84b405a66bf93d7500f7d99",
+      "bytes": 584225
+    },
+    "source/pilot/detail-rest/scene/matte/0106.png": {
+      "sha256": "89b9af3841564d7a7ddc172e90c3538cc7f97a41069f4321ecb011c83c2d4ebe",
+      "bytes": 586698
+    },
+    "source/pilot/detail-rest/scene/matte/0107.png": {
+      "sha256": "f924a68a3322a3ff656939fc8ec7a1da0c4b41e19529fe6b482122dcfb27c97a",
+      "bytes": 584259
+    },
+    "source/pilot/detail-rest/scene/matte/0108.png": {
+      "sha256": "4ce8e17ab732c1764e8ef99ce8fb6b7b20914f7168659afb0c5c4e3a2e638864",
+      "bytes": 588610
+    },
+    "source/pilot/detail-rest/scene/matte/0109.png": {
+      "sha256": "25199383eae1acd23f4036b56fd86ee1f2e4e7a2c9c615d51dc14b839f9f3a5f",
+      "bytes": 585346
+    },
+    "source/pilot/detail-rest/scene/matte/0110.png": {
+      "sha256": "849d5c5b183e15acff98022c10a9fd8e57842df22e919370ddcb6f99575aa752",
+      "bytes": 589859
+    },
+    "source/pilot/detail-rest/scene/matte/0111.png": {
+      "sha256": "e417b48daf1bb11c000f12165619e4b759d2f683fd67b7249c0a2681f12cc1cd",
+      "bytes": 587435
+    },
+    "source/pilot/detail-rest/scene/matte/0112.png": {
+      "sha256": "92ad805951617b135210f032dbee3868d13ee3ba025a2d6678d0b1c7aaa3b016",
+      "bytes": 592342
+    },
+    "source/pilot/detail-rest/scene/matte/0113.png": {
+      "sha256": "eba7ab4a0c56881c187c6e8ec3b65fc62cfa7517c9291a225f97e299ce77f66f",
+      "bytes": 588172
+    },
+    "source/pilot/detail-rest/scene/matte/0114.png": {
+      "sha256": "dae4f09efabdc104f7b9a15d605feaf3143488ef7ef7035060c28361b11b697a",
+      "bytes": 593772
+    },
+    "source/pilot/detail-rest/scene/matte/0115.png": {
+      "sha256": "16fba2fc4d3a28d27425fd6cd7a2c0a389ae96c6eb4c43aeba44143135530bd2",
+      "bytes": 593287
+    },
+    "source/pilot/detail-rest/scene/matte/0116.png": {
+      "sha256": "2e24865e3cf631b737e48098c609a08e69048a94641dec8ce4b6a599bb60e7c5",
+      "bytes": 597772
+    },
+    "source/pilot/detail-rest/scene/matte/0117.png": {
+      "sha256": "49ba29f61174e67183b6c42c9bbae3010533120628ab22acb4701c3286020375",
+      "bytes": 594897
+    },
+    "source/pilot/detail-rest/scene/matte/0118.png": {
+      "sha256": "1e8b2794cb903fd9ec6744962da1b834a85794405c99710e488433c55fc5a86c",
+      "bytes": 596866
+    },
+    "source/pilot/detail-rest/scene/matte/0119.png": {
+      "sha256": "39362666a5ec927eb52927a37aac7f50a13bc67c5e65eb1ca9e01c5359f13641",
+      "bytes": 594091
+    },
+    "source/pilot/detail-rest/scene/matte/0120.png": {
+      "sha256": "4d7bc4aeb6aa4c7a732626c5c0e333204185461b78e1f28a0985a417d57551aa",
+      "bytes": 597026
+    },
+    "source/pilot/detail-rest/scene/matte/0121.png": {
+      "sha256": "7bf8e60ec9c347b3a4b01a2ff894c817b6773193abff7f50cf5ac33117d6ef81",
+      "bytes": 593723
+    },
+    "source/pilot/detail-rest/scene/matte/0122.png": {
+      "sha256": "2f9f699a4428dcbd793e998327f16a36d6124935e242c52d8799596e0a9fac79",
+      "bytes": 595656
+    },
+    "source/pilot/detail-rest/scene/matte/0123.png": {
+      "sha256": "b4c8a036a086f76e2bac626b176eed031f18f3396ca1ebc9089f71a7be7f306a",
+      "bytes": 594159
+    },
+    "source/pilot/detail-rest/scene/matte/0124.png": {
+      "sha256": "59967a244caf88202595005d41acebf3e04bb21a58ad2cb70be088f677a93f65",
+      "bytes": 599620
+    },
+    "source/pilot/detail-rest/scene/matte/0125.png": {
+      "sha256": "f6202ee59a6fe38099ddb49e171fd5e98f9190ab08764888b1526d5b02c7b49e",
+      "bytes": 597245
+    },
+    "source/pilot/detail-rest/scene/matte/0126.png": {
+      "sha256": "de2aca945d042e626a3850d8d93bf887d3e17a9273f87bcba3d0d2d1f9a1e21e",
+      "bytes": 600127
+    },
+    "source/pilot/detail-rest/scene/matte/0127.png": {
+      "sha256": "c22876fb6cb0c2514c2607cc5f47fe77c5924c46a28d996fa0f62cf9b8376055",
+      "bytes": 599154
+    },
+    "source/pilot/detail-rest/scene/matte/0128.png": {
+      "sha256": "46c94cbaadb5e9617992ab9e0905da6f9dc34c66f2d9aadad0264031f0d924e6",
+      "bytes": 603853
+    },
+    "source/pilot/detail-rest/scene/matte/0129.png": {
+      "sha256": "3d70763d73f8968e9ebafa0d318cc3a87c114214ec0927768601dc2cb220751f",
+      "bytes": 599996
+    },
+    "source/pilot/detail-rest/scene/matte/0130.png": {
+      "sha256": "0a73d712c0c2cca2b810767b77bb0cf8ab78fd7fc02fbc0bea57817048e828dc",
+      "bytes": 601208
+    },
+    "source/pilot/detail-rest/scene/matte/0131.png": {
+      "sha256": "14ef97ae798388cd63b4a8c01016499f337bfecef4fae2181d46210f221c9d20",
+      "bytes": 600484
+    },
+    "source/pilot/detail-rest/scene/matte/0132.png": {
+      "sha256": "3c8eac9123f84c27a34d35fa4bfdd13a48f1eccd1382d1f536be44186f155229",
+      "bytes": 605609
+    },
+    "source/pilot/detail-rest/scene/matte/0133.png": {
+      "sha256": "06f04a59cd13021cf8b7422106be169bf0559f20ba19ec6d33d38a86014ef904",
+      "bytes": 599061
+    },
+    "source/pilot/detail-rest/scene/matte/0134.png": {
+      "sha256": "37fa19c78b7798254993789a57b444a2335282c2b89daf526ccc961a71632dff",
+      "bytes": 600209
+    },
+    "source/pilot/detail-rest/scene/matte/0135.png": {
+      "sha256": "5260b2cfb444fdb7a3bc666a88be2f6ff595a514fe406037ebc89aac83833ccf",
+      "bytes": 596054
+    },
+    "source/pilot/detail-rest/scene/matte/0136.png": {
+      "sha256": "2b7a091eba274ce7db80baee2f92302145728a1b175ef22793661f5ece37a866",
+      "bytes": 601015
+    },
+    "source/pilot/detail-rest/scene/matte/0137.png": {
+      "sha256": "b276ff776bc57349b19bdf5e9089e314da5bcdb995f120346611e1b24d37c1cc",
+      "bytes": 600093
+    },
+    "source/pilot/detail-rest/scene/matte/0138.png": {
+      "sha256": "20f5d79e5b438b3b6e006400ed5e08a5a1761c2d81208db63ef39e5c10acd9c5",
+      "bytes": 602219
+    },
+    "source/pilot/detail-rest/scene/matte/0139.png": {
+      "sha256": "8891b7769803e86c5d927c7326526dbb13ed1646a79ba81a291c2d1138e271bf",
+      "bytes": 598267
+    },
+    "source/pilot/detail-rest/scene/matte/0140.png": {
+      "sha256": "110bf05a908e58f7b4f1a345cd84f6836b8c5b1050a354ce6273daae6b88d711",
+      "bytes": 603284
+    },
+    "source/pilot/detail-rest/scene/matte/0141.png": {
+      "sha256": "31424e1a9c4702252187fdca2e38689882d18a78376f7287aeb788a0fba33b25",
+      "bytes": 598497
+    },
+    "source/pilot/detail-rest/scene/matte/0142.png": {
+      "sha256": "9ce6612fe206e4086fca74314c51a60b7bdf1ca741a672d2554eb5373edbf1d8",
+      "bytes": 599366
+    },
+    "source/pilot/detail-rest/scene/matte/0143.png": {
+      "sha256": "555221f76ccf36070d58f9899068262e9308309816685e4469e95aa6d9a017b1",
+      "bytes": 601191
+    },
+    "source/pilot/detail-rest/scene/matte/0144.png": {
+      "sha256": "50748bd090f86dde776e62754c7e9888970fc8d3d2fa14c81dfc41a97610e31b",
+      "bytes": 604194
+    },
+    "source/pilot/detail-rest/scene/matte/0145.png": {
+      "sha256": "98d609b1c85eef114e206093c59f0b2d3257f8376602078a2f3d52abd09862cc",
+      "bytes": 601325
+    },
+    "render/pilot/detail-rest/scene/cg08.mp4": {
+      "sha256": "4d4ae5a22df3916a815c5bf6dad255bd88ce02333d33b75a85b3b126487f5374",
+      "bytes": 683931
+    },
+    "observations/accepted-review/cg08/reference-clip.mp4": {
+      "sha256": "0ad3848bb1253d4f3ed94baefe8d84c43e9c68d61d620146ec3a893f814e80c0",
+      "bytes": 238954
+    },
+    "source/pilot/detail-rest/scene/cg08-recipe.json": {
+      "sha256": "44f3e2f938c10d4273f1aa5d3430c8bc430b83fd6f511bd5b6021fc2aba29760",
+      "bytes": 3678
+    },
+    "source/pilot/last-four/scene/cg09-input.json": {
+      "sha256": "38cbc256abfe8a0bdb252e53e945cfdb7d4a0aaa836d7fa4a211c6fc12461f52",
+      "bytes": 2508
+    },
+    "source/pilot/last-four/scene/assets/provenance.json": {
+      "sha256": "499a09e420b93ef69a8340b7eeddfe0d308b53cf0f03ff5ec3d722c77838192f",
+      "bytes": 1189
+    },
+    "source/pilot/last-four/scene/assets/experience-review.mp4": {
+      "sha256": "1cbd78b0fcdc8108cd835f7d0e4d9f6c6fe8f2ff2e610f54b0af915d6629f480",
+      "bytes": 1972839
+    },
+    "render/pilot/last-four/scene/cg09.mp4": {
+      "sha256": "55674829e930663c2043427e3f1a80f552b2ce66fcd801f72fe4a87aaa3cb028",
+      "bytes": 273896
+    },
+    "observations/accepted-review/cg09/reference-clip.mp4": {
+      "sha256": "d7095fff17a2766c639377bd4eb461292dc7adfb220da406e45bdaea2ebf7a7b",
+      "bytes": 92410
+    },
+    "source/pilot/last-four/scene/cg09-recipe.json": {
+      "sha256": "959e75ada50b748b28923b3e3e9739b86a8f51c041794cb6b5a7a9c43cf66ba2",
+      "bytes": 2130
+    },
+    "source/pilot/detail-rest/circle/cg10-input.json": {
+      "sha256": "fe011094f762d753427791c5cb338a9cb710e0dee45f52f9d805ab0bab0918ec",
+      "bytes": 2493
+    },
+    "source/pilot/detail-rest/circle/METHOD.md": {
+      "sha256": "6ff1b16dda7d9be4e940de00cf7ecc0eb618b139514ce4fd379205cb81e7e461",
+      "bytes": 3201
+    },
+    "render/pilot/detail-rest/circle/cg10-input.mp4": {
+      "sha256": "5dcd31fdde5a84a0585a63aa60a96e1ad73a03a25c439cb82c80f3a261aa4afb",
+      "bytes": 291696
+    },
+    "observations/accepted-review/cg10/reference-clip.mp4": {
+      "sha256": "2edcfdeba65fac80977549906a95c4400a8544e7e31859a49216a21b3bc78810",
+      "bytes": 84110
+    },
+    "source/pilot/detail-rest/circle/cg10-input-recipe.json": {
+      "sha256": "048d40641368dfef4d0ca69ca0a3d6c612cde29154a335c48c42374b786168eb",
+      "bytes": 1939
+    },
+    "source/pilot/detail-rest/circle/cg11-input.json": {
+      "sha256": "c467c33ff951e76f6a8d4db8871032520f10cf686d3ea7f8f1978bde972c3a8f",
+      "bytes": 2778
+    },
+    "source/pilot/detail-rest/circle/assets/torn-paper.svg": {
+      "sha256": "8a360346d12f57f2fc14795c55002dcffde715d4cd25495a6b6d50cd2ee7a0e7",
+      "bytes": 1078
+    },
+    "source/pilot/detail-rest/circle/assets/torn-paper.png": {
+      "sha256": "0b8846aea433e3c8c8df5df3848418b91b0dba8401917e4b4c7aeafd42a7b606",
+      "bytes": 122140
+    },
+    "render/pilot/detail-rest/circle/cg11-input.mp4": {
+      "sha256": "00ba0cc272baccf6330789be2cb3ebb7da466aab211755f90ccc1e2a6b10a6ef",
+      "bytes": 247189
+    },
+    "observations/accepted-review/cg11/reference-clip.mp4": {
+      "sha256": "f71d83ace6bdc0a4cf9e98c49ec52a55f40035a7b5653302c28ea5ef06803f7a",
+      "bytes": 117514
+    },
+    "source/pilot/detail-rest/circle/cg11-input-recipe.json": {
+      "sha256": "0e3f803fa2b9b0364fbc0b3034e672e8645da1971a742a312b3171a87daca106",
+      "bytes": 2199
+    },
+    "source/pilot/detail-rest/circle/cg12-input.json": {
+      "sha256": "7f1d422036052e475e6f29056ad38fc9ebad211c159ba6bc25cf8cb9089fe6dc",
+      "bytes": 2729
+    },
+    "render/pilot/detail-rest/circle/cg12-input.mp4": {
+      "sha256": "f5e2fa2861c6222883ed1bc1f5c5f19b9866685c6d47428c438ccebf0d6824f6",
+      "bytes": 246181
+    },
+    "observations/accepted-review/cg12/reference-clip.mp4": {
+      "sha256": "0a2e686fb45b11408d32666b5d0a8659c42b4f2b9592f19d0143640964adf4f8",
+      "bytes": 84080
+    },
+    "source/pilot/detail-rest/circle/cg12-input-recipe.json": {
+      "sha256": "65ff6bcd43df2a09eadc7f85ece0898de070c0db7657e62f9e7e8f9a3f74f077",
+      "bytes": 1939
+    },
+    "source/pilot/detail-two/cg13-input.json": {
+      "sha256": "56e8491705243fb008b4e976b91c140590350fb0f5c566aebe7a155e42099303",
+      "bytes": 2764
+    },
+    "source/pilot/batches/circle/PURPOSE.md": {
+      "sha256": "a164ee0445819065a1c890e8ffabf777aed1d68ba841ed973e11e4afa2b2805b",
+      "bytes": 4020
+    },
+    "render/pilot/detail-two/cg13.mp4": {
+      "sha256": "bb5e81f68a399489de3a06c7087d95853caabd5c30c0bc82dbff959121ef884c",
+      "bytes": 351447
+    },
+    "observations/accepted-review/cg13/reference-clip.mp4": {
+      "sha256": "d0ac2375ef66ac6d57aaab89c66b0d9ebd1d8ecd743def2fe35327cd39a952c2",
+      "bytes": 133504
+    },
+    "source/pilot/detail-two/cg13-recipe.json": {
+      "sha256": "90cb61881d1608907f7f482e661b51b7a8fca9a2c7df68ed701e573e4f34c0a7",
+      "bytes": 2706
+    },
+    "source/pilot/detail-rest/circle/cg14-input.json": {
+      "sha256": "3da82aaa36c2dc3ac63c914fba53e5b4d5855485f898f8d710ab74f4ff4d8017",
+      "bytes": 2472
+    },
+    "render/pilot/detail-rest/circle/cg14-input.mp4": {
+      "sha256": "0f2c8fef15afcfd363a63a649f60f1dbf5a6ab431b6db7760cbe2f7e16e5bdbb",
+      "bytes": 271341
+    },
+    "observations/accepted-review/cg14/reference-clip.mp4": {
+      "sha256": "46acb3a9dc9e7dc35454ff8433ea4d19804d31079fccf14622fa833a71feaa34",
+      "bytes": 58217
+    },
+    "source/pilot/detail-rest/circle/cg14-input-recipe.json": {
+      "sha256": "7576c0a9a2903d7148a15b0c2208c45479dbdfbfb06aa7c979b2119eceba40fc",
+      "bytes": 2201
+    },
+    "source/pilot/detail-rest/circle/cg15-input.json": {
+      "sha256": "bf706317cdfab4d07132c6564beeae7392fef6b2cde6c88f509311110591c69b",
+      "bytes": 2287
+    },
+    "render/pilot/detail-rest/circle/cg15-input.mp4": {
+      "sha256": "82076aea141402d5ddd1aa9a4cb66e56704cb7daa13d2f2c69da26d557c5b32d",
+      "bytes": 194644
+    },
+    "observations/accepted-review/cg15/reference-clip.mp4": {
+      "sha256": "38718675b81a5dbe467ef692f6ef230e4bae69c1468c56ef935af88471bff6c1",
+      "bytes": 79450
+    },
+    "source/pilot/detail-rest/circle/cg15-input-recipe.json": {
+      "sha256": "7f38faae1fc30397f82bbc36ebb4aeb9adc86d825ff1576606360513c0a38179",
+      "bytes": 1939
+    },
+    "source/pilot/detail-rest/circle/cg16-input.json": {
+      "sha256": "7ad30b8ec0de11e7b73dfcbd4e08649b3257dca8eaee70c0b3f9235a7d9a4f41",
+      "bytes": 2685
+    },
+    "render/pilot/detail-rest/circle/cg16-input.mp4": {
+      "sha256": "7c8bc07ac70a3f80e7bdef5f90ecc93b39ffed8668d9ac60be2ddeb9cb522560",
+      "bytes": 268211
+    },
+    "observations/accepted-review/cg16/reference-clip.mp4": {
+      "sha256": "dbb97a6cbcd2f6733b59120f2da5fb2626f830adfd3ca0b44c1e5011845c13f3",
+      "bytes": 53225
+    },
+    "source/pilot/detail-rest/circle/cg16-input-recipe.json": {
+      "sha256": "03abef2f2d0f42e1f3b70aede67889c62f7419e15f7ecbabf7911326c6e478f6",
+      "bytes": 1939
+    },
+    "source/pilot/final-two/cg17-input.json": {
+      "sha256": "f7726028780473bb8cc4462588c8892533b50238381e6766fa04b418fc104440",
+      "bytes": 2925
+    },
+    "source/pilot/final-two/matte17/manifest.json": {
+      "sha256": "42f4ebce11f78f31d8037370b6b8a9816a26d48edf7c7524d33edb6ce72f662a",
+      "bytes": 9236
+    },
+    "source/pilot/final-two/matte17/0000.png": {
+      "sha256": "48ae904523754eebc45227faaeb4e284d7c8ed413c26e76e524fbb90f0532b96",
+      "bytes": 101474
+    },
+    "source/pilot/final-two/matte17/0001.png": {
+      "sha256": "902e7a53583073cb0d767020c596918b84606cbbeb86668148f436efbad32b3d",
+      "bytes": 102159
+    },
+    "source/pilot/final-two/matte17/0002.png": {
+      "sha256": "d5a0465c2dd72ec5ff37a4502e30f06092e302fb7b9fa44e59f5ddc73bc94840",
+      "bytes": 102284
+    },
+    "source/pilot/final-two/matte17/0003.png": {
+      "sha256": "4a0d7e60af26d498604ea7543b3cde5e54cf6c208579423a74f7dccb3216fb9e",
+      "bytes": 103262
+    },
+    "source/pilot/final-two/matte17/0004.png": {
+      "sha256": "a070cddb9f4e187cdfcc8dccff9f6266738698b467d549488aca5e7c4d0bf4bb",
+      "bytes": 103055
+    },
+    "source/pilot/final-two/matte17/0005.png": {
+      "sha256": "2d3b0aa3282df6ba4a4cc42480ad3f5cd2fda0501744d4bee997585692124af6",
+      "bytes": 92146
+    },
+    "source/pilot/final-two/matte17/0006.png": {
+      "sha256": "a906361663cd739568a83e2390cccb6947d433f6916b156f21db1f6c46700c7c",
+      "bytes": 99212
+    },
+    "source/pilot/final-two/matte17/0007.png": {
+      "sha256": "f722f7fcb9cc5c53c315a6fc61c6b5652d9185f182d5ccd5444b9f0b2ee9a60a",
+      "bytes": 99306
+    },
+    "source/pilot/final-two/matte17/0008.png": {
+      "sha256": "6e4056b01b67db4af05eafaed7e8441ace8aeab7b3557b7eb8a781653f4b6b55",
+      "bytes": 99171
+    },
+    "source/pilot/final-two/matte17/0009.png": {
+      "sha256": "ee856f8bc097d2fac7c981d787fef660d3e69daaf6507b1b0d167845dc261d61",
+      "bytes": 99514
+    },
+    "source/pilot/final-two/matte17/0010.png": {
+      "sha256": "d1b5388526ae5b103cd1006f31d0c99ec8151050f70661b00e3540659252746d",
+      "bytes": 101026
+    },
+    "source/pilot/final-two/matte17/0011.png": {
+      "sha256": "4e4096ba8983eae221f8ae7223442fdbc99a173b364bdc24034c51e3130b7af5",
+      "bytes": 102411
+    },
+    "source/pilot/final-two/matte17/0012.png": {
+      "sha256": "4d8bfca0b6cacb168a92bd5dfabb85d9b7130556fd461236d5d51ed21b768e2f",
+      "bytes": 102216
+    },
+    "source/pilot/final-two/matte17/0013.png": {
+      "sha256": "372cb5bab2b1f2c8e2f33be4085998ea5b0e950dca7e49819b1c7e38630379e2",
+      "bytes": 102260
+    },
+    "source/pilot/final-two/matte17/0014.png": {
+      "sha256": "926ffc1c34629c7df42a75788bd22f1215a0387404be9d282bda55f7239a2b99",
+      "bytes": 102376
+    },
+    "source/pilot/final-two/matte17/0015.png": {
+      "sha256": "45120fe098f739363e41b72b3d2f38af7444a16ea1f02717e18afb4126cd32e9",
+      "bytes": 102845
+    },
+    "source/pilot/final-two/matte17/0016.png": {
+      "sha256": "747a4c93275972d3a1a73f414be76c156b4e1326fecbe68a94b7ab1f946fa61a",
+      "bytes": 103481
+    },
+    "source/pilot/final-two/matte17/0017.png": {
+      "sha256": "ac8944d5c7a91628c0a87696b1a46867f0e9025ebc12393f5131ce54357a86ca",
+      "bytes": 104096
+    },
+    "source/pilot/final-two/matte17/0018.png": {
+      "sha256": "3e20b56ffadf90659332fca13a5939fb746cdcfe9d245e1a283f6d4a1da80aa0",
+      "bytes": 104617
+    },
+    "source/pilot/final-two/matte17/0019.png": {
+      "sha256": "4a1cd1364bdac22f6d767ec75c7d164038155ed9d36a90c928df785b06aa5d65",
+      "bytes": 105533
+    },
+    "source/pilot/final-two/matte17/0020.png": {
+      "sha256": "6d6f677201768db76739bfc943ab814653b965258851619e9a6c930cf68bce51",
+      "bytes": 104929
+    },
+    "source/pilot/final-two/matte17/0021.png": {
+      "sha256": "906d26a2a751d452173bbb17b33a5502047aa11a8bdbec26875508cf25f621cc",
+      "bytes": 105595
+    },
+    "source/pilot/final-two/matte17/0022.png": {
+      "sha256": "d1cd4512521e3d7633cec88cc297997dd06fc6a8b9eb4dc13ce780714bebcb5b",
+      "bytes": 106774
+    },
+    "source/pilot/final-two/matte17/0023.png": {
+      "sha256": "93a078b399661c97fdb50b1e11b3564d5c117bade5733541ef3c336765c96262",
+      "bytes": 107688
+    },
+    "source/pilot/final-two/matte17/0024.png": {
+      "sha256": "04ccf865bba695ab20fdea6109ae97b206c56972e2778fafa78b9f78704fc5b3",
+      "bytes": 106475
+    },
+    "source/pilot/final-two/matte17/0025.png": {
+      "sha256": "610ca55bfa052a00bde5d02808fa9a9796b5ccb9ea839b6934dfaec2f053f872",
+      "bytes": 107489
+    },
+    "source/pilot/final-two/matte17/0026.png": {
+      "sha256": "2ae369ba643c70c5f9bf0f83ab30de7affe1f5091595b19b4830a5f382b69329",
+      "bytes": 108160
+    },
+    "source/pilot/final-two/matte17/0027.png": {
+      "sha256": "921bd569a46ffed448a4ca52d05daaabd9b37752fcb5d3cdd41cb3112414e296",
+      "bytes": 108524
+    },
+    "source/pilot/final-two/matte17/0028.png": {
+      "sha256": "e4409ec89978c3d0ff5932dc999ec790df629253b9bfbd1e0fbf2b5309279898",
+      "bytes": 108307
+    },
+    "source/pilot/final-two/matte17/0029.png": {
+      "sha256": "7f196d0c1c25838c0f8fd44425c9b4f1d66c7edf72d2b40a7ab13e1c97e78aaa",
+      "bytes": 108951
+    },
+    "source/pilot/final-two/matte17/0030.png": {
+      "sha256": "49e1148647302146d27442acc2ca1da72e896ca83fd0721be409b4fe94948168",
+      "bytes": 108483
+    },
+    "source/pilot/final-two/matte17/0031.png": {
+      "sha256": "afe4556c300dbdfa1011cf2a4a3236846e1ae2df50953f7f1ad0381a8fe0e92e",
+      "bytes": 108856
+    },
+    "source/pilot/final-two/matte17/0032.png": {
+      "sha256": "2516f1e3c6f182e36e907b1b4e431ed42d1b4578bb30629fba7d1591dac0fc24",
+      "bytes": 108878
+    },
+    "source/pilot/final-two/matte17/0033.png": {
+      "sha256": "0a0c8cb81410b9c849acebb6a3c50e9292726f19947da0ee14158a63a249644c",
+      "bytes": 109421
+    },
+    "source/pilot/final-two/matte17/0034.png": {
+      "sha256": "306524bdbaa9c2f65e3091abb292b8ea20a6a2f04499929e2be650bbe3055156",
+      "bytes": 109607
+    },
+    "source/pilot/final-two/matte17/0035.png": {
+      "sha256": "9b30b96596b57e64868143231900abb45b7c54c8e0d6d558a0b16cdcdccee0c0",
+      "bytes": 109962
+    },
+    "source/pilot/final-two/matte17/0036.png": {
+      "sha256": "3948ac6b38cb8d534241c1ca29ab58e319f372f04526a756fcf30cd47b3bb24a",
+      "bytes": 109643
+    },
+    "source/pilot/final-two/matte17/0037.png": {
+      "sha256": "cdaced6870b88b5718f1aa92a5cc53c3e8d8d54ab25d0117cb65288ca497f92d",
+      "bytes": 110103
+    },
+    "source/pilot/final-two/matte17/0038.png": {
+      "sha256": "52cfc996d11ce4db5d83307bccb0c3e845070f2d52149f9b9a93cb7dbf193c23",
+      "bytes": 110017
+    },
+    "source/pilot/final-two/matte17/0039.png": {
+      "sha256": "79e826c92efa838210f7d2cfaebd1837cd9466f0e724e41b462eadea2817717a",
+      "bytes": 110731
+    },
+    "source/pilot/final-two/matte17/0040.png": {
+      "sha256": "98e8ee39a06d3b62a78844c68d7da5ed063dd74337047e3678c5f70653f68de3",
+      "bytes": 110745
+    },
+    "source/pilot/final-two/matte17/0041.png": {
+      "sha256": "26169e28d579b8cb9fdf946bff2beb346967c6b2a553e64f1010df6ecfc07a68",
+      "bytes": 111516
+    },
+    "source/pilot/final-two/matte17/0042.png": {
+      "sha256": "de0561093fbee9dce666550c1e4cd7e80736fc3fb26755ac917fb5fdb1e3590b",
+      "bytes": 111163
+    },
+    "source/pilot/final-two/matte17/0043.png": {
+      "sha256": "2c2905040ec05364f15b9e664254d37cc2470b9a3bbb4386f74ccf016726653d",
+      "bytes": 112234
+    },
+    "source/pilot/final-two/matte17/0044.png": {
+      "sha256": "829d15e1db3f6da481a67374d3d45d720e2fd2b669289ae24bc6291d01383b3a",
+      "bytes": 111991
+    },
+    "source/pilot/final-two/matte17/0045.png": {
+      "sha256": "0d0c0752dae430561030a2c7991daf6a674210940e017bdd83c56476e5ba2b30",
+      "bytes": 112527
+    },
+    "source/pilot/final-two/matte17/0046.png": {
+      "sha256": "eeaae1840ef89b86037cf3d33f8272fa6ba18bbfc00b089305a46ca90f1efbe7",
+      "bytes": 112367
+    },
+    "source/pilot/final-two/matte17/0047.png": {
+      "sha256": "606dd35503170faf17e805933ed7e927aaa3819b08c57ff80348aeb679499ed7",
+      "bytes": 112699
+    },
+    "source/pilot/final-two/matte17/0048.png": {
+      "sha256": "8cc591c8c988e6e358deb7520065cfd163e4a95d90af91a0ba0a2c553d4cdeb8",
+      "bytes": 112487
+    },
+    "source/pilot/final-two/matte17/0049.png": {
+      "sha256": "057763c721a6ad3ef4188905411cdaef303628a8967ea7daab2c4672a9c0c262",
+      "bytes": 113148
+    },
+    "source/pilot/final-two/matte17/0050.png": {
+      "sha256": "39f30821bcbd8884c46e34a9e07e213fc4c65f55fa5e9195b6bb001422402652",
+      "bytes": 112905
+    },
+    "source/pilot/final-two/matte17/0051.png": {
+      "sha256": "7076a053916ae62f1476a991076f06dfbad6090144ff57ba1cc17b3c1900990e",
+      "bytes": 113403
+    },
+    "source/pilot/final-two/matte17/0052.png": {
+      "sha256": "cf47e34f398392b5471a9e54c9c281654cb902fd4cc0a662a02e45f78ea515dc",
+      "bytes": 113082
+    },
+    "source/pilot/final-two/matte17/0053.png": {
+      "sha256": "99a4b9c9f8c030b98ea0fbd21925e33f096dce1e9668609a0c7524395233b3ff",
+      "bytes": 114229
+    },
+    "source/pilot/final-two/matte17/0054.png": {
+      "sha256": "19ef22f2bdf0aa66239375b123905488ea8bb27be951c9c5e8de8491feaf0f79",
+      "bytes": 114075
+    },
+    "source/pilot/final-two/matte17/0055.png": {
+      "sha256": "0b19bc395824870f90e9df397ca237c07c06a96dfc87d0179e0ec59d7723e5ec",
+      "bytes": 114611
+    },
+    "source/pilot/final-two/matte17/0056.png": {
+      "sha256": "fb1f3b79f8a7dab1259fea8be5aaf05e449762055765c169937e49d5fc1360e0",
+      "bytes": 114806
+    },
+    "source/pilot/final-two/matte17/0057.png": {
+      "sha256": "fd3c243888586ac0a638f85fd8764f8e2e921f7714f6f5f6fe18b3e8075a013c",
+      "bytes": 115319
+    },
+    "source/pilot/final-two/matte17/0058.png": {
+      "sha256": "483a3b3e150da767dcb806740d2c15c338de7b8a656cc86139427552718d0f90",
+      "bytes": 115496
+    },
+    "source/pilot/final-two/matte17/0059.png": {
+      "sha256": "b8fb3576475c45718f376f827ffd4c1bcc28280ee1368ade25120fad38855e4c",
+      "bytes": 115792
+    },
+    "source/pilot/final-two/matte17/0060.png": {
+      "sha256": "35f26fedd8cbb655e54f18fa5d19021e00314195920b9a5a864366759cdc6eb9",
+      "bytes": 115708
+    },
+    "source/pilot/final-two/matte17/0061.png": {
+      "sha256": "d28f7566e731c7961293b11a0e9ac618ef8b1a609a566fa3d8f8f1c246fe2bc3",
+      "bytes": 116617
+    },
+    "source/pilot/final-two/matte17/0062.png": {
+      "sha256": "0a64304361e34527f59a1fdebabb065e295b5d8426b1a2f89171cca74f5f1560",
+      "bytes": 116160
+    },
+    "source/pilot/final-two/matte17/0063.png": {
+      "sha256": "3ba03115b00e5ce312a44a7063e747d30cdc7fa71d1791784fd1be113b099d5e",
+      "bytes": 116173
+    },
+    "source/pilot/final-two/matte17/0064.png": {
+      "sha256": "d5bd999ecb87c13cd6bf317e7c4aa81d9483357b6ed33c609c9b30e8cd49f307",
+      "bytes": 115271
+    },
+    "source/pilot/final-two/matte17/0065.png": {
+      "sha256": "a84abecd00f772966041861ba7bfad566b08084d1d026b7ee37edddb324051dc",
+      "bytes": 115915
+    },
+    "source/pilot/final-two/matte17/0066.png": {
+      "sha256": "8451653bec3a4f199cc185b2daa9f6a74f59f8f6a7fb8c0bd287c4cc8e108dfe",
+      "bytes": 115953
+    },
+    "source/pilot/final-two/matte17/0067.png": {
+      "sha256": "8b611f32b73993c7468d840906380bcc6fa48e5fda67757129b72adf429be706",
+      "bytes": 116665
+    },
+    "source/pilot/final-two/matte17/0068.png": {
+      "sha256": "ca477cdf53574e4590944ed18bcdae5cc8db326718a53711c0f0f440b09d1c1f",
+      "bytes": 116217
+    },
+    "source/pilot/final-two/matte17/0069.png": {
+      "sha256": "d06b92c80eb4acd8fac7f7c9be1eb4246be8e233c2ae655b456597f7d979da7d",
+      "bytes": 116574
+    },
+    "source/pilot/final-two/matte17/0070.png": {
+      "sha256": "e1f6f4066bd4eee7def15e70385b0e39bd6eb90f0ad2f68f36c801704f7a5819",
+      "bytes": 116106
+    },
+    "source/pilot/final-two/matte17/0071.png": {
+      "sha256": "cfeb66b7954315ebce8c723f17fb9bcacc44ddca5c8ac8a552f028bc983caf68",
+      "bytes": 116446
+    },
+    "source/pilot/final-two/matte17/0072.png": {
+      "sha256": "089ab558d4b62b38e857bb4a811fbdcdb9950cfd455d0fe47b9c48d4a3a52739",
+      "bytes": 116317
+    },
+    "source/pilot/final-two/matte17/0073.png": {
+      "sha256": "d1fb71d56b4faf9cf3c2dac8d53b667ed95f8c338794b8dc549efc803a5ab811",
+      "bytes": 116447
+    },
+    "source/pilot/final-two/matte17/0074.png": {
+      "sha256": "d04b2c6de975342a4469c640947d3eeee51accb0bf26bd6910210fb1d7b73aea",
+      "bytes": 116429
+    },
+    "render/pilot/final-two/cg17.mp4": {
+      "sha256": "8bad27700a08f04979d833cf854d35dc6d3b5bbc5bfd005543ee13bb4bb7b2ef",
+      "bytes": 499976
+    },
+    "observations/accepted-review/cg17/reference-clip.mp4": {
+      "sha256": "f61c6b6207b0ba80d5f85872f50d67f5410e37ef5460013bffc40ac50958623f",
+      "bytes": 111900
+    },
+    "source/pilot/final-two/cg17-recipe.json": {
+      "sha256": "ceed04d1c873199bf81188eff44674a37d2ca3460f8321308860432a2e9ddc8f",
+      "bytes": 2380
+    },
+    "source/pilot/final-two/cg18-input.json": {
+      "sha256": "1177e4d3c98a9831eb7ce9dc4e10406b2af28fda2e842035b7435ff2de7572fb",
+      "bytes": 3385
+    },
+    "render/pilot/final-two/cg18.mp4": {
+      "sha256": "24d1561469418adf190ca6029b4d961fdd75feef188cefe71ad3d09cbce9e4f3",
+      "bytes": 570613
+    },
+    "observations/accepted-review/cg18/reference-clip.mp4": {
+      "sha256": "d2decbad282b1a8096f9d618debff1bd9353cdba00405c7e5286444f00afae52",
+      "bytes": 80295
+    },
+    "source/pilot/final-two/cg18-recipe.json": {
+      "sha256": "77960c24705be61aa849113199a28b99e36656ef73bc66e0c068b909d0bf8c6c",
+      "bytes": 1832
+    },
+    "source/pilot/last-four/closing/input.json": {
+      "sha256": "1ba00f1df1b8ff2581d2f26a102841c33d8214fff3e6b7b8b98c023ebd63d9a8",
+      "bytes": 1864
+    },
+    "render/pilot/last-four/closing/complete-applied.mp4": {
+      "sha256": "f451a07c2cf6b18c1df01a29df0d578b40b61613004029721733e104dc72c327",
+      "bytes": 305658
+    },
+    "observations/accepted-review/cg19/reference-clip.mp4": {
+      "sha256": "a9a20e77c9a2909ba070837f8d747c936c8d97f1bdeacd93073f6157ad8c9b04",
+      "bytes": 108355
+    },
+    "source/pilot/last-four/closing/recipe.json": {
+      "sha256": "d309f552a372579e55a65648ef7bc389ae9c3d6c37f81369fb806d0444ef5074",
+      "bytes": 1375
+    }
+  },
+  "externalDependencies": {
+    "D:\\SKILL\\font-check\\SourceHanSerifSC-Bold.otf": {
+      "sha256": "706b8c0de2deff6cbc0c87e2cdedfd33a78b7ffd76cebb4549012f197ba611fe",
+      "bytes": 25521732
+    },
+    "C:\\Windows\\Fonts\\simsun.ttc": {
+      "sha256": "346c3d9c8c827faa22c0d7951a9d6e2dcbb1ceb9501ee4533ddf8026ddc21735",
+      "bytes": 17909384
+    },
+    "C:\\Windows\\Fonts\\Noto Sans SC Bold (TrueType).otf": {
+      "sha256": "d1961be1161ea1be08496c920862d06ea5c23a757628f4fd69368de1d9f51bed",
+      "bytes": 8716392
+    },
+    "C:\\Windows\\Fonts\\Source Han Serif SC Heavy (TrueType).ttf": {
+      "sha256": "152bc1c4535b8bcb6ec52e0aa4563bced6f43206c59ba32fbfa34a6a192a8304",
+      "bytes": 2525144
+    },
+    "C:\\Windows\\Fonts\\arialbi.ttf": {
+      "sha256": "94d0872622e6d592f01440b58dac8f5d7e010509bd76bb71cbed71fc5f4dc173",
+      "bytes": 730804
+    },
+    "C:\\Windows\\Fonts\\timesbd.ttf": {
+      "sha256": "56735cfcb1d3feac66d5d9bb446c8598e522dc03c54923943899217c227bdfab",
+      "bytes": 1185876
+    },
+    "D:\\SKILL\\小Lin说_语义选组优化_20261103\\冷解包 含空格\\reference\\emphasis-v12\\opening\\fonts\\YouSheBiaoTiHei.ttf": {
+      "sha256": "dab883d69fb713233ea5d9aff8d1f27ccc2b71e249143edf6ea08367784c5dba",
+      "bytes": 1414784
+    }
+  },
+  "bindingIssues": [
+    {
+      "occurrence": "cg04",
+      "issue": "component source changed since encoded media; approval binds media, current source snapshot needs reproduction check",
+      "bindings": [
+        {
+          "kind": "visual",
+          "family": "v03",
+          "source": "source/pilot/components/scene_batch.py",
+          "actualSha256": "b8e3f1f59644e80a809986bb038454ce6aa98bad5b91eedb76f036b075896561",
+          "recipeSha256": "4189d5e8abfa1900ead7014479c0d9552cfe8309e476869bf478f43dbd65ca9e",
+          "recipeBindingMatches": false
+        },
+        {
+          "kind": "subtitle",
+          "family": "t03",
+          "source": "source/pilot/components/scene_batch.py",
+          "actualSha256": "b8e3f1f59644e80a809986bb038454ce6aa98bad5b91eedb76f036b075896561",
+          "recipeSha256": "4189d5e8abfa1900ead7014479c0d9552cfe8309e476869bf478f43dbd65ca9e",
+          "recipeBindingMatches": false
+        }
+      ]
+    },
+    {
+      "occurrence": "cg06",
+      "dependency": "source/pilot/components/visual.py",
+      "issue": "historical technical binding stale; snapshot records actual current bytes, not claimed render provenance"
+    },
+    {
+      "occurrence": "cg06",
+      "dependency": "source/pilot/round2_render.py",
+      "issue": "historical technical binding stale; snapshot records actual current bytes, not claimed render provenance"
+    },
+    {
+      "occurrence": "cg06",
+      "issue": "component source changed since encoded media; approval binds media, current source snapshot needs reproduction check",
+      "bindings": [
+        {
+          "kind": "subtitle",
+          "family": "t04",
+          "source": "source/pilot/components/closing_batch.py",
+          "actualSha256": "56067a89c1d43e7fa1ae1bce5519da89144796a7852cde95e57f229f4c839d2d",
+          "recipeSha256": "4ff5893c22ee1dd032a7492294cbaf378e9f15336683587de3c7db9239215bb0",
+          "recipeBindingMatches": false
+        }
+      ]
+    },
+    {
+      "occurrence": "cg07",
+      "issue": "component source changed since encoded media; approval binds media, current source snapshot needs reproduction check",
+      "bindings": [
+        {
+          "kind": "visual",
+          "family": "v05",
+          "source": "source/pilot/components/scene_batch.py",
+          "actualSha256": "b8e3f1f59644e80a809986bb038454ce6aa98bad5b91eedb76f036b075896561",
+          "recipeSha256": "a87350f5bcea354f5e8e3b15ce5561527724a2047592f567568830154b022168",
+          "recipeBindingMatches": false
+        },
+        {
+          "kind": "subtitle",
+          "family": "t05",
+          "source": "source/pilot/components/scene_batch.py",
+          "actualSha256": "b8e3f1f59644e80a809986bb038454ce6aa98bad5b91eedb76f036b075896561",
+          "recipeSha256": "a87350f5bcea354f5e8e3b15ce5561527724a2047592f567568830154b022168",
+          "recipeBindingMatches": false
+        }
+      ]
+    },
+    {
+      "occurrence": "cg08",
+      "issue": "component source changed since encoded media; approval binds media, current source snapshot needs reproduction check",
+      "bindings": [
+        {
+          "kind": "visual",
+          "family": "v06",
+          "source": "source/pilot/components/scene_batch.py",
+          "actualSha256": "b8e3f1f59644e80a809986bb038454ce6aa98bad5b91eedb76f036b075896561",
+          "recipeSha256": "a87350f5bcea354f5e8e3b15ce5561527724a2047592f567568830154b022168",
+          "recipeBindingMatches": false
+        },
+        {
+          "kind": "subtitle",
+          "family": "t06",
+          "source": "source/pilot/components/scene_batch.py",
+          "actualSha256": "b8e3f1f59644e80a809986bb038454ce6aa98bad5b91eedb76f036b075896561",
+          "recipeSha256": "a87350f5bcea354f5e8e3b15ce5561527724a2047592f567568830154b022168",
+          "recipeBindingMatches": false
+        }
+      ]
+    },
+    {
+      "occurrence": "cg10",
+      "issue": "component source changed since encoded media; approval binds media, current source snapshot needs reproduction check",
+      "bindings": [
+        {
+          "kind": "visual",
+          "family": "v04",
+          "source": "source/pilot/components/circle_batch.py",
+          "actualSha256": "15cc868b3c3e0ea71bf96bd6445f6ddd43d160e9c80aad051e743bdcff0b4d1d",
+          "recipeSha256": "b5886d1bf5a3a3b6f847e533680481a6aa762ecf8deea4700168e1a1dbd6b750",
+          "recipeBindingMatches": false
+        },
+        {
+          "kind": "subtitle",
+          "family": "t08",
+          "source": "source/pilot/components/circle_batch.py",
+          "actualSha256": "15cc868b3c3e0ea71bf96bd6445f6ddd43d160e9c80aad051e743bdcff0b4d1d",
+          "recipeSha256": "b5886d1bf5a3a3b6f847e533680481a6aa762ecf8deea4700168e1a1dbd6b750",
+          "recipeBindingMatches": false
+        }
+      ]
+    },
+    {
+      "occurrence": "cg11",
+      "issue": "component source changed since encoded media; approval binds media, current source snapshot needs reproduction check",
+      "bindings": [
+        {
+          "kind": "visual",
+          "family": "v04",
+          "source": "source/pilot/components/circle_batch.py",
+          "actualSha256": "15cc868b3c3e0ea71bf96bd6445f6ddd43d160e9c80aad051e743bdcff0b4d1d",
+          "recipeSha256": "b5886d1bf5a3a3b6f847e533680481a6aa762ecf8deea4700168e1a1dbd6b750",
+          "recipeBindingMatches": false
+        },
+        {
+          "kind": "subtitle",
+          "family": "t09",
+          "source": "source/pilot/components/circle_batch.py",
+          "actualSha256": "15cc868b3c3e0ea71bf96bd6445f6ddd43d160e9c80aad051e743bdcff0b4d1d",
+          "recipeSha256": "b5886d1bf5a3a3b6f847e533680481a6aa762ecf8deea4700168e1a1dbd6b750",
+          "recipeBindingMatches": false
+        }
+      ]
+    },
+    {
+      "occurrence": "cg12",
+      "issue": "component source changed since encoded media; approval binds media, current source snapshot needs reproduction check",
+      "bindings": [
+        {
+          "kind": "visual",
+          "family": "v04",
+          "source": "source/pilot/components/circle_batch.py",
+          "actualSha256": "15cc868b3c3e0ea71bf96bd6445f6ddd43d160e9c80aad051e743bdcff0b4d1d",
+          "recipeSha256": "b5886d1bf5a3a3b6f847e533680481a6aa762ecf8deea4700168e1a1dbd6b750",
+          "recipeBindingMatches": false
+        },
+        {
+          "kind": "subtitle",
+          "family": "t10",
+          "source": "source/pilot/components/circle_batch.py",
+          "actualSha256": "15cc868b3c3e0ea71bf96bd6445f6ddd43d160e9c80aad051e743bdcff0b4d1d",
+          "recipeSha256": "b5886d1bf5a3a3b6f847e533680481a6aa762ecf8deea4700168e1a1dbd6b750",
+          "recipeBindingMatches": false
+        }
+      ]
+    },
+    {
+      "occurrence": "cg13",
+      "issue": "component source changed since encoded media; approval binds media, current source snapshot needs reproduction check",
+      "bindings": [
+        {
+          "kind": "visual",
+          "family": "v04",
+          "source": "source/pilot/components/circle_batch.py",
+          "actualSha256": "15cc868b3c3e0ea71bf96bd6445f6ddd43d160e9c80aad051e743bdcff0b4d1d",
+          "recipeSha256": "e45843dfa763da8b90147731ba3fcd1da1fcbe61b80c98c088cfb25e2e1156c0",
+          "recipeBindingMatches": false
+        },
+        {
+          "kind": "subtitle",
+          "family": "t09",
+          "source": "source/pilot/components/circle_batch.py",
+          "actualSha256": "15cc868b3c3e0ea71bf96bd6445f6ddd43d160e9c80aad051e743bdcff0b4d1d",
+          "recipeSha256": "e45843dfa763da8b90147731ba3fcd1da1fcbe61b80c98c088cfb25e2e1156c0",
+          "recipeBindingMatches": false
+        }
+      ]
+    },
+    {
+      "occurrence": "cg14",
+      "issue": "component source changed since encoded media; approval binds media, current source snapshot needs reproduction check",
+      "bindings": [
+        {
+          "kind": "visual",
+          "family": "v04",
+          "source": "source/pilot/components/circle_batch.py",
+          "actualSha256": "15cc868b3c3e0ea71bf96bd6445f6ddd43d160e9c80aad051e743bdcff0b4d1d",
+          "recipeSha256": "b5886d1bf5a3a3b6f847e533680481a6aa762ecf8deea4700168e1a1dbd6b750",
+          "recipeBindingMatches": false
+        },
+        {
+          "kind": "subtitle",
+          "family": "t11",
+          "source": "source/pilot/components/circle_batch.py",
+          "actualSha256": "15cc868b3c3e0ea71bf96bd6445f6ddd43d160e9c80aad051e743bdcff0b4d1d",
+          "recipeSha256": "b5886d1bf5a3a3b6f847e533680481a6aa762ecf8deea4700168e1a1dbd6b750",
+          "recipeBindingMatches": false
+        }
+      ]
+    },
+    {
+      "occurrence": "cg15",
+      "issue": "component source changed since encoded media; approval binds media, current source snapshot needs reproduction check",
+      "bindings": [
+        {
+          "kind": "visual",
+          "family": "v04",
+          "source": "source/pilot/components/circle_batch.py",
+          "actualSha256": "15cc868b3c3e0ea71bf96bd6445f6ddd43d160e9c80aad051e743bdcff0b4d1d",
+          "recipeSha256": "b5886d1bf5a3a3b6f847e533680481a6aa762ecf8deea4700168e1a1dbd6b750",
+          "recipeBindingMatches": false
+        },
+        {
+          "kind": "subtitle",
+          "family": "t12",
+          "source": "source/pilot/components/circle_batch.py",
+          "actualSha256": "15cc868b3c3e0ea71bf96bd6445f6ddd43d160e9c80aad051e743bdcff0b4d1d",
+          "recipeSha256": "b5886d1bf5a3a3b6f847e533680481a6aa762ecf8deea4700168e1a1dbd6b750",
+          "recipeBindingMatches": false
+        }
+      ]
+    },
+    {
+      "occurrence": "cg16",
+      "issue": "component source changed since encoded media; approval binds media, current source snapshot needs reproduction check",
+      "bindings": [
+        {
+          "kind": "visual",
+          "family": "v04",
+          "source": "source/pilot/components/circle_batch.py",
+          "actualSha256": "15cc868b3c3e0ea71bf96bd6445f6ddd43d160e9c80aad051e743bdcff0b4d1d",
+          "recipeSha256": "b5886d1bf5a3a3b6f847e533680481a6aa762ecf8deea4700168e1a1dbd6b750",
+          "recipeBindingMatches": false
+        },
+        {
+          "kind": "subtitle",
+          "family": "t09",
+          "source": "source/pilot/components/circle_batch.py",
+          "actualSha256": "15cc868b3c3e0ea71bf96bd6445f6ddd43d160e9c80aad051e743bdcff0b4d1d",
+          "recipeSha256": "b5886d1bf5a3a3b6f847e533680481a6aa762ecf8deea4700168e1a1dbd6b750",
+          "recipeBindingMatches": false
+        }
+      ]
+    }
+  ],
+  "approvalScope": "All displayed current visual results approved; original-font identity, full audio audit, arbitrary new-input fidelity and formal stage acceptance are not inferred.",
+  "stageAccepted": false,
+  "formalLibraryExpanded": false,
+  "portability": "Source and parameter evidence snapshot; not claimed cleanroom-certified library"
+}

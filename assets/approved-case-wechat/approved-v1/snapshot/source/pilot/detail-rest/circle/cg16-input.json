@@ -1,0 +1,123 @@
+{
+  "id": "cg16-unedited-migration",
+  "occurrence": "cg16",
+  "frames": 98,
+  "fps": 30,
+  "subtitleFamily": "t09",
+  "referenceFrames": [
+    1008,
+    1047
+  ],
+  "visual": {
+    "window": [
+      66,
+      87,
+      154,
+      154
+    ],
+    "presenterCrop": [
+      31,
+      76,
+      255,
+      300
+    ]
+  },
+  "subtitle": {
+    "text": {
+      "number": "3",
+      "tag": "#一步一步来",
+      "first": "",
+      "second": ""
+    },
+    "events": {
+      "number": 5,
+      "tag": 20
+    },
+    "markerOnly": true
+  },
+  "rawRange": [
+    40.52,
+    43.8
+  ],
+  "semanticBindings": {
+    "purpose": "序号三定位第三条并用短标签概括；本次完整 occurrence 本就没有前两条的主句层。迁移标签概括“选对方式，一步一步来”，不重复实现序号机制。",
+    "textSource": "人工选取本地ASR候选，未独立听审；同义概括已在purpose说明",
+    "unchangedMechanism": "t09",
+    "reviewStatus": "trial"
+  },
+  "detailRest": true,
+  "detailProfile": "measured-ink-roles-svg-v1",
+  "numberRole": {
+    "path": "C:/Windows/Fonts/arialbi.ttf",
+    "size": 48,
+    "inkWidth": 93,
+    "inkHeight": 119,
+    "anchorX": 28,
+    "inkY": 43,
+    "fill": "#fffef7",
+    "align": "center",
+    "outlinePx": 0,
+    "shadow": {
+      "dx": 0.85,
+      "dy": 1.3,
+      "blur": 0.4,
+      "opacity": 0.85
+    }
+  },
+  "tagRole": {
+    "path": "C:/Windows/Fonts/Source Han Serif SC Heavy (TrueType).ttf",
+    "size": 48,
+    "inkWidth": 85,
+    "inkHeight": 14,
+    "anchorX": 216,
+    "inkY": 234,
+    "fill": "#fffef7",
+    "align": "center",
+    "outlinePx": 0,
+    "shadow": {
+      "dx": 0.85,
+      "dy": 1.3,
+      "blur": 0.4,
+      "opacity": 0.85
+    }
+  },
+  "typeRoles": {
+    "first": {
+      "path": "C:/Windows/Fonts/Source Han Serif SC Heavy (TrueType).ttf",
+      "size": 48,
+      "inkWidth": 139,
+      "inkHeight": 30,
+      "anchorX": 110,
+      "inkY": 309,
+      "fill": "#fffef7",
+      "align": "center",
+      "outlinePx": 0,
+      "shadow": {
+        "dx": 0.85,
+        "dy": 1.3,
+        "blur": 0.4,
+        "opacity": 0.85
+      },
+      "entryDx": 22
+    },
+    "second": {
+      "path": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 48,
+      "inkWidth": 160,
+      "inkHeight": 29,
+      "anchorX": 185,
+      "inkY": 354,
+      "fill": "#fffef7",
+      "align": "center",
+      "outlinePx": 0,
+      "shadow": {
+        "dx": 0.85,
+        "dy": 1.3,
+        "blur": 0.4,
+        "opacity": 0.85
+      },
+      "entryDx": 20
+    }
+  },
+  "frameCount": 98
+}

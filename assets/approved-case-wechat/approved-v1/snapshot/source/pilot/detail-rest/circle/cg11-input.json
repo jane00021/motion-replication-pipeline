@@ -1,0 +1,126 @@
+{
+  "id": "cg11-unedited-migration",
+  "occurrence": "cg11",
+  "frames": 58,
+  "fps": 30,
+  "subtitleFamily": "t09",
+  "referenceFrames": [
+    669,
+    744
+  ],
+  "visual": {
+    "window": [
+      66,
+      87,
+      154,
+      154
+    ],
+    "presenterCrop": [
+      31,
+      76,
+      255,
+      300
+    ]
+  },
+  "subtitle": {
+    "text": {
+      "number": "1",
+      "tag": "#先看风险",
+      "first": "别脑子一热",
+      "second": "就去开店投资"
+    },
+    "events": {
+      "number": 0,
+      "tag": 3,
+      "first": 2,
+      "second": 24
+    },
+    "backing": true
+  },
+  "rawRange": [
+    12.52,
+    14.46
+  ],
+  "semanticBindings": {
+    "purpose": "序号和标签识别第一条规则，撕纸主句先落定，第二句补足具体行为。迁移为谨慎开店投资，保持先提醒后展开。",
+    "textSource": "人工选取本地ASR候选，未独立听审；同义概括已在purpose说明",
+    "unchangedMechanism": "t09",
+    "reviewStatus": "trial"
+  },
+  "detailRest": true,
+  "detailProfile": "measured-ink-roles-svg-v1",
+  "numberRole": {
+    "path": "C:/Windows/Fonts/arialbi.ttf",
+    "size": 48,
+    "inkWidth": 74,
+    "inkHeight": 119,
+    "anchorX": 36,
+    "inkY": 43,
+    "fill": "#fffef7",
+    "align": "center",
+    "outlinePx": 0,
+    "shadow": {
+      "dx": 0.85,
+      "dy": 1.3,
+      "blur": 0.4,
+      "opacity": 0.85
+    }
+  },
+  "tagRole": {
+    "path": "C:/Windows/Fonts/Source Han Serif SC Heavy (TrueType).ttf",
+    "size": 48,
+    "inkWidth": 76,
+    "inkHeight": 14,
+    "anchorX": 216,
+    "inkY": 234,
+    "fill": "#fffef7",
+    "align": "center",
+    "outlinePx": 0,
+    "shadow": {
+      "dx": 0.85,
+      "dy": 1.3,
+      "blur": 0.4,
+      "opacity": 0.85
+    }
+  },
+  "typeRoles": {
+    "first": {
+      "path": "C:/Windows/Fonts/Source Han Serif SC Heavy (TrueType).ttf",
+      "size": 48,
+      "inkWidth": 139,
+      "inkHeight": 30,
+      "anchorX": 110,
+      "inkY": 309,
+      "fill": "#fffef7",
+      "align": "center",
+      "outlinePx": 0,
+      "shadow": {
+        "dx": 0.85,
+        "dy": 1.3,
+        "blur": 0.4,
+        "opacity": 0.85
+      },
+      "entryDx": 22
+    },
+    "second": {
+      "path": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 48,
+      "inkWidth": 160,
+      "inkHeight": 29,
+      "anchorX": 184,
+      "inkY": 354,
+      "fill": "#fffef7",
+      "align": "center",
+      "outlinePx": 0,
+      "shadow": {
+        "dx": 0.85,
+        "dy": 1.3,
+        "blur": 0.4,
+        "opacity": 0.85
+      },
+      "entryDx": 20
+    }
+  },
+  "tornAsset": "source/pilot/detail-rest/circle/assets/torn-paper.png",
+  "frameCount": 58
+}

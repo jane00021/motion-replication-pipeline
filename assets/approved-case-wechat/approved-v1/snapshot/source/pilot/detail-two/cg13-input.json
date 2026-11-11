@@ -1,0 +1,116 @@
+{
+  "id": "cg13-unedited-migration",
+  "occurrence": "cg13",
+  "frames": 76,
+  "fps": 30,
+  "subtitleFamily": "t09",
+  "referenceFrames": [
+    804,
+    868
+  ],
+  "visual": {
+    "window": [
+      66,
+      87,
+      154,
+      154
+    ],
+    "presenterCrop": [
+      31,
+      76,
+      255,
+      300
+    ],
+    "evidence": {
+      "path": "source/pilot/detail-two/assets/practical-skills-spread.png",
+      "svgSource": "source/pilot/detail-two/assets/practical-skills-spread.svg",
+      "transparent": true,
+      "start": 10,
+      "end": 75,
+      "xy": [
+        22,
+        249
+      ],
+      "size": [
+        242,
+        178
+      ]
+    }
+  },
+  "subtitle": {
+    "text": {
+      "number": "2",
+      "tag": "#本事落地",
+      "first": "与其空想",
+      "second": "本事落地"
+    },
+    "events": {
+      "number": 0,
+      "tag": 4,
+      "first": 5,
+      "second": 34,
+      "exitStart": 69,
+      "clear": 75
+    },
+    "firstColor": "#a00c27",
+    "firstSize": 33,
+    "firstX": 59,
+    "firstY": 311,
+    "secondX": 52,
+    "secondY": 353,
+    "secondSize": 23,
+    "replaceFirst": true
+  },
+  "limitation": "原钞票独立素材缺失：同字候选采用键盘照片仅检查例图插槽，不能作为原素材基准验收。",
+  "rawRange": [
+    26.82,
+    29.34
+  ],
+  "semanticBindings": {
+    "purpose": "与其空想，不如学个能落地的本事：红色铺垫让位给白色结论；书本、技能证书和代码矢量素材支撑行动表达。标题按真实字面中心对齐，不保留旧照片背景。",
+    "textSource": "人工选取本地ASR候选，未独立听审；同义概括已在purpose说明",
+    "unchangedMechanism": "t09",
+    "reviewStatus": "trial"
+  },
+  "detailProfile": "measured-ink-roles-svg-v1",
+  "typeRoles": {
+    "first": {
+      "path": "C:/Windows/Fonts/Source Han Serif SC Heavy (TrueType).ttf",
+      "size": 44,
+      "inkWidth": 143,
+      "inkHeight": 34,
+      "anchorX": 143,
+      "inkY": 316,
+      "align": "center",
+      "fill": "#a00b29",
+      "outlinePx": 0,
+      "outline": "#111319",
+      "shadow": {
+        "dx": 0.85,
+        "dy": 1.3,
+        "blur": 0.4,
+        "opacity": 0.85
+      }
+    },
+    "second": {
+      "path": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 44,
+      "inkWidth": 148,
+      "inkHeight": 34,
+      "anchorX": 143,
+      "inkY": 326,
+      "align": "center",
+      "fill": "#fffef7",
+      "outlinePx": 0,
+      "outline": "#111319",
+      "shadow": {
+        "dx": 0.85,
+        "dy": 1.3,
+        "blur": 0.4,
+        "opacity": 0.85
+      },
+      "weightPx": 0.25
+    }
+  },
+  "frameCount": 76
+}

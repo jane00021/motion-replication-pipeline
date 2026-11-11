@@ -1,0 +1,138 @@
+{
+  "id": "N07",
+  "rawSource": "C:/Users/Administrator/.codex/skills/motion-replication-pipeline/assets/migration-demo/talking-head-raw.mp4",
+  "rawRange": [
+    24.48,
+    29.34
+  ],
+  "frameCount": 146,
+  "frames": 146,
+  "fps": 30,
+  "canvas": [
+    284,
+    504
+  ],
+  "visual": {
+    "history": "source/pilot/batches/evidence/assets/note-0.png",
+    "documents": [
+      "source/pilot/batches/evidence/assets/note-0.png",
+      "source/pilot/batches/evidence/assets/note-1.png",
+      "source/pilot/batches/evidence/assets/note-2.png",
+      "source/pilot/batches/evidence/assets/note-3.png"
+    ]
+  },
+  "events": {
+    "history": [
+      0,
+      12
+    ],
+    "historyOut": [
+      28,
+      40
+    ],
+    "stairs": [
+      8,
+      40
+    ],
+    "stagger": 6,
+    "focus": [
+      42,
+      59
+    ],
+    "marker": [
+      63,
+      76
+    ],
+    "zoom": [
+      77,
+      88
+    ]
+  },
+  "limitations": [
+    "原字体身份未确认，原声效未独立重建；新词点尚未人工听审",
+    "图形/文档为原创示意，不能冒称论文证据",
+    "人物matte只验证当前口播，头发/手指边缘仍待视觉复审"
+  ],
+  "purpose": "从焦虑转到行动：学习笔记铺垫、多页阶段递进、重点笔记接管，标记“落地的本事”；不捏造历史/科研证据。",
+  "visualComponents": [
+    "V05"
+  ],
+  "splitSubtitle": {
+    "white": "学个落地本事",
+    "gold": "不如行动起来",
+    "cx": 142,
+    "whiteY": 120,
+    "tracking": 0.2,
+    "goldTracking": 0.2,
+    "splitRatio": 0.49,
+    "splitDistance": 15,
+    "goldY": 128,
+    "whiteStyle": {
+      "font": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 26,
+      "fill": "#fffef8",
+      "shadowX": 0.6,
+      "shadowY": 0.85,
+      "shadowBlur": 0.35
+    },
+    "goldStyle": {
+      "font": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 17,
+      "fill": "#dec55a",
+      "shadowX": 0.6,
+      "shadowY": 0.85,
+      "shadowBlur": 0.35
+    },
+    "setupStyle": {
+      "font": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 16,
+      "fill": "#fffef8",
+      "shadowX": 0.6,
+      "shadowY": 0.85,
+      "shadowBlur": 0.35
+    },
+    "setupY": 332,
+    "entryOrder": [
+      0,
+      2,
+      4,
+      1,
+      3,
+      5
+    ],
+    "glyphStagger": 2,
+    "events": {
+      "entryStart": 77,
+      "entrySettle": 90,
+      "splitStart": 95,
+      "splitSettle": 100,
+      "goldStart": 101,
+      "goldSettle": 108
+    },
+    "marker": {
+      "rect": [
+        42,
+        245,
+        185,
+        17
+      ],
+      "clock": [
+        77,
+        90
+      ]
+    },
+    "setupCues": [
+      {
+        "text": "别总陷在焦虑里",
+        "in": 7,
+        "out": 37
+      },
+      {
+        "text": "与其空想",
+        "in": 37,
+        "out": 77
+      }
+    ]
+  },
+  "subtitleReworkPurpose": "白色同一句先完整揭晓，再沿字面水平切为上下两半分别让位，夹缝金句补充结论；不重复两条完整白句。"
+}

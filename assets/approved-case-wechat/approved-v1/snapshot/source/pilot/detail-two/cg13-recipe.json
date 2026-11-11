@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "id": "cg13-circle-draft",
+  "occurrence": "cg13",
+  "status": "pilot-source-draft",
+  "input": "source/pilot/detail-two/cg13-input.json",
+  "components": {
+    "visual": {
+      "id": "v04",
+      "entrypoint": "components.circle_batch:render",
+      "source": "source/pilot/components/circle_batch.py",
+      "sha256": "e45843dfa763da8b90147731ba3fcd1da1fcbe61b80c98c088cfb25e2e1156c0"
+    },
+    "subtitle": {
+      "id": "t09",
+      "entrypoint": "components.circle_batch:render_subtitle",
+      "source": "source/pilot/components/circle_batch.py",
+      "sha256": "e45843dfa763da8b90147731ba3fcd1da1fcbe61b80c98c088cfb25e2e1156c0"
+    }
+  },
+  "commonSha256": "d3b54498c970352c417cb0938bc54a1425a15bc933171a9ea1fafff8ab8d93f2",
+  "sharedStyle": "source/pilot/complete01-02/shared-text-style.json",
+  "sharedStyleSha256": "13a054ea8bf54d4640828518e895c5e1a8f56dc8cdc518da5f1cbc97d4bc0eed",
+  "supportBindings": {
+    "source/pilot/t04_render.py": "6365e423b9f1a806db32a3f6126a234ab62f12312c2341004933e4b98752bfe6",
+    "source/pilot/components/runtime.py": "b543e9a16b8d09f702c87f591270d1d26552e8dd4f31ef594c1d69467f819bd7",
+    "source/pilot/components/pairing.py": "c6a391e5fa9f3d885e8e719729ca03d20bf21171d7922eb3b78eeb7d8eeee649",
+    "source/pilot/components/detail_tools.py": "3b1f04d33430062ce3063b01d16e2b80580b3b7790be6d2f53ad6e62c5d56ff5",
+    "source/pilot/detail-two/assets/business-risk-desk.png": "2a248d1e8cc97df538bcc1f45d426ad0c104a759c8e4d6de1883f462f31d7750",
+    "source/pilot/detail-two/assets/business-risk-desk.svg": "a8d4e09200790a63b6a54d802c6a31320da8915feecb4abaaabd371b4b85d48c",
+    "source/pilot/detail-two/assets/business-skyline.png": "74168b3496bcacdeb6673b1c17a02aadfabfb5ed0909d2f3305519b0863bd8c5",
+    "source/pilot/detail-two/assets/business-skyline.svg": "0d855b2a5049561667658cc45f33f430e60a8d78aa9396ff668c246ab2e9538a",
+    "source/pilot/detail-two/assets/practical-skills-spread.png": "b9d80358a986d832e9beae9c4d910e844da7867e6fb1c015d26fd9c748582162",
+    "source/pilot/detail-two/assets/practical-skills-spread.svg": "4ae364b7409406042aa804f8589e0ab7fcbbc31efb1f7ab7076bf869db8c9861",
+    "source/pilot/detail-two/cg13-input.json": "56e8491705243fb008b4e976b91c140590350fb0f5c566aebe7a155e42099303"
+  },
+  "clock": {
+    "fps": 30,
+    "frameOrigin": 0,
+    "eventsFromInput": "subtitle.events"
+  },
+  "layerOrder": [
+    "visual.background",
+    "subtitle.backMark",
+    "visual.presenterWindow",
+    "visual.evidence",
+    "subtitle.foregroundText"
+  ],
+  "completeGroupValidated": false,
+  "verificationState": "trial",
+  "purposeDocument": "source/pilot/batches/circle/PURPOSE.md"
+}

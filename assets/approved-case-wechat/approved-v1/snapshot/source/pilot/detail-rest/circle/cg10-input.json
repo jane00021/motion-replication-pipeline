@@ -1,0 +1,114 @@
+{
+  "id": "cg10-unedited-migration",
+  "occurrence": "cg10",
+  "frames": 88,
+  "fps": 30,
+  "subtitleFamily": "t08",
+  "referenceFrames": [
+    617,
+    670
+  ],
+  "visual": {
+    "window": [
+      66,
+      87,
+      154,
+      154
+    ],
+    "presenterCrop": [
+      31,
+      76,
+      255,
+      300
+    ]
+  },
+  "subtitle": {
+    "text": {
+      "left": "三",
+      "right": "个",
+      "subject": "提醒"
+    },
+    "events": {
+      "quantity": 0,
+      "reflow": 26,
+      "subject": 29,
+      "exitStart": 79,
+      "clear": 87
+    }
+  },
+  "rawRange": [
+    11.52,
+    14.46
+  ],
+  "semanticBindings": {
+    "purpose": "数量先建立预期，再让出中间位置给主题；新口播用“所以我想劝一下”引出随后风险、技能和耐心三个提醒。三个是编辑概括，非逐字转录。",
+    "textSource": "人工选取本地ASR候选，未独立听审；同义概括已在purpose说明",
+    "unchangedMechanism": "t08",
+    "reviewStatus": "trial"
+  },
+  "detailRest": true,
+  "detailProfile": "measured-ink-roles-svg-v1",
+  "typeRoles": {
+    "left": {
+      "path": "C:/Windows/Fonts/Source Han Serif SC Heavy (TrueType).ttf",
+      "size": 48,
+      "inkWidth": 84,
+      "inkHeight": 79,
+      "anchorX": 87,
+      "inkY": 280,
+      "fill": "#fffef7",
+      "align": "center",
+      "outlinePx": 0,
+      "shadow": {
+        "dx": 0.85,
+        "dy": 1.3,
+        "blur": 0.4,
+        "opacity": 0.85
+      },
+      "reflowXY": [
+        52,
+        241
+      ]
+    },
+    "right": {
+      "path": "C:/Windows/Fonts/Source Han Serif SC Heavy (TrueType).ttf",
+      "size": 48,
+      "inkWidth": 84,
+      "inkHeight": 87,
+      "anchorX": 184,
+      "inkY": 276,
+      "fill": "#fffef7",
+      "align": "center",
+      "outlinePx": 0,
+      "shadow": {
+        "dx": 0.85,
+        "dy": 1.3,
+        "blur": 0.4,
+        "opacity": 0.85
+      },
+      "reflowXY": [
+        236,
+        314
+      ]
+    },
+    "subject": {
+      "path": "C:/Windows/Fonts/Source Han Serif SC Heavy (TrueType).ttf",
+      "size": 48,
+      "inkWidth": 69,
+      "inkHeight": 31,
+      "anchorX": 137,
+      "inkY": 307,
+      "fill": "#aa0021",
+      "align": "center",
+      "outlinePx": 0,
+      "shadow": {
+        "dx": 0.85,
+        "dy": 1.3,
+        "blur": 0.4,
+        "opacity": 0.85
+      },
+      "entryDx": 12
+    }
+  },
+  "frameCount": 88
+}

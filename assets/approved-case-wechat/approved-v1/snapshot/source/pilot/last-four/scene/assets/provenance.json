@@ -1,0 +1,20 @@
+{
+  "id": "night-work-pexels-3140468",
+  "path": "D:\\SKILL\\动效复刻项目\\社会观察对标_20261109\\groups\\G01\\assets\\night-work-pexels-3140468.mp4",
+  "sha256": "1cbd78b0fcdc8108cd835f7d0e4d9f6c6fe8f2ff2e610f54b0af915d6629f480",
+  "source": "https://www.pexels.com/video/a-man-working-on-a-laptop-inside-the-office-3140468/",
+  "download": "https://videos.pexels.com/video-files/3140468/3140468-uhd_3840_2160_25fps.mp4",
+  "creator": "Pressmaster",
+  "license": "Pexels License; free use under its terms; not public domain",
+  "license_url": "https://www.pexels.com/license/",
+  "semantic_use": "夜间电脑工作/加班语义，匹配参考片 G01 的暗化桌面层",
+  "generated": false,
+  "source_project": "new reference material selection",
+  "projectUse": "cg09: new-voiceover experience-review illustration, not evidence of the speaker performing this action",
+  "localPath": "source/pilot/last-four/scene/assets/experience-review.mp4",
+  "selectedSourceSeconds": [
+    4,
+    7.133333333333333
+  ],
+  "semanticPurpose": "回顾工作资料/检查任务，承接提前了解经验、少走弯路；人物与参考案例不同，素材为示意"
+}

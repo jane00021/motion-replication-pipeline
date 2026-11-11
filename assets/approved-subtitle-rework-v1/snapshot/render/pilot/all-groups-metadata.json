@@ -1,0 +1,2956 @@
+{
+  "groups": [
+    {
+      "occurrence": "N01",
+      "file": "render/pilot/N01-applied.mp4",
+      "referenceFile": "render/pilot/N01-reference.mp4",
+      "sha256": "817e9a37d0da431a5938c4f6324d684637dec98b36f0b78664c674476e0941bf",
+      "frameCount": 112,
+      "sourceFrames": [
+        0,
+        52
+      ],
+      "rawRange": [
+        0,
+        3.7333333333333334
+      ],
+      "recipe": "source/pilot/N01-recipe.json",
+      "input": "source/pilot/N01-input.json",
+      "status": "user-approved-specific-media",
+      "batch": "pilot",
+      "limitations": [
+        "按已展示媒体范围获用户认可；原字体身份、声音听审与通用迁移不由认可自动推导"
+      ],
+      "sourceTimecode": "00:00.000-00:01.733",
+      "compositionMode": "combined",
+      "visualFamily": "V01",
+      "subtitleFamily": "T01",
+      "members": [
+        "N01"
+      ],
+      "visualComponents": [
+        "V01"
+      ],
+      "subtitleComponents": [
+        "T01"
+      ],
+      "name": "开场暗角聚焦＋重点词揭晓"
+    },
+    {
+      "occurrence": "N02",
+      "file": "render/pilot/N02-applied.mp4",
+      "referenceFile": "render/pilot/N02-reference.mp4",
+      "sha256": "8141a681931a14f63b3c47be23b1c00d155b4ab0f5b655120fd8c86556a8d003",
+      "frameCount": 93,
+      "sourceFrames": [
+        54,
+        111
+      ],
+      "rawRange": [
+        19.48,
+        22.580000000000002
+      ],
+      "recipe": "source/pilot/N02-recipe.json",
+      "input": "source/pilot/N02-input.json",
+      "status": "user-approved-specific-media",
+      "batch": "pilot",
+      "limitations": [
+        "按已展示媒体范围获用户认可；原字体身份、声音听审与通用迁移不由认可自动推导"
+      ],
+      "sourceTimecode": "00:01.800-00:03.700",
+      "compositionMode": "combined",
+      "visualFamily": "V14",
+      "subtitleFamily": "T02",
+      "members": [
+        "N02"
+      ],
+      "visualComponents": [
+        "V14"
+      ],
+      "subtitleComponents": [
+        "T02"
+      ],
+      "name": "背景压暗与人物抠像＋背后8小时巨字"
+    },
+    {
+      "occurrence": "N03",
+      "name": "圆形人物窗＋失眠与白天疲倦情境接力",
+      "file": "render/pilot/batches/prompts/N03.mp4",
+      "referenceFile": "render/pilot/batches/prompts/N03-reference.mp4",
+      "recipe": "source/pilot/batches/prompts/N03-recipe.json",
+      "input": "source/pilot/batches/prompts/N03-input.json",
+      "frameCount": 170,
+      "rawRange": [
+        5.833333,
+        11.499999666666668
+      ],
+      "sourceRange": [
+        111,
+        263
+      ],
+      "visualFamily": "V02",
+      "subtitleFamily": "T01",
+      "visualComponents": [
+        "V02"
+      ],
+      "subtitleComponents": [
+        "T01"
+      ],
+      "sha256": "01040f3d45a133b6cd41d679c4bd6cf2f92d6a59ef9caa2eead1ffc4bbb82cca",
+      "verificationState": "trial-awaiting-user-review",
+      "limitations": [
+        "原字体身份和声音落点未确认；新台词为语义概括，词钟需听审",
+        "只验证本次输入的完整组合，不称任意迁移均通过",
+        "两段不同时间的真实办公视频示意加班/工作语境，不冒称原失眠素材；语义为新口播概括"
+      ],
+      "technical": {
+        "fullDecode": true,
+        "frames": 170,
+        "deterministicLayerRecomposition": true,
+        "alphaSamples": [
+          {
+            "frame": 0,
+            "slot": "subtitle.speech",
+            "alphaBBox": null
+          },
+          {
+            "frame": 6,
+            "slot": "subtitle.speech",
+            "alphaBBox": [
+              76,
+              143,
+              210,
+              164
+            ]
+          },
+          {
+            "frame": 42,
+            "slot": "subtitle.speech",
+            "alphaBBox": [
+              68,
+              137,
+              220,
+              169
+            ]
+          },
+          {
+            "frame": 85,
+            "slot": "subtitle.speech",
+            "alphaBBox": [
+              68,
+              140,
+              217,
+              167
+            ]
+          },
+          {
+            "frame": 127,
+            "slot": "subtitle.speech",
+            "alphaBBox": [
+              68,
+              141,
+              217,
+              166
+            ]
+          },
+          {
+            "frame": 169,
+            "slot": "subtitle.speech",
+            "alphaBBox": [
+              68,
+              141,
+              217,
+              166
+            ]
+          }
+        ],
+        "audioListeningApproved": false
+      },
+      "batch": "prompts",
+      "status": "trial-awaiting-user-review",
+      "sourceFrames": [
+        111,
+        263
+      ],
+      "sourceTimecode": "00:03.700-00:08.767",
+      "compositionMode": "combined",
+      "members": [
+        "N03"
+      ]
+    },
+    {
+      "occurrence": "N04",
+      "name": "圆形人物窗扩张恢复全屏",
+      "file": "render/pilot/batches/prompts/N04.mp4",
+      "referenceFile": "render/pilot/batches/prompts/N04-reference.mp4",
+      "recipe": "source/pilot/batches/prompts/N04-recipe.json",
+      "input": "source/pilot/batches/prompts/N04-input.json",
+      "frameCount": 13,
+      "rawRange": [
+        11.5,
+        11.933333333333334
+      ],
+      "sourceRange": [
+        263,
+        276
+      ],
+      "visualFamily": "V03",
+      "subtitleFamily": null,
+      "visualComponents": [
+        "V03"
+      ],
+      "subtitleComponents": [],
+      "sha256": "655baeabbb1a1280023f7463a11c26cfa397ccdcb98f11e91eb764ced6792c25",
+      "verificationState": "trial-awaiting-user-review",
+      "limitations": [
+        "原字体身份和声音落点未确认；新台词为语义概括，词钟需听审",
+        "只验证本次输入的完整组合，不称任意迁移均通过"
+      ],
+      "technical": {
+        "fullDecode": true,
+        "frames": 13,
+        "deterministicLayerRecomposition": true,
+        "alphaSamples": [],
+        "audioListeningApproved": false
+      },
+      "batch": "prompts",
+      "status": "trial-awaiting-user-review",
+      "sourceFrames": [
+        263,
+        276
+      ],
+      "sourceTimecode": "00:08.767-00:09.200",
+      "compositionMode": "visual-only",
+      "members": [
+        "N04"
+      ]
+    },
+    {
+      "occurrence": "N05",
+      "name": "手形光标指向睡眠关键词",
+      "file": "render/pilot/batches/prompts/N05.mp4",
+      "referenceFile": "render/pilot/batches/prompts/N05-reference.mp4",
+      "recipe": "source/pilot/batches/prompts/N05-recipe.json",
+      "input": "source/pilot/batches/prompts/N05-input.json",
+      "frameCount": 58,
+      "rawRange": [
+        22.533333,
+        24.466666333333333
+      ],
+      "sourceRange": [
+        289,
+        331
+      ],
+      "visualFamily": null,
+      "subtitleFamily": "T03",
+      "visualComponents": [],
+      "subtitleComponents": [
+        "T03"
+      ],
+      "sha256": "a47cb62f80abf17e13b3049f248428ef223179e0b7a57cbf1f0e749e874658d9",
+      "verificationState": "trial-awaiting-user-review",
+      "limitations": [
+        "原字体身份和声音落点未确认；新台词为语义概括，词钟需听审",
+        "只验证本次输入的完整组合，不称任意迁移均通过"
+      ],
+      "technical": {
+        "fullDecode": true,
+        "frames": 58,
+        "deterministicLayerRecomposition": true,
+        "alphaSamples": [
+          {
+            "frame": 0,
+            "slot": "subtitle.cursorText",
+            "alphaBBox": [
+              104,
+              322,
+              180,
+              339
+            ]
+          },
+          {
+            "frame": 6,
+            "slot": "subtitle.cursorText",
+            "alphaBBox": [
+              104,
+              322,
+              180,
+              339
+            ]
+          },
+          {
+            "frame": 14,
+            "slot": "subtitle.cursorText",
+            "alphaBBox": [
+              104,
+              322,
+              180,
+              374
+            ]
+          },
+          {
+            "frame": 29,
+            "slot": "subtitle.cursorText",
+            "alphaBBox": [
+              104,
+              322,
+              180,
+              407
+            ]
+          },
+          {
+            "frame": 43,
+            "slot": "subtitle.cursorText",
+            "alphaBBox": [
+              104,
+              322,
+              180,
+              407
+            ]
+          },
+          {
+            "frame": 57,
+            "slot": "subtitle.cursorText",
+            "alphaBBox": [
+              104,
+              322,
+              180,
+              407
+            ]
+          }
+        ],
+        "audioListeningApproved": false
+      },
+      "batch": "prompts",
+      "status": "trial-awaiting-user-review",
+      "sourceFrames": [
+        289,
+        331
+      ],
+      "sourceTimecode": "00:09.633-00:11.033",
+      "compositionMode": "subtitle-only",
+      "members": [
+        "N05"
+      ]
+    },
+    {
+      "occurrence": "N06",
+      "name": "白描人物抠像＋工业背景拼贴与大标题",
+      "file": "render/pilot/batches/evidence/N06.mp4",
+      "referenceFile": "render/pilot/batches/evidence/N06-reference.mp4",
+      "recipe": "source/pilot/batches/evidence/N06-recipe.json",
+      "input": "source/pilot/batches/evidence/N06-input.json",
+      "frameCount": 92,
+      "rawRange": [
+        19.48,
+        22.546666666666667
+      ],
+      "sourceRange": [
+        331,
+        444
+      ],
+      "visualFamily": "V04",
+      "subtitleFamily": "T02",
+      "visualComponents": [
+        "V04"
+      ],
+      "subtitleComponents": [
+        "T02"
+      ],
+      "sha256": "3c06c7547565841663256407e81ad1ac84b0bab2aa8f7793ea2d196fb54a0205",
+      "verificationState": "trial-awaiting-user-review",
+      "limitations": [
+        "原字体身份未确认，原声效未独立重建；新词点尚未人工听审",
+        "图形/文档为原创示意，不能冒称论文证据",
+        "人物matte只验证当前口播，头发/手指边缘仍待视觉复审"
+      ],
+      "technical": {
+        "fullDecode": true,
+        "frames": 92,
+        "deterministicLayerRecomposition": true,
+        "alphaSamples": [
+          {
+            "frame": 0,
+            "slot": "subtitle.behindTitle",
+            "alphaBBox": null
+          },
+          {
+            "frame": 0,
+            "slot": "subtitle.speech",
+            "alphaBBox": [
+              62,
+              330,
+              223,
+              353
+            ]
+          },
+          {
+            "frame": 6,
+            "slot": "subtitle.behindTitle",
+            "alphaBBox": null
+          },
+          {
+            "frame": 6,
+            "slot": "subtitle.speech",
+            "alphaBBox": [
+              62,
+              330,
+              223,
+              353
+            ]
+          },
+          {
+            "frame": 23,
+            "slot": "subtitle.behindTitle",
+            "alphaBBox": null
+          },
+          {
+            "frame": 23,
+            "slot": "subtitle.speech",
+            "alphaBBox": [
+              62,
+              330,
+              223,
+              353
+            ]
+          },
+          {
+            "frame": 46,
+            "slot": "subtitle.behindTitle",
+            "alphaBBox": [
+              4,
+              46,
+              263,
+              144
+            ]
+          },
+          {
+            "frame": 46,
+            "slot": "subtitle.speech",
+            "alphaBBox": [
+              62,
+              330,
+              223,
+              353
+            ]
+          },
+          {
+            "frame": 69,
+            "slot": "subtitle.behindTitle",
+            "alphaBBox": [
+              4,
+              42,
+              263,
+              140
+            ]
+          },
+          {
+            "frame": 69,
+            "slot": "subtitle.speech",
+            "alphaBBox": [
+              83,
+              329,
+              202,
+              353
+            ]
+          },
+          {
+            "frame": 91,
+            "slot": "subtitle.behindTitle",
+            "alphaBBox": [
+              4,
+              42,
+              263,
+              140
+            ]
+          },
+          {
+            "frame": 91,
+            "slot": "subtitle.speech",
+            "alphaBBox": [
+              83,
+              329,
+              202,
+              353
+            ]
+          }
+        ],
+        "audioListeningApproved": false
+      },
+      "comparisonEvidence": "reviews/pilot/batches/evidence/N06-process.jpg",
+      "batch": "evidence",
+      "status": "trial-awaiting-user-review",
+      "sourceFrames": [
+        331,
+        444
+      ],
+      "sourceTimecode": "00:11.033-00:14.800",
+      "compositionMode": "combined",
+      "members": [
+        "N06"
+      ]
+    },
+    {
+      "occurrence": "N07",
+      "name": "历史文献铺垫→论文阶梯→证据标题标记",
+      "file": "render/pilot/subtitle-rework/N07/N07.mp4",
+      "referenceFile": "render/pilot/subtitle-rework/N07/N07-reference.mp4",
+      "recipe": "source/pilot/subtitle-rework/N07/new-content-recipe.json",
+      "input": "source/pilot/subtitle-rework/N07/new-content-input.json",
+      "frameCount": 146,
+      "rawRange": [
+        24.48,
+        29.346666666666668
+      ],
+      "sourceRange": [
+        444,
+        608
+      ],
+      "visualFamily": "V05",
+      "subtitleFamily": "T04",
+      "visualComponents": [
+        "V05"
+      ],
+      "subtitleComponents": [
+        "T04"
+      ],
+      "sha256": "187fd8b5d78b5cc3377202633ca3377bec8a94d5bc953d1dd624081f17ddf099",
+      "verificationState": "trial-awaiting-user-review",
+      "limitations": [
+        "原字体身份未确认，原声效未独立重建；新词点尚未人工听审",
+        "图形/文档为原创示意，不能冒称论文证据",
+        "人物matte只验证当前口播，头发/手指边缘仍待视觉复审"
+      ],
+      "technical": {
+        "fullDecode": true,
+        "frames": 146,
+        "deterministicLayerRecomposition": true,
+        "alphaSamples": [
+          {
+            "frame": 0,
+            "slot": "subtitle.whiteUpper",
+            "alphaBBox": null
+          },
+          {
+            "frame": 0,
+            "slot": "subtitle.whiteLower",
+            "alphaBBox": null
+          },
+          {
+            "frame": 0,
+            "slot": "subtitle.goldMiddle",
+            "alphaBBox": null
+          },
+          {
+            "frame": 0,
+            "slot": "subtitle.documentMarker",
+            "alphaBBox": null
+          },
+          {
+            "frame": 0,
+            "slot": "subtitle.setupSpeech",
+            "alphaBBox": null
+          },
+          {
+            "frame": 6,
+            "slot": "subtitle.whiteUpper",
+            "alphaBBox": null
+          },
+          {
+            "frame": 6,
+            "slot": "subtitle.whiteLower",
+            "alphaBBox": null
+          },
+          {
+            "frame": 6,
+            "slot": "subtitle.goldMiddle",
+            "alphaBBox": null
+          },
+          {
+            "frame": 6,
+            "slot": "subtitle.documentMarker",
+            "alphaBBox": null
+          },
+          {
+            "frame": 6,
+            "slot": "subtitle.setupSpeech",
+            "alphaBBox": null
+          },
+          {
+            "frame": 36,
+            "slot": "subtitle.whiteUpper",
+            "alphaBBox": null
+          },
+          {
+            "frame": 36,
+            "slot": "subtitle.whiteLower",
+            "alphaBBox": null
+          },
+          {
+            "frame": 36,
+            "slot": "subtitle.goldMiddle",
+            "alphaBBox": null
+          },
+          {
+            "frame": 36,
+            "slot": "subtitle.documentMarker",
+            "alphaBBox": null
+          },
+          {
+            "frame": 36,
+            "slot": "subtitle.setupSpeech",
+            "alphaBBox": [
+              84,
+              330,
+              201,
+              351
+            ]
+          },
+          {
+            "frame": 73,
+            "slot": "subtitle.whiteUpper",
+            "alphaBBox": null
+          },
+          {
+            "frame": 73,
+            "slot": "subtitle.whiteLower",
+            "alphaBBox": null
+          },
+          {
+            "frame": 73,
+            "slot": "subtitle.goldMiddle",
+            "alphaBBox": null
+          },
+          {
+            "frame": 73,
+            "slot": "subtitle.documentMarker",
+            "alphaBBox": null
+          },
+          {
+            "frame": 73,
+            "slot": "subtitle.setupSpeech",
+            "alphaBBox": [
+              109,
+              330,
+              177,
+              351
+            ]
+          },
+          {
+            "frame": 109,
+            "slot": "subtitle.whiteUpper",
+            "alphaBBox": [
+              64,
+              105,
+              222,
+              117
+            ]
+          },
+          {
+            "frame": 109,
+            "slot": "subtitle.whiteLower",
+            "alphaBBox": [
+              64,
+              147,
+              222,
+              162
+            ]
+          },
+          {
+            "frame": 109,
+            "slot": "subtitle.goldMiddle",
+            "alphaBBox": [
+              91,
+              128,
+              195,
+              146
+            ]
+          },
+          {
+            "frame": 109,
+            "slot": "subtitle.documentMarker",
+            "alphaBBox": [
+              42,
+              245,
+              228,
+              263
+            ]
+          },
+          {
+            "frame": 109,
+            "slot": "subtitle.setupSpeech",
+            "alphaBBox": null
+          },
+          {
+            "frame": 145,
+            "slot": "subtitle.whiteUpper",
+            "alphaBBox": [
+              64,
+              105,
+              222,
+              117
+            ]
+          },
+          {
+            "frame": 145,
+            "slot": "subtitle.whiteLower",
+            "alphaBBox": [
+              64,
+              147,
+              222,
+              162
+            ]
+          },
+          {
+            "frame": 145,
+            "slot": "subtitle.goldMiddle",
+            "alphaBBox": [
+              91,
+              128,
+              195,
+              146
+            ]
+          },
+          {
+            "frame": 145,
+            "slot": "subtitle.documentMarker",
+            "alphaBBox": [
+              42,
+              245,
+              228,
+              263
+            ]
+          },
+          {
+            "frame": 145,
+            "slot": "subtitle.setupSpeech",
+            "alphaBBox": null
+          }
+        ],
+        "audioListeningApproved": false
+      },
+      "comparisonEvidence": "reviews/subtitle-rework/N07/process-comparison.jpg",
+      "batch": "evidence",
+      "status": "subtitle-reworked-awaiting-user-review",
+      "sourceFrames": [
+        444,
+        608
+      ],
+      "sourceTimecode": "00:14.800-00:20.250",
+      "compositionMode": "combined",
+      "members": [
+        "N07"
+      ],
+      "supersedes": {
+        "file": "render/pilot/batches/evidence/N07.mp4",
+        "sha256": "2a7a7ddb8d5488d1fa7485ebbaf06ca92566a6507ebacfb4c3fd7cf88801caaa",
+        "reason": "user-rejected-subtitle-mechanism"
+      }
+    },
+    {
+      "occurrence": "N08",
+      "name": "两段式睡眠：太阳、月亮与夜间活动小卡",
+      "file": "render/pilot/batches/stages/N08-applied.mp4",
+      "referenceFile": "render/pilot/batches/stages/N08-reference.mp4",
+      "recipe": "source/pilot/batches/stages/N08-recipe.json",
+      "input": "source/pilot/batches/stages/N08-input.json",
+      "frameCount": 287,
+      "rawRange": [
+        0,
+        9.566666666666666
+      ],
+      "sourceRange": [
+        608,
+        850
+      ],
+      "visualFamily": "V06",
+      "subtitleFamily": "T05",
+      "visualComponents": [
+        "V06"
+      ],
+      "subtitleComponents": [
+        "T05"
+      ],
+      "sha256": "fe36085638b2a04e34841d83173818f2de885bcd0122f11bf1b0cff174511d18",
+      "verificationState": "trial-awaiting-user-review",
+      "limitations": [
+        "原字体身份未确认，选用真实字体近似并留同字证据",
+        "原创工作/学习示意替换原睡眠素材，素材风格不等同原资产",
+        "新口播时点尚未人工听审，音效未独立还原",
+        "03试作，不代表正式库通过"
+      ],
+      "technical": {
+        "fullDecode": true,
+        "frames": 287,
+        "deterministicLayerRecomposition": true,
+        "alphaSamples": [
+          {
+            "frame": 0,
+            "slot": "subtitle.type",
+            "alphaBBox": [
+              95,
+              332,
+              189,
+              353
+            ]
+          },
+          {
+            "frame": 6,
+            "slot": "subtitle.type",
+            "alphaBBox": [
+              19,
+              56,
+              264,
+              353
+            ]
+          },
+          {
+            "frame": 71,
+            "slot": "subtitle.type",
+            "alphaBBox": [
+              19,
+              56,
+              264,
+              353
+            ]
+          },
+          {
+            "frame": 143,
+            "slot": "subtitle.type",
+            "alphaBBox": [
+              19,
+              56,
+              264,
+              353
+            ]
+          },
+          {
+            "frame": 215,
+            "slot": "subtitle.type",
+            "alphaBBox": [
+              19,
+              56,
+              264,
+              353
+            ]
+          },
+          {
+            "frame": 286,
+            "slot": "subtitle.type",
+            "alphaBBox": [
+              19,
+              56,
+              264,
+              353
+            ]
+          }
+        ],
+        "audioListeningApproved": false
+      },
+      "components": [
+        {
+          "kind": "visual",
+          "id": "V06",
+          "entrypoint": "batches.stages.providers:visual",
+          "source": "source/pilot/batches/stages/providers.py",
+          "sha256": "6dd221f5f92e1f6311d76f628843cbd6fa78a5cf38f3d6811c2b1fc6a734dd0f"
+        },
+        {
+          "kind": "subtitle",
+          "id": "T05",
+          "entrypoint": "batches.stages.providers:subtitle",
+          "source": "source/pilot/batches/stages/providers.py",
+          "sha256": "6dd221f5f92e1f6311d76f628843cbd6fa78a5cf38f3d6811c2b1fc6a734dd0f"
+        }
+      ],
+      "members": [
+        "N08"
+      ],
+      "batch": "stages",
+      "status": "trial-awaiting-user-review",
+      "sourceFrames": [
+        608,
+        850
+      ],
+      "sourceTimecode": "00:20.250-00:28.317",
+      "compositionMode": "combined"
+    },
+    {
+      "occurrence": "N09",
+      "name": "头顶时钟贴图＋钟表时间重点词放大",
+      "file": "render/pilot/batches/prompts/N09.mp4",
+      "referenceFile": "render/pilot/batches/prompts/N09-reference.mp4",
+      "recipe": "source/pilot/batches/prompts/N09-recipe.json",
+      "input": "source/pilot/batches/prompts/N09-input.json",
+      "frameCount": 64,
+      "rawRange": [
+        19.466667,
+        21.600000333333334
+      ],
+      "sourceRange": [
+        971,
+        1037
+      ],
+      "visualFamily": "V07",
+      "subtitleFamily": "T01",
+      "visualComponents": [
+        "V07"
+      ],
+      "subtitleComponents": [
+        "T01"
+      ],
+      "sha256": "6d4c39b3d0e5b62de6642222cd6962c107b875b55be2eaeaf283ed8749b113a8",
+      "verificationState": "trial-awaiting-user-review",
+      "limitations": [
+        "原字体身份和声音落点未确认；新台词为语义概括，词钟需听审",
+        "只验证本次输入的完整组合，不称任意迁移均通过",
+        "头顶图形按新口播换语义素材；材质与原时钟/漫画不同"
+      ],
+      "technical": {
+        "fullDecode": true,
+        "frames": 64,
+        "deterministicLayerRecomposition": true,
+        "alphaSamples": [
+          {
+            "frame": 0,
+            "slot": "subtitle.speech",
+            "alphaBBox": null
+          },
+          {
+            "frame": 6,
+            "slot": "subtitle.speech",
+            "alphaBBox": [
+              60,
+              331,
+              225,
+              352
+            ]
+          },
+          {
+            "frame": 16,
+            "slot": "subtitle.speech",
+            "alphaBBox": [
+              60,
+              331,
+              225,
+              352
+            ]
+          },
+          {
+            "frame": 32,
+            "slot": "subtitle.speech",
+            "alphaBBox": [
+              54,
+              325,
+              236,
+              357
+            ]
+          },
+          {
+            "frame": 48,
+            "slot": "subtitle.speech",
+            "alphaBBox": [
+              53,
+              329,
+              233,
+              354
+            ]
+          },
+          {
+            "frame": 63,
+            "slot": "subtitle.speech",
+            "alphaBBox": [
+              53,
+              329,
+              233,
+              354
+            ]
+          }
+        ],
+        "audioListeningApproved": false
+      },
+      "batch": "prompts",
+      "status": "trial-awaiting-user-review",
+      "sourceFrames": [
+        971,
+        1037
+      ],
+      "sourceTimecode": "00:32.350-00:34.533",
+      "compositionMode": "combined",
+      "members": [
+        "N09"
+      ]
+    },
+    {
+      "occurrence": "N10",
+      "name": "睡满8小时与标准睡眠的重点词递进",
+      "file": "render/pilot/batches/prompts/N10.mp4",
+      "referenceFile": "render/pilot/batches/prompts/N10-reference.mp4",
+      "recipe": "source/pilot/batches/prompts/N10-recipe.json",
+      "input": "source/pilot/batches/prompts/N10-input.json",
+      "frameCount": 76,
+      "rawRange": [
+        26.8,
+        29.333333333333336
+      ],
+      "sourceRange": [
+        1037,
+        1132
+      ],
+      "visualFamily": null,
+      "subtitleFamily": "T01",
+      "visualComponents": [],
+      "subtitleComponents": [
+        "T01"
+      ],
+      "sha256": "179b9fe5187ebddd03c75c77153241b1b599312a6af6b876f9a55acac4108842",
+      "verificationState": "trial-awaiting-user-review",
+      "limitations": [
+        "原字体身份和声音落点未确认；新台词为语义概括，词钟需听审",
+        "只验证本次输入的完整组合，不称任意迁移均通过"
+      ],
+      "technical": {
+        "fullDecode": true,
+        "frames": 76,
+        "deterministicLayerRecomposition": true,
+        "alphaSamples": [
+          {
+            "frame": 0,
+            "slot": "subtitle.speech",
+            "alphaBBox": [
+              78,
+              319,
+              210,
+              340
+            ]
+          },
+          {
+            "frame": 6,
+            "slot": "subtitle.speech",
+            "alphaBBox": [
+              76,
+              319,
+              210,
+              340
+            ]
+          },
+          {
+            "frame": 19,
+            "slot": "subtitle.speech",
+            "alphaBBox": [
+              66,
+              313,
+              222,
+              345
+            ]
+          },
+          {
+            "frame": 38,
+            "slot": "subtitle.speech",
+            "alphaBBox": [
+              66,
+              316,
+              219,
+              371
+            ]
+          },
+          {
+            "frame": 57,
+            "slot": "subtitle.speech",
+            "alphaBBox": [
+              66,
+              316,
+              219,
+              376
+            ]
+          },
+          {
+            "frame": 75,
+            "slot": "subtitle.speech",
+            "alphaBBox": [
+              66,
+              316,
+              219,
+              374
+            ]
+          }
+        ],
+        "audioListeningApproved": false
+      },
+      "batch": "prompts",
+      "status": "trial-awaiting-user-review",
+      "sourceFrames": [
+        1037,
+        1132
+      ],
+      "sourceTimecode": "00:34.533-00:37.700",
+      "compositionMode": "subtitle-only",
+      "members": [
+        "N10"
+      ]
+    },
+    {
+      "occurrence": "N11",
+      "name": "圆形人物＋老作息表透视旋入与注释",
+      "file": "render/pilot/batches/stages/N11-applied.mp4",
+      "referenceFile": "render/pilot/batches/stages/N11-reference.mp4",
+      "recipe": "source/pilot/batches/stages/N11-recipe.json",
+      "input": "source/pilot/batches/stages/N11-input.json",
+      "frameCount": 76,
+      "rawRange": [
+        26.82,
+        29.35333333333333
+      ],
+      "sourceRange": [
+        1160,
+        1258
+      ],
+      "visualFamily": "V08",
+      "subtitleFamily": "T06",
+      "visualComponents": [
+        "V08"
+      ],
+      "subtitleComponents": [
+        "T06"
+      ],
+      "sha256": "a4cf14e1253e23b3e9b0b1cd2deff16e2f9eda88f94d31f6f6b6b5bce8e12146",
+      "verificationState": "trial-awaiting-user-review",
+      "limitations": [
+        "原字体身份未确认，选用真实字体近似并留同字证据",
+        "原创工作/学习示意替换原睡眠素材，素材风格不等同原资产",
+        "新口播时点尚未人工听审，音效未独立还原",
+        "03试作，不代表正式库通过"
+      ],
+      "technical": {
+        "fullDecode": true,
+        "frames": 76,
+        "deterministicLayerRecomposition": true,
+        "alphaSamples": [
+          {
+            "frame": 0,
+            "slot": "subtitle.annotations",
+            "alphaBBox": [
+              53,
+              386,
+              231,
+              408
+            ]
+          },
+          {
+            "frame": 6,
+            "slot": "subtitle.annotations",
+            "alphaBBox": [
+              53,
+              386,
+              231,
+              408
+            ]
+          },
+          {
+            "frame": 19,
+            "slot": "subtitle.annotations",
+            "alphaBBox": [
+              53,
+              386,
+              231,
+              408
+            ]
+          },
+          {
+            "frame": 38,
+            "slot": "subtitle.annotations",
+            "alphaBBox": [
+              53,
+              269,
+              275,
+              408
+            ]
+          },
+          {
+            "frame": 57,
+            "slot": "subtitle.annotations",
+            "alphaBBox": [
+              53,
+              263,
+              275,
+              408
+            ]
+          },
+          {
+            "frame": 75,
+            "slot": "subtitle.annotations",
+            "alphaBBox": [
+              53,
+              263,
+              275,
+              408
+            ]
+          }
+        ],
+        "audioListeningApproved": false
+      },
+      "components": [
+        {
+          "kind": "visual",
+          "id": "V08",
+          "entrypoint": "batches.stages.providers:visual",
+          "source": "source/pilot/batches/stages/providers.py",
+          "sha256": "6dd221f5f92e1f6311d76f628843cbd6fa78a5cf38f3d6811c2b1fc6a734dd0f"
+        },
+        {
+          "kind": "subtitle",
+          "id": "T06",
+          "entrypoint": "batches.stages.providers:subtitle",
+          "source": "source/pilot/batches/stages/providers.py",
+          "sha256": "6dd221f5f92e1f6311d76f628843cbd6fa78a5cf38f3d6811c2b1fc6a734dd0f"
+        }
+      ],
+      "members": [
+        "N11"
+      ],
+      "batch": "stages",
+      "status": "trial-awaiting-user-review",
+      "sourceFrames": [
+        1160,
+        1258
+      ],
+      "sourceTimecode": "00:38.633-00:41.900",
+      "compositionMode": "combined"
+    },
+    {
+      "occurrence": "N12",
+      "name": "头顶问号＋口播字幕滚动切换",
+      "file": "render/pilot/batches/prompts/N12.mp4",
+      "referenceFile": "render/pilot/batches/prompts/N12-reference.mp4",
+      "recipe": "source/pilot/batches/prompts/N12-recipe.json",
+      "input": "source/pilot/batches/prompts/N12-input.json",
+      "frameCount": 42,
+      "rawRange": [
+        5.833333,
+        7.233333
+      ],
+      "sourceRange": [
+        1348,
+        1374
+      ],
+      "visualFamily": null,
+      "subtitleFamily": "T07",
+      "visualComponents": [],
+      "subtitleComponents": [
+        "T07",
+        "T10"
+      ],
+      "sha256": "ededb329b251b48f8dd83d60d5669fa1ec33f9e8e2ea435f7fac2249a6c62f6e",
+      "verificationState": "trial-awaiting-user-review",
+      "limitations": [
+        "原字体身份和声音落点未确认；新台词为语义概括，词钟需听审",
+        "只验证本次输入的完整组合，不称任意迁移均通过"
+      ],
+      "technical": {
+        "fullDecode": true,
+        "frames": 42,
+        "deterministicLayerRecomposition": true,
+        "alphaSamples": [
+          {
+            "frame": 0,
+            "slot": "subtitle.questions",
+            "alphaBBox": null
+          },
+          {
+            "frame": 0,
+            "slot": "rolling.rollingSpeech",
+            "alphaBBox": [
+              110,
+              331,
+              175,
+              348
+            ]
+          },
+          {
+            "frame": 6,
+            "slot": "subtitle.questions",
+            "alphaBBox": [
+              101,
+              31,
+              182,
+              62
+            ]
+          },
+          {
+            "frame": 6,
+            "slot": "rolling.rollingSpeech",
+            "alphaBBox": [
+              110,
+              331,
+              175,
+              348
+            ]
+          },
+          {
+            "frame": 10,
+            "slot": "subtitle.questions",
+            "alphaBBox": [
+              101,
+              31,
+              183,
+              60
+            ]
+          },
+          {
+            "frame": 10,
+            "slot": "rolling.rollingSpeech",
+            "alphaBBox": [
+              110,
+              331,
+              175,
+              348
+            ]
+          },
+          {
+            "frame": 21,
+            "slot": "subtitle.questions",
+            "alphaBBox": [
+              101,
+              31,
+              183,
+              60
+            ]
+          },
+          {
+            "frame": 21,
+            "slot": "rolling.rollingSpeech",
+            "alphaBBox": [
+              110,
+              311,
+              175,
+              349
+            ]
+          },
+          {
+            "frame": 31,
+            "slot": "subtitle.questions",
+            "alphaBBox": [
+              101,
+              31,
+              183,
+              60
+            ]
+          },
+          {
+            "frame": 31,
+            "slot": "rolling.rollingSpeech",
+            "alphaBBox": [
+              110,
+              331,
+              175,
+              348
+            ]
+          },
+          {
+            "frame": 41,
+            "slot": "subtitle.questions",
+            "alphaBBox": [
+              101,
+              31,
+              183,
+              60
+            ]
+          },
+          {
+            "frame": 41,
+            "slot": "rolling.rollingSpeech",
+            "alphaBBox": [
+              110,
+              331,
+              175,
+              348
+            ]
+          }
+        ],
+        "audioListeningApproved": false
+      },
+      "batch": "prompts",
+      "status": "trial-awaiting-user-review",
+      "sourceFrames": [
+        1348,
+        1374
+      ],
+      "sourceTimecode": "00:44.900-00:45.767",
+      "compositionMode": "subtitle-only",
+      "members": [
+        "N12"
+      ]
+    },
+    {
+      "occurrence": "N13",
+      "name": "暗角聚焦＋真正作用金色大字落位",
+      "file": "render/pilot/subtitle-rework/emphasis/N13.mp4",
+      "referenceFile": "render/pilot/subtitle-rework/emphasis/N13-reference.mp4",
+      "recipe": "source/pilot/subtitle-rework/emphasis/N13-recipe.json",
+      "input": "source/pilot/subtitle-rework/emphasis/N13-input.json",
+      "frameCount": 58,
+      "rawRange": [
+        22.533333,
+        24.466666333333333
+      ],
+      "sourceRange": [
+        1421,
+        1443
+      ],
+      "visualFamily": "V01",
+      "subtitleFamily": "T08",
+      "visualComponents": [
+        "V01"
+      ],
+      "subtitleComponents": [
+        "T08"
+      ],
+      "sha256": "d9af8231bbb2ecd4ba4515890107c89025897897753f51de78f0fe54a1883f8b",
+      "verificationState": "trial-awaiting-user-review",
+      "limitations": [
+        "原字体未知，采用思源宋Bold候选；具体字形及压缩特征仍有差异",
+        "动态参数依据逐帧观测近似，未声称轨迹逐像素一致",
+        "保留新口播原声，词级听审和原片音效未完成"
+      ],
+      "technical": {
+        "fullDecode": true,
+        "frames": 58,
+        "deterministicLayerRecomposition": true,
+        "alphaSamples": [
+          {
+            "frame": 0,
+            "slot": "subtitle.english",
+            "alphaBBox": [
+              81,
+              303,
+              205,
+              319
+            ]
+          },
+          {
+            "frame": 0,
+            "slot": "subtitle.headline",
+            "alphaBBox": [
+              50,
+              267,
+              235,
+              316
+            ]
+          },
+          {
+            "frame": 6,
+            "slot": "subtitle.english",
+            "alphaBBox": [
+              61,
+              302,
+              225,
+              322
+            ]
+          },
+          {
+            "frame": 6,
+            "slot": "subtitle.headline",
+            "alphaBBox": [
+              24,
+              257,
+              260,
+              317
+            ]
+          },
+          {
+            "frame": 14,
+            "slot": "subtitle.english",
+            "alphaBBox": [
+              59,
+              301,
+              226,
+              322
+            ]
+          },
+          {
+            "frame": 14,
+            "slot": "subtitle.headline",
+            "alphaBBox": [
+              21,
+              255,
+              262,
+              316
+            ]
+          },
+          {
+            "frame": 29,
+            "slot": "subtitle.english",
+            "alphaBBox": [
+              59,
+              301,
+              226,
+              322
+            ]
+          },
+          {
+            "frame": 29,
+            "slot": "subtitle.headline",
+            "alphaBBox": [
+              21,
+              255,
+              262,
+              316
+            ]
+          },
+          {
+            "frame": 43,
+            "slot": "subtitle.english",
+            "alphaBBox": [
+              59,
+              301,
+              226,
+              322
+            ]
+          },
+          {
+            "frame": 43,
+            "slot": "subtitle.headline",
+            "alphaBBox": [
+              21,
+              255,
+              262,
+              316
+            ]
+          },
+          {
+            "frame": 57,
+            "slot": "subtitle.english",
+            "alphaBBox": [
+              59,
+              301,
+              226,
+              322
+            ]
+          },
+          {
+            "frame": 57,
+            "slot": "subtitle.headline",
+            "alphaBBox": [
+              21,
+              255,
+              262,
+              316
+            ]
+          }
+        ],
+        "audioListeningApproved": false
+      },
+      "batch": "prompts",
+      "status": "subtitle-reworked-awaiting-user-review",
+      "sourceFrames": [
+        1421,
+        1443
+      ],
+      "sourceTimecode": "00:47.333-00:48.067",
+      "compositionMode": "combined",
+      "members": [
+        "N13"
+      ],
+      "evidence": {
+        "sameWord": "reviews/pilot/subtitle-rework/emphasis/N13-same-word-encoded-process.jpg",
+        "completeCompare": "reviews/pilot/subtitle-rework/emphasis/N13-encoded-complete-compare.jpg",
+        "rgba": "render/pilot/subtitle-rework/emphasis/N13-full-rgba/sequence.json"
+      },
+      "visualRegression": "unchanged same inputs/reference providers and layer bytes on frames0,5,last",
+      "supersedes": {
+        "file": "render/pilot/batches/prompts/N13.mp4",
+        "sha256": "74b1d53093b527ccc36d0e6091f40b7c0e316224817e568736f6208a3e8825c0",
+        "reason": "user-rejected-subtitle-mechanism"
+      }
+    },
+    {
+      "occurrence": "N14",
+      "name": "人物背景虚化→Nature论文卷页→标题局部放大",
+      "file": "render/pilot/batches/evidence/N14.mp4",
+      "referenceFile": "render/pilot/batches/evidence/N14-reference.mp4",
+      "recipe": "source/pilot/batches/evidence/N14-recipe.json",
+      "input": "source/pilot/batches/evidence/N14-input.json",
+      "frameCount": 94,
+      "rawRange": [
+        34.42,
+        37.553333333333335
+      ],
+      "sourceRange": [
+        1443,
+        1515
+      ],
+      "visualFamily": "V09",
+      "subtitleFamily": "T04",
+      "visualComponents": [
+        "V09"
+      ],
+      "subtitleComponents": [
+        "T04"
+      ],
+      "sha256": "935e4d5cec8273dfefa87d9dab30c1091e9926280e2458f2c48bbad0fa7d7add",
+      "verificationState": "trial-awaiting-user-review",
+      "limitations": [
+        "原字体身份未确认，原声效未独立重建；新词点尚未人工听审",
+        "图形/文档为原创示意，不能冒称论文证据",
+        "人物matte只验证当前口播，头发/手指边缘仍待视觉复审"
+      ],
+      "technical": {
+        "fullDecode": true,
+        "frames": 94,
+        "deterministicLayerRecomposition": true,
+        "alphaSamples": [
+          {
+            "frame": 0,
+            "slot": "subtitle.documentMarker",
+            "alphaBBox": [
+              58,
+              127,
+              59,
+              144
+            ]
+          },
+          {
+            "frame": 0,
+            "slot": "subtitle.conclusion",
+            "alphaBBox": null
+          },
+          {
+            "frame": 6,
+            "slot": "subtitle.documentMarker",
+            "alphaBBox": [
+              58,
+              127,
+              59,
+              144
+            ]
+          },
+          {
+            "frame": 6,
+            "slot": "subtitle.conclusion",
+            "alphaBBox": null
+          },
+          {
+            "frame": 23,
+            "slot": "subtitle.documentMarker",
+            "alphaBBox": [
+              58,
+              127,
+              59,
+              144
+            ]
+          },
+          {
+            "frame": 23,
+            "slot": "subtitle.conclusion",
+            "alphaBBox": null
+          },
+          {
+            "frame": 47,
+            "slot": "subtitle.documentMarker",
+            "alphaBBox": [
+              40,
+              127,
+              244,
+              232
+            ]
+          },
+          {
+            "frame": 47,
+            "slot": "subtitle.conclusion",
+            "alphaBBox": null
+          },
+          {
+            "frame": 70,
+            "slot": "subtitle.documentMarker",
+            "alphaBBox": [
+              40,
+              127,
+              244,
+              224
+            ]
+          },
+          {
+            "frame": 70,
+            "slot": "subtitle.conclusion",
+            "alphaBBox": null
+          },
+          {
+            "frame": 93,
+            "slot": "subtitle.documentMarker",
+            "alphaBBox": [
+              40,
+              127,
+              244,
+              224
+            ]
+          },
+          {
+            "frame": 93,
+            "slot": "subtitle.conclusion",
+            "alphaBBox": null
+          }
+        ],
+        "audioListeningApproved": false
+      },
+      "comparisonEvidence": "reviews/pilot/batches/evidence/N14-process.jpg",
+      "batch": "evidence",
+      "status": "trial-awaiting-user-review",
+      "sourceFrames": [
+        1443,
+        1515
+      ],
+      "sourceTimecode": "00:48.067-00:50.467",
+      "compositionMode": "combined",
+      "members": [
+        "N14"
+      ]
+    },
+    {
+      "occurrence": "N15",
+      "name": "圆角科学影像：大脑→细胞→线粒体→物质积累",
+      "file": "render/pilot/batches/stages/N15-applied.mp4",
+      "referenceFile": "render/pilot/batches/stages/N15-reference.mp4",
+      "recipe": "source/pilot/batches/stages/N15-recipe.json",
+      "input": "source/pilot/batches/stages/N15-input.json",
+      "frameCount": 203,
+      "rawRange": [
+        32.06,
+        38.82666666666667
+      ],
+      "sourceRange": [
+        1515,
+        1797
+      ],
+      "visualFamily": "V10",
+      "subtitleFamily": null,
+      "visualComponents": [
+        "V10"
+      ],
+      "subtitleComponents": [],
+      "sha256": "cb4435be7bfcd0fed6faa04678435329a9c33cdd6d2590568655e969ef5a0648",
+      "verificationState": "trial-awaiting-user-review",
+      "limitations": [
+        "原字体身份未确认，选用真实字体近似并留同字证据",
+        "原创工作/学习示意替换原睡眠素材，素材风格不等同原资产",
+        "新口播时点尚未人工听审，音效未独立还原",
+        "03试作，不代表正式库通过"
+      ],
+      "technical": {
+        "fullDecode": true,
+        "frames": 203,
+        "deterministicLayerRecomposition": true,
+        "alphaSamples": [],
+        "audioListeningApproved": false
+      },
+      "components": [
+        {
+          "kind": "visual",
+          "id": "V10",
+          "entrypoint": "batches.stages.providers:visual",
+          "source": "source/pilot/batches/stages/providers.py",
+          "sha256": "6dd221f5f92e1f6311d76f628843cbd6fa78a5cf38f3d6811c2b1fc6a734dd0f"
+        }
+      ],
+      "members": [
+        "N15"
+      ],
+      "batch": "stages",
+      "status": "trial-awaiting-user-review",
+      "sourceFrames": [
+        1515,
+        1797
+      ],
+      "sourceTimecode": "00:50.467-00:59.850",
+      "compositionMode": "visual-only"
+    },
+    {
+      "occurrence": "N16",
+      "name": "全画面缩小黑边：强调手术后的疲惫",
+      "file": "render/pilot/batches/evidence/N16.mp4",
+      "referenceFile": "render/pilot/batches/evidence/N16-reference.mp4",
+      "recipe": "source/pilot/batches/evidence/N16-recipe.json",
+      "input": "source/pilot/batches/evidence/N16-input.json",
+      "frameCount": 58,
+      "rawRange": [
+        17.56,
+        19.493333333333332
+      ],
+      "sourceRange": [
+        1797,
+        1863
+      ],
+      "visualFamily": "V11",
+      "subtitleFamily": null,
+      "visualComponents": [
+        "V11"
+      ],
+      "subtitleComponents": [],
+      "sha256": "dd9eb444d19344afd1798d5490bd95b445918abc446c59b0e0bdb59f481cc26d",
+      "verificationState": "trial-awaiting-user-review",
+      "limitations": [
+        "原字体身份未确认，原声效未独立重建；新词点尚未人工听审",
+        "图形/文档为原创示意，不能冒称论文证据",
+        "人物matte只验证当前口播，头发/手指边缘仍待视觉复审"
+      ],
+      "technical": {
+        "fullDecode": true,
+        "frames": 58,
+        "deterministicLayerRecomposition": true,
+        "alphaSamples": [],
+        "audioListeningApproved": false
+      },
+      "comparisonEvidence": "reviews/pilot/batches/evidence/N16-process.jpg",
+      "batch": "evidence",
+      "status": "trial-awaiting-user-review",
+      "sourceFrames": [
+        1797,
+        1863
+      ],
+      "sourceTimecode": "00:59.850-01:02.050",
+      "compositionMode": "visual-only",
+      "members": [
+        "N16"
+      ]
+    },
+    {
+      "occurrence": "N17",
+      "name": "整体放大＋头顶旋涡提示疲惫眩晕",
+      "file": "render/pilot/subtitle-rework/emphasis/N17.mp4",
+      "referenceFile": "render/pilot/subtitle-rework/emphasis/N17-reference.mp4",
+      "recipe": "source/pilot/subtitle-rework/emphasis/N17-recipe.json",
+      "input": "source/pilot/subtitle-rework/emphasis/N17-input.json",
+      "frameCount": 70,
+      "rawRange": [
+        24.466667,
+        26.800000333333333
+      ],
+      "sourceRange": [
+        1863,
+        1911
+      ],
+      "visualFamily": "V07",
+      "subtitleFamily": null,
+      "visualComponents": [
+        "V07",
+        "V15"
+      ],
+      "subtitleComponents": [],
+      "sha256": "33dd153e65652abee35d46bf9e83d0ddb9ac369d49b942fc3b6f53f0f8478517",
+      "verificationState": "trial-awaiting-user-review",
+      "limitations": [
+        "原字体未知，采用思源宋Bold候选；具体字形及压缩特征仍有差异",
+        "动态参数依据逐帧观测近似，未声称轨迹逐像素一致",
+        "保留新口播原声，词级听审和原片音效未完成"
+      ],
+      "technical": {
+        "fullDecode": true,
+        "frames": 70,
+        "deterministicLayerRecomposition": true,
+        "alphaSamples": [
+          {
+            "frame": 0,
+            "slot": "subtitle.goldSentence",
+            "alphaBBox": [
+              46,
+              395,
+              239,
+              425
+            ]
+          },
+          {
+            "frame": 6,
+            "slot": "subtitle.goldSentence",
+            "alphaBBox": [
+              46,
+              394,
+              238,
+              426
+            ]
+          },
+          {
+            "frame": 17,
+            "slot": "subtitle.goldSentence",
+            "alphaBBox": [
+              45,
+              395,
+              238,
+              426
+            ]
+          },
+          {
+            "frame": 35,
+            "slot": "subtitle.goldSentence",
+            "alphaBBox": [
+              46,
+              394,
+              238,
+              426
+            ]
+          },
+          {
+            "frame": 52,
+            "slot": "subtitle.goldSentence",
+            "alphaBBox": [
+              46,
+              395,
+              239,
+              426
+            ]
+          },
+          {
+            "frame": 69,
+            "slot": "subtitle.goldSentence",
+            "alphaBBox": [
+              45,
+              395,
+              238,
+              426
+            ]
+          }
+        ],
+        "audioListeningApproved": false
+      },
+      "batch": "prompts",
+      "status": "subtitle-reworked-awaiting-user-review",
+      "sourceFrames": [
+        1863,
+        1911
+      ],
+      "sourceTimecode": "01:02.050-01:03.650",
+      "compositionMode": "visual-only",
+      "members": [
+        "N17"
+      ],
+      "evidence": {
+        "sameWord": "reviews/pilot/subtitle-rework/emphasis/N17-same-word-encoded-process.jpg",
+        "completeCompare": "reviews/pilot/subtitle-rework/emphasis/N17-encoded-complete-compare.jpg",
+        "rgba": "render/pilot/subtitle-rework/emphasis/N17-full-rgba/sequence.json"
+      },
+      "visualRegression": "unchanged same inputs/reference providers and layer bytes on frames0,5,last",
+      "supersedes": {
+        "file": "render/pilot/batches/prompts/N17.mp4",
+        "sha256": "0fe896f84207d5ef228da4d6424a68d4956a9f409f3a3bae07fd1acbfe1852db",
+        "reason": "user-rejected-subtitle-mechanism"
+      }
+    },
+    {
+      "occurrence": "N18",
+      "name": "人物抠像前后分层＋身后病毒与禁止符号揭晓",
+      "file": "render/pilot/batches/evidence/N18.mp4",
+      "referenceFile": "render/pilot/batches/evidence/N18-reference.mp4",
+      "recipe": "source/pilot/batches/evidence/N18-recipe.json",
+      "input": "source/pilot/batches/evidence/N18-input.json",
+      "frameCount": 82,
+      "rawRange": [
+        29.34,
+        32.07333333333333
+      ],
+      "sourceRange": [
+        1981,
+        2036
+      ],
+      "visualFamily": "V12",
+      "subtitleFamily": null,
+      "visualComponents": [
+        "V12",
+        "V14"
+      ],
+      "subtitleComponents": [],
+      "sha256": "0e13ca1501e3d1619f41fdc909000ba4d6836fc653c8f70db5515cfb62709977",
+      "verificationState": "trial-awaiting-user-review",
+      "limitations": [
+        "原字体身份未确认，原声效未独立重建；新词点尚未人工听审",
+        "图形/文档为原创示意，不能冒称论文证据",
+        "人物matte只验证当前口播，头发/手指边缘仍待视觉复审"
+      ],
+      "technical": {
+        "fullDecode": true,
+        "frames": 82,
+        "deterministicLayerRecomposition": true,
+        "alphaSamples": [
+          {
+            "frame": 0,
+            "slot": "support.speech",
+            "alphaBBox": [
+              81,
+              333,
+              205,
+              356
+            ]
+          },
+          {
+            "frame": 6,
+            "slot": "support.speech",
+            "alphaBBox": [
+              81,
+              333,
+              205,
+              356
+            ]
+          },
+          {
+            "frame": 20,
+            "slot": "support.speech",
+            "alphaBBox": [
+              81,
+              333,
+              205,
+              356
+            ]
+          },
+          {
+            "frame": 41,
+            "slot": "support.speech",
+            "alphaBBox": [
+              81,
+              333,
+              205,
+              356
+            ]
+          },
+          {
+            "frame": 61,
+            "slot": "support.speech",
+            "alphaBBox": [
+              81,
+              333,
+              205,
+              356
+            ]
+          },
+          {
+            "frame": 81,
+            "slot": "support.speech",
+            "alphaBBox": [
+              81,
+              333,
+              205,
+              356
+            ]
+          }
+        ],
+        "audioListeningApproved": false
+      },
+      "comparisonEvidence": "reviews/pilot/batches/evidence/N18-process.jpg",
+      "batch": "evidence",
+      "status": "trial-awaiting-user-review",
+      "sourceFrames": [
+        1981,
+        2036
+      ],
+      "sourceTimecode": "01:05.983-01:07.817",
+      "compositionMode": "visual-only",
+      "members": [
+        "N18"
+      ]
+    },
+    {
+      "occurrence": "N19",
+      "name": "恢复性、稳定性、主观感受：图卡接力＋标签堆叠",
+      "file": "render/pilot/batches/stages/N19-applied.mp4",
+      "referenceFile": "render/pilot/batches/stages/N19-reference.mp4",
+      "recipe": "source/pilot/batches/stages/N19-recipe.json",
+      "input": "source/pilot/batches/stages/N19-input.json",
+      "frameCount": 580,
+      "rawRange": [
+        24.48,
+        43.81333333333333
+      ],
+      "sourceRange": [
+        2122,
+        2568
+      ],
+      "visualFamily": "V13",
+      "subtitleFamily": "T09",
+      "visualComponents": [
+        "V13"
+      ],
+      "subtitleComponents": [
+        "T09"
+      ],
+      "sha256": "4ba5ab0851872a67cb2b5f28319c5ae15d197361a0512f87ec527848f1b925ff",
+      "verificationState": "trial-awaiting-user-review",
+      "limitations": [
+        "原字体身份未确认，选用真实字体近似并留同字证据",
+        "原创工作/学习示意替换原睡眠素材，素材风格不等同原资产",
+        "新口播时点尚未人工听审，音效未独立还原",
+        "03试作，不代表正式库通过"
+      ],
+      "technical": {
+        "fullDecode": true,
+        "frames": 580,
+        "deterministicLayerRecomposition": true,
+        "alphaSamples": [
+          {
+            "frame": 0,
+            "slot": "subtitle.labels",
+            "alphaBBox": [
+              85,
+              417,
+              231,
+              439
+            ]
+          },
+          {
+            "frame": 6,
+            "slot": "subtitle.labels",
+            "alphaBBox": [
+              85,
+              417,
+              231,
+              439
+            ]
+          },
+          {
+            "frame": 145,
+            "slot": "subtitle.labels",
+            "alphaBBox": [
+              85,
+              24,
+              265,
+              439
+            ]
+          },
+          {
+            "frame": 290,
+            "slot": "subtitle.labels",
+            "alphaBBox": [
+              90,
+              24,
+              265,
+              439
+            ]
+          },
+          {
+            "frame": 435,
+            "slot": "subtitle.labels",
+            "alphaBBox": [
+              90,
+              24,
+              265,
+              439
+            ]
+          },
+          {
+            "frame": 579,
+            "slot": "subtitle.labels",
+            "alphaBBox": [
+              90,
+              24,
+              265,
+              439
+            ]
+          }
+        ],
+        "audioListeningApproved": false
+      },
+      "components": [
+        {
+          "kind": "visual",
+          "id": "V13",
+          "entrypoint": "batches.stages.providers:visual",
+          "source": "source/pilot/batches/stages/providers.py",
+          "sha256": "6dd221f5f92e1f6311d76f628843cbd6fa78a5cf38f3d6811c2b1fc6a734dd0f"
+        },
+        {
+          "kind": "subtitle",
+          "id": "T09",
+          "entrypoint": "batches.stages.providers:subtitle",
+          "source": "source/pilot/batches/stages/providers.py",
+          "sha256": "6dd221f5f92e1f6311d76f628843cbd6fa78a5cf38f3d6811c2b1fc6a734dd0f"
+        }
+      ],
+      "members": [
+        "N19"
+      ],
+      "batch": "stages",
+      "status": "trial-awaiting-user-review",
+      "sourceFrames": [
+        2122,
+        2568
+      ],
+      "sourceTimecode": "01:10.667-01:25.517",
+      "compositionMode": "combined"
+    },
+    {
+      "occurrence": "N20",
+      "name": "疲惫漫画贴图提示没睡好",
+      "file": "render/pilot/batches/prompts/N20.mp4",
+      "referenceFile": "render/pilot/batches/prompts/N20-reference.mp4",
+      "recipe": "source/pilot/batches/prompts/N20-recipe.json",
+      "input": "source/pilot/batches/prompts/N20-input.json",
+      "frameCount": 82,
+      "rawRange": [
+        29.333333,
+        32.06666633333333
+      ],
+      "sourceRange": [
+        2583,
+        2636
+      ],
+      "visualFamily": "V07",
+      "subtitleFamily": null,
+      "visualComponents": [
+        "V07"
+      ],
+      "subtitleComponents": [],
+      "sha256": "6bdaa594933cc9dc90e52de24b835dd334a7bf9bd0c9988a157ee2dc4d3a8bb2",
+      "verificationState": "trial-awaiting-user-review",
+      "limitations": [
+        "原字体身份和声音落点未确认；新台词为语义概括，词钟需听审",
+        "只验证本次输入的完整组合，不称任意迁移均通过",
+        "头顶图形按新口播换语义素材；材质与原时钟/漫画不同"
+      ],
+      "technical": {
+        "fullDecode": true,
+        "frames": 82,
+        "deterministicLayerRecomposition": true,
+        "alphaSamples": [
+          {
+            "frame": 0,
+            "slot": "subtitle.speech",
+            "alphaBBox": [
+              86,
+              331,
+              199,
+              348
+            ]
+          },
+          {
+            "frame": 6,
+            "slot": "subtitle.speech",
+            "alphaBBox": [
+              86,
+              331,
+              199,
+              348
+            ]
+          },
+          {
+            "frame": 20,
+            "slot": "subtitle.speech",
+            "alphaBBox": [
+              86,
+              331,
+              199,
+              348
+            ]
+          },
+          {
+            "frame": 41,
+            "slot": "subtitle.speech",
+            "alphaBBox": [
+              86,
+              331,
+              199,
+              348
+            ]
+          },
+          {
+            "frame": 61,
+            "slot": "subtitle.speech",
+            "alphaBBox": [
+              86,
+              331,
+              199,
+              348
+            ]
+          },
+          {
+            "frame": 81,
+            "slot": "subtitle.speech",
+            "alphaBBox": [
+              86,
+              331,
+              199,
+              348
+            ]
+          }
+        ],
+        "audioListeningApproved": false
+      },
+      "batch": "prompts",
+      "status": "trial-awaiting-user-review",
+      "sourceFrames": [
+        2583,
+        2636
+      ],
+      "sourceTimecode": "01:26.017-01:27.784",
+      "compositionMode": "visual-only",
+      "members": [
+        "N20"
+      ]
+    },
+    {
+      "occurrence": "N21",
+      "name": "精神焕发：重点词放大泛光",
+      "file": "render/pilot/subtitle-rework/closing/N21-applied.mp4",
+      "referenceFile": "render/pilot/subtitle-rework/closing/N21-reference.mp4",
+      "recipe": "source/pilot/subtitle-rework/closing/N21-recipe.json",
+      "input": "source/pilot/subtitle-rework/closing/N21-input.json",
+      "frameCount": 71,
+      "rawRange": [
+        32.066667,
+        34.43333366666667
+      ],
+      "sourceRange": [
+        2665,
+        2710
+      ],
+      "visualFamily": null,
+      "subtitleFamily": "T01",
+      "visualComponents": [],
+      "subtitleComponents": [
+        "T01"
+      ],
+      "sha256": "b3877e3809f6c34e02e54e4a307ba67aa0bed01840d949bffb27dcfa39bb1fd5",
+      "verificationState": "trial-awaiting-user-review",
+      "limitations": [
+        "原字体身份与精确材质仍未确认，采用同字校准候选",
+        "动作依据源过程观察重建，精确曲线仍近似",
+        "新台词时点需人工听审；未获得本轮用户认可"
+      ],
+      "technical": {
+        "fullDecode": true,
+        "frames": 71,
+        "deterministicLayerRecomposition": true,
+        "alphaSamples": [
+          {
+            "frame": 0,
+            "slot": "subtitle.closingText",
+            "alphaBBox": [
+              67,
+              329,
+              218,
+              354
+            ]
+          },
+          {
+            "frame": 6,
+            "slot": "subtitle.closingText",
+            "alphaBBox": [
+              67,
+              329,
+              218,
+              354
+            ]
+          },
+          {
+            "frame": 17,
+            "slot": "subtitle.closingText",
+            "alphaBBox": [
+              67,
+              329,
+              218,
+              354
+            ]
+          },
+          {
+            "frame": 35,
+            "slot": "subtitle.closingText",
+            "alphaBBox": [
+              67,
+              319,
+              218,
+              364
+            ]
+          },
+          {
+            "frame": 53,
+            "slot": "subtitle.closingText",
+            "alphaBBox": [
+              67,
+              319,
+              218,
+              364
+            ]
+          },
+          {
+            "frame": 70,
+            "slot": "subtitle.closingText",
+            "alphaBBox": null
+          }
+        ],
+        "audioListeningApproved": false
+      },
+      "batch": "prompts",
+      "status": "subtitle-reworked-awaiting-user-review",
+      "sourceFrames": [
+        2665,
+        2710
+      ],
+      "sourceTimecode": "01:28.750-01:30.250",
+      "compositionMode": "subtitle-only",
+      "members": [
+        "N21"
+      ],
+      "components": [
+        {
+          "kind": "visual",
+          "id": "raw",
+          "entrypoint": "batches.prompts.providers:visual",
+          "source": "source/pilot/batches/prompts/providers.py",
+          "prefix": "base",
+          "sha256": "8a786dc137ee04c8daaf27d7f2a473bc725a5729881a96fa65d2fc0a3c6adf06"
+        },
+        {
+          "kind": "subtitle",
+          "id": "closing-measured",
+          "entrypoint": "subtitle-rework.closing.provider:subtitle",
+          "source": "source/pilot/subtitle-rework/closing/provider.py",
+          "sha256": "d51505c597f394e35b49b563c0332825ea85171654a49f4096284060217a1c1c"
+        }
+      ],
+      "supersedes": {
+        "file": "render/pilot/batches/prompts/N21.mp4",
+        "sha256": "a9729455857d55e211c8e84400f576ac742f8eff9d80744f81468657a43a98d6",
+        "reason": "user-rejected-subtitle-mechanism"
+      }
+    },
+    {
+      "occurrence": "N22",
+      "name": "充满活力：重点词放大泛光",
+      "file": "render/pilot/subtitle-rework/closing/N22-applied.mp4",
+      "referenceFile": "render/pilot/subtitle-rework/closing/N22-reference.mp4",
+      "recipe": "source/pilot/subtitle-rework/closing/N22-recipe.json",
+      "input": "source/pilot/subtitle-rework/closing/N22-input.json",
+      "frameCount": 94,
+      "rawRange": [
+        34.433333,
+        37.56666633333333
+      ],
+      "sourceRange": [
+        2753,
+        2794
+      ],
+      "visualFamily": null,
+      "subtitleFamily": "T01",
+      "visualComponents": [],
+      "subtitleComponents": [
+        "T01"
+      ],
+      "sha256": "b9982dd61841668d2b0cde8550c5608bed9110973c83895eca5ba3ca70bdc7af",
+      "verificationState": "trial-awaiting-user-review",
+      "limitations": [
+        "原字体身份与精确材质仍未确认，采用同字校准候选",
+        "动作依据源过程观察重建，精确曲线仍近似",
+        "新台词时点需人工听审；未获得本轮用户认可"
+      ],
+      "technical": {
+        "fullDecode": true,
+        "frames": 94,
+        "deterministicLayerRecomposition": true,
+        "alphaSamples": [
+          {
+            "frame": 0,
+            "slot": "subtitle.closingText",
+            "alphaBBox": [
+              50,
+              330,
+              235,
+              353
+            ]
+          },
+          {
+            "frame": 6,
+            "slot": "subtitle.closingText",
+            "alphaBBox": [
+              50,
+              330,
+              235,
+              353
+            ]
+          },
+          {
+            "frame": 23,
+            "slot": "subtitle.closingText",
+            "alphaBBox": [
+              50,
+              330,
+              235,
+              353
+            ]
+          },
+          {
+            "frame": 47,
+            "slot": "subtitle.closingText",
+            "alphaBBox": [
+              42,
+              319,
+              243,
+              364
+            ]
+          },
+          {
+            "frame": 70,
+            "slot": "subtitle.closingText",
+            "alphaBBox": [
+              42,
+              319,
+              243,
+              364
+            ]
+          },
+          {
+            "frame": 93,
+            "slot": "subtitle.closingText",
+            "alphaBBox": [
+              42,
+              319,
+              243,
+              364
+            ]
+          }
+        ],
+        "audioListeningApproved": false
+      },
+      "batch": "prompts",
+      "status": "subtitle-reworked-awaiting-user-review",
+      "sourceFrames": [
+        2753,
+        2794
+      ],
+      "sourceTimecode": "01:31.683-01:33.050",
+      "compositionMode": "subtitle-only",
+      "members": [
+        "N22"
+      ],
+      "components": [
+        {
+          "kind": "visual",
+          "id": "raw",
+          "entrypoint": "batches.prompts.providers:visual",
+          "source": "source/pilot/batches/prompts/providers.py",
+          "prefix": "base",
+          "sha256": "8a786dc137ee04c8daaf27d7f2a473bc725a5729881a96fa65d2fc0a3c6adf06"
+        },
+        {
+          "kind": "subtitle",
+          "id": "closing-measured",
+          "entrypoint": "subtitle-rework.closing.provider:subtitle",
+          "source": "source/pilot/subtitle-rework/closing/provider.py",
+          "sha256": "d51505c597f394e35b49b563c0332825ea85171654a49f4096284060217a1c1c"
+        }
+      ],
+      "supersedes": {
+        "file": "render/pilot/batches/prompts/N22.mp4",
+        "sha256": "7bece5b773d06dd4ec1aa0bdcc578d2b2458ae04cee76c0b16e6ac7ed60c2756",
+        "reason": "user-rejected-subtitle-mechanism"
+      }
+    },
+    {
+      "occurrence": "N23",
+      "name": "精神好：重点词逐步强调",
+      "file": "render/pilot/batches/prompts/N23.mp4",
+      "referenceFile": "render/pilot/batches/prompts/N23-reference.mp4",
+      "recipe": "source/pilot/batches/prompts/N23-recipe.json",
+      "input": "source/pilot/batches/prompts/N23-input.json",
+      "frameCount": 52,
+      "rawRange": [
+        38.8,
+        40.53333333333333
+      ],
+      "sourceRange": [
+        2815,
+        2854
+      ],
+      "visualFamily": null,
+      "subtitleFamily": "T01",
+      "visualComponents": [],
+      "subtitleComponents": [
+        "T01"
+      ],
+      "sha256": "da7a0546725ea3fe4f008ba005390058391b2369602bc3dc05dcb7db0a820644",
+      "verificationState": "trial-awaiting-user-review",
+      "limitations": [
+        "原字体身份和声音落点未确认；新台词为语义概括，词钟需听审",
+        "只验证本次输入的完整组合，不称任意迁移均通过"
+      ],
+      "technical": {
+        "fullDecode": true,
+        "frames": 52,
+        "deterministicLayerRecomposition": true,
+        "alphaSamples": [
+          {
+            "frame": 0,
+            "slot": "subtitle.speech",
+            "alphaBBox": null
+          },
+          {
+            "frame": 6,
+            "slot": "subtitle.speech",
+            "alphaBBox": [
+              52,
+              331,
+              232,
+              352
+            ]
+          },
+          {
+            "frame": 13,
+            "slot": "subtitle.speech",
+            "alphaBBox": [
+              52,
+              331,
+              232,
+              352
+            ]
+          },
+          {
+            "frame": 26,
+            "slot": "subtitle.speech",
+            "alphaBBox": [
+              49,
+              325,
+              241,
+              357
+            ]
+          },
+          {
+            "frame": 39,
+            "slot": "subtitle.speech",
+            "alphaBBox": [
+              47,
+              328,
+              238,
+              354
+            ]
+          },
+          {
+            "frame": 51,
+            "slot": "subtitle.speech",
+            "alphaBBox": [
+              47,
+              328,
+              238,
+              354
+            ]
+          }
+        ],
+        "audioListeningApproved": false
+      },
+      "batch": "prompts",
+      "status": "trial-awaiting-user-review",
+      "sourceFrames": [
+        2815,
+        2854
+      ],
+      "sourceTimecode": "01:33.750-01:35.050",
+      "compositionMode": "subtitle-only",
+      "members": [
+        "N23"
+      ]
+    },
+    {
+      "occurrence": "N24",
+      "name": "白天不犯困：句内重点词强调 ＋ 晚上有睡意：后半句重点词强调",
+      "file": "render/pilot/subtitle-rework/closing/N24-applied.mp4",
+      "referenceFile": "render/pilot/subtitle-rework/closing/N24-reference.mp4",
+      "recipe": "source/pilot/subtitle-rework/closing/N24-recipe.json",
+      "input": "source/pilot/subtitle-rework/closing/N24-input.json",
+      "frameCount": 98,
+      "rawRange": [
+        40.533333,
+        43.799999666666665
+      ],
+      "sourceRange": [
+        2855,
+        2950
+      ],
+      "visualFamily": null,
+      "subtitleFamily": "T01",
+      "visualComponents": [],
+      "subtitleComponents": [
+        "T01"
+      ],
+      "sha256": "6008adda78c1f4de2ab42cd35791b36204f8478c1ee68a4712a764775dbd4a73",
+      "verificationState": "trial-awaiting-user-review",
+      "limitations": [
+        "原字体身份与精确材质仍未确认，采用同字校准候选",
+        "动作依据源过程观察重建，精确曲线仍近似",
+        "新台词时点需人工听审；未获得本轮用户认可"
+      ],
+      "technical": {
+        "fullDecode": true,
+        "frames": 98,
+        "deterministicLayerRecomposition": true,
+        "alphaSamples": [
+          {
+            "frame": 0,
+            "slot": "subtitle.closingText",
+            "alphaBBox": null
+          },
+          {
+            "frame": 6,
+            "slot": "subtitle.closingText",
+            "alphaBBox": [
+              95,
+              329,
+              118,
+              339
+            ]
+          },
+          {
+            "frame": 24,
+            "slot": "subtitle.closingText",
+            "alphaBBox": [
+              95,
+              329,
+              190,
+              353
+            ]
+          },
+          {
+            "frame": 49,
+            "slot": "subtitle.closingText",
+            "alphaBBox": [
+              60,
+              329,
+              225,
+              357
+            ]
+          },
+          {
+            "frame": 73,
+            "slot": "subtitle.closingText",
+            "alphaBBox": [
+              60,
+              329,
+              225,
+              357
+            ]
+          },
+          {
+            "frame": 97,
+            "slot": "subtitle.closingText",
+            "alphaBBox": [
+              60,
+              329,
+              225,
+              357
+            ]
+          }
+        ],
+        "audioListeningApproved": false
+      },
+      "batch": "prompts",
+      "status": "subtitle-reworked-awaiting-user-review",
+      "sourceFrames": [
+        2855,
+        2950
+      ],
+      "sourceTimecode": "01:35.084-01:38.250",
+      "compositionMode": "subtitle-only",
+      "members": [
+        "N24",
+        "N25"
+      ],
+      "components": [
+        {
+          "kind": "visual",
+          "id": "raw",
+          "entrypoint": "batches.prompts.providers:visual",
+          "source": "source/pilot/batches/prompts/providers.py",
+          "prefix": "base",
+          "sha256": "8a786dc137ee04c8daaf27d7f2a473bc725a5729881a96fa65d2fc0a3c6adf06"
+        },
+        {
+          "kind": "subtitle",
+          "id": "closing-measured",
+          "entrypoint": "subtitle-rework.closing.provider:subtitle",
+          "source": "source/pilot/subtitle-rework/closing/provider.py",
+          "sha256": "d51505c597f394e35b49b563c0332825ea85171654a49f4096284060217a1c1c"
+        }
+      ],
+      "supersedes": {
+        "file": "render/pilot/batches/prompts/N24.mp4",
+        "sha256": "9f724d2689b8e16c6e5c42584c90e6cfdf75dfcb51408576207da3c00af8b088",
+        "reason": "user-rejected-subtitle-mechanism"
+      }
+    }
+  ],
+  "families": {
+    "visual": {
+      "V01": {
+        "name": "开场人物暗角聚焦",
+        "occurrences": [
+          "N01",
+          "N13"
+        ]
+      },
+      "V14": {
+        "name": "人物抠像与前后遮挡分层",
+        "occurrences": [
+          "N02",
+          "N18"
+        ]
+      },
+      "V02": {
+        "name": "圆形人物窗与情境素材接力",
+        "occurrences": [
+          "N03"
+        ]
+      },
+      "V03": {
+        "name": "圆窗扩大恢复全屏人物",
+        "occurrences": [
+          "N04"
+        ]
+      },
+      "V04": {
+        "name": "白描人物抠像与工业拼贴",
+        "occurrences": [
+          "N06"
+        ]
+      },
+      "V05": {
+        "name": "历史人物与论文阶梯递进",
+        "occurrences": [
+          "N07"
+        ]
+      },
+      "V06": {
+        "name": "两段睡眠的日夜舞台与小卡递进",
+        "occurrences": [
+          "N08"
+        ]
+      },
+      "V07": {
+        "name": "头顶语义贴图提示",
+        "occurrences": [
+          "N09",
+          "N17",
+          "N20"
+        ]
+      },
+      "V08": {
+        "name": "圆形人物与作息表透视展示",
+        "occurrences": [
+          "N11"
+        ]
+      },
+      "V09": {
+        "name": "背景虚化与论文卡片卷页放大",
+        "occurrences": [
+          "N14"
+        ]
+      },
+      "V10": {
+        "name": "圆窗讲述与圆角科学影像连续放大",
+        "occurrences": [
+          "N15"
+        ]
+      },
+      "V11": {
+        "name": "全画面缩小黑边强调",
+        "occurrences": [
+          "N16"
+        ]
+      },
+      "V15": {
+        "name": "整体画面放大强调",
+        "occurrences": [
+          "N17"
+        ]
+      },
+      "V12": {
+        "name": "病毒贴图与禁止符号两步揭晓",
+        "occurrences": [
+          "N18"
+        ]
+      },
+      "V13": {
+        "name": "圆窗人物与图卡叠放连续接力",
+        "occurrences": [
+          "N19"
+        ]
+      }
+    },
+    "subtitle": {
+      "T01": {
+        "name": "口播重点词放大与泛光",
+        "occurrences": [
+          "N01",
+          "N03",
+          "N09",
+          "N10",
+          "N21",
+          "N22",
+          "N23",
+          "N24"
+        ]
+      },
+      "T02": {
+        "name": "人物背后巨字主题揭晓",
+        "occurrences": [
+          "N02",
+          "N06"
+        ]
+      },
+      "T03": {
+        "name": "光标指向关键词",
+        "occurrences": [
+          "N05"
+        ]
+      },
+      "T04": {
+        "name": "证据标题标记与上方文字揭晓",
+        "occurrences": [
+          "N07",
+          "N14"
+        ]
+      },
+      "T05": {
+        "name": "两列竖排描边主题字",
+        "occurrences": [
+          "N08"
+        ]
+      },
+      "T06": {
+        "name": "贴纸注释词条弹出",
+        "occurrences": [
+          "N11"
+        ]
+      },
+      "T07": {
+        "name": "头顶问号揭晓",
+        "occurrences": [
+          "N12"
+        ]
+      },
+      "T10": {
+        "name": "口播字幕纵向滚动切换",
+        "occurrences": [
+          "N12"
+        ]
+      },
+      "T08": {
+        "name": "前景金色大字强调",
+        "occurrences": [
+          "N13"
+        ]
+      },
+      "T09": {
+        "name": "三类作用标签堆叠与重排",
+        "occurrences": [
+          "N19"
+        ]
+      }
+    }
+  },
+  "sourceCatalogSha256": "102cbf5722bfc2a557f8c0559aec787fd28fe0385b7204118832a3c71d5ebb1d",
+  "approvedPilot": "reviews/pilot/user-approval.json",
+  "stageAccepted": false,
+  "subtitleRework": {
+    "targets": [
+      "N07",
+      "N13",
+      "N17",
+      "N21",
+      "N22",
+      "N24"
+    ],
+    "learning": "reviews/pilot/subtitle-rework/case-learning.json",
+    "accepted": false
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "id": "N13",
+  "frames": 58,
+  "rawStart": 22.533333,
+  "purpose": "语义迁移概括：新口播的生活/工作判断，复用参考完整表达关系。",
+  "visual": {
+    "center": [
+      142,
+      195
+    ],
+    "radii": [
+      143,
+      230
+    ],
+    "opacity": 0.82,
+    "exit": [
+      51,
+      58
+    ]
+  },
+  "subtitle": {
+    "prefix": "",
+    "emphasis": "",
+    "bodyIn": 2,
+    "emphasisIn": [
+      23,
+      30
+    ],
+    "y": 333,
+    "bodyStyle": {
+      "font": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 16,
+      "fill": "#fffef4",
+      "shadowX": 0.6,
+      "shadowY": 0.85,
+      "shadowBlur": 0.35
+    },
+    "focusStyle": {
+      "font": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 21,
+      "fill": "#e4c64d",
+      "shadowX": 0.6,
+      "shadowY": 0.85,
+      "shadowBlur": 0.35
+    }
+  },
+  "rawSource": "C:\\Users\\Administrator\\.codex\\skills\\motion-replication-pipeline\\assets\\migration-demo\\talking-head-raw.mp4",
+  "fps": 30,
+  "canvas": [
+    284,
+    504
+  ],
+  "rawRange": [
+    22.533333,
+    24.466667
+  ],
+  "frameCount": 58,
+  "captionStyle": {
+    "font": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+    "size": 12,
+    "fill": "#fffef4",
+    "shadowX": 0.6,
+    "shadowY": 0.85,
+    "shadowBlur": 0.35
+  },
+  "headline": "思路更重要",
+  "headlineStyle": {
+    "font": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+    "size": 33,
+    "fill": "#e6c34c",
+    "shadowX": 1.5,
+    "shadowY": 2,
+    "shadowBlur": 0.6
+  },
+  "limitations": [
+    "原字体未知，采用思源宋Bold候选；具体字形及压缩特征仍有差异",
+    "动态参数依据逐帧观测近似，未声称轨迹逐像素一致",
+    "保留新口播原声，词级听审和原片音效未完成"
+  ],
+  "text": {
+    "headline": "思路更重要",
+    "english": "Mindset matters"
+  },
+  "roles": {
+    "headline": {
+      "font": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 52,
+      "inkWidth": 235,
+      "inkHeight": 53,
+      "outline": 0.5,
+      "top": [
+        255,
+        237,
+        116
+      ],
+      "bottom": [
+        192,
+        155,
+        45
+      ],
+      "shadow": {
+        "dx": 1,
+        "dy": 2,
+        "blur": 0.6,
+        "opacity": 0.95
+      }
+    },
+    "english": {
+      "font": "C:/Windows/Fonts/georgiab.ttf",
+      "size": 19,
+      "top": [
+        167,
+        12,
+        19
+      ],
+      "bottom": [
+        110,
+        5,
+        10
+      ],
+      "shadow": {
+        "dx": 1,
+        "dy": 1,
+        "blur": 0.3,
+        "opacity": 0.85
+      }
+    }
+  },
+  "motion": {
+    "keys": [
+      {
+        "frame": 0,
+        "scale": 0.75,
+        "opacity": 0.12,
+        "blur": 2.5,
+        "y": 265
+      },
+      {
+        "frame": 2,
+        "scale": 0.84,
+        "opacity": 0.62,
+        "blur": 1.15,
+        "y": 264
+      },
+      {
+        "frame": 4,
+        "scale": 0.94,
+        "opacity": 0.94,
+        "blur": 0.45,
+        "y": 261
+      },
+      {
+        "frame": 7,
+        "scale": 1,
+        "opacity": 1,
+        "blur": 0,
+        "y": 258
+      },
+      {
+        "frame": 57,
+        "scale": 1,
+        "opacity": 1,
+        "blur": 0,
+        "y": 258
+      }
+    ],
+    "englishY": 304
+  }
+}

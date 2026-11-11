@@ -1,0 +1,52 @@
+{
+  "N21": {
+    "white": {
+      "width": 161.75,
+      "height": 17.5,
+      "advance": 162.0,
+      "fontAscent": 20.75
+    },
+    "gold": {
+      "width": 174.25,
+      "height": 24.25,
+      "advance": 175.0,
+      "fontAscent": 29.0
+    }
+  },
+  "N22": {
+    "white": {
+      "width": 172.25,
+      "height": 17.5,
+      "advance": 172.75,
+      "fontAscent": 20.75
+    },
+    "gold": {
+      "width": 130.5,
+      "height": 21.25,
+      "advance": 132.0,
+      "fontAscent": 25.5
+    }
+  },
+  "N24": {
+    "first": {
+      "width": 87.0,
+      "height": 17.5,
+      "advance": 90.0,
+      "fontAscent": 20.75
+    },
+    "secondRoles": [
+      {
+        "width": 53.25,
+        "height": 17.5,
+        "advance": 54.0,
+        "fontAscent": 20.75
+      },
+      {
+        "width": 131.25,
+        "height": 21.25,
+        "advance": 132.0,
+        "fontAscent": 25.5
+      }
+    ]
+  }
+}

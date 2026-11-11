@@ -1,0 +1,107 @@
+{
+  "id": "cg14-unedited-migration",
+  "occurrence": "cg14",
+  "frames": 82,
+  "fps": 30,
+  "subtitleFamily": "t11",
+  "referenceFrames": [
+    917,
+    952
+  ],
+  "visual": {
+    "window": [
+      66,
+      87,
+      154,
+      154
+    ],
+    "presenterCrop": [
+      31,
+      76,
+      255,
+      300
+    ]
+  },
+  "subtitle": {
+    "text": {
+      "warning": "警惕速成",
+      "prefix": "别相信",
+      "context": "快速赚钱"
+    },
+    "events": {
+      "warning": 9,
+      "warningText": 14,
+      "context": -12,
+      "exitStart": 73,
+      "clear": 80
+    }
+  },
+  "rawRange": [
+    29.34,
+    32.06
+  ],
+  "semanticBindings": {
+    "purpose": "支撑语境先维持阅读，金属警示符号在人物后侧放大，红色风险判断接管；新口播明确警惕短期快速赚钱。",
+    "textSource": "人工选取本地ASR候选，未独立听审；同义概括已在purpose说明",
+    "unchangedMechanism": "t11",
+    "reviewStatus": "trial"
+  },
+  "detailRest": true,
+  "detailProfile": "measured-ink-roles-svg-v1",
+  "warningAsset": "source/pilot/detail-rest/circle/assets/warning-red.png",
+  "warningSvg": "source/pilot/detail-rest/circle/assets/warning-red.svg",
+  "typeRoles": {
+    "warning": {
+      "path": "C:/Windows/Fonts/Source Han Serif SC Heavy (TrueType).ttf",
+      "size": 48,
+      "inkWidth": 181,
+      "inkHeight": 37,
+      "anchorX": 139,
+      "inkY": 245,
+      "fill": "#a60024",
+      "align": "center",
+      "outlinePx": 0,
+      "shadow": {
+        "dx": 0.85,
+        "dy": 1.3,
+        "blur": 0.4,
+        "opacity": 0.85
+      }
+    },
+    "prefix": {
+      "path": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 48,
+      "inkWidth": 49,
+      "inkHeight": 20,
+      "anchorX": 59,
+      "inkY": 317,
+      "fill": "#fffef7",
+      "align": "center",
+      "outlinePx": 0,
+      "shadow": {
+        "dx": 0.85,
+        "dy": 1.3,
+        "blur": 0.4,
+        "opacity": 0.85
+      }
+    },
+    "context": {
+      "path": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 48,
+      "inkWidth": 112,
+      "inkHeight": 26,
+      "anchorX": 151,
+      "inkY": 309,
+      "fill": "#dac565",
+      "align": "center",
+      "outlinePx": 0,
+      "shadow": {
+        "dx": 0.85,
+        "dy": 1.3,
+        "blur": 0.4,
+        "opacity": 0.85
+      }
+    }
+  },
+  "frameCount": 82
+}

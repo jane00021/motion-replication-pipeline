@@ -1,0 +1,112 @@
+{
+  "id": "N17",
+  "frames": 70,
+  "rawStart": 24.466667,
+  "purpose": "语义迁移概括：新口播的生活/工作判断，复用参考完整表达关系。",
+  "visual": {
+    "center": [
+      142,
+      195
+    ],
+    "radii": [
+      143,
+      230
+    ],
+    "opacity": 0.82,
+    "exit": [
+      100,
+      111
+    ]
+  },
+  "subtitle": {
+    "prefix": "",
+    "emphasis": "",
+    "bodyIn": 2,
+    "emphasisIn": [
+      28,
+      35
+    ],
+    "y": 333,
+    "bodyStyle": {
+      "font": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 16,
+      "fill": "#fffef4",
+      "shadowX": 0.6,
+      "shadowY": 0.85,
+      "shadowBlur": 0.35
+    },
+    "focusStyle": {
+      "font": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 21,
+      "fill": "#e4c64d",
+      "shadowX": 0.6,
+      "shadowY": 0.85,
+      "shadowBlur": 0.35
+    }
+  },
+  "rawSource": "C:\\Users\\Administrator\\.codex\\skills\\motion-replication-pipeline\\assets\\migration-demo\\talking-head-raw.mp4",
+  "fps": 30,
+  "canvas": [
+    284,
+    504
+  ],
+  "rawRange": [
+    24.466667,
+    26.8
+  ],
+  "frameCount": 70,
+  "captionStyle": {
+    "font": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+    "size": 12,
+    "fill": "#fffef4",
+    "shadowX": 0.6,
+    "shadowY": 0.85,
+    "shadowBlur": 0.35
+  },
+  "sticker": "swirl",
+  "stickerCenter": [
+    142,
+    48
+  ],
+  "caption": "别陷在焦虑里抱怨没钱",
+  "limitations": [
+    "原字体未知，采用思源宋Bold候选；具体字形及压缩特征仍有差异",
+    "动态参数依据逐帧观测近似，未声称轨迹逐像素一致",
+    "保留新口播原声，词级听审和原片音效未完成"
+  ],
+  "text": {
+    "sentence": "别陷在焦虑里抱怨没钱"
+  },
+  "roles": {
+    "sentence": {
+      "font": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 18.5,
+      "top": [
+        249,
+        228,
+        100
+      ],
+      "bottom": [
+        180,
+        143,
+        30
+      ],
+      "outline": 0.45,
+      "shadow": {
+        "dx": 0.8,
+        "dy": 1.4,
+        "blur": 0.4,
+        "opacity": 0.95
+      }
+    }
+  },
+  "motion": {
+    "y": 401,
+    "amplitude": 3.2,
+    "period": 25,
+    "phaseStep": 0.58,
+    "rotation": 4,
+    "tracking": 0.25,
+    "start": 0
+  }
+}

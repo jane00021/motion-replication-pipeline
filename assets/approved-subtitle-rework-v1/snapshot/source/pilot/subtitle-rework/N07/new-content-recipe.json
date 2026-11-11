@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "occurrence": "N07",
+  "status": "03-pilot-trial",
+  "components": [
+    {
+      "kind": "visual",
+      "id": "V05",
+      "entrypoint": "batches.evidence.providers:visual",
+      "source": "source/pilot/batches/evidence/providers.py",
+      "prefix": "visual",
+      "sha256": "f63b57967870c45a961f642b8c8e8ca53fcd7c6498dd8fa483f6e74df876a983"
+    },
+    {
+      "kind": "subtitle",
+      "id": "T04",
+      "entrypoint": "subtitle-rework.N07.providers:subtitle",
+      "source": "source/pilot/subtitle-rework/N07/providers.py",
+      "prefix": "subtitle",
+      "sha256": "9b83d9ee726c0a089c92e7c2ea245a333db0bcbd58cc63b269df2adfa6523dd4"
+    }
+  ],
+  "layerOrder": [
+    "visual.background",
+    "visual.history",
+    "visual.documents",
+    "subtitle.documentMarker",
+    "subtitle.whiteUpper",
+    "subtitle.whiteLower",
+    "subtitle.goldMiddle",
+    "subtitle.setupSpeech"
+  ],
+  "verificationState": "trial",
+  "completeGroupValidated": false,
+  "supportBindings": {
+    "source/pilot/components.py": "0ed9f9d2a63061be8bb59f164fb8ca7d4be77c5c0865ccf1efe9c37e2d056b58",
+    "source/pilot/batches/evidence/providers.py": "f63b57967870c45a961f642b8c8e8ca53fcd7c6498dd8fa483f6e74df876a983",
+    "source/pilot/batch_runtime.py": "af57255dd3dd0d7c723002c84a46d234a96420f93470378b80ed14f78554e66b",
+    "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf": "706b8c0de2deff6cbc0c87e2cdedfd33a78b7ffd76cebb4549012f197ba611fe"
+  },
+  "input": "source/pilot/subtitle-rework/N07/new-content-input.json",
+  "inputSha256": "2d1addcb8a5bb48c0de4bbf21141cf3d76c249753583a5fcec47594f60db2fc7"
+}

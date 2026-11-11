@@ -1,0 +1,124 @@
+{
+  "occurrence": "cg04",
+  "name": "城市语境与斜切案例接力",
+  "sourceRange": [
+    174,
+    300
+  ],
+  "rawRange": [
+    14.466667,
+    19.5
+  ],
+  "visualFamily": "v03",
+  "subtitleFamily": "t03",
+  "assets": {
+    "background": "source/pilot/detail-two/assets/business-skyline.png",
+    "example": "source/pilot/detail-two/assets/business-risk-desk.png"
+  },
+  "text": {
+    "context": "生意风光",
+    "change": "风险自担",
+    "result": "亏损难翻身"
+  },
+  "clock": {
+    "context": 0,
+    "change": 35,
+    "diagonalIn": [
+      69,
+      115
+    ],
+    "result": 98,
+    "returnStart": 141,
+    "returnEnd": 147
+  },
+  "purpose": "生意看着风光，风险实际由自己承担；城市场景铺垫，斜切工作案例接管，再回人物。",
+  "frameCount": 151,
+  "fontRoles": {
+    "body": {
+      "path": "C:/Windows/Fonts/Source Han Serif SC Heavy (TrueType).ttf",
+      "identity": "candidate only; source font not established",
+      "shadow": "shared-text-style.json"
+    },
+    "statement": {
+      "path": "C:/Windows/Fonts/Noto Sans SC Bold (TrueType).otf",
+      "identity": "candidate condensed source-like sans"
+    },
+    "labels": {
+      "path": "C:/Windows/Fonts/Source Han Serif SC Heavy (TrueType).ttf",
+      "identity": "candidate only"
+    }
+  },
+  "inputSHA": "1fdeab255303ee95ae50d27ee1a35462ce3bbf2f8dfec07f3a96b7cf7ed26c33",
+  "detailProfile": "measured-ink-roles-svg-v1",
+  "presenterCrop": [
+    31,
+    76,
+    255,
+    300
+  ],
+  "presenterWindow": [
+    163,
+    29,
+    102
+  ],
+  "diagonalTravel": 420,
+  "typeRoles": {
+    "context": {
+      "path": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 44,
+      "inkWidth": 109,
+      "inkHeight": 26,
+      "anchorX": 79,
+      "inkY": 64,
+      "align": "center",
+      "fill": "#fffef7",
+      "outlinePx": 0,
+      "outline": "#111319",
+      "shadow": {
+        "dx": 0.85,
+        "dy": 1.3,
+        "blur": 0.4,
+        "opacity": 0.85
+      }
+    },
+    "statement": {
+      "path": "C:/Windows/Fonts/Noto Sans SC Bold (TrueType).otf",
+      "size": 44,
+      "inkWidth": 128,
+      "inkHeight": 39,
+      "anchorX": 85,
+      "inkY": 109,
+      "align": "center",
+      "fill": "#fffef7",
+      "outlinePx": 1.5,
+      "outline": "#111319",
+      "shadow": {
+        "dx": 0.85,
+        "dy": 1.3,
+        "blur": 0.4,
+        "opacity": 0.85
+      },
+      "weightPx": 1.05,
+      "entryDx": 8
+    },
+    "result": {
+      "path": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 44,
+      "inkWidth": 114,
+      "inkHeight": 27,
+      "anchorX": 195,
+      "inkY": 343,
+      "align": "center",
+      "fill": "#fffef7",
+      "outlinePx": 0,
+      "outline": "#111319",
+      "shadow": {
+        "dx": 0.85,
+        "dy": 1.3,
+        "blur": 0.4,
+        "opacity": 0.85
+      }
+    }
+  },
+  "frames": 151
+}

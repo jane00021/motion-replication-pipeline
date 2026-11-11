@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "id": "cg16-circle-draft",
+  "occurrence": "cg16",
+  "status": "pilot-source-draft",
+  "input": "source/pilot/detail-rest/circle/cg16-input.json",
+  "components": {
+    "visual": {
+      "id": "v04",
+      "entrypoint": "components.circle_batch:render",
+      "source": "source/pilot/components/circle_batch.py",
+      "sha256": "b5886d1bf5a3a3b6f847e533680481a6aa762ecf8deea4700168e1a1dbd6b750"
+    },
+    "subtitle": {
+      "id": "t09",
+      "entrypoint": "components.circle_batch:render_subtitle",
+      "source": "source/pilot/components/circle_batch.py",
+      "sha256": "b5886d1bf5a3a3b6f847e533680481a6aa762ecf8deea4700168e1a1dbd6b750"
+    }
+  },
+  "commonSha256": "d3b54498c970352c417cb0938bc54a1425a15bc933171a9ea1fafff8ab8d93f2",
+  "sharedStyle": "source/pilot/complete01-02/shared-text-style.json",
+  "sharedStyleSha256": "13a054ea8bf54d4640828518e895c5e1a8f56dc8cdc518da5f1cbc97d4bc0eed",
+  "supportBindings": {
+    "source/pilot/components/runtime.py": "b543e9a16b8d09f702c87f591270d1d26552e8dd4f31ef594c1d69467f819bd7",
+    "source/pilot/components/pairing.py": "c6a391e5fa9f3d885e8e719729ca03d20bf21171d7922eb3b78eeb7d8eeee649",
+    "source/pilot/components/detail_tools.py": "3b1f04d33430062ce3063b01d16e2b80580b3b7790be6d2f53ad6e62c5d56ff5",
+    "source/pilot/t04_render.py": "6365e423b9f1a806db32a3f6126a234ab62f12312c2341004933e4b98752bfe6",
+    "source/pilot/detail-rest/circle/cg16-input.json": "7ad30b8ec0de11e7b73dfcbd4e08649b3257dca8eaee70c0b3f9235a7d9a4f41"
+  },
+  "clock": {
+    "fps": 30,
+    "frameOrigin": 0,
+    "eventsFromInput": "subtitle.events"
+  },
+  "layerOrder": [
+    "visual.background",
+    "subtitle.backMark",
+    "visual.presenterWindow",
+    "visual.evidence",
+    "subtitle.foregroundText"
+  ],
+  "completeGroupValidated": false,
+  "verificationState": "trial",
+  "purposeDocument": "source/pilot/detail-rest/circle/METHOD.md"
+}

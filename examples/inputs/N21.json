@@ -1,0 +1,60 @@
+{
+  "subtitle": {
+    "mode": "split-line",
+    "setup": "合适的方式要慢慢",
+    "conclusion": "打磨出来",
+    "splitDistance": 10,
+    "clock": {
+      "split": [
+        20,
+        31
+      ],
+      "takeover": [
+        25,
+        35
+      ],
+      "exit": [
+        64,
+        69
+      ]
+    },
+    "styles": {
+      "white": {
+        "font": "asset:fonts/706b8c0de2de.otf",
+        "size": 18,
+        "fill": "#fffdf0",
+        "shadow": {
+          "x": 0.7,
+          "y": 1.0,
+          "blur": 0.4,
+          "color": "#211e17",
+          "opacity": 0.85
+        }
+      },
+      "gold": {
+        "font": "asset:fonts/152bc1c4535b.ttf",
+        "size": 25,
+        "fill": "#dcc34b",
+        "shadow": {
+          "x": 0.7,
+          "y": 1.0,
+          "blur": 0.4,
+          "color": "#211e17",
+          "opacity": 0.85
+        },
+        "outline": 0.18,
+        "outlineColor": "#4b3d14"
+      }
+    },
+    "y": 332
+  },
+  "mechanism": "split-line",
+  "canvas": [
+    284,
+    504
+  ],
+  "fps": 30,
+  "frameCount": 71,
+  "caseOnly": true,
+  "originOccurrence": "N21"
+}

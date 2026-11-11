@@ -1,0 +1,76 @@
+{
+  "occurrence": "cg19",
+  "frames": 78,
+  "rawRange": [
+    41.2,
+    43.8
+  ],
+  "subtitle": {
+    "profile": "t15-calibrated-v2",
+    "frames": 78,
+    "fps": 30,
+    "styles": {
+      "first": {
+        "path": "C:/Windows/Fonts/Source Han Serif SC Heavy (TrueType).ttf",
+        "face": 0,
+        "size": 25.5,
+        "weightPx": 0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "fill": "#f8f8f5",
+        "outlinePx": 0,
+        "outline": "#26241c",
+        "shadow": {
+          "dx": 1.0,
+          "dy": 1.4,
+          "blur": 0.55,
+          "color": "#08090d",
+          "opacity": 0.9
+        },
+        "glow": 1.0
+      },
+      "second": {
+        "path": "C:/Windows/Fonts/Source Han Serif SC Heavy (TrueType).ttf",
+        "face": 0,
+        "size": 26,
+        "weightPx": 0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "fill": "#f8f8f5",
+        "outlinePx": 0,
+        "outline": "#26241c",
+        "shadow": {
+          "dx": 1.0,
+          "dy": 1.4,
+          "blur": 0.55,
+          "color": "#08090d",
+          "opacity": 0.9
+        },
+        "glow": 1.0
+      }
+    },
+    "phrases": {
+      "first": {
+        "text": "一步一步来",
+        "align": "left",
+        "anchor": 29,
+        "y": 336,
+        "entry": 1,
+        "settle": 10
+      },
+      "second": {
+        "text": "生活慢慢变好",
+        "align": "right",
+        "anchor": 246,
+        "y": 375,
+        "entry": 37,
+        "settle": 45,
+        "entryBlur": 2.4,
+        "travelX": 25,
+        "travelY": 10
+      }
+    },
+    "eventEvidence": "reference first local1..9; second local25..30; last45 still visible"
+  },
+  "expression": "一步一步来是做法；生活慢慢变好是结果。前句先读，后句接力；无强行着色、无退出。"
+}

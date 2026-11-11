@@ -1,0 +1,18 @@
+{
+  "mode": "reference-reconstruction-pilot",
+  "feedbackRequired": true,
+  "stopBefore": "04-library",
+  "authorizedStages": [
+    "01-observe",
+    "02-measure",
+    "03-pilot"
+  ],
+  "authorization": "用户明确：好的开始执行这三步；用男生的这条视频（8766/final-feedback）。",
+  "priorMode": "skill-test-feedback",
+  "referenceProject": "wechat-0a5c43",
+  "scope": "完成01/02/19返工与09视频内容补全，仅03内；其他已认可媒体冻结。",
+  "additionalAuthorization": "用户本轮明确要求AH-S07方法返工并输出同字基准、换内容A、仅换字体B、透明层；在03复审范围产出示范，不宣称04/05已通过。",
+  "currentRequest": "用户明确完成3组返工+1组补全；团队opening负责01/02，closing负责19，主进程负责09与整合。",
+  "reuseArchitecture": "字幕动效库＋画面动效库＋引用式完整组合配方＋搭配规则",
+  "architectureStatus": "design accepted as direction; current trial media not automatically approved"
+}

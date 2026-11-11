@@ -1,0 +1,4557 @@
+{
+  "schema": 2,
+  "mode": "skill-test-feedback",
+  "sourceSha256": "41151cc7b35a465846ac9fd3408a2bc05a373ed4a16a5f04aa828151cfd3c956",
+  "families": {
+    "visual": [
+      {
+        "id": "V01",
+        "name": "开场人物暗角聚焦",
+        "layers": [
+          "人物底片",
+          "边缘暗角"
+        ],
+        "mechanism": "人物仍主导；暗角压低周边，开场后随镜头恢复移除。",
+        "signature": {
+          "expressionDuty": "人物仍主导；暗角压低周边，开场后随镜头恢复移除。",
+          "layerOrder": [
+            "人物底片",
+            "边缘暗角"
+          ],
+          "spaceAndMask": "开场人物暗角聚焦",
+          "entryAdvanceHoldExit": "人物仍主导；暗角压低周边，开场后随镜头恢复移除。",
+          "soundLanding": "unknown：待真实试听"
+        },
+        "groups": [
+          "N01",
+          "N13"
+        ],
+        "occurrences": [
+          "N01",
+          "N13"
+        ]
+      },
+      {
+        "id": "V02",
+        "name": "圆形人物窗与情境素材接力",
+        "layers": [
+          "黑底",
+          "下方情境视频",
+          "上方圆形人物窗"
+        ],
+        "mechanism": "人物缩入圆窗后让素材接管；失眠场景接力到办公室疲倦场景，不因换素材另立画面机制。",
+        "signature": {
+          "expressionDuty": "人物缩入圆窗后让素材接管；失眠场景接力到办公室疲倦场景，不因换素材另立画面机制。",
+          "layerOrder": [
+            "黑底",
+            "下方情境视频",
+            "上方圆形人物窗"
+          ],
+          "spaceAndMask": "圆形人物窗与情境素材接力",
+          "entryAdvanceHoldExit": "人物缩入圆窗后让素材接管；失眠场景接力到办公室疲倦场景，不因换素材另立画面机制。",
+          "soundLanding": "unknown：待真实试听"
+        },
+        "groups": [
+          "N03"
+        ],
+        "occurrences": [
+          "N03"
+        ]
+      },
+      {
+        "id": "V03",
+        "name": "圆窗扩大恢复全屏人物",
+        "layers": [
+          "黑底",
+          "圆形/圆角人物遮罩"
+        ],
+        "mechanism": "人物圆窗从小到大扩张，恢复正常全屏；独立记录遮罩交接动作。",
+        "signature": {
+          "expressionDuty": "人物圆窗从小到大扩张，恢复正常全屏；独立记录遮罩交接动作。",
+          "layerOrder": [
+            "黑底",
+            "圆形/圆角人物遮罩"
+          ],
+          "spaceAndMask": "圆窗扩大恢复全屏人物",
+          "entryAdvanceHoldExit": "人物圆窗从小到大扩张，恢复正常全屏；独立记录遮罩交接动作。",
+          "soundLanding": "unknown：待真实试听"
+        },
+        "groups": [
+          "N04"
+        ],
+        "occurrences": [
+          "N04"
+        ]
+      },
+      {
+        "id": "V04",
+        "name": "白描人物抠像与工业拼贴",
+        "layers": [
+          "暗纹背景",
+          "工业照片拼贴",
+          "白描抠像人物"
+        ],
+        "mechanism": "先抠像人物落位，工业照片从后方递进铺开；背景负责历史语境。",
+        "signature": {
+          "expressionDuty": "先抠像人物落位，工业照片从后方递进铺开；背景负责历史语境。",
+          "layerOrder": [
+            "暗纹背景",
+            "工业照片拼贴",
+            "白描抠像人物"
+          ],
+          "spaceAndMask": "白描人物抠像与工业拼贴",
+          "entryAdvanceHoldExit": "先抠像人物落位，工业照片从后方递进铺开；背景负责历史语境。",
+          "soundLanding": "unknown：待真实试听"
+        },
+        "groups": [
+          "N06"
+        ],
+        "occurrences": [
+          "N06"
+        ]
+      },
+      {
+        "id": "V05",
+        "name": "历史人物与论文阶梯递进",
+        "layers": [
+          "暗纹背景",
+          "历史人物图",
+          "多页论文",
+          "论文局部放大"
+        ],
+        "mechanism": "历史文献/人物铺垫→论文页阶梯展开→焦点论文居中；属于证据递进的一组。",
+        "signature": {
+          "expressionDuty": "历史文献/人物铺垫→论文页阶梯展开→焦点论文居中；属于证据递进的一组。",
+          "layerOrder": [
+            "暗纹背景",
+            "历史人物图",
+            "多页论文",
+            "论文局部放大"
+          ],
+          "spaceAndMask": "历史人物与论文阶梯递进",
+          "entryAdvanceHoldExit": "历史文献/人物铺垫→论文页阶梯展开→焦点论文居中；属于证据递进的一组。",
+          "soundLanding": "unknown：待真实试听"
+        },
+        "groups": [
+          "N07"
+        ],
+        "occurrences": [
+          "N07"
+        ]
+      },
+      {
+        "id": "V06",
+        "name": "两段睡眠的日夜舞台与小卡递进",
+        "layers": [
+          "暗纹背景",
+          "床上人物抠像",
+          "太阳/月亮",
+          "底部事件小卡"
+        ],
+        "mechanism": "先睡眠姿态，再太阳/醒来，夜间活动小卡依次出现，月亮与再次躺下收束。",
+        "signature": {
+          "expressionDuty": "先睡眠姿态，再太阳/醒来，夜间活动小卡依次出现，月亮与再次躺下收束。",
+          "layerOrder": [
+            "暗纹背景",
+            "床上人物抠像",
+            "太阳/月亮",
+            "底部事件小卡"
+          ],
+          "spaceAndMask": "两段睡眠的日夜舞台与小卡递进",
+          "entryAdvanceHoldExit": "先睡眠姿态，再太阳/醒来，夜间活动小卡依次出现，月亮与再次躺下收束。",
+          "soundLanding": "unknown：待真实试听"
+        },
+        "groups": [
+          "N08"
+        ],
+        "occurrences": [
+          "N08"
+        ]
+      },
+      {
+        "id": "V07",
+        "name": "头顶语义贴图提示",
+        "layers": [
+          "人物底片",
+          "头顶提示图形"
+        ],
+        "mechanism": "头顶位置出现非写实语义贴图；时钟、旋涡、疲惫漫画为不同素材实例，共同承担直观提示，精确曲线尚待测。",
+        "signature": {
+          "expressionDuty": "头顶位置出现非写实语义贴图；时钟、旋涡、疲惫漫画为不同素材实例，共同承担直观提示，精确曲线尚待测。",
+          "layerOrder": [
+            "人物底片",
+            "头顶提示图形"
+          ],
+          "spaceAndMask": "头顶语义贴图提示",
+          "entryAdvanceHoldExit": "头顶位置出现非写实语义贴图；时钟、旋涡、疲惫漫画为不同素材实例，共同承担直观提示，精确曲线尚待测。",
+          "soundLanding": "unknown：待真实试听"
+        },
+        "groups": [
+          "N09",
+          "N17",
+          "N20"
+        ],
+        "occurrences": [
+          "N09",
+          "N17",
+          "N20"
+        ]
+      },
+      {
+        "id": "V08",
+        "name": "圆形人物与作息表透视展示",
+        "layers": [
+          "暗纹背景",
+          "发光圆形人物窗",
+          "透视作息表"
+        ],
+        "mechanism": "人物缩成圆窗，让旧作息表旋入并占据下方；同组内增加文字标注。",
+        "signature": {
+          "expressionDuty": "人物缩成圆窗，让旧作息表旋入并占据下方；同组内增加文字标注。",
+          "layerOrder": [
+            "暗纹背景",
+            "发光圆形人物窗",
+            "透视作息表"
+          ],
+          "spaceAndMask": "圆形人物与作息表透视展示",
+          "entryAdvanceHoldExit": "人物缩成圆窗，让旧作息表旋入并占据下方；同组内增加文字标注。",
+          "soundLanding": "unknown：待真实试听"
+        },
+        "groups": [
+          "N11"
+        ],
+        "occurrences": [
+          "N11"
+        ]
+      },
+      {
+        "id": "V09",
+        "name": "背景虚化与论文卡片卷页放大",
+        "layers": [
+          "人物底片虚化",
+          "论文卡片",
+          "局部标题放大层"
+        ],
+        "mechanism": "人物虚化让位，论文从小卷页展开；随后标题局部放大承担证据。",
+        "signature": {
+          "expressionDuty": "人物虚化让位，论文从小卷页展开；随后标题局部放大承担证据。",
+          "layerOrder": [
+            "人物底片虚化",
+            "论文卡片",
+            "局部标题放大层"
+          ],
+          "spaceAndMask": "背景虚化与论文卡片卷页放大",
+          "entryAdvanceHoldExit": "人物虚化让位，论文从小卷页展开；随后标题局部放大承担证据。",
+          "soundLanding": "unknown：待真实试听"
+        },
+        "groups": [
+          "N14"
+        ],
+        "occurrences": [
+          "N14"
+        ]
+      },
+      {
+        "id": "V10",
+        "name": "圆窗讲述与圆角科学影像连续放大",
+        "layers": [
+          "人物底片虚化",
+          "圆角科学视频",
+          "左上圆窗人物"
+        ],
+        "mechanism": "同一圆角视窗内从大脑推进到细胞/线粒体并展示物质积累，内部换景不重复拆画面family。",
+        "signature": {
+          "expressionDuty": "同一圆角视窗内从大脑推进到细胞/线粒体并展示物质积累，内部换景不重复拆画面family。",
+          "layerOrder": [
+            "人物底片虚化",
+            "圆角科学视频",
+            "左上圆窗人物"
+          ],
+          "spaceAndMask": "圆窗讲述与圆角科学影像连续放大",
+          "entryAdvanceHoldExit": "同一圆角视窗内从大脑推进到细胞/线粒体并展示物质积累，内部换景不重复拆画面family。",
+          "soundLanding": "unknown：待真实试听"
+        },
+        "groups": [
+          "N15"
+        ],
+        "occurrences": [
+          "N15"
+        ]
+      },
+      {
+        "id": "V11",
+        "name": "全画面缩小黑边强调",
+        "layers": [
+          "黑底",
+          "整体缩小的人物底片"
+        ],
+        "mechanism": "整体画面缩小形成黑色留边，持续一个强调句后回到常规构图。",
+        "signature": {
+          "expressionDuty": "整体画面缩小形成黑色留边，持续一个强调句后回到常规构图。",
+          "layerOrder": [
+            "黑底",
+            "整体缩小的人物底片"
+          ],
+          "spaceAndMask": "全画面缩小黑边强调",
+          "entryAdvanceHoldExit": "整体画面缩小形成黑色留边，持续一个强调句后回到常规构图。",
+          "soundLanding": "unknown：待真实试听"
+        },
+        "groups": [
+          "N16"
+        ],
+        "occurrences": [
+          "N16"
+        ]
+      },
+      {
+        "id": "V12",
+        "name": "病毒贴图与禁止符号两步揭晓",
+        "layers": [
+          "人物底片",
+          "病毒图形",
+          "红色禁止符号"
+        ],
+        "mechanism": "先病毒再红色禁止符号，用两步动作表达清除；比普通头顶贴图多一层揭晓，因此独立。",
+        "signature": {
+          "expressionDuty": "先病毒再红色禁止符号，用两步动作表达清除；比普通头顶贴图多一层揭晓，因此独立。",
+          "layerOrder": [
+            "人物底片",
+            "病毒图形",
+            "红色禁止符号"
+          ],
+          "spaceAndMask": "病毒贴图与禁止符号两步揭晓",
+          "entryAdvanceHoldExit": "先病毒再红色禁止符号，用两步动作表达清除；比普通头顶贴图多一层揭晓，因此独立。",
+          "soundLanding": "unknown：待真实试听"
+        },
+        "groups": [
+          "N18"
+        ],
+        "occurrences": [
+          "N18"
+        ]
+      },
+      {
+        "id": "V13",
+        "name": "圆窗人物与图卡叠放连续接力",
+        "layers": [
+          "暗纹背景",
+          "左上圆窗人物",
+          "下方竖向示意图卡"
+        ],
+        "mechanism": "三张图卡在同一舞台递进叠放、替换焦点；共同画面机制不按恢复/稳定/感受文案重复计组。",
+        "signature": {
+          "expressionDuty": "三张图卡在同一舞台递进叠放、替换焦点；共同画面机制不按恢复/稳定/感受文案重复计组。",
+          "layerOrder": [
+            "暗纹背景",
+            "左上圆窗人物",
+            "下方竖向示意图卡"
+          ],
+          "spaceAndMask": "圆窗人物与图卡叠放连续接力",
+          "entryAdvanceHoldExit": "三张图卡在同一舞台递进叠放、替换焦点；共同画面机制不按恢复/稳定/感受文案重复计组。",
+          "soundLanding": "unknown：待真实试听"
+        },
+        "groups": [
+          "N19"
+        ],
+        "occurrences": [
+          "N19"
+        ]
+      },
+      {
+        "id": "V14",
+        "name": "人物抠像与前后遮挡分层",
+        "mechanism": "人物抠像保留在前层，文字或图形位于其后；N02另有背景压暗，N18不据此推断压暗。",
+        "groups": [
+          "N02",
+          "N18"
+        ],
+        "occurrences": [
+          "N02",
+          "N18"
+        ]
+      },
+      {
+        "id": "V15",
+        "name": "整体画面放大强调",
+        "mechanism": "普通底片整体放大强调面部，与头顶提示图层动态组合。",
+        "groups": [
+          "N17"
+        ],
+        "occurrences": [
+          "N17"
+        ]
+      }
+    ],
+    "subtitle": [
+      {
+        "id": "T01",
+        "name": "口播重点词放大与泛光",
+        "layers": [
+          "主字幕",
+          "放大重点词",
+          "金色/黄色泛光"
+        ],
+        "mechanism": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+        "signature": {
+          "role": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+          "layerOrder": [
+            "主字幕",
+            "放大重点词",
+            "金色/黄色泛光"
+          ],
+          "wordClock": "unknown：仅已记录短语级窗口，不能充当字级测量"
+        },
+        "groups": [
+          "N01",
+          "N03",
+          "N09",
+          "N10",
+          "N21",
+          "N22",
+          "N23",
+          "N24"
+        ],
+        "occurrences": [
+          "N01",
+          "N03",
+          "N09",
+          "N10",
+          "N21",
+          "N22",
+          "N23",
+          "N24"
+        ]
+      },
+      {
+        "id": "T02",
+        "name": "人物背后巨字主题揭晓",
+        "layers": [
+          "背景巨字",
+          "前景人物遮挡",
+          "普通口播字幕"
+        ],
+        "mechanism": "大主题文字从人物后方显现，人物在前；8小时、工业时代是语义变体。",
+        "signature": {
+          "role": "大主题文字从人物后方显现，人物在前；8小时、工业时代是语义变体。",
+          "layerOrder": [
+            "背景巨字",
+            "前景人物遮挡",
+            "普通口播字幕"
+          ],
+          "wordClock": "unknown：仅已记录短语级窗口，不能充当字级测量"
+        },
+        "groups": [
+          "N02",
+          "N06"
+        ],
+        "occurrences": [
+          "N02",
+          "N06"
+        ]
+      },
+      {
+        "id": "T03",
+        "name": "光标指向关键词",
+        "layers": [
+          "短句",
+          "放大关键词",
+          "手形光标"
+        ],
+        "mechanism": "关键词出现后，光标指向/点击其位置，使“睡眠/8小时”成为关注对象。",
+        "signature": {
+          "role": "关键词出现后，光标指向/点击其位置，使“睡眠/8小时”成为关注对象。",
+          "layerOrder": [
+            "短句",
+            "放大关键词",
+            "手形光标"
+          ],
+          "wordClock": "unknown：仅已记录短语级窗口，不能充当字级测量"
+        },
+        "groups": [
+          "N05"
+        ],
+        "occurrences": [
+          "N05"
+        ]
+      },
+      {
+        "id": "T04",
+        "name": "证据标题标记与上方文字揭晓",
+        "layers": [
+          "论文标题标记",
+          "重点文字",
+          "补充说明"
+        ],
+        "mechanism": "用标题高亮/局部放大给证据定点，上方文字逐层揭晓其结论。",
+        "signature": {
+          "role": "用标题高亮/局部放大给证据定点，上方文字逐层揭晓其结论。",
+          "layerOrder": [
+            "论文标题标记",
+            "重点文字",
+            "补充说明"
+          ],
+          "wordClock": "unknown：仅已记录短语级窗口，不能充当字级测量"
+        },
+        "groups": [
+          "N07",
+          "N14"
+        ],
+        "occurrences": [
+          "N07",
+          "N14"
+        ]
+      },
+      {
+        "id": "T05",
+        "name": "两列竖排描边主题字",
+        "layers": [
+          "左列睡眠",
+          "右列两段式"
+        ],
+        "mechanism": "两侧大字先以暗描边显现再变亮，围住人物动作舞台，表达“两段式睡眠”。",
+        "signature": {
+          "role": "两侧大字先以暗描边显现再变亮，围住人物动作舞台，表达“两段式睡眠”。",
+          "layerOrder": [
+            "左列睡眠",
+            "右列两段式"
+          ],
+          "wordClock": "unknown：仅已记录短语级窗口，不能充当字级测量"
+        },
+        "groups": [
+          "N08"
+        ],
+        "occurrences": [
+          "N08"
+        ]
+      },
+      {
+        "id": "T06",
+        "name": "贴纸注释词条弹出",
+        "layers": [
+          "底色小标签",
+          "重点词"
+        ],
+        "mechanism": "在已落位的素材上弹出小标签，解释早期作息安排。",
+        "signature": {
+          "role": "在已落位的素材上弹出小标签，解释早期作息安排。",
+          "layerOrder": [
+            "底色小标签",
+            "重点词"
+          ],
+          "wordClock": "unknown：仅已记录短语级窗口，不能充当字级测量"
+        },
+        "groups": [
+          "N11"
+        ],
+        "occurrences": [
+          "N11"
+        ]
+      },
+      {
+        "id": "T07",
+        "name": "头顶问号揭晓",
+        "layers": [
+          "问号图形",
+          "普通口播问句"
+        ],
+        "mechanism": "多个问号作为语义符号弹出并停留；无额外镜头动作，记为字幕/符号动效。",
+        "signature": {
+          "role": "多个问号作为语义符号弹出并停留；无额外镜头动作，记为字幕/符号动效。",
+          "layerOrder": [
+            "问号图形",
+            "普通口播问句"
+          ],
+          "wordClock": "unknown：仅已记录短语级窗口，不能充当字级测量"
+        },
+        "groups": [
+          "N12"
+        ],
+        "occurrences": [
+          "N12"
+        ]
+      },
+      {
+        "id": "T08",
+        "name": "前景金色大字强调",
+        "layers": [
+          "前景大标题",
+          "红色阴影/底色"
+        ],
+        "mechanism": "“真正作用”大字由虚到实/放大落位，接管普通口播句。",
+        "signature": {
+          "role": "“真正作用”大字由虚到实/放大落位，接管普通口播句。",
+          "layerOrder": [
+            "前景大标题",
+            "红色阴影/底色"
+          ],
+          "wordClock": "unknown：仅已记录短语级窗口，不能充当字级测量"
+        },
+        "groups": [
+          "N13"
+        ],
+        "occurrences": [
+          "N13"
+        ]
+      },
+      {
+        "id": "T09",
+        "name": "三类作用标签堆叠与重排",
+        "layers": [
+          "恢复性标签",
+          "稳定性标签",
+          "主观感受标签"
+        ],
+        "mechanism": "先恢复性，追加稳定性，再追加主观感受；标签随新增项重排，不能当三套画面动效。",
+        "signature": {
+          "role": "先恢复性，追加稳定性，再追加主观感受；标签随新增项重排，不能当三套画面动效。",
+          "layerOrder": [
+            "恢复性标签",
+            "稳定性标签",
+            "主观感受标签"
+          ],
+          "wordClock": "unknown：仅已记录短语级窗口，不能充当字级测量"
+        },
+        "groups": [
+          "N19"
+        ],
+        "occurrences": [
+          "N19"
+        ]
+      },
+      {
+        "id": "T10",
+        "name": "口播字幕纵向滚动切换",
+        "mechanism": "口播字幕纵向滚动切换，独立于头顶问号动作；两种字幕组件共同表达疑问。",
+        "groups": [
+          "N12"
+        ],
+        "occurrences": [
+          "N12"
+        ]
+      }
+    ]
+  },
+  "occurrences": [
+    {
+      "id": "N01",
+      "name": "开场暗角聚焦＋重点词揭晓",
+      "members": [
+        "N01"
+      ],
+      "startFrame": 0,
+      "endFrame": 52,
+      "timecode": "00:00.000-00:01.733",
+      "visual": "V01",
+      "subtitle": "T01",
+      "compositionMode": "combined",
+      "note": "",
+      "purpose": "以听过的说法铺垫主题；暗角聚焦人物，重点词亮起。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": false,
+      "sourceType": "original-reference",
+      "durationSeconds": 1.733333,
+      "dialogueRelation": "以听过的说法铺垫主题；暗角聚焦人物，重点词亮起。",
+      "presenterState": "开场人物暗角聚焦",
+      "layerOrder": [
+        "人物底片",
+        "边缘暗角",
+        "主字幕",
+        "放大重点词",
+        "金色/黄色泛光"
+      ],
+      "expressionHandoff": "以听过的说法铺垫主题；暗角聚焦人物，重点词亮起。",
+      "enteringAssets": [
+        "人物底片",
+        "边缘暗角"
+      ],
+      "subtitleChanges": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "人物仍主导；暗角压低周边，开场后随镜头恢复移除。",
+        "hold": "见中间过程帧",
+        "reveal": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N01-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 0,
+          "pts": 0
+        },
+        {
+          "frame": 0,
+          "pts": 0
+        },
+        {
+          "frame": 13,
+          "pts": 0.433333
+        },
+        {
+          "frame": 26,
+          "pts": 0.866667
+        },
+        {
+          "frame": 51,
+          "pts": 1.7
+        },
+        {
+          "frame": 52,
+          "pts": 1.733333
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "开场暗角聚焦＋重点词揭晓",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "durationFrames": 52
+    },
+    {
+      "id": "N02",
+      "name": "背景压暗与人物抠像＋背后8小时巨字",
+      "members": [
+        "N02"
+      ],
+      "startFrame": 54,
+      "endFrame": 111,
+      "timecode": "00:01.800-00:03.700",
+      "visual": "V14",
+      "subtitle": "T02",
+      "compositionMode": "combined",
+      "note": "是字幕动效加画面动效；画面背景暗下来了；而且人物抠像了；八小时的字幕是在人物后面的",
+      "purpose": "先重点词提出睡眠问题，随后人物背后的8小时巨字强化主题。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": false,
+      "sourceType": "original-reference",
+      "durationSeconds": 1.9000000000000001,
+      "dialogueRelation": "先重点词提出睡眠问题，随后人物背后的8小时巨字强化主题。",
+      "presenterState": "全屏人物底片，无额外画面动效",
+      "layerOrder": [
+        "原背景压暗",
+        "8小时巨字",
+        "抠像人物前景",
+        "口播主字幕"
+      ],
+      "expressionHandoff": "先重点词提出睡眠问题，随后人物背后的8小时巨字强化主题。",
+      "enteringAssets": [],
+      "subtitleChanges": "大主题文字从人物后方显现，人物在前；8小时、工业时代是语义变体。",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "大主题文字从人物后方显现，人物在前；8小时、工业时代是语义变体。",
+        "hold": "见中间过程帧",
+        "reveal": "大主题文字从人物后方显现，人物在前；8小时、工业时代是语义变体。",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N02-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 53,
+          "pts": 1.766667
+        },
+        {
+          "frame": 54,
+          "pts": 1.8
+        },
+        {
+          "frame": 68,
+          "pts": 2.266667
+        },
+        {
+          "frame": 82,
+          "pts": 2.733333
+        },
+        {
+          "frame": 110,
+          "pts": 3.666667
+        },
+        {
+          "frame": 111,
+          "pts": 3.7
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "8小时主题巨字从人物背后揭晓",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "visualComponents": [
+        "V14"
+      ],
+      "subtitleComponents": [
+        "T02"
+      ],
+      "durationFrames": 57
+    },
+    {
+      "id": "N03",
+      "name": "圆形人物窗＋失眠与白天疲倦情境接力",
+      "members": [
+        "N03"
+      ],
+      "startFrame": 111,
+      "endFrame": 263,
+      "timecode": "00:03.700-00:08.767",
+      "visual": "V02",
+      "subtitle": "T01",
+      "compositionMode": "combined",
+      "note": "",
+      "purpose": "失眠素材呈现焦虑，素材随后转到白天状态差；同一构图承载两个例子。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": false,
+      "sourceType": "original-reference",
+      "durationSeconds": 5.066667,
+      "dialogueRelation": "失眠素材呈现焦虑，素材随后转到白天状态差；同一构图承载两个例子。",
+      "presenterState": "圆形人物窗与情境素材接力",
+      "layerOrder": [
+        "黑底",
+        "下方情境视频",
+        "上方圆形人物窗",
+        "主字幕",
+        "放大重点词",
+        "金色/黄色泛光"
+      ],
+      "expressionHandoff": "失眠素材呈现焦虑，素材随后转到白天状态差；同一构图承载两个例子。",
+      "enteringAssets": [
+        "黑底",
+        "下方情境视频",
+        "上方圆形人物窗"
+      ],
+      "subtitleChanges": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "人物缩入圆窗后让素材接管；失眠场景接力到办公室疲倦场景，不因换素材另立画面机制。",
+        "hold": "见中间过程帧",
+        "reveal": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N03-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 110,
+          "pts": 3.666667
+        },
+        {
+          "frame": 111,
+          "pts": 3.7
+        },
+        {
+          "frame": 149,
+          "pts": 4.966667
+        },
+        {
+          "frame": 187,
+          "pts": 6.233333
+        },
+        {
+          "frame": 262,
+          "pts": 8.733333
+        },
+        {
+          "frame": 263,
+          "pts": 8.766667
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "圆形人物窗＋失眠与白天疲倦情境接力",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "durationFrames": 152
+    },
+    {
+      "id": "N04",
+      "name": "圆形人物窗扩张恢复全屏",
+      "members": [
+        "N04"
+      ],
+      "startFrame": 263,
+      "endFrame": 276,
+      "timecode": "00:08.767-00:09.200",
+      "visual": "V03",
+      "subtitle": null,
+      "compositionMode": "visual-only",
+      "note": "",
+      "purpose": "例子结束后人物窗扩大恢复全屏，口播主字幕不另算字幕动效。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": true,
+      "sourceType": "original-reference",
+      "durationSeconds": 0.4333329999999993,
+      "dialogueRelation": "例子结束后人物窗扩大恢复全屏，口播主字幕不另算字幕动效。",
+      "presenterState": "圆窗扩大恢复全屏人物",
+      "layerOrder": [
+        "黑底",
+        "圆形/圆角人物遮罩",
+        "普通口播主字幕"
+      ],
+      "expressionHandoff": "例子结束后人物窗扩大恢复全屏，口播主字幕不另算字幕动效。",
+      "enteringAssets": [
+        "黑底",
+        "圆形/圆角人物遮罩"
+      ],
+      "subtitleChanges": "普通口播主字幕，仅辅助阅读，不计独立字幕动效",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "人物圆窗从小到大扩张，恢复正常全屏；独立记录遮罩交接动作。",
+        "hold": "见中间过程帧",
+        "reveal": "画面对象接管表达",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N04-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 262,
+          "pts": 8.733333
+        },
+        {
+          "frame": 263,
+          "pts": 8.766667
+        },
+        {
+          "frame": 266,
+          "pts": 8.866667
+        },
+        {
+          "frame": 269,
+          "pts": 8.966667
+        },
+        {
+          "frame": 275,
+          "pts": 9.166667
+        },
+        {
+          "frame": 276,
+          "pts": 9.2
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "圆形人物窗扩张恢复全屏",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "durationFrames": 13
+    },
+    {
+      "id": "N05",
+      "name": "手形光标指向睡眠关键词",
+      "members": [
+        "N05"
+      ],
+      "startFrame": 289,
+      "endFrame": 331,
+      "timecode": "00:09.633-00:11.033",
+      "visual": null,
+      "subtitle": "T03",
+      "compositionMode": "subtitle-only",
+      "note": "",
+      "purpose": "光标和关键词属于同一注意力引导，不把普通人物底片计为画面动作。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": false,
+      "sourceType": "original-reference",
+      "durationSeconds": 1.4000000000000004,
+      "dialogueRelation": "光标和关键词属于同一注意力引导，不把普通人物底片计为画面动作。",
+      "presenterState": "全屏人物底片，无额外画面动效",
+      "layerOrder": [
+        "普通人物底片",
+        "短句",
+        "放大关键词",
+        "手形光标"
+      ],
+      "expressionHandoff": "光标和关键词属于同一注意力引导，不把普通人物底片计为画面动作。",
+      "enteringAssets": [],
+      "subtitleChanges": "关键词出现后，光标指向/点击其位置，使“睡眠/8小时”成为关注对象。",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "关键词出现后，光标指向/点击其位置，使“睡眠/8小时”成为关注对象。",
+        "hold": "见中间过程帧",
+        "reveal": "关键词出现后，光标指向/点击其位置，使“睡眠/8小时”成为关注对象。",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N05-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 288,
+          "pts": 9.6
+        },
+        {
+          "frame": 289,
+          "pts": 9.633333
+        },
+        {
+          "frame": 299,
+          "pts": 9.966667
+        },
+        {
+          "frame": 310,
+          "pts": 10.333333
+        },
+        {
+          "frame": 330,
+          "pts": 11
+        },
+        {
+          "frame": 331,
+          "pts": 11.033333
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "手形光标指向睡眠关键词",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "durationFrames": 42
+    },
+    {
+      "id": "N06",
+      "name": "白描人物抠像＋工业背景拼贴与大标题",
+      "members": [
+        "N06"
+      ],
+      "startFrame": 331,
+      "endFrame": 444,
+      "timecode": "00:11.033-00:14.800",
+      "visual": "V04",
+      "subtitle": "T02",
+      "compositionMode": "combined",
+      "note": "",
+      "purpose": "人物先被抠像到暗底，再叠工业场景，巨字工业时代接管主题。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": false,
+      "sourceType": "original-reference",
+      "durationSeconds": 3.766667,
+      "dialogueRelation": "人物先被抠像到暗底，再叠工业场景，巨字工业时代接管主题。",
+      "presenterState": "白描人物抠像与工业拼贴",
+      "layerOrder": [
+        "暗纹背景",
+        "工业照片拼贴",
+        "白描抠像人物",
+        "背景巨字",
+        "前景人物遮挡",
+        "普通口播字幕"
+      ],
+      "expressionHandoff": "人物先被抠像到暗底，再叠工业场景，巨字工业时代接管主题。",
+      "enteringAssets": [
+        "暗纹背景",
+        "工业照片拼贴",
+        "白描抠像人物"
+      ],
+      "subtitleChanges": "大主题文字从人物后方显现，人物在前；8小时、工业时代是语义变体。",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "先抠像人物落位，工业照片从后方递进铺开；背景负责历史语境。",
+        "hold": "见中间过程帧",
+        "reveal": "大主题文字从人物后方显现，人物在前；8小时、工业时代是语义变体。",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N06-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 330,
+          "pts": 11
+        },
+        {
+          "frame": 331,
+          "pts": 11.033333
+        },
+        {
+          "frame": 359,
+          "pts": 11.966667
+        },
+        {
+          "frame": 387,
+          "pts": 12.9
+        },
+        {
+          "frame": 443,
+          "pts": 14.766667
+        },
+        {
+          "frame": 444,
+          "pts": 14.8
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "白描人物抠像＋工业背景拼贴与大标题",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "durationFrames": 113
+    },
+    {
+      "id": "N07",
+      "name": "历史文献铺垫→论文阶梯→证据标题标记",
+      "members": [
+        "N07"
+      ],
+      "startFrame": 444,
+      "endFrame": 608,
+      "timecode": "00:14.800-00:20.250",
+      "visual": "V05",
+      "subtitle": "T04",
+      "compositionMode": "combined",
+      "note": "",
+      "purpose": "先历史材料，再多页论文递进，焦点论文与标记共同揭晓古人的两段睡眠。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": false,
+      "sourceType": "original-reference",
+      "durationSeconds": 5.450032999999998,
+      "dialogueRelation": "先历史材料，再多页论文递进，焦点论文与标记共同揭晓古人的两段睡眠。",
+      "presenterState": "历史人物与论文阶梯递进",
+      "layerOrder": [
+        "暗纹背景",
+        "历史人物图",
+        "多页论文",
+        "论文局部放大",
+        "论文标题标记",
+        "重点文字",
+        "补充说明"
+      ],
+      "expressionHandoff": "先历史材料，再多页论文递进，焦点论文与标记共同揭晓古人的两段睡眠。",
+      "enteringAssets": [
+        "暗纹背景",
+        "历史人物图",
+        "多页论文",
+        "论文局部放大"
+      ],
+      "subtitleChanges": "用标题高亮/局部放大给证据定点，上方文字逐层揭晓其结论。",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "历史文献/人物铺垫→论文页阶梯展开→焦点论文居中；属于证据递进的一组。",
+        "hold": "见中间过程帧",
+        "reveal": "用标题高亮/局部放大给证据定点，上方文字逐层揭晓其结论。",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N07-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 443,
+          "pts": 14.766667
+        },
+        {
+          "frame": 444,
+          "pts": 14.8
+        },
+        {
+          "frame": 485,
+          "pts": 16.166667
+        },
+        {
+          "frame": 526,
+          "pts": 17.5167
+        },
+        {
+          "frame": 607,
+          "pts": 20.2167
+        },
+        {
+          "frame": 608,
+          "pts": 20.250033
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "历史文献铺垫→论文阶梯→证据标题标记",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "durationFrames": 164
+    },
+    {
+      "id": "N08",
+      "name": "两段式睡眠：太阳、月亮与夜间活动小卡",
+      "members": [
+        "N08"
+      ],
+      "startFrame": 608,
+      "endFrame": 850,
+      "timecode": "00:20.250-00:28.317",
+      "visual": "V06",
+      "subtitle": "T05",
+      "compositionMode": "combined",
+      "note": "",
+      "purpose": "床上人物、日夜符号与活动卡递进构成一个完整解释，竖排主题字保持对应。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": false,
+      "sourceType": "original-reference",
+      "durationSeconds": 8.066667000000002,
+      "dialogueRelation": "床上人物、日夜符号与活动卡递进构成一个完整解释，竖排主题字保持对应。",
+      "presenterState": "两段睡眠的日夜舞台与小卡递进",
+      "layerOrder": [
+        "暗纹背景",
+        "床上人物抠像",
+        "太阳/月亮",
+        "底部事件小卡",
+        "左列睡眠",
+        "右列两段式"
+      ],
+      "expressionHandoff": "床上人物、日夜符号与活动卡递进构成一个完整解释，竖排主题字保持对应。",
+      "enteringAssets": [
+        "暗纹背景",
+        "床上人物抠像",
+        "太阳/月亮",
+        "底部事件小卡"
+      ],
+      "subtitleChanges": "两侧大字先以暗描边显现再变亮，围住人物动作舞台，表达“两段式睡眠”。",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "先睡眠姿态，再太阳/醒来，夜间活动小卡依次出现，月亮与再次躺下收束。",
+        "hold": "见中间过程帧",
+        "reveal": "两侧大字先以暗描边显现再变亮，围住人物动作舞台，表达“两段式睡眠”。",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N08-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 607,
+          "pts": 20.2167
+        },
+        {
+          "frame": 608,
+          "pts": 20.250033
+        },
+        {
+          "frame": 668,
+          "pts": 22.250033
+        },
+        {
+          "frame": 729,
+          "pts": 24.283367
+        },
+        {
+          "frame": 849,
+          "pts": 28.283367
+        },
+        {
+          "frame": 850,
+          "pts": 28.3167
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "两段式睡眠：太阳、月亮与夜间活动小卡",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "durationFrames": 242
+    },
+    {
+      "id": "N09",
+      "name": "头顶时钟贴图＋钟表时间重点词放大",
+      "members": [
+        "N09"
+      ],
+      "startFrame": 971,
+      "endFrame": 1037,
+      "timecode": "00:32.350-00:34.533",
+      "visual": "V07",
+      "subtitle": "T01",
+      "compositionMode": "combined",
+      "note": "还有字幕动效；字幕的重点词有放大的动效",
+      "purpose": "头顶时钟/人物贴图将钟表时间具象化；句子下方为口播主字幕。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": true,
+      "sourceType": "original-reference",
+      "durationSeconds": 2.183366999999997,
+      "dialogueRelation": "头顶时钟/人物贴图将钟表时间具象化；句子下方为口播主字幕。",
+      "presenterState": "头顶语义贴图提示",
+      "layerOrder": [
+        "人物底片",
+        "头顶时钟与人物贴图",
+        "口播主字幕",
+        "放大重点词"
+      ],
+      "expressionHandoff": "头顶时钟/人物贴图将钟表时间具象化；句子下方为口播主字幕。",
+      "enteringAssets": [
+        "人物底片",
+        "头顶提示图形"
+      ],
+      "subtitleChanges": "普通口播主字幕，仅辅助阅读，不计独立字幕动效",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "头顶位置出现非写实语义贴图；时钟、旋涡、疲惫漫画为不同素材实例，共同承担直观提示，精确曲线尚待测。",
+        "hold": "见中间过程帧",
+        "reveal": "画面对象接管表达",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N09-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 970,
+          "pts": 32.3167
+        },
+        {
+          "frame": 971,
+          "pts": 32.350033
+        },
+        {
+          "frame": 987,
+          "pts": 32.883367
+        },
+        {
+          "frame": 1004,
+          "pts": 33.450033
+        },
+        {
+          "frame": 1036,
+          "pts": 34.500067
+        },
+        {
+          "frame": 1037,
+          "pts": 34.5334
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "头顶时钟与人物贴图说明钟表时间",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "visualComponents": [
+        "V07"
+      ],
+      "subtitleComponents": [
+        "T01"
+      ],
+      "durationFrames": 66
+    },
+    {
+      "id": "N10",
+      "name": "睡满8小时与标准睡眠的重点词递进",
+      "members": [
+        "N10"
+      ],
+      "startFrame": 1037,
+      "endFrame": 1132,
+      "timecode": "00:34.533-00:37.700",
+      "visual": null,
+      "subtitle": "T01",
+      "compositionMode": "subtitle-only",
+      "note": "",
+      "purpose": "重点词放大/泛光，第二行标准睡眠跟进；没有额外画面动作。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": false,
+      "sourceType": "original-reference",
+      "durationSeconds": 3.166666999999997,
+      "dialogueRelation": "重点词放大/泛光，第二行标准睡眠跟进；没有额外画面动作。",
+      "presenterState": "全屏人物底片，无额外画面动效",
+      "layerOrder": [
+        "普通人物底片",
+        "主字幕",
+        "放大重点词",
+        "金色/黄色泛光"
+      ],
+      "expressionHandoff": "重点词放大/泛光，第二行标准睡眠跟进；没有额外画面动作。",
+      "enteringAssets": [],
+      "subtitleChanges": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+        "hold": "见中间过程帧",
+        "reveal": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N10-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 1036,
+          "pts": 34.500067
+        },
+        {
+          "frame": 1037,
+          "pts": 34.5334
+        },
+        {
+          "frame": 1060,
+          "pts": 35.300067
+        },
+        {
+          "frame": 1084,
+          "pts": 36.100067
+        },
+        {
+          "frame": 1131,
+          "pts": 37.666733
+        },
+        {
+          "frame": 1132,
+          "pts": 37.700067
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "睡满8小时与标准睡眠的重点词递进",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "durationFrames": 95
+    },
+    {
+      "id": "N11",
+      "name": "圆形人物＋老作息表透视旋入与注释",
+      "members": [
+        "N11"
+      ],
+      "startFrame": 1160,
+      "endFrame": 1258,
+      "timecode": "00:38.633-00:41.900",
+      "visual": "V08",
+      "subtitle": "T06",
+      "compositionMode": "combined",
+      "note": "",
+      "purpose": "人物缩入发光圆窗，作息表旋入放大，注释词条接续补充。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": false,
+      "sourceType": "original-reference",
+      "durationSeconds": 3.266666999999998,
+      "dialogueRelation": "人物缩入发光圆窗，作息表旋入放大，注释词条接续补充。",
+      "presenterState": "圆形人物与作息表透视展示",
+      "layerOrder": [
+        "暗纹背景",
+        "发光圆形人物窗",
+        "透视作息表",
+        "底色小标签",
+        "重点词"
+      ],
+      "expressionHandoff": "人物缩入发光圆窗，作息表旋入放大，注释词条接续补充。",
+      "enteringAssets": [
+        "暗纹背景",
+        "发光圆形人物窗",
+        "透视作息表"
+      ],
+      "subtitleChanges": "在已落位的素材上弹出小标签，解释早期作息安排。",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "人物缩成圆窗，让旧作息表旋入并占据下方；同组内增加文字标注。",
+        "hold": "见中间过程帧",
+        "reveal": "在已落位的素材上弹出小标签，解释早期作息安排。",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N11-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 1159,
+          "pts": 38.600067
+        },
+        {
+          "frame": 1160,
+          "pts": 38.6334
+        },
+        {
+          "frame": 1184,
+          "pts": 39.4334
+        },
+        {
+          "frame": 1209,
+          "pts": 40.266733
+        },
+        {
+          "frame": 1257,
+          "pts": 41.866733
+        },
+        {
+          "frame": 1258,
+          "pts": 41.900067
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "圆形人物＋老作息表透视旋入与注释",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "durationFrames": 98
+    },
+    {
+      "id": "N12",
+      "name": "头顶问号＋口播字幕滚动切换",
+      "members": [
+        "N12"
+      ],
+      "startFrame": 1348,
+      "endFrame": 1374,
+      "timecode": "00:44.900-00:45.767",
+      "visual": null,
+      "subtitle": "T07",
+      "compositionMode": "subtitle-only",
+      "note": "这里还有一个字幕动效；就是字幕滚动效果",
+      "purpose": "问号提示疑问，普通口播底片不计画面family。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": false,
+      "sourceType": "original-reference",
+      "durationSeconds": 0.8666660000000022,
+      "dialogueRelation": "问号提示疑问，普通口播底片不计画面family。",
+      "presenterState": "全屏人物底片，无额外画面动效",
+      "layerOrder": [
+        "普通人物底片",
+        "头顶问号",
+        "滚动口播字幕"
+      ],
+      "expressionHandoff": "问号提示疑问，普通口播底片不计画面family。",
+      "enteringAssets": [],
+      "subtitleChanges": "多个问号作为语义符号弹出并停留；无额外镜头动作，记为字幕/符号动效。",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "多个问号作为语义符号弹出并停留；无额外镜头动作，记为字幕/符号动效。",
+        "hold": "见中间过程帧",
+        "reveal": "多个问号作为语义符号弹出并停留；无额外镜头动作，记为字幕/符号动效。",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N12-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 1347,
+          "pts": 44.866733
+        },
+        {
+          "frame": 1348,
+          "pts": 44.900067
+        },
+        {
+          "frame": 1354,
+          "pts": 45.100067
+        },
+        {
+          "frame": 1361,
+          "pts": 45.3334
+        },
+        {
+          "frame": 1373,
+          "pts": 45.7334
+        },
+        {
+          "frame": 1374,
+          "pts": 45.766733
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "为什么：头顶问号弹出",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "subtitleComponents": [
+        "T07",
+        "T10"
+      ],
+      "durationFrames": 26
+    },
+    {
+      "id": "N13",
+      "name": "暗角聚焦＋真正作用金色大字落位",
+      "members": [
+        "N13"
+      ],
+      "startFrame": 1421,
+      "endFrame": 1443,
+      "timecode": "00:47.333-00:48.067",
+      "visual": "V01",
+      "subtitle": "T08",
+      "compositionMode": "combined",
+      "note": "这里还有一个画面动效；画面有暗角",
+      "purpose": "大字从虚影到前景落位，强调从时长转向真正作用。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": false,
+      "sourceType": "original-reference",
+      "durationSeconds": 0.7333330000000018,
+      "dialogueRelation": "大字从虚影到前景落位，强调从时长转向真正作用。",
+      "presenterState": "全屏人物底片，无额外画面动效",
+      "layerOrder": [
+        "人物底片",
+        "暗角蒙层",
+        "前景金色大字",
+        "红色阴影/底色"
+      ],
+      "expressionHandoff": "大字从虚影到前景落位，强调从时长转向真正作用。",
+      "enteringAssets": [],
+      "subtitleChanges": "“真正作用”大字由虚到实/放大落位，接管普通口播句。",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "“真正作用”大字由虚到实/放大落位，接管普通口播句。",
+        "hold": "见中间过程帧",
+        "reveal": "“真正作用”大字由虚到实/放大落位，接管普通口播句。",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N13-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 1420,
+          "pts": 47.300067
+        },
+        {
+          "frame": 1421,
+          "pts": 47.3334
+        },
+        {
+          "frame": 1426,
+          "pts": 47.500067
+        },
+        {
+          "frame": 1432,
+          "pts": 47.700067
+        },
+        {
+          "frame": 1442,
+          "pts": 48.0334
+        },
+        {
+          "frame": 1443,
+          "pts": 48.066733
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "真正作用：前景金色大字落位",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "visualComponents": [
+        "V01"
+      ],
+      "subtitleComponents": [
+        "T08"
+      ],
+      "durationFrames": 22
+    },
+    {
+      "id": "N14",
+      "name": "人物背景虚化→Nature论文卷页→标题局部放大",
+      "members": [
+        "N14"
+      ],
+      "startFrame": 1443,
+      "endFrame": 1515,
+      "timecode": "00:48.067-00:50.467",
+      "visual": "V09",
+      "subtitle": "T04",
+      "compositionMode": "combined",
+      "note": "",
+      "purpose": "人物虚化让位于论文，标题高亮与局部放大给证据定点。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": false,
+      "sourceType": "original-reference",
+      "durationSeconds": 2.3999999999999986,
+      "dialogueRelation": "人物虚化让位于论文，标题高亮与局部放大给证据定点。",
+      "presenterState": "背景虚化与论文卡片卷页放大",
+      "layerOrder": [
+        "人物底片虚化",
+        "论文卡片",
+        "局部标题放大层",
+        "论文标题标记",
+        "重点文字",
+        "补充说明"
+      ],
+      "expressionHandoff": "人物虚化让位于论文，标题高亮与局部放大给证据定点。",
+      "enteringAssets": [
+        "人物底片虚化",
+        "论文卡片",
+        "局部标题放大层"
+      ],
+      "subtitleChanges": "用标题高亮/局部放大给证据定点，上方文字逐层揭晓其结论。",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "人物虚化让位，论文从小卷页展开；随后标题局部放大承担证据。",
+        "hold": "见中间过程帧",
+        "reveal": "用标题高亮/局部放大给证据定点，上方文字逐层揭晓其结论。",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N14-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 1442,
+          "pts": 48.0334
+        },
+        {
+          "frame": 1443,
+          "pts": 48.066733
+        },
+        {
+          "frame": 1461,
+          "pts": 48.666733
+        },
+        {
+          "frame": 1479,
+          "pts": 49.266733
+        },
+        {
+          "frame": 1514,
+          "pts": 50.4334
+        },
+        {
+          "frame": 1515,
+          "pts": 50.466733
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "人物背景虚化→Nature论文卷页→标题局部放大",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "durationFrames": 72
+    },
+    {
+      "id": "N15",
+      "name": "圆角科学影像：大脑→细胞→线粒体→物质积累",
+      "members": [
+        "N15"
+      ],
+      "startFrame": 1515,
+      "endFrame": 1797,
+      "timecode": "00:50.467-00:59.850",
+      "visual": "V10",
+      "subtitle": null,
+      "compositionMode": "visual-only",
+      "note": "",
+      "purpose": "科学影像连续推进解释代谢过程；圆窗人物讲述，口播字幕不是额外字幕组件。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": true,
+      "sourceType": "original-reference",
+      "durationSeconds": 9.383367,
+      "dialogueRelation": "科学影像连续推进解释代谢过程；圆窗人物讲述，口播字幕不是额外字幕组件。",
+      "presenterState": "圆窗讲述与圆角科学影像连续放大",
+      "layerOrder": [
+        "人物底片虚化",
+        "圆角科学视频",
+        "左上圆窗人物",
+        "普通口播主字幕"
+      ],
+      "expressionHandoff": "科学影像连续推进解释代谢过程；圆窗人物讲述，口播字幕不是额外字幕组件。",
+      "enteringAssets": [
+        "人物底片虚化",
+        "圆角科学视频",
+        "左上圆窗人物"
+      ],
+      "subtitleChanges": "普通口播主字幕，仅辅助阅读，不计独立字幕动效",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "同一圆角视窗内从大脑推进到细胞/线粒体并展示物质积累，内部换景不重复拆画面family。",
+        "hold": "见中间过程帧",
+        "reveal": "画面对象接管表达",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N15-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 1514,
+          "pts": 50.4334
+        },
+        {
+          "frame": 1515,
+          "pts": 50.466733
+        },
+        {
+          "frame": 1585,
+          "pts": 52.783433
+        },
+        {
+          "frame": 1656,
+          "pts": 55.1501
+        },
+        {
+          "frame": 1796,
+          "pts": 59.816767
+        },
+        {
+          "frame": 1797,
+          "pts": 59.8501
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "圆角科学影像：大脑→细胞→线粒体→物质积累",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "durationFrames": 282
+    },
+    {
+      "id": "N16",
+      "name": "全画面缩小黑边：强调手术后的疲惫",
+      "members": [
+        "N16"
+      ],
+      "startFrame": 1797,
+      "endFrame": 1863,
+      "timecode": "00:59.850-01:02.050",
+      "visual": "V11",
+      "subtitle": null,
+      "compositionMode": "visual-only",
+      "note": "",
+      "purpose": "整个画面缩小形成留边，强调句持续后交给头顶眩晕提示。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": true,
+      "sourceType": "original-reference",
+      "durationSeconds": 2.200000000000003,
+      "dialogueRelation": "整个画面缩小形成留边，强调句持续后交给头顶眩晕提示。",
+      "presenterState": "全画面缩小黑边强调",
+      "layerOrder": [
+        "黑底",
+        "整体缩小的人物底片",
+        "普通口播主字幕"
+      ],
+      "expressionHandoff": "整个画面缩小形成留边，强调句持续后交给头顶眩晕提示。",
+      "enteringAssets": [
+        "黑底",
+        "整体缩小的人物底片"
+      ],
+      "subtitleChanges": "普通口播主字幕，仅辅助阅读，不计独立字幕动效",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "整体画面缩小形成黑色留边，持续一个强调句后回到常规构图。",
+        "hold": "见中间过程帧",
+        "reveal": "画面对象接管表达",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N16-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 1796,
+          "pts": 59.816767
+        },
+        {
+          "frame": 1797,
+          "pts": 59.8501
+        },
+        {
+          "frame": 1813,
+          "pts": 60.383433
+        },
+        {
+          "frame": 1830,
+          "pts": 60.9501
+        },
+        {
+          "frame": 1862,
+          "pts": 62.016767
+        },
+        {
+          "frame": 1863,
+          "pts": 62.0501
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "全画面缩小黑边：强调手术后的疲惫",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "durationFrames": 66
+    },
+    {
+      "id": "N17",
+      "name": "整体放大＋头顶旋涡提示疲惫眩晕",
+      "members": [
+        "N17"
+      ],
+      "startFrame": 1863,
+      "endFrame": 1911,
+      "timecode": "01:02.050-01:03.650",
+      "visual": "V07",
+      "subtitle": null,
+      "compositionMode": "visual-only",
+      "note": "还有画面放大这个画面动效",
+      "purpose": "贴图围绕头部提示主观疲惫；与时钟共享头顶提示的空间角色，内容为variant。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": true,
+      "sourceType": "original-reference",
+      "durationSeconds": 1.6000000000000014,
+      "dialogueRelation": "贴图围绕头部提示主观疲惫；与时钟共享头顶提示的空间角色，内容为variant。",
+      "presenterState": "头顶语义贴图提示",
+      "layerOrder": [
+        "整体放大的人物底片",
+        "头顶旋涡",
+        "普通口播主字幕"
+      ],
+      "expressionHandoff": "贴图围绕头部提示主观疲惫；与时钟共享头顶提示的空间角色，内容为variant。",
+      "enteringAssets": [
+        "人物底片",
+        "头顶提示图形"
+      ],
+      "subtitleChanges": "普通口播主字幕，仅辅助阅读，不计独立字幕动效",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "头顶位置出现非写实语义贴图；时钟、旋涡、疲惫漫画为不同素材实例，共同承担直观提示，精确曲线尚待测。",
+        "hold": "见中间过程帧",
+        "reveal": "画面对象接管表达",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N17-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 1862,
+          "pts": 62.016767
+        },
+        {
+          "frame": 1863,
+          "pts": 62.0501
+        },
+        {
+          "frame": 1875,
+          "pts": 62.4501
+        },
+        {
+          "frame": 1887,
+          "pts": 62.8501
+        },
+        {
+          "frame": 1910,
+          "pts": 63.616767
+        },
+        {
+          "frame": 1911,
+          "pts": 63.6501
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "头顶旋涡贴图提示疲惫眩晕",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "visualComponents": [
+        "V07",
+        "V15"
+      ],
+      "durationFrames": 48
+    },
+    {
+      "id": "N18",
+      "name": "人物抠像前后分层＋身后病毒与禁止符号揭晓",
+      "members": [
+        "N18"
+      ],
+      "startFrame": 1981,
+      "endFrame": 2036,
+      "timecode": "01:05.983-01:07.817",
+      "visual": "V12",
+      "subtitle": null,
+      "compositionMode": "visual-only",
+      "note": "还有一个画面动效处理，就是人物抠像；你会发现图形是在人物后面的",
+      "purpose": "两步图形揭晓，不按每个病毒或红圈分别计完整组。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": true,
+      "sourceType": "original-reference",
+      "durationSeconds": 1.8333339999999936,
+      "dialogueRelation": "两步图形揭晓，不按每个病毒或红圈分别计完整组。",
+      "presenterState": "病毒贴图与禁止符号两步揭晓",
+      "layerOrder": [
+        "原始背景",
+        "病毒图形",
+        "禁止符号",
+        "抠像人物前景",
+        "普通口播主字幕"
+      ],
+      "expressionHandoff": "两步图形揭晓，不按每个病毒或红圈分别计完整组。",
+      "enteringAssets": [
+        "人物底片",
+        "病毒图形",
+        "红色禁止符号"
+      ],
+      "subtitleChanges": "普通口播主字幕，仅辅助阅读，不计独立字幕动效",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "先病毒再红色禁止符号，用两步动作表达清除；比普通头顶贴图多一层揭晓，因此独立。",
+        "hold": "见中间过程帧",
+        "reveal": "画面对象接管表达",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N18-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 1980,
+          "pts": 65.9501
+        },
+        {
+          "frame": 1981,
+          "pts": 65.983433
+        },
+        {
+          "frame": 1994,
+          "pts": 66.416767
+        },
+        {
+          "frame": 2008,
+          "pts": 66.883433
+        },
+        {
+          "frame": 2035,
+          "pts": 67.783433
+        },
+        {
+          "frame": 2036,
+          "pts": 67.816767
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "病毒出现→禁止符号叠加：表达清除",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "visualComponents": [
+        "V12",
+        "V14"
+      ],
+      "durationFrames": 55
+    },
+    {
+      "id": "N19",
+      "name": "恢复性、稳定性、主观感受：图卡接力＋标签堆叠",
+      "members": [
+        "N19"
+      ],
+      "startFrame": 2122,
+      "endFrame": 2568,
+      "timecode": "01:10.667-01:25.517",
+      "visual": "V13",
+      "subtitle": "T09",
+      "compositionMode": "combined",
+      "note": "",
+      "purpose": "一套圆窗与图卡舞台持续承载三类作用，图卡焦点替换和标签追加构成连续完整表达。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": false,
+      "sourceType": "original-reference",
+      "durationSeconds": 14.85003300000001,
+      "dialogueRelation": "一套圆窗与图卡舞台持续承载三类作用，图卡焦点替换和标签追加构成连续完整表达。",
+      "presenterState": "圆窗人物与图卡叠放连续接力",
+      "layerOrder": [
+        "暗纹背景",
+        "左上圆窗人物",
+        "下方竖向示意图卡",
+        "恢复性标签",
+        "稳定性标签",
+        "主观感受标签"
+      ],
+      "expressionHandoff": "一套圆窗与图卡舞台持续承载三类作用，图卡焦点替换和标签追加构成连续完整表达。",
+      "enteringAssets": [
+        "暗纹背景",
+        "左上圆窗人物",
+        "下方竖向示意图卡"
+      ],
+      "subtitleChanges": "先恢复性，追加稳定性，再追加主观感受；标签随新增项重排，不能当三套画面动效。",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "三张图卡在同一舞台递进叠放、替换焦点；共同画面机制不按恢复/稳定/感受文案重复计组。",
+        "hold": "见中间过程帧",
+        "reveal": "先恢复性，追加稳定性，再追加主观感受；标签随新增项重排，不能当三套画面动效。",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N19-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 2121,
+          "pts": 70.633467
+        },
+        {
+          "frame": 2122,
+          "pts": 70.6668
+        },
+        {
+          "frame": 2233,
+          "pts": 74.3668
+        },
+        {
+          "frame": 2345,
+          "pts": 78.100133
+        },
+        {
+          "frame": 2567,
+          "pts": 85.4835
+        },
+        {
+          "frame": 2568,
+          "pts": 85.516833
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "恢复性、稳定性、主观感受：图卡接力＋标签堆叠",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "durationFrames": 446
+    },
+    {
+      "id": "N20",
+      "name": "疲惫漫画贴图提示没睡好",
+      "members": [
+        "N20"
+      ],
+      "startFrame": 2583,
+      "endFrame": 2636,
+      "timecode": "01:26.017-01:27.784",
+      "visual": "V07",
+      "subtitle": null,
+      "compositionMode": "visual-only",
+      "note": "",
+      "purpose": "漫画提示疲惫感，普通字幕继续口播；同一头顶提示机制的另一实例。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": true,
+      "sourceType": "original-reference",
+      "durationSeconds": 1.7666669999999982,
+      "dialogueRelation": "漫画提示疲惫感，普通字幕继续口播；同一头顶提示机制的另一实例。",
+      "presenterState": "头顶语义贴图提示",
+      "layerOrder": [
+        "人物底片",
+        "头顶提示图形",
+        "普通口播主字幕"
+      ],
+      "expressionHandoff": "漫画提示疲惫感，普通字幕继续口播；同一头顶提示机制的另一实例。",
+      "enteringAssets": [
+        "人物底片",
+        "头顶提示图形"
+      ],
+      "subtitleChanges": "普通口播主字幕，仅辅助阅读，不计独立字幕动效",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "头顶位置出现非写实语义贴图；时钟、旋涡、疲惫漫画为不同素材实例，共同承担直观提示，精确曲线尚待测。",
+        "hold": "见中间过程帧",
+        "reveal": "画面对象接管表达",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N20-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 2582,
+          "pts": 85.9835
+        },
+        {
+          "frame": 2583,
+          "pts": 86.016833
+        },
+        {
+          "frame": 2596,
+          "pts": 86.450167
+        },
+        {
+          "frame": 2609,
+          "pts": 86.8835
+        },
+        {
+          "frame": 2635,
+          "pts": 87.750167
+        },
+        {
+          "frame": 2636,
+          "pts": 87.7835
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "疲惫漫画贴图提示没睡好",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "durationFrames": 53
+    },
+    {
+      "id": "N21",
+      "name": "精神焕发：重点词放大泛光",
+      "members": [
+        "N21"
+      ],
+      "startFrame": 2665,
+      "endFrame": 2710,
+      "timecode": "01:28.750-01:30.250",
+      "visual": null,
+      "subtitle": "T01",
+      "compositionMode": "subtitle-only",
+      "note": "",
+      "purpose": "不同睡眠时长引出精神焕发的重点词，不制造新画面机制。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": false,
+      "sourceType": "original-reference",
+      "durationSeconds": 1.5,
+      "dialogueRelation": "不同睡眠时长引出精神焕发的重点词，不制造新画面机制。",
+      "presenterState": "全屏人物底片，无额外画面动效",
+      "layerOrder": [
+        "普通人物底片",
+        "主字幕",
+        "放大重点词",
+        "金色/黄色泛光"
+      ],
+      "expressionHandoff": "不同睡眠时长引出精神焕发的重点词，不制造新画面机制。",
+      "enteringAssets": [],
+      "subtitleChanges": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+        "hold": "见中间过程帧",
+        "reveal": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N21-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 2664,
+          "pts": 88.716833
+        },
+        {
+          "frame": 2665,
+          "pts": 88.750167
+        },
+        {
+          "frame": 2676,
+          "pts": 89.116833
+        },
+        {
+          "frame": 2687,
+          "pts": 89.4835
+        },
+        {
+          "frame": 2709,
+          "pts": 90.216833
+        },
+        {
+          "frame": 2710,
+          "pts": 90.250167
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "精神焕发：重点词放大泛光",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "durationFrames": 45
+    },
+    {
+      "id": "N22",
+      "name": "充满活力：重点词放大泛光",
+      "members": [
+        "N22"
+      ],
+      "startFrame": 2753,
+      "endFrame": 2794,
+      "timecode": "01:31.683-01:33.050",
+      "visual": null,
+      "subtitle": "T01",
+      "compositionMode": "subtitle-only",
+      "note": "",
+      "purpose": "复用重点词机制，表达另一种睡眠时长也能精神充沛。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": false,
+      "sourceType": "original-reference",
+      "durationSeconds": 1.3666670000000067,
+      "dialogueRelation": "复用重点词机制，表达另一种睡眠时长也能精神充沛。",
+      "presenterState": "全屏人物底片，无额外画面动效",
+      "layerOrder": [
+        "普通人物底片",
+        "主字幕",
+        "放大重点词",
+        "金色/黄色泛光"
+      ],
+      "expressionHandoff": "复用重点词机制，表达另一种睡眠时长也能精神充沛。",
+      "enteringAssets": [],
+      "subtitleChanges": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+        "hold": "见中间过程帧",
+        "reveal": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N22-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 2752,
+          "pts": 91.650167
+        },
+        {
+          "frame": 2753,
+          "pts": 91.6835
+        },
+        {
+          "frame": 2763,
+          "pts": 92.016833
+        },
+        {
+          "frame": 2773,
+          "pts": 92.350167
+        },
+        {
+          "frame": 2793,
+          "pts": 93.016833
+        },
+        {
+          "frame": 2794,
+          "pts": 93.050167
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "充满活力：重点词放大泛光",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "durationFrames": 41
+    },
+    {
+      "id": "N23",
+      "name": "精神好：重点词逐步强调",
+      "members": [
+        "N23"
+      ],
+      "startFrame": 2815,
+      "endFrame": 2854,
+      "timecode": "01:33.750-01:35.050",
+      "visual": null,
+      "subtitle": "T01",
+      "compositionMode": "subtitle-only",
+      "note": "",
+      "purpose": "延续结论语义，以重点词放大强调。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": false,
+      "sourceType": "original-reference",
+      "durationSeconds": 1.2999999999999972,
+      "dialogueRelation": "延续结论语义，以重点词放大强调。",
+      "presenterState": "全屏人物底片，无额外画面动效",
+      "layerOrder": [
+        "普通人物底片",
+        "主字幕",
+        "放大重点词",
+        "金色/黄色泛光"
+      ],
+      "expressionHandoff": "延续结论语义，以重点词放大强调。",
+      "enteringAssets": [],
+      "subtitleChanges": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+        "hold": "见中间过程帧",
+        "reveal": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N23-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 2814,
+          "pts": 93.716833
+        },
+        {
+          "frame": 2815,
+          "pts": 93.750167
+        },
+        {
+          "frame": 2824,
+          "pts": 94.050167
+        },
+        {
+          "frame": 2834,
+          "pts": 94.3835
+        },
+        {
+          "frame": 2853,
+          "pts": 95.016833
+        },
+        {
+          "frame": 2854,
+          "pts": 95.050167
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "精神好：重点词逐步强调",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "durationFrames": 39
+    },
+    {
+      "id": "N24",
+      "name": "白天不犯困：句内重点词强调 ＋ 晚上有睡意：后半句重点词强调",
+      "members": [
+        "N24",
+        "N25"
+      ],
+      "startFrame": 2855,
+      "endFrame": 2950,
+      "timecode": "01:35.084-01:38.250",
+      "visual": null,
+      "subtitle": "T01",
+      "compositionMode": "subtitle-only",
+      "note": "\n手动合并：N25",
+      "purpose": "同一字幕机制表达白天结果。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": false,
+      "sourceType": "original-reference",
+      "durationSeconds": 1.1333329999999933,
+      "dialogueRelation": "同一字幕机制表达白天结果。",
+      "presenterState": "全屏人物底片，无额外画面动效",
+      "layerOrder": [
+        "普通人物底片",
+        "主字幕",
+        "放大重点词",
+        "金色/黄色泛光"
+      ],
+      "expressionHandoff": "同一字幕机制表达白天结果。",
+      "enteringAssets": [],
+      "subtitleChanges": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+        "hold": "见中间过程帧",
+        "reveal": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N24-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 2854,
+          "pts": 95.050167
+        },
+        {
+          "frame": 2855,
+          "pts": 95.0835
+        },
+        {
+          "frame": 2863,
+          "pts": 95.350167
+        },
+        {
+          "frame": 2872,
+          "pts": 95.650167
+        },
+        {
+          "frame": 2888,
+          "pts": 96.1835
+        },
+        {
+          "frame": 2889,
+          "pts": 96.216833
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "白天不犯困：句内重点词强调",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "durationFrames": 95
+    }
+  ],
+  "completeGroups": [
+    {
+      "id": "N01",
+      "name": "开场暗角聚焦＋重点词揭晓",
+      "members": [
+        "N01"
+      ],
+      "startFrame": 0,
+      "endFrame": 52,
+      "timecode": "00:00.000-00:01.733",
+      "visual": "V01",
+      "subtitle": "T01",
+      "compositionMode": "combined",
+      "note": "",
+      "purpose": "以听过的说法铺垫主题；暗角聚焦人物，重点词亮起。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": false,
+      "sourceType": "original-reference",
+      "durationSeconds": 1.733333,
+      "dialogueRelation": "以听过的说法铺垫主题；暗角聚焦人物，重点词亮起。",
+      "presenterState": "开场人物暗角聚焦",
+      "layerOrder": [
+        "人物底片",
+        "边缘暗角",
+        "主字幕",
+        "放大重点词",
+        "金色/黄色泛光"
+      ],
+      "expressionHandoff": "以听过的说法铺垫主题；暗角聚焦人物，重点词亮起。",
+      "enteringAssets": [
+        "人物底片",
+        "边缘暗角"
+      ],
+      "subtitleChanges": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "人物仍主导；暗角压低周边，开场后随镜头恢复移除。",
+        "hold": "见中间过程帧",
+        "reveal": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N01-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 0,
+          "pts": 0
+        },
+        {
+          "frame": 0,
+          "pts": 0
+        },
+        {
+          "frame": 13,
+          "pts": 0.433333
+        },
+        {
+          "frame": 26,
+          "pts": 0.866667
+        },
+        {
+          "frame": 51,
+          "pts": 1.7
+        },
+        {
+          "frame": 52,
+          "pts": 1.733333
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "开场暗角聚焦＋重点词揭晓",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "durationFrames": 52
+    },
+    {
+      "id": "N02",
+      "name": "背景压暗与人物抠像＋背后8小时巨字",
+      "members": [
+        "N02"
+      ],
+      "startFrame": 54,
+      "endFrame": 111,
+      "timecode": "00:01.800-00:03.700",
+      "visual": "V14",
+      "subtitle": "T02",
+      "compositionMode": "combined",
+      "note": "是字幕动效加画面动效；画面背景暗下来了；而且人物抠像了；八小时的字幕是在人物后面的",
+      "purpose": "先重点词提出睡眠问题，随后人物背后的8小时巨字强化主题。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": false,
+      "sourceType": "original-reference",
+      "durationSeconds": 1.9000000000000001,
+      "dialogueRelation": "先重点词提出睡眠问题，随后人物背后的8小时巨字强化主题。",
+      "presenterState": "全屏人物底片，无额外画面动效",
+      "layerOrder": [
+        "原背景压暗",
+        "8小时巨字",
+        "抠像人物前景",
+        "口播主字幕"
+      ],
+      "expressionHandoff": "先重点词提出睡眠问题，随后人物背后的8小时巨字强化主题。",
+      "enteringAssets": [],
+      "subtitleChanges": "大主题文字从人物后方显现，人物在前；8小时、工业时代是语义变体。",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "大主题文字从人物后方显现，人物在前；8小时、工业时代是语义变体。",
+        "hold": "见中间过程帧",
+        "reveal": "大主题文字从人物后方显现，人物在前；8小时、工业时代是语义变体。",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N02-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 53,
+          "pts": 1.766667
+        },
+        {
+          "frame": 54,
+          "pts": 1.8
+        },
+        {
+          "frame": 68,
+          "pts": 2.266667
+        },
+        {
+          "frame": 82,
+          "pts": 2.733333
+        },
+        {
+          "frame": 110,
+          "pts": 3.666667
+        },
+        {
+          "frame": 111,
+          "pts": 3.7
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "8小时主题巨字从人物背后揭晓",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "visualComponents": [
+        "V14"
+      ],
+      "subtitleComponents": [
+        "T02"
+      ],
+      "durationFrames": 57
+    },
+    {
+      "id": "N03",
+      "name": "圆形人物窗＋失眠与白天疲倦情境接力",
+      "members": [
+        "N03"
+      ],
+      "startFrame": 111,
+      "endFrame": 263,
+      "timecode": "00:03.700-00:08.767",
+      "visual": "V02",
+      "subtitle": "T01",
+      "compositionMode": "combined",
+      "note": "",
+      "purpose": "失眠素材呈现焦虑，素材随后转到白天状态差；同一构图承载两个例子。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": false,
+      "sourceType": "original-reference",
+      "durationSeconds": 5.066667,
+      "dialogueRelation": "失眠素材呈现焦虑，素材随后转到白天状态差；同一构图承载两个例子。",
+      "presenterState": "圆形人物窗与情境素材接力",
+      "layerOrder": [
+        "黑底",
+        "下方情境视频",
+        "上方圆形人物窗",
+        "主字幕",
+        "放大重点词",
+        "金色/黄色泛光"
+      ],
+      "expressionHandoff": "失眠素材呈现焦虑，素材随后转到白天状态差；同一构图承载两个例子。",
+      "enteringAssets": [
+        "黑底",
+        "下方情境视频",
+        "上方圆形人物窗"
+      ],
+      "subtitleChanges": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "人物缩入圆窗后让素材接管；失眠场景接力到办公室疲倦场景，不因换素材另立画面机制。",
+        "hold": "见中间过程帧",
+        "reveal": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N03-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 110,
+          "pts": 3.666667
+        },
+        {
+          "frame": 111,
+          "pts": 3.7
+        },
+        {
+          "frame": 149,
+          "pts": 4.966667
+        },
+        {
+          "frame": 187,
+          "pts": 6.233333
+        },
+        {
+          "frame": 262,
+          "pts": 8.733333
+        },
+        {
+          "frame": 263,
+          "pts": 8.766667
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "圆形人物窗＋失眠与白天疲倦情境接力",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "durationFrames": 152
+    },
+    {
+      "id": "N04",
+      "name": "圆形人物窗扩张恢复全屏",
+      "members": [
+        "N04"
+      ],
+      "startFrame": 263,
+      "endFrame": 276,
+      "timecode": "00:08.767-00:09.200",
+      "visual": "V03",
+      "subtitle": null,
+      "compositionMode": "visual-only",
+      "note": "",
+      "purpose": "例子结束后人物窗扩大恢复全屏，口播主字幕不另算字幕动效。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": true,
+      "sourceType": "original-reference",
+      "durationSeconds": 0.4333329999999993,
+      "dialogueRelation": "例子结束后人物窗扩大恢复全屏，口播主字幕不另算字幕动效。",
+      "presenterState": "圆窗扩大恢复全屏人物",
+      "layerOrder": [
+        "黑底",
+        "圆形/圆角人物遮罩",
+        "普通口播主字幕"
+      ],
+      "expressionHandoff": "例子结束后人物窗扩大恢复全屏，口播主字幕不另算字幕动效。",
+      "enteringAssets": [
+        "黑底",
+        "圆形/圆角人物遮罩"
+      ],
+      "subtitleChanges": "普通口播主字幕，仅辅助阅读，不计独立字幕动效",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "人物圆窗从小到大扩张，恢复正常全屏；独立记录遮罩交接动作。",
+        "hold": "见中间过程帧",
+        "reveal": "画面对象接管表达",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N04-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 262,
+          "pts": 8.733333
+        },
+        {
+          "frame": 263,
+          "pts": 8.766667
+        },
+        {
+          "frame": 266,
+          "pts": 8.866667
+        },
+        {
+          "frame": 269,
+          "pts": 8.966667
+        },
+        {
+          "frame": 275,
+          "pts": 9.166667
+        },
+        {
+          "frame": 276,
+          "pts": 9.2
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "圆形人物窗扩张恢复全屏",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "durationFrames": 13
+    },
+    {
+      "id": "N05",
+      "name": "手形光标指向睡眠关键词",
+      "members": [
+        "N05"
+      ],
+      "startFrame": 289,
+      "endFrame": 331,
+      "timecode": "00:09.633-00:11.033",
+      "visual": null,
+      "subtitle": "T03",
+      "compositionMode": "subtitle-only",
+      "note": "",
+      "purpose": "光标和关键词属于同一注意力引导，不把普通人物底片计为画面动作。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": false,
+      "sourceType": "original-reference",
+      "durationSeconds": 1.4000000000000004,
+      "dialogueRelation": "光标和关键词属于同一注意力引导，不把普通人物底片计为画面动作。",
+      "presenterState": "全屏人物底片，无额外画面动效",
+      "layerOrder": [
+        "普通人物底片",
+        "短句",
+        "放大关键词",
+        "手形光标"
+      ],
+      "expressionHandoff": "光标和关键词属于同一注意力引导，不把普通人物底片计为画面动作。",
+      "enteringAssets": [],
+      "subtitleChanges": "关键词出现后，光标指向/点击其位置，使“睡眠/8小时”成为关注对象。",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "关键词出现后，光标指向/点击其位置，使“睡眠/8小时”成为关注对象。",
+        "hold": "见中间过程帧",
+        "reveal": "关键词出现后，光标指向/点击其位置，使“睡眠/8小时”成为关注对象。",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N05-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 288,
+          "pts": 9.6
+        },
+        {
+          "frame": 289,
+          "pts": 9.633333
+        },
+        {
+          "frame": 299,
+          "pts": 9.966667
+        },
+        {
+          "frame": 310,
+          "pts": 10.333333
+        },
+        {
+          "frame": 330,
+          "pts": 11
+        },
+        {
+          "frame": 331,
+          "pts": 11.033333
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "手形光标指向睡眠关键词",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "durationFrames": 42
+    },
+    {
+      "id": "N06",
+      "name": "白描人物抠像＋工业背景拼贴与大标题",
+      "members": [
+        "N06"
+      ],
+      "startFrame": 331,
+      "endFrame": 444,
+      "timecode": "00:11.033-00:14.800",
+      "visual": "V04",
+      "subtitle": "T02",
+      "compositionMode": "combined",
+      "note": "",
+      "purpose": "人物先被抠像到暗底，再叠工业场景，巨字工业时代接管主题。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": false,
+      "sourceType": "original-reference",
+      "durationSeconds": 3.766667,
+      "dialogueRelation": "人物先被抠像到暗底，再叠工业场景，巨字工业时代接管主题。",
+      "presenterState": "白描人物抠像与工业拼贴",
+      "layerOrder": [
+        "暗纹背景",
+        "工业照片拼贴",
+        "白描抠像人物",
+        "背景巨字",
+        "前景人物遮挡",
+        "普通口播字幕"
+      ],
+      "expressionHandoff": "人物先被抠像到暗底，再叠工业场景，巨字工业时代接管主题。",
+      "enteringAssets": [
+        "暗纹背景",
+        "工业照片拼贴",
+        "白描抠像人物"
+      ],
+      "subtitleChanges": "大主题文字从人物后方显现，人物在前；8小时、工业时代是语义变体。",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "先抠像人物落位，工业照片从后方递进铺开；背景负责历史语境。",
+        "hold": "见中间过程帧",
+        "reveal": "大主题文字从人物后方显现，人物在前；8小时、工业时代是语义变体。",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N06-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 330,
+          "pts": 11
+        },
+        {
+          "frame": 331,
+          "pts": 11.033333
+        },
+        {
+          "frame": 359,
+          "pts": 11.966667
+        },
+        {
+          "frame": 387,
+          "pts": 12.9
+        },
+        {
+          "frame": 443,
+          "pts": 14.766667
+        },
+        {
+          "frame": 444,
+          "pts": 14.8
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "白描人物抠像＋工业背景拼贴与大标题",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "durationFrames": 113
+    },
+    {
+      "id": "N07",
+      "name": "历史文献铺垫→论文阶梯→证据标题标记",
+      "members": [
+        "N07"
+      ],
+      "startFrame": 444,
+      "endFrame": 608,
+      "timecode": "00:14.800-00:20.250",
+      "visual": "V05",
+      "subtitle": "T04",
+      "compositionMode": "combined",
+      "note": "",
+      "purpose": "先历史材料，再多页论文递进，焦点论文与标记共同揭晓古人的两段睡眠。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": false,
+      "sourceType": "original-reference",
+      "durationSeconds": 5.450032999999998,
+      "dialogueRelation": "先历史材料，再多页论文递进，焦点论文与标记共同揭晓古人的两段睡眠。",
+      "presenterState": "历史人物与论文阶梯递进",
+      "layerOrder": [
+        "暗纹背景",
+        "历史人物图",
+        "多页论文",
+        "论文局部放大",
+        "论文标题标记",
+        "重点文字",
+        "补充说明"
+      ],
+      "expressionHandoff": "先历史材料，再多页论文递进，焦点论文与标记共同揭晓古人的两段睡眠。",
+      "enteringAssets": [
+        "暗纹背景",
+        "历史人物图",
+        "多页论文",
+        "论文局部放大"
+      ],
+      "subtitleChanges": "用标题高亮/局部放大给证据定点，上方文字逐层揭晓其结论。",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "历史文献/人物铺垫→论文页阶梯展开→焦点论文居中；属于证据递进的一组。",
+        "hold": "见中间过程帧",
+        "reveal": "用标题高亮/局部放大给证据定点，上方文字逐层揭晓其结论。",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N07-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 443,
+          "pts": 14.766667
+        },
+        {
+          "frame": 444,
+          "pts": 14.8
+        },
+        {
+          "frame": 485,
+          "pts": 16.166667
+        },
+        {
+          "frame": 526,
+          "pts": 17.5167
+        },
+        {
+          "frame": 607,
+          "pts": 20.2167
+        },
+        {
+          "frame": 608,
+          "pts": 20.250033
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "历史文献铺垫→论文阶梯→证据标题标记",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "durationFrames": 164
+    },
+    {
+      "id": "N08",
+      "name": "两段式睡眠：太阳、月亮与夜间活动小卡",
+      "members": [
+        "N08"
+      ],
+      "startFrame": 608,
+      "endFrame": 850,
+      "timecode": "00:20.250-00:28.317",
+      "visual": "V06",
+      "subtitle": "T05",
+      "compositionMode": "combined",
+      "note": "",
+      "purpose": "床上人物、日夜符号与活动卡递进构成一个完整解释，竖排主题字保持对应。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": false,
+      "sourceType": "original-reference",
+      "durationSeconds": 8.066667000000002,
+      "dialogueRelation": "床上人物、日夜符号与活动卡递进构成一个完整解释，竖排主题字保持对应。",
+      "presenterState": "两段睡眠的日夜舞台与小卡递进",
+      "layerOrder": [
+        "暗纹背景",
+        "床上人物抠像",
+        "太阳/月亮",
+        "底部事件小卡",
+        "左列睡眠",
+        "右列两段式"
+      ],
+      "expressionHandoff": "床上人物、日夜符号与活动卡递进构成一个完整解释，竖排主题字保持对应。",
+      "enteringAssets": [
+        "暗纹背景",
+        "床上人物抠像",
+        "太阳/月亮",
+        "底部事件小卡"
+      ],
+      "subtitleChanges": "两侧大字先以暗描边显现再变亮，围住人物动作舞台，表达“两段式睡眠”。",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "先睡眠姿态，再太阳/醒来，夜间活动小卡依次出现，月亮与再次躺下收束。",
+        "hold": "见中间过程帧",
+        "reveal": "两侧大字先以暗描边显现再变亮，围住人物动作舞台，表达“两段式睡眠”。",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N08-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 607,
+          "pts": 20.2167
+        },
+        {
+          "frame": 608,
+          "pts": 20.250033
+        },
+        {
+          "frame": 668,
+          "pts": 22.250033
+        },
+        {
+          "frame": 729,
+          "pts": 24.283367
+        },
+        {
+          "frame": 849,
+          "pts": 28.283367
+        },
+        {
+          "frame": 850,
+          "pts": 28.3167
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "两段式睡眠：太阳、月亮与夜间活动小卡",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "durationFrames": 242
+    },
+    {
+      "id": "N09",
+      "name": "头顶时钟贴图＋钟表时间重点词放大",
+      "members": [
+        "N09"
+      ],
+      "startFrame": 971,
+      "endFrame": 1037,
+      "timecode": "00:32.350-00:34.533",
+      "visual": "V07",
+      "subtitle": "T01",
+      "compositionMode": "combined",
+      "note": "还有字幕动效；字幕的重点词有放大的动效",
+      "purpose": "头顶时钟/人物贴图将钟表时间具象化；句子下方为口播主字幕。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": true,
+      "sourceType": "original-reference",
+      "durationSeconds": 2.183366999999997,
+      "dialogueRelation": "头顶时钟/人物贴图将钟表时间具象化；句子下方为口播主字幕。",
+      "presenterState": "头顶语义贴图提示",
+      "layerOrder": [
+        "人物底片",
+        "头顶时钟与人物贴图",
+        "口播主字幕",
+        "放大重点词"
+      ],
+      "expressionHandoff": "头顶时钟/人物贴图将钟表时间具象化；句子下方为口播主字幕。",
+      "enteringAssets": [
+        "人物底片",
+        "头顶提示图形"
+      ],
+      "subtitleChanges": "普通口播主字幕，仅辅助阅读，不计独立字幕动效",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "头顶位置出现非写实语义贴图；时钟、旋涡、疲惫漫画为不同素材实例，共同承担直观提示，精确曲线尚待测。",
+        "hold": "见中间过程帧",
+        "reveal": "画面对象接管表达",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N09-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 970,
+          "pts": 32.3167
+        },
+        {
+          "frame": 971,
+          "pts": 32.350033
+        },
+        {
+          "frame": 987,
+          "pts": 32.883367
+        },
+        {
+          "frame": 1004,
+          "pts": 33.450033
+        },
+        {
+          "frame": 1036,
+          "pts": 34.500067
+        },
+        {
+          "frame": 1037,
+          "pts": 34.5334
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "头顶时钟与人物贴图说明钟表时间",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "visualComponents": [
+        "V07"
+      ],
+      "subtitleComponents": [
+        "T01"
+      ],
+      "durationFrames": 66
+    },
+    {
+      "id": "N10",
+      "name": "睡满8小时与标准睡眠的重点词递进",
+      "members": [
+        "N10"
+      ],
+      "startFrame": 1037,
+      "endFrame": 1132,
+      "timecode": "00:34.533-00:37.700",
+      "visual": null,
+      "subtitle": "T01",
+      "compositionMode": "subtitle-only",
+      "note": "",
+      "purpose": "重点词放大/泛光，第二行标准睡眠跟进；没有额外画面动作。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": false,
+      "sourceType": "original-reference",
+      "durationSeconds": 3.166666999999997,
+      "dialogueRelation": "重点词放大/泛光，第二行标准睡眠跟进；没有额外画面动作。",
+      "presenterState": "全屏人物底片，无额外画面动效",
+      "layerOrder": [
+        "普通人物底片",
+        "主字幕",
+        "放大重点词",
+        "金色/黄色泛光"
+      ],
+      "expressionHandoff": "重点词放大/泛光，第二行标准睡眠跟进；没有额外画面动作。",
+      "enteringAssets": [],
+      "subtitleChanges": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+        "hold": "见中间过程帧",
+        "reveal": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N10-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 1036,
+          "pts": 34.500067
+        },
+        {
+          "frame": 1037,
+          "pts": 34.5334
+        },
+        {
+          "frame": 1060,
+          "pts": 35.300067
+        },
+        {
+          "frame": 1084,
+          "pts": 36.100067
+        },
+        {
+          "frame": 1131,
+          "pts": 37.666733
+        },
+        {
+          "frame": 1132,
+          "pts": 37.700067
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "睡满8小时与标准睡眠的重点词递进",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "durationFrames": 95
+    },
+    {
+      "id": "N11",
+      "name": "圆形人物＋老作息表透视旋入与注释",
+      "members": [
+        "N11"
+      ],
+      "startFrame": 1160,
+      "endFrame": 1258,
+      "timecode": "00:38.633-00:41.900",
+      "visual": "V08",
+      "subtitle": "T06",
+      "compositionMode": "combined",
+      "note": "",
+      "purpose": "人物缩入发光圆窗，作息表旋入放大，注释词条接续补充。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": false,
+      "sourceType": "original-reference",
+      "durationSeconds": 3.266666999999998,
+      "dialogueRelation": "人物缩入发光圆窗，作息表旋入放大，注释词条接续补充。",
+      "presenterState": "圆形人物与作息表透视展示",
+      "layerOrder": [
+        "暗纹背景",
+        "发光圆形人物窗",
+        "透视作息表",
+        "底色小标签",
+        "重点词"
+      ],
+      "expressionHandoff": "人物缩入发光圆窗，作息表旋入放大，注释词条接续补充。",
+      "enteringAssets": [
+        "暗纹背景",
+        "发光圆形人物窗",
+        "透视作息表"
+      ],
+      "subtitleChanges": "在已落位的素材上弹出小标签，解释早期作息安排。",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "人物缩成圆窗，让旧作息表旋入并占据下方；同组内增加文字标注。",
+        "hold": "见中间过程帧",
+        "reveal": "在已落位的素材上弹出小标签，解释早期作息安排。",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N11-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 1159,
+          "pts": 38.600067
+        },
+        {
+          "frame": 1160,
+          "pts": 38.6334
+        },
+        {
+          "frame": 1184,
+          "pts": 39.4334
+        },
+        {
+          "frame": 1209,
+          "pts": 40.266733
+        },
+        {
+          "frame": 1257,
+          "pts": 41.866733
+        },
+        {
+          "frame": 1258,
+          "pts": 41.900067
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "圆形人物＋老作息表透视旋入与注释",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "durationFrames": 98
+    },
+    {
+      "id": "N12",
+      "name": "头顶问号＋口播字幕滚动切换",
+      "members": [
+        "N12"
+      ],
+      "startFrame": 1348,
+      "endFrame": 1374,
+      "timecode": "00:44.900-00:45.767",
+      "visual": null,
+      "subtitle": "T07",
+      "compositionMode": "subtitle-only",
+      "note": "这里还有一个字幕动效；就是字幕滚动效果",
+      "purpose": "问号提示疑问，普通口播底片不计画面family。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": false,
+      "sourceType": "original-reference",
+      "durationSeconds": 0.8666660000000022,
+      "dialogueRelation": "问号提示疑问，普通口播底片不计画面family。",
+      "presenterState": "全屏人物底片，无额外画面动效",
+      "layerOrder": [
+        "普通人物底片",
+        "头顶问号",
+        "滚动口播字幕"
+      ],
+      "expressionHandoff": "问号提示疑问，普通口播底片不计画面family。",
+      "enteringAssets": [],
+      "subtitleChanges": "多个问号作为语义符号弹出并停留；无额外镜头动作，记为字幕/符号动效。",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "多个问号作为语义符号弹出并停留；无额外镜头动作，记为字幕/符号动效。",
+        "hold": "见中间过程帧",
+        "reveal": "多个问号作为语义符号弹出并停留；无额外镜头动作，记为字幕/符号动效。",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N12-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 1347,
+          "pts": 44.866733
+        },
+        {
+          "frame": 1348,
+          "pts": 44.900067
+        },
+        {
+          "frame": 1354,
+          "pts": 45.100067
+        },
+        {
+          "frame": 1361,
+          "pts": 45.3334
+        },
+        {
+          "frame": 1373,
+          "pts": 45.7334
+        },
+        {
+          "frame": 1374,
+          "pts": 45.766733
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "为什么：头顶问号弹出",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "subtitleComponents": [
+        "T07",
+        "T10"
+      ],
+      "durationFrames": 26
+    },
+    {
+      "id": "N13",
+      "name": "暗角聚焦＋真正作用金色大字落位",
+      "members": [
+        "N13"
+      ],
+      "startFrame": 1421,
+      "endFrame": 1443,
+      "timecode": "00:47.333-00:48.067",
+      "visual": "V01",
+      "subtitle": "T08",
+      "compositionMode": "combined",
+      "note": "这里还有一个画面动效；画面有暗角",
+      "purpose": "大字从虚影到前景落位，强调从时长转向真正作用。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": false,
+      "sourceType": "original-reference",
+      "durationSeconds": 0.7333330000000018,
+      "dialogueRelation": "大字从虚影到前景落位，强调从时长转向真正作用。",
+      "presenterState": "全屏人物底片，无额外画面动效",
+      "layerOrder": [
+        "人物底片",
+        "暗角蒙层",
+        "前景金色大字",
+        "红色阴影/底色"
+      ],
+      "expressionHandoff": "大字从虚影到前景落位，强调从时长转向真正作用。",
+      "enteringAssets": [],
+      "subtitleChanges": "“真正作用”大字由虚到实/放大落位，接管普通口播句。",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "“真正作用”大字由虚到实/放大落位，接管普通口播句。",
+        "hold": "见中间过程帧",
+        "reveal": "“真正作用”大字由虚到实/放大落位，接管普通口播句。",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N13-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 1420,
+          "pts": 47.300067
+        },
+        {
+          "frame": 1421,
+          "pts": 47.3334
+        },
+        {
+          "frame": 1426,
+          "pts": 47.500067
+        },
+        {
+          "frame": 1432,
+          "pts": 47.700067
+        },
+        {
+          "frame": 1442,
+          "pts": 48.0334
+        },
+        {
+          "frame": 1443,
+          "pts": 48.066733
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "真正作用：前景金色大字落位",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "visualComponents": [
+        "V01"
+      ],
+      "subtitleComponents": [
+        "T08"
+      ],
+      "durationFrames": 22
+    },
+    {
+      "id": "N14",
+      "name": "人物背景虚化→Nature论文卷页→标题局部放大",
+      "members": [
+        "N14"
+      ],
+      "startFrame": 1443,
+      "endFrame": 1515,
+      "timecode": "00:48.067-00:50.467",
+      "visual": "V09",
+      "subtitle": "T04",
+      "compositionMode": "combined",
+      "note": "",
+      "purpose": "人物虚化让位于论文，标题高亮与局部放大给证据定点。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": false,
+      "sourceType": "original-reference",
+      "durationSeconds": 2.3999999999999986,
+      "dialogueRelation": "人物虚化让位于论文，标题高亮与局部放大给证据定点。",
+      "presenterState": "背景虚化与论文卡片卷页放大",
+      "layerOrder": [
+        "人物底片虚化",
+        "论文卡片",
+        "局部标题放大层",
+        "论文标题标记",
+        "重点文字",
+        "补充说明"
+      ],
+      "expressionHandoff": "人物虚化让位于论文，标题高亮与局部放大给证据定点。",
+      "enteringAssets": [
+        "人物底片虚化",
+        "论文卡片",
+        "局部标题放大层"
+      ],
+      "subtitleChanges": "用标题高亮/局部放大给证据定点，上方文字逐层揭晓其结论。",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "人物虚化让位，论文从小卷页展开；随后标题局部放大承担证据。",
+        "hold": "见中间过程帧",
+        "reveal": "用标题高亮/局部放大给证据定点，上方文字逐层揭晓其结论。",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N14-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 1442,
+          "pts": 48.0334
+        },
+        {
+          "frame": 1443,
+          "pts": 48.066733
+        },
+        {
+          "frame": 1461,
+          "pts": 48.666733
+        },
+        {
+          "frame": 1479,
+          "pts": 49.266733
+        },
+        {
+          "frame": 1514,
+          "pts": 50.4334
+        },
+        {
+          "frame": 1515,
+          "pts": 50.466733
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "人物背景虚化→Nature论文卷页→标题局部放大",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "durationFrames": 72
+    },
+    {
+      "id": "N15",
+      "name": "圆角科学影像：大脑→细胞→线粒体→物质积累",
+      "members": [
+        "N15"
+      ],
+      "startFrame": 1515,
+      "endFrame": 1797,
+      "timecode": "00:50.467-00:59.850",
+      "visual": "V10",
+      "subtitle": null,
+      "compositionMode": "visual-only",
+      "note": "",
+      "purpose": "科学影像连续推进解释代谢过程；圆窗人物讲述，口播字幕不是额外字幕组件。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": true,
+      "sourceType": "original-reference",
+      "durationSeconds": 9.383367,
+      "dialogueRelation": "科学影像连续推进解释代谢过程；圆窗人物讲述，口播字幕不是额外字幕组件。",
+      "presenterState": "圆窗讲述与圆角科学影像连续放大",
+      "layerOrder": [
+        "人物底片虚化",
+        "圆角科学视频",
+        "左上圆窗人物",
+        "普通口播主字幕"
+      ],
+      "expressionHandoff": "科学影像连续推进解释代谢过程；圆窗人物讲述，口播字幕不是额外字幕组件。",
+      "enteringAssets": [
+        "人物底片虚化",
+        "圆角科学视频",
+        "左上圆窗人物"
+      ],
+      "subtitleChanges": "普通口播主字幕，仅辅助阅读，不计独立字幕动效",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "同一圆角视窗内从大脑推进到细胞/线粒体并展示物质积累，内部换景不重复拆画面family。",
+        "hold": "见中间过程帧",
+        "reveal": "画面对象接管表达",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N15-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 1514,
+          "pts": 50.4334
+        },
+        {
+          "frame": 1515,
+          "pts": 50.466733
+        },
+        {
+          "frame": 1585,
+          "pts": 52.783433
+        },
+        {
+          "frame": 1656,
+          "pts": 55.1501
+        },
+        {
+          "frame": 1796,
+          "pts": 59.816767
+        },
+        {
+          "frame": 1797,
+          "pts": 59.8501
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "圆角科学影像：大脑→细胞→线粒体→物质积累",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "durationFrames": 282
+    },
+    {
+      "id": "N16",
+      "name": "全画面缩小黑边：强调手术后的疲惫",
+      "members": [
+        "N16"
+      ],
+      "startFrame": 1797,
+      "endFrame": 1863,
+      "timecode": "00:59.850-01:02.050",
+      "visual": "V11",
+      "subtitle": null,
+      "compositionMode": "visual-only",
+      "note": "",
+      "purpose": "整个画面缩小形成留边，强调句持续后交给头顶眩晕提示。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": true,
+      "sourceType": "original-reference",
+      "durationSeconds": 2.200000000000003,
+      "dialogueRelation": "整个画面缩小形成留边，强调句持续后交给头顶眩晕提示。",
+      "presenterState": "全画面缩小黑边强调",
+      "layerOrder": [
+        "黑底",
+        "整体缩小的人物底片",
+        "普通口播主字幕"
+      ],
+      "expressionHandoff": "整个画面缩小形成留边，强调句持续后交给头顶眩晕提示。",
+      "enteringAssets": [
+        "黑底",
+        "整体缩小的人物底片"
+      ],
+      "subtitleChanges": "普通口播主字幕，仅辅助阅读，不计独立字幕动效",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "整体画面缩小形成黑色留边，持续一个强调句后回到常规构图。",
+        "hold": "见中间过程帧",
+        "reveal": "画面对象接管表达",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N16-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 1796,
+          "pts": 59.816767
+        },
+        {
+          "frame": 1797,
+          "pts": 59.8501
+        },
+        {
+          "frame": 1813,
+          "pts": 60.383433
+        },
+        {
+          "frame": 1830,
+          "pts": 60.9501
+        },
+        {
+          "frame": 1862,
+          "pts": 62.016767
+        },
+        {
+          "frame": 1863,
+          "pts": 62.0501
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "全画面缩小黑边：强调手术后的疲惫",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "durationFrames": 66
+    },
+    {
+      "id": "N17",
+      "name": "整体放大＋头顶旋涡提示疲惫眩晕",
+      "members": [
+        "N17"
+      ],
+      "startFrame": 1863,
+      "endFrame": 1911,
+      "timecode": "01:02.050-01:03.650",
+      "visual": "V07",
+      "subtitle": null,
+      "compositionMode": "visual-only",
+      "note": "还有画面放大这个画面动效",
+      "purpose": "贴图围绕头部提示主观疲惫；与时钟共享头顶提示的空间角色，内容为variant。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": true,
+      "sourceType": "original-reference",
+      "durationSeconds": 1.6000000000000014,
+      "dialogueRelation": "贴图围绕头部提示主观疲惫；与时钟共享头顶提示的空间角色，内容为variant。",
+      "presenterState": "头顶语义贴图提示",
+      "layerOrder": [
+        "整体放大的人物底片",
+        "头顶旋涡",
+        "普通口播主字幕"
+      ],
+      "expressionHandoff": "贴图围绕头部提示主观疲惫；与时钟共享头顶提示的空间角色，内容为variant。",
+      "enteringAssets": [
+        "人物底片",
+        "头顶提示图形"
+      ],
+      "subtitleChanges": "普通口播主字幕，仅辅助阅读，不计独立字幕动效",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "头顶位置出现非写实语义贴图；时钟、旋涡、疲惫漫画为不同素材实例，共同承担直观提示，精确曲线尚待测。",
+        "hold": "见中间过程帧",
+        "reveal": "画面对象接管表达",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N17-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 1862,
+          "pts": 62.016767
+        },
+        {
+          "frame": 1863,
+          "pts": 62.0501
+        },
+        {
+          "frame": 1875,
+          "pts": 62.4501
+        },
+        {
+          "frame": 1887,
+          "pts": 62.8501
+        },
+        {
+          "frame": 1910,
+          "pts": 63.616767
+        },
+        {
+          "frame": 1911,
+          "pts": 63.6501
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "头顶旋涡贴图提示疲惫眩晕",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "visualComponents": [
+        "V07",
+        "V15"
+      ],
+      "durationFrames": 48
+    },
+    {
+      "id": "N18",
+      "name": "人物抠像前后分层＋身后病毒与禁止符号揭晓",
+      "members": [
+        "N18"
+      ],
+      "startFrame": 1981,
+      "endFrame": 2036,
+      "timecode": "01:05.983-01:07.817",
+      "visual": "V12",
+      "subtitle": null,
+      "compositionMode": "visual-only",
+      "note": "还有一个画面动效处理，就是人物抠像；你会发现图形是在人物后面的",
+      "purpose": "两步图形揭晓，不按每个病毒或红圈分别计完整组。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": true,
+      "sourceType": "original-reference",
+      "durationSeconds": 1.8333339999999936,
+      "dialogueRelation": "两步图形揭晓，不按每个病毒或红圈分别计完整组。",
+      "presenterState": "病毒贴图与禁止符号两步揭晓",
+      "layerOrder": [
+        "原始背景",
+        "病毒图形",
+        "禁止符号",
+        "抠像人物前景",
+        "普通口播主字幕"
+      ],
+      "expressionHandoff": "两步图形揭晓，不按每个病毒或红圈分别计完整组。",
+      "enteringAssets": [
+        "人物底片",
+        "病毒图形",
+        "红色禁止符号"
+      ],
+      "subtitleChanges": "普通口播主字幕，仅辅助阅读，不计独立字幕动效",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "先病毒再红色禁止符号，用两步动作表达清除；比普通头顶贴图多一层揭晓，因此独立。",
+        "hold": "见中间过程帧",
+        "reveal": "画面对象接管表达",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N18-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 1980,
+          "pts": 65.9501
+        },
+        {
+          "frame": 1981,
+          "pts": 65.983433
+        },
+        {
+          "frame": 1994,
+          "pts": 66.416767
+        },
+        {
+          "frame": 2008,
+          "pts": 66.883433
+        },
+        {
+          "frame": 2035,
+          "pts": 67.783433
+        },
+        {
+          "frame": 2036,
+          "pts": 67.816767
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "病毒出现→禁止符号叠加：表达清除",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "visualComponents": [
+        "V12",
+        "V14"
+      ],
+      "durationFrames": 55
+    },
+    {
+      "id": "N19",
+      "name": "恢复性、稳定性、主观感受：图卡接力＋标签堆叠",
+      "members": [
+        "N19"
+      ],
+      "startFrame": 2122,
+      "endFrame": 2568,
+      "timecode": "01:10.667-01:25.517",
+      "visual": "V13",
+      "subtitle": "T09",
+      "compositionMode": "combined",
+      "note": "",
+      "purpose": "一套圆窗与图卡舞台持续承载三类作用，图卡焦点替换和标签追加构成连续完整表达。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": false,
+      "sourceType": "original-reference",
+      "durationSeconds": 14.85003300000001,
+      "dialogueRelation": "一套圆窗与图卡舞台持续承载三类作用，图卡焦点替换和标签追加构成连续完整表达。",
+      "presenterState": "圆窗人物与图卡叠放连续接力",
+      "layerOrder": [
+        "暗纹背景",
+        "左上圆窗人物",
+        "下方竖向示意图卡",
+        "恢复性标签",
+        "稳定性标签",
+        "主观感受标签"
+      ],
+      "expressionHandoff": "一套圆窗与图卡舞台持续承载三类作用，图卡焦点替换和标签追加构成连续完整表达。",
+      "enteringAssets": [
+        "暗纹背景",
+        "左上圆窗人物",
+        "下方竖向示意图卡"
+      ],
+      "subtitleChanges": "先恢复性，追加稳定性，再追加主观感受；标签随新增项重排，不能当三套画面动效。",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "三张图卡在同一舞台递进叠放、替换焦点；共同画面机制不按恢复/稳定/感受文案重复计组。",
+        "hold": "见中间过程帧",
+        "reveal": "先恢复性，追加稳定性，再追加主观感受；标签随新增项重排，不能当三套画面动效。",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N19-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 2121,
+          "pts": 70.633467
+        },
+        {
+          "frame": 2122,
+          "pts": 70.6668
+        },
+        {
+          "frame": 2233,
+          "pts": 74.3668
+        },
+        {
+          "frame": 2345,
+          "pts": 78.100133
+        },
+        {
+          "frame": 2567,
+          "pts": 85.4835
+        },
+        {
+          "frame": 2568,
+          "pts": 85.516833
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "恢复性、稳定性、主观感受：图卡接力＋标签堆叠",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "durationFrames": 446
+    },
+    {
+      "id": "N20",
+      "name": "疲惫漫画贴图提示没睡好",
+      "members": [
+        "N20"
+      ],
+      "startFrame": 2583,
+      "endFrame": 2636,
+      "timecode": "01:26.017-01:27.784",
+      "visual": "V07",
+      "subtitle": null,
+      "compositionMode": "visual-only",
+      "note": "",
+      "purpose": "漫画提示疲惫感，普通字幕继续口播；同一头顶提示机制的另一实例。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": true,
+      "sourceType": "original-reference",
+      "durationSeconds": 1.7666669999999982,
+      "dialogueRelation": "漫画提示疲惫感，普通字幕继续口播；同一头顶提示机制的另一实例。",
+      "presenterState": "头顶语义贴图提示",
+      "layerOrder": [
+        "人物底片",
+        "头顶提示图形",
+        "普通口播主字幕"
+      ],
+      "expressionHandoff": "漫画提示疲惫感，普通字幕继续口播；同一头顶提示机制的另一实例。",
+      "enteringAssets": [
+        "人物底片",
+        "头顶提示图形"
+      ],
+      "subtitleChanges": "普通口播主字幕，仅辅助阅读，不计独立字幕动效",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "头顶位置出现非写实语义贴图；时钟、旋涡、疲惫漫画为不同素材实例，共同承担直观提示，精确曲线尚待测。",
+        "hold": "见中间过程帧",
+        "reveal": "画面对象接管表达",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N20-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 2582,
+          "pts": 85.9835
+        },
+        {
+          "frame": 2583,
+          "pts": 86.016833
+        },
+        {
+          "frame": 2596,
+          "pts": 86.450167
+        },
+        {
+          "frame": 2609,
+          "pts": 86.8835
+        },
+        {
+          "frame": 2635,
+          "pts": 87.750167
+        },
+        {
+          "frame": 2636,
+          "pts": 87.7835
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "疲惫漫画贴图提示没睡好",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "durationFrames": 53
+    },
+    {
+      "id": "N21",
+      "name": "精神焕发：重点词放大泛光",
+      "members": [
+        "N21"
+      ],
+      "startFrame": 2665,
+      "endFrame": 2710,
+      "timecode": "01:28.750-01:30.250",
+      "visual": null,
+      "subtitle": "T01",
+      "compositionMode": "subtitle-only",
+      "note": "",
+      "purpose": "不同睡眠时长引出精神焕发的重点词，不制造新画面机制。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": false,
+      "sourceType": "original-reference",
+      "durationSeconds": 1.5,
+      "dialogueRelation": "不同睡眠时长引出精神焕发的重点词，不制造新画面机制。",
+      "presenterState": "全屏人物底片，无额外画面动效",
+      "layerOrder": [
+        "普通人物底片",
+        "主字幕",
+        "放大重点词",
+        "金色/黄色泛光"
+      ],
+      "expressionHandoff": "不同睡眠时长引出精神焕发的重点词，不制造新画面机制。",
+      "enteringAssets": [],
+      "subtitleChanges": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+        "hold": "见中间过程帧",
+        "reveal": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N21-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 2664,
+          "pts": 88.716833
+        },
+        {
+          "frame": 2665,
+          "pts": 88.750167
+        },
+        {
+          "frame": 2676,
+          "pts": 89.116833
+        },
+        {
+          "frame": 2687,
+          "pts": 89.4835
+        },
+        {
+          "frame": 2709,
+          "pts": 90.216833
+        },
+        {
+          "frame": 2710,
+          "pts": 90.250167
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "精神焕发：重点词放大泛光",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "durationFrames": 45
+    },
+    {
+      "id": "N22",
+      "name": "充满活力：重点词放大泛光",
+      "members": [
+        "N22"
+      ],
+      "startFrame": 2753,
+      "endFrame": 2794,
+      "timecode": "01:31.683-01:33.050",
+      "visual": null,
+      "subtitle": "T01",
+      "compositionMode": "subtitle-only",
+      "note": "",
+      "purpose": "复用重点词机制，表达另一种睡眠时长也能精神充沛。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": false,
+      "sourceType": "original-reference",
+      "durationSeconds": 1.3666670000000067,
+      "dialogueRelation": "复用重点词机制，表达另一种睡眠时长也能精神充沛。",
+      "presenterState": "全屏人物底片，无额外画面动效",
+      "layerOrder": [
+        "普通人物底片",
+        "主字幕",
+        "放大重点词",
+        "金色/黄色泛光"
+      ],
+      "expressionHandoff": "复用重点词机制，表达另一种睡眠时长也能精神充沛。",
+      "enteringAssets": [],
+      "subtitleChanges": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+        "hold": "见中间过程帧",
+        "reveal": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N22-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 2752,
+          "pts": 91.650167
+        },
+        {
+          "frame": 2753,
+          "pts": 91.6835
+        },
+        {
+          "frame": 2763,
+          "pts": 92.016833
+        },
+        {
+          "frame": 2773,
+          "pts": 92.350167
+        },
+        {
+          "frame": 2793,
+          "pts": 93.016833
+        },
+        {
+          "frame": 2794,
+          "pts": 93.050167
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "充满活力：重点词放大泛光",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "durationFrames": 41
+    },
+    {
+      "id": "N23",
+      "name": "精神好：重点词逐步强调",
+      "members": [
+        "N23"
+      ],
+      "startFrame": 2815,
+      "endFrame": 2854,
+      "timecode": "01:33.750-01:35.050",
+      "visual": null,
+      "subtitle": "T01",
+      "compositionMode": "subtitle-only",
+      "note": "",
+      "purpose": "延续结论语义，以重点词放大强调。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": false,
+      "sourceType": "original-reference",
+      "durationSeconds": 1.2999999999999972,
+      "dialogueRelation": "延续结论语义，以重点词放大强调。",
+      "presenterState": "全屏人物底片，无额外画面动效",
+      "layerOrder": [
+        "普通人物底片",
+        "主字幕",
+        "放大重点词",
+        "金色/黄色泛光"
+      ],
+      "expressionHandoff": "延续结论语义，以重点词放大强调。",
+      "enteringAssets": [],
+      "subtitleChanges": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+        "hold": "见中间过程帧",
+        "reveal": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N23-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 2814,
+          "pts": 93.716833
+        },
+        {
+          "frame": 2815,
+          "pts": 93.750167
+        },
+        {
+          "frame": 2824,
+          "pts": 94.050167
+        },
+        {
+          "frame": 2834,
+          "pts": 94.3835
+        },
+        {
+          "frame": 2853,
+          "pts": 95.016833
+        },
+        {
+          "frame": 2854,
+          "pts": 95.050167
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "精神好：重点词逐步强调",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "durationFrames": 39
+    },
+    {
+      "id": "N24",
+      "name": "白天不犯困：句内重点词强调 ＋ 晚上有睡意：后半句重点词强调",
+      "members": [
+        "N24",
+        "N25"
+      ],
+      "startFrame": 2855,
+      "endFrame": 2950,
+      "timecode": "01:35.084-01:38.250",
+      "visual": null,
+      "subtitle": "T01",
+      "compositionMode": "subtitle-only",
+      "note": "\n手动合并：N25",
+      "purpose": "同一字幕机制表达白天结果。",
+      "boundaryAuthority": "user-saved-frames",
+      "ordinarySpeechCaption": false,
+      "sourceType": "original-reference",
+      "durationSeconds": 1.1333329999999933,
+      "dialogueRelation": "同一字幕机制表达白天结果。",
+      "presenterState": "全屏人物底片，无额外画面动效",
+      "layerOrder": [
+        "普通人物底片",
+        "主字幕",
+        "放大重点词",
+        "金色/黄色泛光"
+      ],
+      "expressionHandoff": "同一字幕机制表达白天结果。",
+      "enteringAssets": [],
+      "subtitleChanges": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+      "soundAnchors": {
+        "status": "unknown",
+        "reason": "尚未完成真实试听与声音时钟核对，未把抽帧当成试听。"
+      },
+      "phases": {
+        "entry": "见首帧及其后过程帧",
+        "advance": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+        "hold": "见中间过程帧",
+        "reveal": "普通白字铺句，重点词放大/泛光接管，再回到主字幕；不同措辞只作variant。",
+        "exit": "见末帧及交接后一帧"
+      },
+      "boundaryEvidence": "observations/frame-audit/N24-boundary.jpg",
+      "boundarySamples": [
+        {
+          "frame": 2854,
+          "pts": 95.050167
+        },
+        {
+          "frame": 2855,
+          "pts": 95.0835
+        },
+        {
+          "frame": 2863,
+          "pts": 95.350167
+        },
+        {
+          "frame": 2872,
+          "pts": 95.650167
+        },
+        {
+          "frame": 2888,
+          "pts": 96.1835
+        },
+        {
+          "frame": 2889,
+          "pts": 96.216833
+        }
+      ],
+      "certainty": "首轮候选；帧号按真实PTS定位。组件词级时钟/声音及部分软入软出边界待反馈，不宣称全部精确验收。",
+      "originalName": "白天不犯困：句内重点词强调",
+      "classificationRevision": "new-source-70d2ee-first-pass",
+      "durationFrames": 95
+    }
+  ],
+  "variants": [
+    {
+      "visualFamily": "V01",
+      "occurrences": [
+        "N01",
+        "N13"
+      ],
+      "reason": "同一画面机制；文字、素材、序号及不同字幕组件不重复计画面family"
+    },
+    {
+      "visualFamily": "V07",
+      "occurrences": [
+        "N09",
+        "N17",
+        "N20"
+      ],
+      "reason": "同一画面机制；文字、素材、序号及不同字幕组件不重复计画面family"
+    },
+    {
+      "visualFamily": "V14",
+      "occurrences": [
+        "N02",
+        "N18"
+      ],
+      "reason": "同一画面机制；文字、素材、序号及不同字幕组件不重复计画面family"
+    }
+  ],
+  "retainedDistinct": [
+    {
+      "families": [
+        "V05",
+        "V09"
+      ],
+      "reason": "阶梯多论文递进与卷页单论文局部放大具有不同入场拓扑和交接"
+    },
+    {
+      "families": [
+        "V07",
+        "V12"
+      ],
+      "reason": "头顶单步提示与病毒→禁止的两阶段揭晓不同"
+    },
+    {
+      "families": [
+        "V02",
+        "V10",
+        "V13"
+      ],
+      "reason": "情境下方视频、中心圆角科学视窗、竖向图卡叠放的几何及表达职责不同"
+    }
+  ],
+  "coveragePolicy": "不按连续镜头铺满；普通口播过渡与片尾账号界面不计候选。相邻字幕实例可以在语义上连续；反馈可合并。",
+  "observedBy": "顺序解码全片、查看1秒总览、0.4秒过程帧及边界过程帧；未以此冒充连续观看或试听。",
+  "unresolved": [
+    "用户首轮反馈未收到",
+    "尚未完整连续观看与试听",
+    "字级时钟、精确曲线与声音落点未完成"
+  ],
+  "feedback": {
+    "schema": 2,
+    "status": "applied-not-stage-approved",
+    "source": "observations/manual-review/adjustments.json",
+    "sourceSha256": "76bdab0f9f52ce08ee99775ae6bba42e65cca0b91b17cda2040ad874411991e0",
+    "annotationCount": 25,
+    "completeGroupCount": 24,
+    "excluded": [
+      {
+        "id": "N26",
+        "sourceNote": "这个删掉",
+        "reason": "用户明确注明“这个删掉”，从当前拆解入口移除并留排除回执。"
+      }
+    ],
+    "rawPreserved": true,
+    "decisions": [
+      {
+        "id": "N02",
+        "sourceNote": "是字幕动效加画面动效；画面背景暗下来了；而且人物抠像了；八小时的字幕是在人物后面的",
+        "reason": "背景确实压暗且人物遮挡巨字，需补记画面分层，不是纯字幕。",
+        "fields": {
+          "name": "背景压暗与人物抠像＋背后8小时巨字",
+          "compositionMode": "combined",
+          "visual": "V14",
+          "subtitle": "T02",
+          "visualComponents": [
+            "V14"
+          ],
+          "subtitleComponents": [
+            "T02"
+          ],
+          "layerOrder": [
+            "原背景压暗",
+            "8小时巨字",
+            "抠像人物前景",
+            "口播主字幕"
+          ]
+        },
+        "purpose": "背景确实压暗且人物遮挡巨字，需补记画面分层，不是纯字幕。"
+      },
+      {
+        "id": "N09",
+        "sourceNote": "还有字幕动效；字幕的重点词有放大的动效",
+        "reason": "在原头顶画面提示上补入重点词放大，构成动态组合。",
+        "fields": {
+          "name": "头顶时钟贴图＋钟表时间重点词放大",
+          "compositionMode": "combined",
+          "visual": "V07",
+          "subtitle": "T01",
+          "visualComponents": [
+            "V07"
+          ],
+          "subtitleComponents": [
+            "T01"
+          ],
+          "layerOrder": [
+            "人物底片",
+            "头顶时钟与人物贴图",
+            "口播主字幕",
+            "放大重点词"
+          ]
+        },
+        "purpose": "在原头顶画面提示上补入重点词放大，构成动态组合。"
+      },
+      {
+        "id": "N12",
+        "sourceNote": "这里还有一个字幕动效；就是字幕滚动效果",
+        "reason": "同一组有问号符号动效和口播滚动两种字幕组件，不新拆完整组。",
+        "fields": {
+          "name": "头顶问号＋口播字幕滚动切换",
+          "compositionMode": "subtitle-only",
+          "visual": null,
+          "subtitle": "T07",
+          "subtitleComponents": [
+            "T07",
+            "T10"
+          ],
+          "layerOrder": [
+            "普通人物底片",
+            "头顶问号",
+            "滚动口播字幕"
+          ]
+        },
+        "purpose": "同一组有问号符号动效和口播滚动两种字幕组件，不新拆完整组。"
+      },
+      {
+        "id": "N13",
+        "sourceNote": "这里还有一个画面动效；画面有暗角",
+        "reason": "补入画面暗角，复用已有暗角family。",
+        "fields": {
+          "name": "暗角聚焦＋真正作用金色大字落位",
+          "compositionMode": "combined",
+          "visual": "V01",
+          "subtitle": "T08",
+          "visualComponents": [
+            "V01"
+          ],
+          "subtitleComponents": [
+            "T08"
+          ],
+          "layerOrder": [
+            "人物底片",
+            "暗角蒙层",
+            "前景金色大字",
+            "红色阴影/底色"
+          ]
+        },
+        "purpose": "补入画面暗角，复用已有暗角family。"
+      },
+      {
+        "id": "N17",
+        "sourceNote": "还有画面放大这个画面动效",
+        "reason": "头顶旋涡同时伴随整体画面放大；两种画面组件重叠，不增加完整组。",
+        "fields": {
+          "name": "整体放大＋头顶旋涡提示疲惫眩晕",
+          "compositionMode": "visual-only",
+          "visual": "V07",
+          "subtitle": null,
+          "visualComponents": [
+            "V07",
+            "V15"
+          ],
+          "layerOrder": [
+            "整体放大的人物底片",
+            "头顶旋涡",
+            "普通口播主字幕"
+          ]
+        },
+        "purpose": "头顶旋涡同时伴随整体画面放大；两种画面组件重叠，不增加完整组。"
+      },
+      {
+        "id": "N18",
+        "sourceNote": "还有一个画面动效处理，就是人物抠像；你会发现图形是在人物后面的",
+        "reason": "用户指出图形位于人物后方，补入抠像遮挡层，撤回全部前景的旧判断。",
+        "fields": {
+          "name": "人物抠像前后分层＋身后病毒与禁止符号揭晓",
+          "compositionMode": "visual-only",
+          "visual": "V12",
+          "subtitle": null,
+          "visualComponents": [
+            "V12",
+            "V14"
+          ],
+          "layerOrder": [
+            "原始背景",
+            "病毒图形",
+            "禁止符号",
+            "抠像人物前景",
+            "普通口播主字幕"
+          ]
+        },
+        "purpose": "用户指出图形位于人物后方，补入抠像遮挡层，撤回全部前景的旧判断。"
+      },
+      {
+        "id": "N26",
+        "sourceNote": "这个删掉",
+        "reason": "用户明确注明“这个删掉”，从当前拆解入口移除并留排除回执。",
+        "fields": {
+          "excluded": true
+        },
+        "purpose": "用户明确注明“这个删掉”，从当前拆解入口移除并留排除回执。"
+      }
+    ],
+    "unresolved": [],
+    "lessons": [
+      {
+        "source": [
+          "N02"
+        ],
+        "lesson": "背景确实压暗且人物遮挡巨字，需补记画面分层，不是纯字幕。"
+      },
+      {
+        "source": [
+          "N09"
+        ],
+        "lesson": "在原头顶画面提示上补入重点词放大，构成动态组合。"
+      },
+      {
+        "source": [
+          "N12"
+        ],
+        "lesson": "同一组有问号符号动效和口播滚动两种字幕组件，不新拆完整组。"
+      },
+      {
+        "source": [
+          "N13"
+        ],
+        "lesson": "补入画面暗角，复用已有暗角family。"
+      },
+      {
+        "source": [
+          "N17"
+        ],
+        "lesson": "头顶旋涡同时伴随整体画面放大；两种画面组件重叠，不增加完整组。"
+      },
+      {
+        "source": [
+          "N18"
+        ],
+        "lesson": "用户指出图形位于人物后方，补入抠像遮挡层，撤回全部前景的旧判断。"
+      },
+      {
+        "source": [
+          "N26"
+        ],
+        "lesson": "用户明确注明“这个删掉”，从当前拆解入口移除并留排除回执。"
+      }
+    ]
+  }
+}

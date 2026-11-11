@@ -1,0 +1,141 @@
+{
+  "occurrence": "cg07",
+  "name": "人物缩入圆窗与双卡对比",
+  "sourceRange": [
+    367,
+    450
+  ],
+  "rawRange": [
+    5.833333,
+    9.566667
+  ],
+  "visualFamily": "v05",
+  "subtitleFamily": "t05",
+  "assets": {
+    "left": "source/pilot/detail-rest/scene/assets/cost.png",
+    "right": "source/pilot/detail-rest/scene/assets/opinions.png"
+  },
+  "text": {
+    "title": "想做又不敢",
+    "left": "怕亏本",
+    "right": "怕闲话"
+  },
+  "clock": {
+    "presenterShrink": [
+      0,
+      22
+    ],
+    "title": 25,
+    "leftCard": [
+      35,
+      47
+    ],
+    "rightCard": [
+      69,
+      81
+    ],
+    "leftLabel": 39,
+    "rightLabel": 73
+  },
+  "purpose": "人物先让位，先讲亏本顾虑，再讲社会评价顾虑；双卡并列表示两类阻力。",
+  "frameCount": 112,
+  "fontRoles": {
+    "body": {
+      "path": "C:/Windows/Fonts/Source Han Serif SC Heavy (TrueType).ttf",
+      "identity": "candidate only; source font not established",
+      "shadow": "shared-text-style.json"
+    },
+    "statement": {
+      "path": "C:/Windows/Fonts/Noto Sans SC Bold (TrueType).otf",
+      "identity": "candidate condensed source-like sans"
+    },
+    "labels": {
+      "path": "C:/Windows/Fonts/Source Han Serif SC Heavy (TrueType).ttf",
+      "identity": "candidate only"
+    }
+  },
+  "inputSHA": "1fdeab255303ee95ae50d27ee1a35462ce3bbf2f8dfec07f3a96b7cf7ed26c33",
+  "detailProfile": "measured-ink-svg-refinement-v1",
+  "presenterCrop": [
+    31,
+    76,
+    255,
+    300
+  ],
+  "cardBoxes": [
+    [
+      5,
+      244,
+      133,
+      170
+    ],
+    [
+      153,
+      244,
+      128,
+      170
+    ]
+  ],
+  "presenterWindow": [
+    65,
+    37,
+    156
+  ],
+  "typeRoles": {
+    "title": {
+      "path": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 44,
+      "inkWidth": 207,
+      "inkHeight": 35,
+      "anchorX": 143,
+      "inkY": 198,
+      "align": "center",
+      "fill": "#fffef7",
+      "outlinePx": 0,
+      "outline": "#111319",
+      "shadow": {
+        "dx": 0.85,
+        "dy": 1.3,
+        "blur": 0.4,
+        "opacity": 0.85
+      }
+    },
+    "left": {
+      "path": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 44,
+      "inkWidth": 69,
+      "inkHeight": 22,
+      "anchorX": 71.5,
+      "inkY": 259,
+      "align": "center",
+      "fill": "#fff2b8",
+      "outlinePx": 0,
+      "outline": "#111319",
+      "shadow": {
+        "dx": 0.85,
+        "dy": 1.3,
+        "blur": 0.4,
+        "opacity": 0.85
+      }
+    },
+    "right": {
+      "path": "D:/SKILL/font-check/SourceHanSerifSC-Bold.otf",
+      "size": 44,
+      "inkWidth": 69,
+      "inkHeight": 22,
+      "anchorX": 217,
+      "inkY": 259,
+      "align": "center",
+      "fill": "#fff2b8",
+      "outlinePx": 0,
+      "outline": "#111319",
+      "shadow": {
+        "dx": 0.85,
+        "dy": 1.3,
+        "blur": 0.4,
+        "opacity": 0.85
+      }
+    }
+  },
+  "frames": 112
+}
